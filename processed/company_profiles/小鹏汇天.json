@@ -1,0 +1,70 @@
+{
+  "company_name": "小鹏汇天",
+  "category": "eVTOL整机",
+  "mention_count": 2,
+  "first_seen": "2025-12-17",
+  "last_seen": "2025-12-18",
+  "key_persons": [],
+  "locations": [
+    {
+      "name": "阿联酋",
+      "mentions": 2
+    },
+    {
+      "name": "泰国",
+      "mentions": 2
+    },
+    {
+      "name": "迪拜",
+      "mentions": 2
+    }
+  ],
+  "partners": [
+    {
+      "name": "沃兰特",
+      "co_occurrences": 2
+    }
+  ],
+  "events": {
+    "product_launch": [],
+    "financing": [],
+    "cooperation": [
+      {
+        "date": "2025-12-17",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
+    "policy_related": [],
+    "certification": [],
+    "market_expansion": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-17",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.stcn.com%2farticle%2fdetail%2f3546179.html&c=4980963985263684065&mkt=en-us",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。 岁至年末，全球低空经济的出海版图仍在演化。 阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。"
+    },
+    {
+      "date": "2025-12-17",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.stcn.com%2farticle%2fdetail%2f3545760.html&c=6959660927480396648&mkt=en-us",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。 阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅 ..."
+    }
+  ],
+  "generated_at": "2026-08-16T23:52:20.040202+08:00"
+}

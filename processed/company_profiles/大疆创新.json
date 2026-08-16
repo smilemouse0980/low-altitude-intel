@@ -1,0 +1,130 @@
+{
+  "company_name": "大疆创新",
+  "category": "无人机整机",
+  "mention_count": 11,
+  "first_seen": "2023-07-31",
+  "last_seen": "2026-07-10",
+  "key_persons": [],
+  "locations": [
+    {
+      "name": "北京",
+      "mentions": 2
+    },
+    {
+      "name": "美",
+      "mentions": 2
+    }
+  ],
+  "partners": [],
+  "events": {
+    "product_launch": [
+      {
+        "date": "2023-07-31",
+        "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
+        "source": "news.google.com"
+      }
+    ],
+    "financing": [],
+    "cooperation": [],
+    "policy_related": [
+      {
+        "date": "2026-05-23",
+        "title": "大疆谈低空经济：短期内无人机物流和eVTOL载人无法规模化运营 - 财新",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2023-07-31",
+        "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
+        "source": "news.google.com"
+      }
+    ],
+    "certification": [],
+    "market_expansion": [
+      {
+        "date": "2023-07-31",
+        "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
+        "source": "news.google.com"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2026-07-10",
+      "title": "横州大疆门店24小时抢修救援无人机 免费维修保障服务 - 中华网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vdGRNMEpJMXlIZ1ZYZWh4eVF4aGViNW1MNFUwbUw4N1o4VGJCc0NRMk1lR240VkhmLVFQRW10bWRqdnBCNGpfWGstSXhZZ0pnM3o0MHI2aExxQmlpNHZQQ0dqRXJMeTFkWWJUWWdkcjA?oc=5",
+      "content_snippet": "横州大疆门店24小时抢修救援无人机 免费维修保障服务中华网"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "大疆首款全电垂直起降运载无人机DJI EV50亮相 - 搜狐网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16MTd2dmtkdTNmR0hGS2hsMWxqcDJ3M0pfeURYV3VTUEZySXdNUlRPSnNDWFFtYTVNcHFCWl9qZHp5bGlCVE5idlNHOFBHRV9zM1VzblZ3?oc=5",
+      "content_snippet": "大疆首款全电垂直起降运载无人机DJI EV50亮相搜狐网"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "大疆首款全电垂直起降运载无人机DJI EV50亮相 - 搜狐网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16MTd2dmtkdTNmR0hGS2hsMWxqcDJ3M0pfeURYV3VTUEZySXdNUlRPSnNDWFFtYTVNcHFCWl9qZHp5bGlCVE5idlNHOFBHRV9zM1VzblZ3?oc=5",
+      "content_snippet": "大疆首款全电垂直起降运载无人机DJI EV50亮相搜狐网"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "大疆谈低空经济：短期内无人机物流和eVTOL载人无法规模化运营 - 财新",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NRmp3MXltdFpQdnRQWWRJZm1FaUk0ajgxdDNJNWZEMVhDdXBaQmFONmpveHV2RENaV3Y4TURtZXNreWEwMkhaY0ZLQVpkZzhrdGs5dGRxdHBzaWI3?oc=5",
+      "content_snippet": "大疆谈低空经济：短期内无人机物流和eVTOL载人无法规模化运营财新"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 搜狐网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NWmFYSFQ3SEthQWhJaHVnNlliLWZBbW9wVm1sNTY5ZmowS09ZcEdmZHJTVm4zRW0tMFpzMGZlYllDa3ZkUTRzanVuZ3BtTnJYQ01sYU5B?oc=5",
+      "content_snippet": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品搜狐网"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "无人机行业迎最严新政，大疆“此消彼长”正迎来破局重生 - 新浪财经",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iOVhLNzFCVEpSREdXUkk2QThHcXQ4SlViMVBWZUdBR0JfdXd0RlZvN2pMby1lSENmbEtyVDY2dmU3MkFTQU80YVNqUnFZSG84WTZJRy1vQnJ0c3huRHhLV3hHNm5CWUZOdm9wcEQ0WUFkR0pn?oc=5",
+      "content_snippet": "无人机行业迎最严新政，大疆“此消彼长”正迎来破局重生新浪财经"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "大疆新型号无人机将无法在美国销售 - 纽约时报中文网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CZ3c4NC1LZ2RXUmZhcUdVYTAxcGVacno4akQ2aTk1NzJ5VU9VVTZDbFBSMTRsSk9FSUJQZ0VYVXZSQmc0N281SmctN3VHRXRObkpOOGoySkxjQmxqNlJ3MHV0ZWRPWTBORlRWTi0zNFE?oc=5",
+      "content_snippet": "大疆新型号无人机将无法在美国销售纽约时报中文网"
+    },
+    {
+      "date": "2025-09-10",
+      "title": "大疆无人机在美国面临禁令 - 纽约时报中文网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DNkw1SmVRd1hkXzJ2M0dxeXh6SDYxeVl6bG1WTHFmUUtRVlVxSlh6eWlyR2ZONFFsbmhEQ2RPckVtSmNHMk9WNERCbXR1TUllNDZMRDJxdTVfZUF3M2xpcWNSQThsYW5SS3M1UlZBbktmUQ?oc=5",
+      "content_snippet": "大疆无人机在美国面临禁令纽约时报中文网"
+    },
+    {
+      "date": "2025-07-14",
+      "title": "关税阻碍进口，大疆无人机在美国售罄-观察者网 - 观察者",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nN25uS3NqVmtvU1BtM1NsT1B2WUdSNDBRUUxScmVlWW92ZF9yb3VQbVgzSzVyMHZMRFR1alhfbzgxUm9xaHVpbjI3akowcVpneUZERThfQ3VGc3JWMFRPZDdzLXk?oc=5",
+      "content_snippet": "关税阻碍进口，大疆无人机在美国售罄-观察者网观察者"
+    },
+    {
+      "date": "2024-06-25",
+      "title": "大疆无人机或在全美禁用，美国制造商将迎来黄金时代？ - 美国之音",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkJVZTFZMUl4YS1ibjI3aWdwMFpfVy16bGlMZWFna0R2ZVJ6YkJzeVk0U0FWR2t4YXJRLTZZb2cyUjl4amJRckVXZjNGOGFfTWFzeHNwc2psTTVLZ3VYYk1LT3poY2Y4aE1OcWIzSHI1eE9uLVpZUEhHWjdSai1Ocm9BZThlVm1HQ0hPaE5nRDdDMEJ2Y0w5Q1hyMDZ0NVNZU25WTXN2eVA3cUnSAa4BQVVfeXFMUERGMTRoTk5yVWJFSXN4TEtiMUVWYlRFa25kWVBEODJWNXljdG1QNkQzQWlWS0pWOEVLaEtBaXVvVlI2b0pmS21PajBnR0pNSzFDc2I0STFMcmNyNTdQc1RXbFdkYjg1QXpCX01lR0l6SnBGTE0wQ0hydUpwenQyV2NzU2IyTjRTRjJLMXN0OVhMRVZmMk5EbUhvaWN3QUUwLW5MWVJmMktwWjY2V0xB?oc=5",
+      "content_snippet": "大疆无人机或在全美禁用，美国制造商将迎来黄金时代？美国之音"
+    },
+    {
+      "date": "2023-07-31",
+      "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjN1h2RHRrNVpOMTFyczVVaXpYenVfdzlMTm1mUEhDa0lNbDUxZ2llR25nbnI3X3BnZkFsVjBBVEhmTk9YUDVIQlhUR2diRnpEYzlUZ2twVXpLWkNLeUtkcl8waWY?oc=5",
+      "content_snippet": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策观察者"
+    }
+  ],
+  "generated_at": "2026-08-16T23:52:20.037940+08:00"
+}

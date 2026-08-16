@@ -277,7 +277,7 @@ class IntelPipeline:
     def step_4_clean_and_report(self, records):
         """步骤4：数据清洗 + 报告生成"""
         logger.info("=" * 60)
-        logger.info("步骤 4/4：数据清洗与报告生成")
+        logger.info("步骤 4/5：数据清洗与报告生成")
         logger.info("=" * 60)
 
         # 数据清洗
@@ -315,6 +315,62 @@ class IntelPipeline:
             logger.warning(f"报告生成失败: {e}")
             self.stats['errors'] += 1
 
+    def step_5_deep_analysis(self):
+        """步骤5：Phase 2 深度分析（企业画像、知识图谱、竞争分析、增强报告、IMA导出）"""
+        logger.info("=" * 60)
+        logger.info("步骤 5/5：深度分析与知识图谱构建")
+        logger.info("=" * 60)
+
+        # 企业画像
+        try:
+            from company_profiler import CompanyProfiler
+            profiler = CompanyProfiler()
+            profiles = profiler.build_all_profiles()
+            logger.info(f"企业画像: {len(profiles)} 家")
+        except Exception as e:
+            logger.warning(f"企业画像构建失败: {e}")
+            self.stats['errors'] += 1
+
+        # 知识图谱
+        try:
+            from knowledge_graph import KnowledgeGraphBuilder
+            kg_builder = KnowledgeGraphBuilder()
+            kg_summary = kg_builder.build()
+            logger.info(f"知识图谱: {kg_summary['total_nodes']} 节点, {kg_summary['total_edges']} 边")
+        except Exception as e:
+            logger.warning(f"知识图谱构建失败: {e}")
+            self.stats['errors'] += 1
+
+        # 竞争格局分析
+        try:
+            from competitive_analysis import CompetitiveAnalyzer
+            analyzer = CompetitiveAnalyzer()
+            analyzer.analyze()
+            logger.info("竞争格局分析完成")
+        except Exception as e:
+            logger.warning(f"竞争格局分析失败: {e}")
+            self.stats['errors'] += 1
+
+        # 增强报告生成
+        try:
+            from enhanced_reporter import EnhancedReporter
+            reporter = EnhancedReporter()
+            reporter.generate_all()
+            logger.info("增强报告生成完成")
+        except Exception as e:
+            logger.warning(f"增强报告生成失败: {e}")
+            self.stats['errors'] += 1
+
+        # IMA 知识库导出
+        try:
+            from ima_exporter import IMAExporter
+            exporter = IMAExporter()
+            exporter.export_all()
+            logger.info("IMA 知识库导出完成")
+        except Exception as e:
+            logger.warning(f"IMA 导出失败: {e}")
+            self.stats['errors'] += 1
+
     def run_full(self):
         """运行完整流水线"""
         self.stats['start_time'] = datetime.now(BJT).isoformat()
@@ -339,6 +395,9 @@ class IntelPipeline:
 
         # Step 4
         self.step_4_clean_and_report(intel_records)
+
+        # Step 5: Phase 2 深度分析
+        self.step_5_deep_analysis()
 
         self.stats['end_time'] = datetime.now(BJT).isoformat()
         self._print_summary()

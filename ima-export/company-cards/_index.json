@@ -1,0 +1,32 @@
+[
+  {
+    "company": "亿航智能",
+    "category": "eVTOL整机",
+    "mentions": 31,
+    "file": "company-cards/亿航智能.md"
+  },
+  {
+    "company": "大疆创新",
+    "category": "无人机整机",
+    "mentions": 11,
+    "file": "company-cards/大疆创新.md"
+  },
+  {
+    "company": "小鹏汇天",
+    "category": "eVTOL整机",
+    "mentions": 2,
+    "file": "company-cards/小鹏汇天.md"
+  },
+  {
+    "company": "峰飞航空",
+    "category": "eVTOL整机",
+    "mentions": 15,
+    "file": "company-cards/峰飞航空.md"
+  },
+  {
+    "company": "沃兰特",
+    "category": "eVTOL整机",
+    "mentions": 9,
+    "file": "company-cards/沃兰特.md"
+  }
+]

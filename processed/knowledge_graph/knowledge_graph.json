@@ -1,0 +1,1490 @@
+{
+  "metadata": {
+    "generated_at": "2026-08-16T23:52:58.505681+08:00",
+    "total_nodes": 140,
+    "total_edges": 45,
+    "node_types": {
+      "company": 8,
+      "person": 36,
+      "location": 89,
+      "tech": 7
+    },
+    "edge_types": {
+      "mentions_person": 5,
+      "located_in": 29,
+      "cooperates_with": 1,
+      "operates_in": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "company:峰飞航空",
+      "type": "company",
+      "name": "峰飞航空",
+      "properties": {
+        "category": "eVTOL整机",
+        "mention_count": 42
+      }
+    },
+    {
+      "id": "company:大疆创新",
+      "type": "company",
+      "name": "大疆创新",
+      "properties": {
+        "category": "无人机整机",
+        "mention_count": 22
+      }
+    },
+    {
+      "id": "company:沃兰特",
+      "type": "company",
+      "name": "沃兰特",
+      "properties": {
+        "category": "eVTOL整机",
+        "mention_count": 18
+      }
+    },
+    {
+      "id": "company:中航成飞",
+      "type": "company",
+      "name": "中航成飞",
+      "properties": {
+        "category": "军工航空",
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "company:亿航智能",
+      "type": "company",
+      "name": "亿航智能",
+      "properties": {
+        "category": "eVTOL整机",
+        "mention_count": 68
+      }
+    },
+    {
+      "id": "company:航发动力",
+      "type": "company",
+      "name": "航发动力",
+      "properties": {
+        "category": "核心零部件",
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "company:沃飞长空",
+      "type": "company",
+      "name": "沃飞长空",
+      "properties": {
+        "category": "eVTOL整机",
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "company:小鹏汇天",
+      "type": "company",
+      "name": "小鹏汇天",
+      "properties": {
+        "category": "eVTOL整机",
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "person:黄海平",
+      "type": "person",
+      "name": "黄海平",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:北斗",
+      "type": "person",
+      "name": "北斗",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:罗锋",
+      "type": "person",
+      "name": "罗锋",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:张万民",
+      "type": "person",
+      "name": "张万民",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:AI",
+      "type": "person",
+      "name": "AI",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:华润微",
+      "type": "person",
+      "name": "华润微",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:安阳",
+      "type": "person",
+      "name": "安阳",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:王志国",
+      "type": "person",
+      "name": "王志国",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:nda",
+      "type": "person",
+      "name": "nda",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:京报",
+      "type": "person",
+      "name": "京报",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:京报网",
+      "type": "person",
+      "name": "京报网",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:郑家响",
+      "type": "person",
+      "name": "郑家响",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:阿拉木图",
+      "type": "person",
+      "name": "阿拉木图",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:Eve全尺",
+      "type": "person",
+      "name": "Eve全尺",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:黄小飞",
+      "type": "person",
+      "name": "黄小飞",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:郭亮",
+      "type": "person",
+      "name": "郭亮",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:陈源",
+      "type": "person",
+      "name": "陈源",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:朱雀e",
+      "type": "person",
+      "name": "朱雀e",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:谢陵",
+      "type": "person",
+      "name": "谢陵",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:郑丽",
+      "type": "person",
+      "name": "郑丽",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:财联社",
+      "type": "person",
+      "name": "财联社",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:金良",
+      "type": "person",
+      "name": "金良",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:谢锋",
+      "type": "person",
+      "name": "谢锋",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:郑州",
+      "type": "person",
+      "name": "郑州",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:zgjtb.com",
+      "type": "person",
+      "name": "zgjtb.com",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:航空展",
+      "type": "person",
+      "name": "航空展",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:张仲麟",
+      "type": "person",
+      "name": "张仲麟",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:陈聪",
+      "type": "person",
+      "name": "陈聪",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "person:Flight",
+      "type": "person",
+      "name": "Flight",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:徐昌东",
+      "type": "person",
+      "name": "徐昌东",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:陈聪华",
+      "type": "person",
+      "name": "陈聪华",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:宋志勇",
+      "type": "person",
+      "name": "宋志勇",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:王刚",
+      "type": "person",
+      "name": "王刚",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:杨让晨",
+      "type": "person",
+      "name": "杨让晨",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:戴姆勒",
+      "type": "person",
+      "name": "戴姆勒",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:黄雍威",
+      "type": "person",
+      "name": "黄雍威",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:中国",
+      "type": "location",
+      "name": "中国",
+      "properties": {
+        "mention_count": 174
+      }
+    },
+    {
+      "id": "location:崇明",
+      "type": "location",
+      "name": "崇明",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:广州",
+      "type": "location",
+      "name": "广州",
+      "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:合肥",
+      "type": "location",
+      "name": "合肥",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:天津市",
+      "type": "location",
+      "name": "天津市",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:津",
+      "type": "location",
+      "name": "津",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:湖南",
+      "type": "location",
+      "name": "湖南",
+      "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:丽江",
+      "type": "location",
+      "name": "丽江",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:嘉鱼",
+      "type": "location",
+      "name": "嘉鱼",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:海南",
+      "type": "location",
+      "name": "海南",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:上海",
+      "type": "location",
+      "name": "上海",
+      "properties": {
+        "mention_count": 19
+      }
+    },
+    {
+      "id": "location:成都",
+      "type": "location",
+      "name": "成都",
+      "properties": {
+        "mention_count": 7
+      }
+    },
+    {
+      "id": "location:河南安阳",
+      "type": "location",
+      "name": "河南安阳",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "location:中华",
+      "type": "location",
+      "name": "中华",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:沪",
+      "type": "location",
+      "name": "沪",
+      "properties": {
+        "mention_count": 5
+      }
+    },
+    {
+      "id": "location:广州市",
+      "type": "location",
+      "name": "广州市",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:山东",
+      "type": "location",
+      "name": "山东",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:广东",
+      "type": "location",
+      "name": "广东",
+      "properties": {
+        "mention_count": 6
+      }
+    },
+    {
+      "id": "location:深圳",
+      "type": "location",
+      "name": "深圳",
+      "properties": {
+        "mention_count": 10
+      }
+    },
+    {
+      "id": "location:新疆",
+      "type": "location",
+      "name": "新疆",
+      "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:香港",
+      "type": "location",
+      "name": "香港",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:印尼",
+      "type": "location",
+      "name": "印尼",
+      "properties": {
+        "mention_count": 7
+      }
+    },
+    {
+      "id": "location:粤",
+      "type": "location",
+      "name": "粤",
+      "properties": {
+        "mention_count": 6
+      }
+    },
+    {
+      "id": "location:龙岗",
+      "type": "location",
+      "name": "龙岗",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:中山",
+      "type": "location",
+      "name": "中山",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:京报",
+      "type": "location",
+      "name": "京报",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:多京",
+      "type": "location",
+      "name": "多京",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:北京",
+      "type": "location",
+      "name": "北京",
+      "properties": {
+        "mention_count": 16
+      }
+    },
+    {
+      "id": "location:重庆",
+      "type": "location",
+      "name": "重庆",
+      "properties": {
+        "mention_count": 14
+      }
+    },
+    {
+      "id": "location:重庆市",
+      "type": "location",
+      "name": "重庆市",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "location:苏州",
+      "type": "location",
+      "name": "苏州",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:nda",
+      "type": "location",
+      "name": "nda",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:河南",
+      "type": "location",
+      "name": "河南",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:京",
+      "type": "location",
+      "name": "京",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:宝安",
+      "type": "location",
+      "name": "宝安",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:珠海率",
+      "type": "location",
+      "name": "珠海率",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:哈萨克斯坦",
+      "type": "location",
+      "name": "哈萨克斯坦",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:美国",
+      "type": "location",
+      "name": "美国",
+      "properties": {
+        "mention_count": 29
+      }
+    },
+    {
+      "id": "location:四川",
+      "type": "location",
+      "name": "四川",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "location:中亚",
+      "type": "location",
+      "name": "中亚",
+      "properties": {
+        "mention_count": 5
+      }
+    },
+    {
+      "id": "location:湖北",
+      "type": "location",
+      "name": "湖北",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:韩国",
+      "type": "location",
+      "name": "韩国",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:华羽",
+      "type": "location",
+      "name": "华羽",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:阿联酋",
+      "type": "location",
+      "name": "阿联酋",
+      "properties": {
+        "mention_count": 5
+      }
+    },
+    {
+      "id": "location:中东",
+      "type": "location",
+      "name": "中东",
+      "properties": {
+        "mention_count": 5
+      }
+    },
+    {
+      "id": "location:贵州省",
+      "type": "location",
+      "name": "贵州省",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:日本",
+      "type": "location",
+      "name": "日本",
+      "properties": {
+        "mention_count": 6
+      }
+    },
+    {
+      "id": "location:中",
+      "type": "location",
+      "name": "中",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:美",
+      "type": "location",
+      "name": "美",
+      "properties": {
+        "mention_count": 6
+      }
+    },
+    {
+      "id": "location:网易网",
+      "type": "location",
+      "name": "网易网",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:巴西",
+      "type": "location",
+      "name": "巴西",
+      "properties": {
+        "mention_count": 5
+      }
+    },
+    {
+      "id": "location:台湾",
+      "type": "location",
+      "name": "台湾",
+      "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:乌克兰",
+      "type": "location",
+      "name": "乌克兰",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:宁波",
+      "type": "location",
+      "name": "宁波",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:无人机",
+      "type": "location",
+      "name": "无人机",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:北京史",
+      "type": "location",
+      "name": "北京史",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:海峡",
+      "type": "location",
+      "name": "海峡",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:欧洲",
+      "type": "location",
+      "name": "欧洲",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:西安",
+      "type": "location",
+      "name": "西安",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:印度",
+      "type": "location",
+      "name": "印度",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:珠海",
+      "type": "location",
+      "name": "珠海",
+      "properties": {
+        "mention_count": 12
+      }
+    },
+    {
+      "id": "location:深圳市",
+      "type": "location",
+      "name": "深圳市",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:香港特别",
+      "type": "location",
+      "name": "香港特别",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:东欧",
+      "type": "location",
+      "name": "东欧",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:珠海市",
+      "type": "location",
+      "name": "珠海市",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:澳大利亚",
+      "type": "location",
+      "name": "澳大利亚",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:拟禁",
+      "type": "location",
+      "name": "拟禁",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:越南",
+      "type": "location",
+      "name": "越南",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:缅甸",
+      "type": "location",
+      "name": "缅甸",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:武汉",
+      "type": "location",
+      "name": "武汉",
+      "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:南航",
+      "type": "location",
+      "name": "南航",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:南海",
+      "type": "location",
+      "name": "南海",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:亚洲",
+      "type": "location",
+      "name": "亚洲",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:东北",
+      "type": "location",
+      "name": "东北",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:沈阳",
+      "type": "location",
+      "name": "沈阳",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:安徽省",
+      "type": "location",
+      "name": "安徽省",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:安徽",
+      "type": "location",
+      "name": "安徽",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:华声",
+      "type": "location",
+      "name": "华声",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:印发",
+      "type": "location",
+      "name": "印发",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:山东省",
+      "type": "location",
+      "name": "山东省",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:温州",
+      "type": "location",
+      "name": "温州",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:北京市",
+      "type": "location",
+      "name": "北京市",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:欧美",
+      "type": "location",
+      "name": "欧美",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:浙江",
+      "type": "location",
+      "name": "浙江",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:凤凰网",
+      "type": "location",
+      "name": "凤凰网",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:西科斯基",
+      "type": "location",
+      "name": "西科斯基",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:东南亚",
+      "type": "location",
+      "name": "东南亚",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:泰国",
+      "type": "location",
+      "name": "泰国",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:迪拜",
+      "type": "location",
+      "name": "迪拜",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "tech:eVTOL",
+      "type": "tech",
+      "name": "eVTOL",
+      "properties": {
+        "mention_count": 99
+      }
+    },
+    {
+      "id": "tech:电动垂直起降",
+      "type": "tech",
+      "name": "电动垂直起降",
+      "properties": {
+        "mention_count": 7
+      }
+    },
+    {
+      "id": "tech:通用航空",
+      "type": "tech",
+      "name": "通用航空",
+      "properties": {
+        "mention_count": 29
+      }
+    },
+    {
+      "id": "tech:城市空中交通",
+      "type": "tech",
+      "name": "城市空中交通",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "tech:应急救援",
+      "type": "tech",
+      "name": "应急救援",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "tech:无人驾驶航空器",
+      "type": "tech",
+      "name": "无人驾驶航空器",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "tech:电池技术",
+      "type": "tech",
+      "name": "电池技术",
+      "properties": {
+        "mention_count": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "company:中航成飞",
+      "target": "person:Eve全尺",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "Eve全尺寸eVTOL原型机完成飞行演示 - 中国民航网"
+      ],
+      "date": "2026-03-30"
+    },
+    {
+      "id": "e2",
+      "source": "company:沃兰特",
+      "target": "person:黄小飞",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "专访沃兰特总裁黄小飞：eVTOL适航取证和研制效率“两手抓” 今年要完成小批量交付 - 证券时报"
+      ],
+      "date": "2026-05-07"
+    },
+    {
+      "id": "e3",
+      "source": "company:沃兰特",
+      "target": "person:杨让晨",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ..."
+      ],
+      "date": "2026-08-12"
+    },
+    {
+      "id": "e4",
+      "source": "company:峰飞航空",
+      "target": "person:戴姆勒",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "“准生证”落地，eVTOL“高飞”"
+      ],
+      "date": "2023-10-29"
+    },
+    {
+      "id": "e5",
+      "source": "company:亿航智能",
+      "target": "person:戴姆勒",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "“准生证”落地，eVTOL“高飞”"
+      ],
+      "date": "2023-10-29"
+    },
+    {
+      "id": "e6",
+      "source": "company:亿航智能",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 5
+    },
+    {
+      "id": "e7",
+      "source": "company:亿航智能",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e8",
+      "source": "company:峰飞航空",
+      "target": "location:阿联酋",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e9",
+      "source": "company:峰飞航空",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e10",
+      "source": "company:沃兰特",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e11",
+      "source": "company:沃兰特",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e12",
+      "source": "company:峰飞航空",
+      "target": "location:印尼",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e13",
+      "source": "company:峰飞航空",
+      "target": "location:网易网",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e14",
+      "source": "company:亿航智能",
+      "target": "location:巴西",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e15",
+      "source": "company:亿航智能",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e16",
+      "source": "company:亿航智能",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e17",
+      "source": "company:亿航智能",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e18",
+      "source": "company:大疆创新",
+      "target": "location:北京",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e19",
+      "source": "company:大疆创新",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e20",
+      "source": "company:大疆创新",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 4
+    },
+    {
+      "id": "e21",
+      "source": "company:大疆创新",
+      "target": "location:美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e22",
+      "source": "company:亿航智能",
+      "target": "location:南航",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e23",
+      "source": "company:亿航智能",
+      "target": "location:北京市",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e24",
+      "source": "company:沃兰特",
+      "target": "location:印尼",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e25",
+      "source": "company:沃兰特",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e26",
+      "source": "company:沃飞长空",
+      "target": "location:成都",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e27",
+      "source": "company:沃飞长空",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e28",
+      "source": "company:小鹏汇天",
+      "target": "location:迪拜",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e29",
+      "source": "company:小鹏汇天",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e30",
+      "source": "company:小鹏汇天",
+      "target": "location:泰国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e31",
+      "source": "company:小鹏汇天",
+      "target": "location:阿联酋",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e32",
+      "source": "company:沃兰特",
+      "target": "location:迪拜",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e33",
+      "source": "company:沃兰特",
+      "target": "location:泰国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e34",
+      "source": "company:沃兰特",
+      "target": "location:阿联酋",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e35",
+      "source": "company:小鹏汇天",
+      "target": "company:沃兰特",
+      "type": "cooperates_with",
+      "weight": 1,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-17"
+    },
+    {
+      "id": "e36",
+      "source": "company:大疆创新",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e37",
+      "source": "company:沃兰特",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 9
+    },
+    {
+      "id": "e38",
+      "source": "company:峰飞航空",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 14
+    },
+    {
+      "id": "e39",
+      "source": "company:中航成飞",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e40",
+      "source": "company:亿航智能",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 10
+    },
+    {
+      "id": "e41",
+      "source": "company:亿航智能",
+      "target": "tech:应急救援",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e42",
+      "source": "company:沃兰特",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e43",
+      "source": "company:沃飞长空",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e44",
+      "source": "company:峰飞航空",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e45",
+      "source": "company:小鹏汇天",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 2
+    }
+  ]
+}

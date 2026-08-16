@@ -1,0 +1,376 @@
+{
+  "company_name": "亿航智能",
+  "category": "eVTOL整机",
+  "mention_count": 31,
+  "first_seen": "2023-10-29",
+  "last_seen": "2025-11-13",
+  "key_persons": [
+    {
+      "name": "戴姆勒",
+      "mentions": 2
+    }
+  ],
+  "locations": [
+    {
+      "name": "巴西",
+      "mentions": 12
+    },
+    {
+      "name": "上海",
+      "mentions": 6
+    },
+    {
+      "name": "南航",
+      "mentions": 6
+    },
+    {
+      "name": "北京市",
+      "mentions": 6
+    },
+    {
+      "name": "中东",
+      "mentions": 2
+    },
+    {
+      "name": "日本",
+      "mentions": 2
+    }
+  ],
+  "partners": [
+    {
+      "name": "峰飞航空",
+      "co_occurrences": 2
+    }
+  ],
+  "events": {
+    "product_launch": [
+      {
+        "date": "2025-01-16",
+        "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-01-16",
+        "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-01-16",
+        "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
+        "source": "news.google.com"
+      }
+    ],
+    "financing": [],
+    "cooperation": [
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-07-01",
+        "title": "亿航智能与南航通航达成战略合作，共推无人驾驶eVTOL低空经济合作运营新范示 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-07-01",
+        "title": "亿航智能与南航通航达成战略合作，共推无人驾驶eVTOL低空经济合作运营新范示 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-07-01",
+        "title": "亿航智能与南航通航达成战略合作，共推无人驾驶eVTOL低空经济合作运营新范示 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-12-26",
+        "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-12-26",
+        "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-12-26",
+        "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+        "source": "news.google.com"
+      }
+    ],
+    "policy_related": [
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      }
+    ],
+    "certification": [
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2024-09-16",
+        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+        "source": "news.google.com"
+      }
+    ],
+    "market_expansion": [
+      {
+        "date": "2025-11-13",
+        "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
+        "source": "news.google.com"
+      },
+      {
+        "date": "2025-11-13",
+        "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
+        "source": "news.google.com"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2025-11-13",
+      "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTcDZsdEswNElzczJMZExubUdod2ZrVGhQRkV4Wm8yN0V2RnlOVko3eVVaRzZfUkNzdDlrSENrRG5SdEFVcS14OGd4X0VZd0RtTmJqTWsyYThKN0VjSHhFNEFibUJhU2RiaDltdw?oc=5",
+      "content_snippet": "中国eVTOL走向国际 亿航智能成美国行业大会焦点中国民航网"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTcDZsdEswNElzczJMZExubUdod2ZrVGhQRkV4Wm8yN0V2RnlOVko3eVVaRzZfUkNzdDlrSENrRG5SdEFVcS14OGd4X0VZd0RtTmJqTWsyYThKN0VjSHhFNEFibUJhU2RiaDltdw?oc=5",
+      "content_snippet": "中国eVTOL走向国际 亿航智能成美国行业大会焦点中国民航网"
+    },
+    {
+      "date": "2025-10-16",
+      "title": "650万元售价，亿航智能造出了低空经济的“Model S”？ - mp.ofweek.com",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEYkllQVUtQUI4Ni1Zb3VERVJJYzg0OTZDdTJ0WndXWFk0NDBZS0RMNk5NaldaZTlHMFE0YjZlel9qejd1Qk5GNDkxcGdwYllpRVlfSC02bnQ?oc=5",
+      "content_snippet": "650万元售价，亿航智能造出了低空经济的“Model S”？mp.ofweek.com"
+    },
+    {
+      "date": "2025-10-16",
+      "title": "650万元售价，亿航智能造出了低空经济的“Model S”？ - mp.ofweek.com",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEYkllQVUtQUI4Ni1Zb3VERVJJYzg0OTZDdTJ0WndXWFk0NDBZS0RMNk5NaldaZTlHMFE0YjZlel9qejd1Qk5GNDkxcGdwYllpRVlfSC02bnQ?oc=5",
+      "content_snippet": "650万元售价，亿航智能造出了低空经济的“Model S”？mp.ofweek.com"
+    },
+    {
+      "date": "2025-10-05",
+      "title": "中国eVTOL亿航，中东首次载人飞行，在日本12个地点成功飞行 - 华人头条",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd094Vi1sdXdtaE9Hb1hMMm90clFaRTQ3VWw4T1lHU3o4alZGbmdEd1dvZGw3YU9sVVE5WU4tUmFVSzdLUVREUzVYLWlLSWRKU2hOaV9JQTYyWERsZ1FxUF9jTm56RUI1dE9uMm1PV1NESVZfeFpVcVZSNzRoTzM3SFQ0TVJGQQ?oc=5",
+      "content_snippet": "中国eVTOL亿航，中东首次载人飞行，在日本12个地点成功飞行华人头条"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzSndwbmV4TVVab3VwUGFVb1FETzNGQmtuRDNXcmQtODVoMS1HUF8zSEMxOEJpb0VFTDJGYjNDNEtaMlhfRGw2TER1STE?oc=5",
+      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzSndwbmV4TVVab3VwUGFVb1FETzNGQmtuRDNXcmQtODVoMS1HUF8zSEMxOEJpb0VFTDJGYjNDNEtaMlhfRGw2TER1STE?oc=5",
+      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzSndwbmV4TVVab3VwUGFVb1FETzNGQmtuRDNXcmQtODVoMS1HUF8zSEMxOEJpb0VFTDJGYjNDNEtaMlhfRGw2TER1STE?oc=5",
+      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82LW9jREV3Vy1RX3ZtcjlVX19LN05XX2Q2ZE9mbUhtMG05Ry1rMm1Mdy1LTVd3WUlfNjJnRjRac1dpYXE0MmNHQmNCZ1FUTUIy?oc=5",
+      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82LW9jREV3Vy1RX3ZtcjlVX19LN05XX2Q2ZE9mbUhtMG05Ry1rMm1Mdy1LTVd3WUlfNjJnRjRac1dpYXE0MmNHQmNCZ1FUTUIy?oc=5",
+      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82LW9jREV3Vy1RX3ZtcjlVX19LN05XX2Q2ZE9mbUhtMG05Ry1rMm1Mdy1LTVd3WUlfNjJnRjRac1dpYXE0MmNHQmNCZ1FUTUIy?oc=5",
+      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+    },
+    {
+      "date": "2025-01-16",
+      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SaWhTZ0ZuRE5DeWh1UndXRzg5MnpLRng2WVplQkVjU29sMk05MVh3REJGd01EZjBEUDM3dHZXRjRmRFhTMU1aSnJuZjk?oc=5",
+      "content_snippet": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+    },
+    {
+      "date": "2025-01-16",
+      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SaWhTZ0ZuRE5DeWh1UndXRzg5MnpLRng2WVplQkVjU29sMk05MVh3REJGd01EZjBEUDM3dHZXRjRmRFhTMU1aSnJuZjk?oc=5",
+      "content_snippet": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+    },
+    {
+      "date": "2025-01-16",
+      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SaWhTZ0ZuRE5DeWh1UndXRzg5MnpLRng2WVplQkVjU29sMk05MVh3REJGd01EZjBEUDM3dHZXRjRmRFhTMU1aSnJuZjk?oc=5",
+      "content_snippet": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+    },
+    {
+      "date": "2024-12-26",
+      "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSmtuSFpUZGE4ZlozSDNXUkFhWGRVZ0pKSkVBYUFxUTdkTVlFMVNkdnp6bHMteVNKZzgwUnFhTkN4emMyRXZieDVNSzRGZEhH?oc=5",
+      "content_snippet": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
+    },
+    {
+      "date": "2024-12-26",
+      "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSmtuSFpUZGE4ZlozSDNXUkFhWGRVZ0pKSkVBYUFxUTdkTVlFMVNkdnp6bHMteVNKZzgwUnFhTkN4emMyRXZieDVNSzRGZEhH?oc=5",
+      "content_snippet": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
+    },
+    {
+      "date": "2024-12-26",
+      "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSmtuSFpUZGE4ZlozSDNXUkFhWGRVZ0pKSkVBYUFxUTdkTVlFMVNkdnp6bHMteVNKZzgwUnFhTkN4emMyRXZieDVNSzRGZEhH?oc=5",
+      "content_snippet": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
+    },
+    {
+      "date": "2024-09-16",
+      "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
+      "content_snippet": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
+    },
+    {
+      "date": "2024-09-16",
+      "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
+      "content_snippet": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
+    },
+    {
+      "date": "2024-09-16",
+      "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
+      "content_snippet": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
+    }
+  ],
+  "generated_at": "2026-08-16T23:52:20.039345+08:00"
+}
