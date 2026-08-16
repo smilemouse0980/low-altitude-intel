@@ -130,6 +130,61 @@ class FeedCollector:
     def _url_hash(self, url):
         return hashlib.md5(url.encode('utf-8')).hexdigest()[:12]
 
+    def _decode_google_news_url(self, gn_url):
+        """
+        解码 Google News 跳转 URL，提取原始文章 URL
+        Google News URL 格式: https://news.google.com/rss/articles/CBMi<base64>?oc=5
+        CBMi 是 protobuf 字段标记，后面跟着 base64 编码的原始 URL
+        """
+        import base64
+
+        try:
+            # 从路径中提取编码部分
+            # URL 格式: /rss/articles/CBMiXXXX?oc=5 或 /articles/CBMiXXXX
+            match = re.search(r'/articles/([A-Za-z0-9_-]+)', gn_url)
+            if not match:
+                return None
+
+            encoded = match.group(1)
+
+            # 方法1: 尝试 base64 解码后查找 URL
+            # 补全 base64 padding
+            padding = 4 - len(encoded) % 4
+            if padding != 4:
+                encoded_padded = encoded + '=' * padding
+            else:
+                encoded_padded = encoded
+
+            try:
+                decoded_bytes = base64.urlsafe_b64decode(encoded_padded)
+            except Exception:
+                try:
+                    decoded_bytes = base64.b64decode(encoded_padded)
+                except Exception:
+                    return None
+
+            # 在解码后的字节中查找 http(s) URL
+            decoded_str = decoded_bytes.decode('utf-8', errors='ignore')
+            url_match = re.search(r'https?://[^\x00-\x1f\x7f-\xff\s]+', decoded_str)
+            if url_match:
+                return url_match.group(0).rstrip('"\'<>')
+
+            # 方法2: 跳过 protobuf 头部字节，直接查找 URL
+            # protobuf 格式: field_tag(1byte) + length(1byte) + url_data
+            for i in range(len(decoded_bytes)):
+                if decoded_bytes[i:i+4] in (b'http', b'HTTP'):
+                    url_end = decoded_bytes.find(b'\x00', i)
+                    if url_end == -1:
+                        url_end = len(decoded_bytes)
+                    found_url = decoded_bytes[i:url_end].decode('utf-8', errors='ignore').strip()
+                    if found_url.startswith('http'):
+                        return found_url
+
+        except Exception:
+            pass
+
+        return None
+
     def _is_relevant(self, text):
         """检查内容是否与低空经济相关"""
         if not text:
@@ -201,13 +256,11 @@ class FeedCollector:
                 summary = entry.get('summary', entry.get('description', '')).strip()
                 published = entry.get('published', entry.get('updated', ''))
 
-                # Google News 的 link 通常是 redirect URL
+                # Google News 的 link 是编码跳转 URL，需要解码出原始文章 URL
                 if 'news.google.com' in link:
-                    # 提取实际 URL
-                    match = re.search(r'url=([^&]+)', link)
-                    if match:
-                        from urllib.parse import unquote
-                        link = unquote(match.group(1))
+                    decoded_url = self._decode_google_news_url(link)
+                    if decoded_url:
+                        link = decoded_url
 
                 if not link:
                     continue

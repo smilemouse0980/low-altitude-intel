@@ -70,49 +70,123 @@ class IntelPipeline:
             return []
 
     def step_2_parse_content(self, raw_records):
-        """步骤2：网页正文解析（对 RSS 摘要补充全文）"""
+        """步骤2：网页正文解析（对 RSS 摘要补充全文）
+        
+        优化：
+        - 使用 requests + BeautifulSoup 先解析出真实 URL（跳过 Google News 重定向）
+        - 使用 Trafilatura 提取正文
+        - 并发抓取加速（ThreadPoolExecutor）
+        - 限制最多处理 80 篇，避免超时
+        """
         logger.info("=" * 60)
         logger.info("步骤 2/4：网页正文解析")
         logger.info("=" * 60)
 
         try:
+            import trafilatura
             from parser import WebPageParser
             self.parser = WebPageParser()
         except Exception as e:
             logger.warning(f"解析器不可用，跳过: {e}")
             return raw_records
 
-        enriched = []
-        for i, record in enumerate(raw_records):
+        import requests as req
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+
+        # 筛选需要全文提取的记录
+        to_parse = []
+        for record in raw_records:
+            if len(record.get('content', '')) > 500:
+                continue  # 已有足够内容
             url = record.get('url', '')
             if not url:
-                enriched.append(record)
                 continue
+            to_parse.append(record)
 
-            # 如果已有足够内容，跳过全文提取
-            if len(record.get('content', '')) > 500:
-                enriched.append(record)
-                continue
+        logger.info(f"需要全文提取: {len(to_parse)} 条（已跳过 {len(raw_records) - len(to_parse)} 条内容充足）")
 
+        # 限制并发数量，避免超时（GitHub Actions 30分钟限制）
+        MAX_PARSE = 80
+        if len(to_parse) > MAX_PARSE:
+            logger.info(f"数量超过 {MAX_PARSE}，仅处理前 {MAX_PARSE} 条（按采集顺序）")
+            to_parse = to_parse[:MAX_PARSE]
+
+        session = req.Session()
+        session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        })
+        session.verify = False
+
+        def fetch_and_parse(record):
+            """单条记录的全文提取"""
+            url = record.get('url', '')
             try:
-                result = self.parser.extract_content(url)
-                if result and result.get('content'):
-                    record['content'] = result['content']
-                    if result.get('publish_date'):
-                        record['publish_date'] = result['publish_date']
-                    if result.get('publisher'):
-                        record['publisher'] = result['publisher']
-                    self.stats['parsed'] += 1
-                    logger.info(f"  [{i+1}/{len(raw_records)}] 已提取全文: {record['title'][:40]}...")
+                # Step 1: 用 requests 获取页面（跟随重定向）
+                resp = session.get(url, timeout=15, allow_redirects=True)
+                final_url = resp.url
+                resp.encoding = resp.apparent_encoding or 'utf-8'
+                html_content = resp.text
+
+                # Step 2: 用 Trafilatura 提取正文
+                text = trafilatura.extract(
+                    html_content,
+                    include_comments=False,
+                    include_tables=True,
+                    favor_precision=True,
+                    url=final_url
+                )
+
+                if text and len(text) > 100:
+                    record['content'] = text[:8000]
+                    record['url'] = final_url  # 更新为最终 URL
+                    # 尝试提取元数据
+                    metadata = trafilatura.extract(
+                        html_content,
+                        output_format='json',
+                        with_metadata=True,
+                        url=final_url
+                    )
+                    if metadata:
+                        import json as _json
+                        if isinstance(metadata, str):
+                            metadata = _json.loads(metadata)
+                        if metadata.get('date'):
+                            record['publish_date'] = self.parser._normalize_date(metadata.get('date', ''))
+                        if metadata.get('sitename'):
+                            record['publisher'] = self.parser._normalize_org_name(metadata.get('sitename', ''))
+                    return ('ok', record)
                 else:
-                    logger.warning(f"  [{i+1}/{len(raw_records)}] 全文提取失败: {url}")
+                    return ('empty', record)
+            except req.exceptions.Timeout:
+                return ('timeout', record)
             except Exception as e:
-                logger.warning(f"  [{i+1}/{len(raw_records)}] 解析异常: {e}")
+                return ('error', record)
 
-            enriched.append(record)
+        # 并发抓取（5 线程）
+        MAX_WORKERS = 5
+        success_count = 0
+        fail_count = 0
 
-        logger.info(f"解析完成：{self.stats['parsed']}/{len(raw_records)} 条已补充全文")
-        return enriched
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = {executor.submit(fetch_and_parse, r): r for r in to_parse}
+            for i, future in enumerate(as_completed(futures, timeout=300)):
+                try:
+                    status, record = future.result(timeout=60)
+                    if status == 'ok':
+                        success_count += 1
+                        self.stats['parsed'] += 1
+                        if (i + 1) % 10 == 0:
+                            logger.info(f"  进度: {i+1}/{len(to_parse)} | 成功: {success_count} 失败: {fail_count}")
+                    else:
+                        fail_count += 1
+                except Exception as e:
+                    fail_count += 1
+                    logger.warning(f"  并发异常: {type(e).__name__}: {e}")
+
+        logger.info(f"解析完成：{success_count} 成功 / {fail_count} 失败 / {len(to_parse)} 总计")
+        return raw_records
 
     def step_3_extract_entities(self, records):
         """步骤3：NER 实体提取"""
