@@ -96,10 +96,14 @@ class IntelPipeline:
         # 筛选需要全文提取的记录
         to_parse = []
         for record in raw_records:
+            # 已有足够内容，跳过
             if len(record.get('content', '')) > 500:
-                continue  # 已有足够内容
+                continue
             url = record.get('url', '')
             if not url:
+                continue
+            # URL 未解析（如 Google News JS 跳转），跳过全文提取
+            if not record.get('url_resolved', True):
                 continue
             to_parse.append(record)
 

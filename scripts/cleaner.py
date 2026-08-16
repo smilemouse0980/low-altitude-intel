@@ -161,9 +161,12 @@ class DataCleaner:
         if not record.get('source_url'):
             issues.append('missing_url')
 
-        # 检查内容长度
+        # 检查内容长度（标题级内容不标记为过短）
         content = record.get('content', '')
-        if len(content) < 100:
+        if len(content) < 100 and not record.get('url_resolved', True):
+            # URL 未解析的记录（如 Google News），标题作为内容是预期的
+            pass
+        elif len(content) < 100:
             issues.append('content_too_short')
 
         # 检查日期合理性

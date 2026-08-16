@@ -29,7 +29,7 @@ BJT = timezone(timedelta(hours=8))
 # 数据源配置 — 全部使用经过验证的可靠源
 # ============================================================================
 SOURCES = [
-    # === P0: Google News RSS（最可靠，支持中文） ===
+    # === P0: Google News RSS（用于发现，URL 可能无法解析） ===
     {
         "name": "Google新闻-低空经济",
         "type": "rss",
@@ -58,28 +58,36 @@ SOURCES = [
         "keywords": [],
         "priority": "P0",
     },
-    # === P1: Bing News RSS ===
+    # === P1: 直接新闻源 RSS（提供真实 URL 和正文摘要） ===
+    {
+        "name": "36氪-低空经济",
+        "type": "direct_rss",
+        "url": "https://36kr.com/feed",
+        "keywords": ["低空经济", "无人机", "eVTOL", "低空", "飞行汽车", "通用航空"],
+        "priority": "P1",
+    },
+    {
+        "name": "新浪航空-低空经济",
+        "type": "direct_rss",
+        "url": "https://feed.cn/feed/aero",
+        "keywords": ["低空经济", "无人机", "eVTOL", "低空", "通用航空"],
+        "priority": "P1",
+    },
+    # === P2: Bing News RSS ===
     {
         "name": "Bing新闻-低空经济",
         "type": "bing_rss",
         "url": "https://www.bing.com/news/search?q=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&format=rss",
         "keywords": [],
-        "priority": "P1",
+        "priority": "P2",
     },
-    # === P2: 政府网站 HTML 搜索解析 ===
+    # === P3: 政府网站 HTML 搜索解析 ===
     {
         "name": "国务院政策-低空经济",
         "type": "gov_html",
         "url": "https://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&searchWord=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&t=zhengcelibrary_gw",
         "keywords": [],
-        "priority": "P2",
-    },
-    {
-        "name": "民航局-低空经济",
-        "type": "gov_html",
-        "url": "http://www.caac.gov.cn/XXGK/XXGK/MHGZSL/index_176.html?WkUzv=%E4%BD%8E%E7%A9%BA",
-        "keywords": [],
-        "priority": "P2",
+        "priority": "P3",
     },
 ]
 
@@ -254,10 +262,13 @@ class FeedCollector:
                 published = entry.get('published', entry.get('updated', ''))
 
                 # Google News 的 link 是编码跳转 URL，需要解码出原始文章 URL
+                url_resolved = True
                 if 'news.google.com' in link:
                     decoded_url = self._decode_google_news_url(link)
                     if decoded_url:
                         link = decoded_url
+                    else:
+                        url_resolved = False
 
                 if not link:
                     continue
@@ -275,8 +286,12 @@ class FeedCollector:
                 if self._is_collected(link):
                     continue
 
+                # 如果 URL 未解析，用标题作为内容（至少有标题可用于 NER）
+                content = summary if len(summary) > 50 else title
+
                 record = self._make_record(
-                    link, title, summary, published, name, 'rss'
+                    link, title, content, published, name, 'rss',
+                    extra={'url_resolved': url_resolved}
                 )
                 results.append(record)
                 self._mark_collected(link)
@@ -289,7 +304,64 @@ class FeedCollector:
         return results
 
     # =========================================================================
-    # 采集方法 2: Bing News RSS
+    # 采集方法 2: 直接新闻源 RSS（真实 URL + 正文摘要）
+    # =========================================================================
+    def collect_direct_rss(self, source):
+        """采集直接新闻源 RSS（如36氪、新浪等，提供真实文章 URL）"""
+        name = source['name']
+        url = source['url']
+        keywords = source.get('keywords', [])
+
+        logger.info(f"  采集直接 RSS: {name}")
+        results = []
+
+        try:
+            resp = self.session.get(url, timeout=30)
+            resp.encoding = resp.apparent_encoding or 'utf-8'
+
+            feed = feedparser.parse(resp.content)
+
+            for entry in feed.entries:
+                title = entry.get('title', '').strip()
+                link = entry.get('link', '').strip()
+                summary = entry.get('summary', entry.get('description', '')).strip()
+                published = entry.get('published', entry.get('updated', ''))
+
+                if not link or not title:
+                    continue
+
+                # 关键词过滤
+                combined_text = f"{title} {summary}"
+                if keywords and not any(kw.lower() in combined_text.lower() for kw in keywords):
+                    continue
+
+                # 相关性过滤
+                if not self._is_relevant(combined_text):
+                    continue
+
+                if self._is_collected(link):
+                    continue
+
+                # 直接新闻源的 summary 通常包含 HTML，清理后作为内容
+                clean_summary = self._clean_html(summary)
+                content = clean_summary if len(clean_summary) > 50 else title
+
+                record = self._make_record(
+                    link, title, content, published, name, 'direct_rss',
+                    extra={'url_resolved': True}
+                )
+                results.append(record)
+                self._mark_collected(link)
+
+            logger.info(f"    获取 {len(results)} 条新内容")
+
+        except Exception as e:
+            logger.warning(f"    采集失败: {type(e).__name__}: {e}")
+
+        return results
+
+    # =========================================================================
+    # 采集方法 3: Bing News RSS
     # =========================================================================
     def collect_bing_rss(self, source):
         """采集 Bing News RSS"""
@@ -436,6 +508,8 @@ class FeedCollector:
             try:
                 if source_type == 'rss':
                     results = self.collect_rss(source)
+                elif source_type == 'direct_rss':
+                    results = self.collect_direct_rss(source)
                 elif source_type == 'bing_rss':
                     results = self.collect_bing_rss(source)
                 elif source_type == 'gov_html':
