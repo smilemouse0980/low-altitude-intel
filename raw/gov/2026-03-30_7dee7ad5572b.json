@@ -1,0 +1,45 @@
+{
+  "doc_id": "7dee7ad5572b",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHTWhRdUJlckZCU0VUbC1yc0s5M2NmVGZCYVVIMFNmQ1J5c1k4QTVhT1pkeE5DLU9mbVRfd2VNcVB4UWRfR2ZBblVsVWRyZGxoM1dMQ3F3a1NpRkdNLTJKSHhGaTJmc1lsNmpNX0lXSQ?oc=5",
+  "title": "2026世界无人机大会5月在深举行，全球1200多家无人机企业亮相 - content.foshanplus.com",
+  "content": "2026世界无人机大会5月在深举行，全球1200多家无人机企业亮相content.foshanplus.com",
+  "publish_date": "2026-03-30",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:26.084631+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "世界无人机大会",
+        "label": "org",
+        "start": 4,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 6,
+        "end": 9,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

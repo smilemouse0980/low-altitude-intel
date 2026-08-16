@@ -1,0 +1,28 @@
+{
+  "doc_id": "cbd421ec7f48",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96QUNrWWJTTnlfMENCYU9td1Y4WXhxSHBydlZMNnJmdGFkR01iZ2JxOFVXXzZJOU5TUFNuVk9MN25HdWE2NHJJZnI2bDdIbVlOSWlMbVJxSmRSalg0YXdQWGk0N3ZaOURrOE1ZSA?oc=5",
+  "title": "2025亚洲通航展倒计时100天：聚焦低空经济新纪元，共绘通航产业新未来 - caacnews.com.cn",
+  "content": "2025亚洲通航展倒计时100天：聚焦低空经济新纪元，共绘通航产业新未来caacnews.com.cn",
+  "publish_date": "2025-08-19",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.552856+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [],
+    "dates": [
+      {
+        "text": "100天",
+        "label": "date",
+        "start": 12,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

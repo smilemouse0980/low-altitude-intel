@@ -1,0 +1,44 @@
+{
+  "doc_id": "b7fab59f2ac1",
+  "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nZnI4OFMtWEcyeVNuYXZiQV9xZ09LWU9mTGZsYlUxMkowa05yYmlkdUVfMm9aNGtURmtCYXdGZFJKb1lhS0hVMA?oc=5",
+  "title": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数回调2.13% - 财联社",
+  "content": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数回调2.13%财联社",
+  "publish_date": "2026-05-27",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.544011+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 13,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题指数",
+        "label": "org",
+        "start": 44,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "财联社",
+        "label": "org",
+        "start": 59,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

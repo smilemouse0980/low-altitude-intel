@@ -1,0 +1,53 @@
+{
+  "doc_id": "57fc93336758",
+  "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOSXJYSV9qVWItNldxWDBaX3Iya0w4TzZJYUMtemdoY1lwQkx4cXVLbUxrN3lVSVB1enU1TlVTUlVMRmZndm9iWTJnM0VxYkUwNEhHcGticnk2NGNDeHdudmZTNnJuVU9GRjMtMTU1VjlORmpjT2N0Mk4zVHRlcDduV0JON0tSZllSTTZscnNMNTMxSlRfQ0NFOV9qTlY2bjZpU05ZZDR2em5mMV92Q0hHOEhQbWZnV1hxZm9WMTRKcXZxLWFhaHVMZktZYzZzRFNvV0xvOEppOURtdnhCTHA3Z3AzYlE2Nm13NTRudjhJYWczWDZpZXVsYlhDTU05NWViUHVUYUJId3phUFJwRVR4azZlYngxc3QyNGJVb21TUjNSRU5uMlBWWVEtdWFxcTZWcFE?oc=5",
+  "title": "长春航空展+深圳eVTOL大会无缝衔接，低空经济异动走强！通用航空ETF（159231）涨超2% - 新浪财经",
+  "content": "长春航空展+深圳eVTOL大会无缝衔接，低空经济异动走强！通用航空ETF（159231）涨超2%新浪财经",
+  "publish_date": "2025-09-24",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.554888+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "深圳eVTOL大会无缝衔接",
+        "label": "org",
+        "start": 6,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 29,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 48,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "长春",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

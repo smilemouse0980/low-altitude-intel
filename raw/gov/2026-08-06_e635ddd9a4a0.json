@@ -1,0 +1,36 @@
+{
+  "doc_id": "e635ddd9a4a0",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLU5uTVZZQ2FsVllSMXFZZG1HT1ZVVmYzUUZZNHJPUktKVFRZQ1BsRWY5cTMwbGNEZWNpUnBxWHBqNUYwSmhYSnc3eTEtaUZvUzhnczRSU2tIX3QyWlRCeWtMVUJiSU5namt4TmNqRlNOQk5wS2ROSEtQX2tCRXNlSEdvUEI?oc=5",
+  "title": "香港首个低空经济代表团访问印尼 葛佩帆：期望推动低空经济国际产业交流与务实合作 - Shangbao Indonesia",
+  "content": "香港首个低空经济代表团访问印尼 葛佩帆：期望推动低空经济国际产业交流与务实合作Shangbao Indonesia",
+  "publish_date": "2026-08-06",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:21.280697+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 13,
+        "end": 15,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

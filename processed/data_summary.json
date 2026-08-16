@@ -1,0 +1,17 @@
+{
+  "total_records": 370,
+  "by_source": {
+    "news.google.com": 370
+  },
+  "by_type": {
+    "rss": 370
+  },
+  "by_quality": {
+    "warning: missing_url,content_too_short": 370
+  },
+  "date_range": {
+    "earliest": "2023-02-07",
+    "latest": "2026-08-16"
+  },
+  "generated_at": "2026-08-16T13:49:33.527829"
+}

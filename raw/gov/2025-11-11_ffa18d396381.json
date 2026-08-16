@@ -1,0 +1,44 @@
+{
+  "doc_id": "ffa18d396381",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGNUZtTEQwcWtjLTY4SUo0UzV5aUUyREo0YVFTd2JtQzhMbFNGNmlXNmt5bU5QWFdaS19McWxOdnVzWnY0Tkt3c3prWGhqNkVpNDZ6eTFfY19NQXBOWGhF?oc=5",
+  "title": "永州经开区·企航｜翱翔永州低空经济新蓝海——对话湖南省元翼智飞通用航空科技有限公司董事长陈聪 - 华声在线",
+  "content": "永州经开区·企航｜翱翔永州低空经济新蓝海——对话湖南省元翼智飞通用航空科技有限公司董事长陈聪华声在线",
+  "publish_date": "2025-11-11",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.551476+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "陈聪华",
+        "label": "person",
+        "start": 44,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "通用航空科技有限公司",
+        "label": "org",
+        "start": 31,
+        "end": 41,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "陈聪华",
+        "title": "董事长",
+        "org": "通用航空科技有限公司",
+        "context": "空经济新蓝海——对话湖南省元翼智飞通用航空科技有限公司董事长陈聪华声在线"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "doc_id": "ea0c9a73cba9",
+  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yXzBTVTlkYjNJek45YklCQjdqelFvWXZtZ2ktVFhWNFNTVWxLZlp1QVY2QnlQaEsyaWRXZHVlZ0xUZ0FrMHpfeEVsWV81S0FieWhRRlZuUU1MVmFHeW4wZVdnWQ?oc=5",
+  "title": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动 - 四川新闻",
+  "content": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动四川新闻",
+  "publish_date": "2026-07-21",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:23.658569+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "APEC",
+        "label": "org",
+        "start": 44,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川新闻",
+        "label": "org",
+        "start": 55,
+        "end": 59,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 39,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

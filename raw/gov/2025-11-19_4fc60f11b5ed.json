@@ -1,0 +1,54 @@
+{
+  "doc_id": "4fc60f11b5ed",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwUU5TbEJudDdtMklxSEg5SV9wTGZXVkxyNUpEM1pqQldYblVBclVGX2s4VXAwMzF5MktLUDk5UEZrajhoWnFJX0pzcXpOVFNsRV95Q212MWNNQzNBd2UxMU1pYlRncUF4RGdRcFFR?oc=5",
+  "title": "2025年亚洲通用航空展即将在珠海举行！交通指南看这里→ - content.foshanplus.com",
+  "content": "2025年亚洲通用航空展即将在珠海举行！交通指南看这里→content.foshanplus.com",
+  "publish_date": "2025-11-19",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.550897+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 7,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "亚洲",
+        "label": "location",
+        "start": 5,
+        "end": 7,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海",
+        "label": "location",
+        "start": 15,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 0,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

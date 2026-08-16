@@ -1,0 +1,44 @@
+{
+  "doc_id": "8c811086a9df",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0T3dwR2hHa1lTMC1xQlFtUlFqT1FwTjR5TU1QVlBIZl8xTUVKc3hOWnJ4d2pmMzZJODBlRzFHX3AwN2c4STQ0UmhPRHJlVjd6TEpicWl0ZDJNTnM2Z29Md1pR?oc=5",
+  "title": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL早期闭环阶段 - cb.com.cn",
+  "content": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL早期闭环阶段cb.com.cn",
+  "publish_date": "2026-08-12",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:23.657518+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 15,
+        "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL早期闭环阶段cb.c"
+      }
+    ]
+  }
+}

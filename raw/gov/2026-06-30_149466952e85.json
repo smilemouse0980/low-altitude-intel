@@ -1,0 +1,53 @@
+{
+  "doc_id": "149466952e85",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yNkxmLXhLNTB6akNFSG1tS0NyeldpNVpHUkxJaG9nQ2JELVlHSGVRZTdkT2p3UUd1d2NkWkllbm9EVDh3X2d1bzZyZmdaVnRHWVRSNWVn?oc=5",
+  "title": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨4.65% - Jiemian.com",
+  "content": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨4.65%Jiemian.com",
+  "publish_date": "2026-06-30",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.548570+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 13,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题",
+        "label": "org",
+        "start": 44,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "昨日",
+        "label": "date",
+        "start": 65,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "4.",
+        "label": "date",
+        "start": 68,
+        "end": 70,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

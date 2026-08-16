@@ -1,0 +1,62 @@
+{
+  "doc_id": "198a0b901b13",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeUQzNjZRdzlUX2M5UnZCQUZBeE1LQkhRRGx2dDVObnVFMmUwTTBHbnRpcnl2S2ozWXZDTGNraFdtY1RseFc1QTZuTzZrNGdBd3FmQk8yV2RHZWlsckZESGtROWNRakc2MlVfbTNXbmhBN01aSFpKeGFJd2tCb2lKUzdIRDBnWHc?oc=5",
+  "title": "独家 | 全方位解密美团无人机|香港特别行政区|Google|航线|飞行员|经济_手机新浪网 - 新浪财经",
+  "content": "独家 | 全方位解密美团无人机|香港特别行政区|Google|航线|飞行员|经济_手机新浪网新浪财经",
+  "publish_date": "2025-06-23",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:26.094916+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 46,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美团无人机",
+        "label": "org",
+        "start": 10,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 12,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "香港特别",
+        "label": "location",
+        "start": 16,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "|",
+        "label": "date",
+        "start": 30,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

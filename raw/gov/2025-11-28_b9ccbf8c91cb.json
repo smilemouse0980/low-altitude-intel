@@ -1,0 +1,28 @@
+{
+  "doc_id": "b9ccbf8c91cb",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XVTF3azI5VnZzZzJMQWFfUkZ0dk9lUjRKQnFkX3otREZmMmVKT1VwTWxwZFYydEtLbzZrRlN4RlZLc0ZtNEpyV2NVaGNLXzUwX3ZtdVFmOXphd2RVUkFscTkzcUdyRGJkM1liNA?oc=5",
+  "title": "齐飞航空与粤港澳大湾区三企签署105架eVTOL采购协议 共建城市群立体物流网络 - caacnews.com.cn",
+  "content": "齐飞航空与粤港澳大湾区三企签署105架eVTOL采购协议 共建城市群立体物流网络caacnews.com.cn",
+  "publish_date": "2025-11-28",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.547981+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "粤",
+        "label": "location",
+        "start": 5,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

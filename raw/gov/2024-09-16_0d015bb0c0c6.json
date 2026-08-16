@@ -1,0 +1,93 @@
+{
+  "doc_id": "0d015bb0c0c6",
+  "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
+  "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
+  "content": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang",
+  "publish_date": "2024-09-16",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:23.673410+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 50,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "亿航智",
+        "label": "org",
+        "start": 14,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西国家民航局",
+        "label": "org",
+        "start": 35,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 14,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 14,
+        "end": 16,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 50,
+        "end": 55,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "巴西",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 3,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "EHang",
+        "context": "216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
+      }
+    ]
+  }
+}

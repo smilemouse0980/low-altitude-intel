@@ -1,0 +1,62 @@
+{
+  "doc_id": "9f67b9f23a4b",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5seHhZY3RRSkFHa0Z6U0NqSkZKUGZmQ1JMSDEtWjU3TmpFSUxYS2hOajNxSUc1Rk15SXo0MnVTQ28xSnA0X3RkaEJ5TGpZUU1iRkpic2VWZnNCUk5QNDE4d2xJMVM5YkJqRzJmTjBSSG85N0U?oc=5",
+  "title": "省政府新闻办举行新闻发布会，解读《山东省低空经济高质量发展三年行动方案（2025-2027年）》 - 山东省工业和信息化厅",
+  "content": "省政府新闻办举行新闻发布会，解读《山东省低空经济高质量发展三年行动方案（2025-2027年）》山东省工业和信息化厅",
+  "publish_date": "2024-11-08",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:28.557032+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "省政府新闻办",
+        "label": "org",
+        "start": 0,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "山东省",
+        "label": "location",
+        "start": 17,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "山东省",
+        "label": "location",
+        "start": 48,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "三年",
+        "label": "date",
+        "start": 29,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 41,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "doc_id": "7983cc607526",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53WnNwT0RRM2M2aXV5amp4YW9RRFY1bno0UHRBMmxDTFlMdnUtc1JoVk1iSzJLWmxONTlZcC1BSkt6YkhCOFRQUkszWnBVdDdHeVBUT25IdjF3UzJ1anhNWFRock9LOUgzV3dmZVg3c2g4ZkNuN3A5U3dnN0Izb2c?oc=5",
+  "title": "海南封关后低空经济首秀：全国首例吨级无人驾驶航空器跨海峡飞行验证成功- 中国日报网 - China Daily",
+  "content": "海南封关后低空经济首秀：全国首例吨级无人驾驶航空器跨海峡飞行验证成功- 中国日报网China Daily",
+  "publish_date": "2025-12-31",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:26.086755+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国日报网China",
+        "label": "org",
+        "start": 36,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "海南",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "海峡",
+        "label": "location",
+        "start": 26,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

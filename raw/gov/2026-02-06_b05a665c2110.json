@@ -1,0 +1,28 @@
+{
+  "doc_id": "b05a665c2110",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR3lQUmNZOXZ6WTJtQWF6OXB1VHBvOEs2NS0zT3hZZGUzRUp2WmlwWnJpV0xmenBRRkxoSXdMVEFyejljMGo5MzQ4Ui05MTVadW84NmRLaDRLSnhCM1ZJNXV4bDJ5TmExRXVMZzZvUlVXTHNlRER1U2N2VXNQUG1JOGRJbDJ0LVltaWVSaGl6cWI4RHVUemNjYWJnUTJxWG1sYnc?oc=5",
+  "title": "World's Largest eVTOL Aircraft Completes Maiden Test Flight in China - 一财全球Yicai Global",
+  "content": "World's Largest eVTOL Aircraft Completes Maiden Test Flight in China一财全球Yicai Global",
+  "publish_date": "2026-02-06",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:23.662911+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "China",
+        "label": "org",
+        "start": 63,
+        "end": 68,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

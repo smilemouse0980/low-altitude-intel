@@ -1,0 +1,28 @@
+{
+  "doc_id": "028636dce788",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xeE0ycU9ZZHRpSVlFVnptZ3h1bDRhYmR3RUxqYVFqX3BYUGF6VVRfQ29mSFFhRFFwdjRabmN0NmdZT0RpeHg5QWZWT2FvWUVEdFdySjJUVmdZTDBoaGc?oc=5",
+  "title": "蓝色向量发布IIS智能集成系统架构，推动中国eVTOL产业围绕软件定义飞机与开放式电子电气架构共建开放生态 - 中华网",
+  "content": "蓝色向量发布IIS智能集成系统架构，推动中国eVTOL产业围绕软件定义飞机与开放式电子电气架构共建开放生态中华网",
+  "publish_date": "2026-06-10",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:23.663491+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 20,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

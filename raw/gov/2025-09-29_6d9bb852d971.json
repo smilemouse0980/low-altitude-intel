@@ -1,0 +1,37 @@
+{
+  "doc_id": "6d9bb852d971",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmVDMzOWl6TzNqVFJCVFZCRS1jLU5Welg0WVRQVE4zSUZnY0hwamlMc2h0dU5zNnF5TEJVMVhQWUthbkhiUXJtLW1CQS0wSWZsclZSSkd2RWtEa19GWS1TVjZCSzdjbFBsemRybTlyWF9EWlZfQlE?oc=5",
+  "title": "货运无人机市场规模与份额、行业分析报告（2026-2035年） - Global Market Insights Inc.",
+  "content": "货运无人机市场规模与份额、行业分析报告（2026-2035年）Global Market Insights Inc.",
+  "publish_date": "2025-09-29",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:26.092616+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 2,
+        "end": 5,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2035年",
+        "label": "date",
+        "start": 25,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

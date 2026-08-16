@@ -1,0 +1,54 @@
+{
+  "doc_id": "a0f51a6b6d3a",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95QkN4b0JORlowZnVvV0pLU2h0Y1Z5elk5d05YbTR1clRqY0NwV0VaQ2g5VjdvemxRS3YxaGVsczVGWU1VSE1OS1RRdlhkRHVUUDlValJya0FoMHpUNW12VjRnUlVuM0VHTXVkMEVIZ0hoUQ?oc=5",
+  "title": "预见2026：《2026年中国无人机行业全景图谱》（附市场现状、竞争格局和发展趋势等）_经济学人 - 前瞻网",
+  "content": "预见2026：《2026年中国无人机行业全景图谱》（附市场现状、竞争格局和发展趋势等）_经济学人前瞻网",
+  "publish_date": "2026-02-15",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T21:45:26.092135+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 13,
+        "end": 15,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 2,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 8,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}
