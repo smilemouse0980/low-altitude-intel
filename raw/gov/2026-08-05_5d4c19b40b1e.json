@@ -1,12 +1,46 @@
 {
   "doc_id": "5d4c19b40b1e",
   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ycm9Xby04c2pBdVJvS1hITmNyN0xNOFZ1dmJBSzVTYzg4d3ZaTkUxT3E0TElSMXJ0MXRuX1dnd0pXZmNLeHpLWkZiQTU0YzQtSTJJb1NPZGU?oc=5",
-  "title": "巴西联邦政府将推出无人机与eVTOL国家政策 - wedoany.com",
-  "content": "巴西联邦政府将推出无人机与eVTOL国家政策wedoany.com",
+  "title": "巴西联邦政府将推出无人机与eVTOL国家政策 - 维度网",
+  "content": "巴西联邦政府将推出无人机与eVTOL国家政策维度网",
   "publish_date": "2026-08-05",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.080341+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.064689+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "巴西联邦政府",
+        "label": "org",
+        "start": 0,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 9,
+        "end": 12,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "巴西",
+        "label": "location",
+        "start": 29,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

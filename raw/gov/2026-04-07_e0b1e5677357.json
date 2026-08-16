@@ -7,6 +7,56 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.079941+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.064074+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "纽约时报",
+        "label": "org",
+        "start": 24,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "纽约时报",
+        "label": "org",
+        "start": 53,
+        "end": 57,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 7,
+        "end": 10,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 32,
+        "end": 34,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -7,6 +7,48 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.555870+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.580976+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "深圳市",
+        "label": "location",
+        "start": 0,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳市",
+        "label": "location",
+        "start": 41,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2024—2026年",
+        "label": "date",
+        "start": 17,
+        "end": 27,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024—2026年",
+        "label": "date",
+        "start": 58,
+        "end": 68,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

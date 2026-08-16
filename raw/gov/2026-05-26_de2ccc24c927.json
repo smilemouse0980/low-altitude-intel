@@ -1,12 +1,46 @@
 {
   "doc_id": "de2ccc24c927",
   "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOQXA1NjJhMHV2UXZOci1lWUczV09qcER5YlJXR2RnY25HS1BLZl9MZ1lJa3JwWU0tVXEzVEd4d2hsV1FJQWtGeERLemZIb1kwUmhiakVKYVc0bmZHTDlmQllUcnc0SzZCdjNLTTdoakN2NEN3bUM2dTUza2VSN0c4RzliZF96TnBsNVd4eXpYLWl6ZF9FOFVyQWhxRGdyOFMwOW9IemJvUHFmNkpudnBtUV9XdnhRbTZUeFhzeGYzdkQ1WDBDTWRtSUh5M3JQQjNDYi1SZ3lhVjRtZUVnQWxORjEteS1KVDUzeVBvX2FuLVpmc0VzaWNLOWx5SlJ3UnRJY0p4X1RZZHVSaUdpZWNic0s3MVRFanNXU1BTSFVSdkdpTV81YXBJMmRXN1JfY1RYa3VyRVJjWTRISEFtSVFGOUtQbkdUZF9tVkw2ZmhPbTFKWUtuYVkzT0tNTWRTZw?oc=5",
-  "title": "俄乌战争推动台湾无人机产量暴增，“不含中国材料”成最大卖点 - rfi.fr",
-  "content": "俄乌战争推动台湾无人机产量暴增，“不含中国材料”成最大卖点rfi.fr",
+  "title": "俄乌战争推动台湾无人机产量暴增，“不含中国材料”成最大卖点 - RFI",
+  "content": "俄乌战争推动台湾无人机产量暴增，“不含中国材料”成最大卖点RFI",
   "publish_date": "2026-05-26",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.084052+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.070165+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 8,
+        "end": 11,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "台湾",
+        "label": "location",
+        "start": 6,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "台湾",
+        "label": "location",
+        "start": 42,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

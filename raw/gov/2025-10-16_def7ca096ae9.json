@@ -7,6 +7,79 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.089992+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.078853+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "北约",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北约",
+        "label": "org",
+        "start": 6,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧盟",
+        "label": "org",
+        "start": 9,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北约",
+        "label": "org",
+        "start": 29,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北约",
+        "label": "org",
+        "start": 35,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧盟",
+        "label": "org",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新华网",
+        "label": "org",
+        "start": 51,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 17,
+        "end": 20,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

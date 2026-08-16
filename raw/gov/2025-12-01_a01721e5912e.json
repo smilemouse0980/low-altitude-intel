@@ -7,6 +7,56 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.549171+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.575302+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "珠海",
+        "label": "location",
+        "start": 6,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 31,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海",
+        "label": "location",
+        "start": 43,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 65,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "日报网",
+        "label": "date",
+        "start": 67,
+        "end": 70,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

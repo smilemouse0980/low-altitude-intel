@@ -7,6 +7,61 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.666162+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.546930+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "陈源",
+        "label": "person",
+        "start": 9,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "陈源",
+        "label": "person",
+        "start": 52,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "英武智能",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "英武智能",
+        "label": "org",
+        "start": 43,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "陈源",
+        "title": "创始人",
+        "org": "英武智能",
+        "context": "英武智能联合创始人陈源：切入大众市场 做普惠的eVTOL产品 - cb.com.c"
+      },
+      {
+        "person": "陈源",
+        "title": "创始人",
+        "org": "英武智能",
+        "context": "的eVTOL产品 - cb.com.cn 英武智能联合创始人陈源：切入大众市场 做普惠的eVTOL产品cb.com.cn"
+      }
+    ]
+  }
 }

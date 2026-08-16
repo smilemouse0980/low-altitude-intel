@@ -7,8 +7,9 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.658569+08:00",
+  "collected_at": "2026-08-16T22:40:06.535083+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -21,10 +22,18 @@
         "confidence": "low"
       },
       {
+        "text": "APEC",
+        "label": "org",
+        "start": 107,
+        "end": 111,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
         "text": "四川新闻",
         "label": "org",
-        "start": 55,
-        "end": 59,
+        "start": 118,
+        "end": 122,
         "engine": "spacy",
         "confidence": "low"
       }
@@ -37,6 +46,22 @@
         "end": 2,
         "engine": "spacy",
         "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 58,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 63,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
       }
     ],
     "dates": [
@@ -45,6 +70,14 @@
         "label": "date",
         "start": 39,
         "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 102,
+        "end": 107,
         "engine": "spacy",
         "confidence": "low"
       }

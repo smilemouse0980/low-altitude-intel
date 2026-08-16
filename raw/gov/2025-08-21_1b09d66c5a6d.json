@@ -7,6 +7,56 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:16:22.699259+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.090234+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "四川频道",
+        "label": "org",
+        "start": 32,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川频道",
+        "label": "org",
+        "start": 66,
+        "end": 70,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 0,
+        "end": 3,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 14,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 51,
+        "end": 53,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

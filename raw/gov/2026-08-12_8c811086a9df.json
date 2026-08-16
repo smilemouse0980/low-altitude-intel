@@ -7,8 +7,9 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.657518+08:00",
+  "collected_at": "2026-08-16T22:40:06.533369+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [
       {
@@ -16,6 +17,14 @@
         "label": "person",
         "start": 15,
         "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 72,
+        "end": 75,
         "engine": "spacy",
         "confidence": "low"
       }
@@ -37,7 +46,13 @@
         "person": "沃兰特",
         "title": "CEO",
         "org": "沃兰特",
-        "context": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL早期闭环阶段cb.c"
+        "context": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL早期闭环阶段 - c"
+      },
+      {
+        "person": "沃兰特",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "阶段 - cb.com.cn 从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL早期闭环阶段cb.c"
       }
     ]
   }

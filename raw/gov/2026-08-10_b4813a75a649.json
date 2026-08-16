@@ -7,8 +7,9 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.545015+08:00",
+  "collected_at": "2026-08-16T22:40:11.563111+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -17,6 +18,14 @@
         "label": "org",
         "start": 21,
         "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空ETF易方达",
+        "label": "org",
+        "start": 75,
+        "end": 85,
         "engine": "spacy",
         "confidence": "low"
       }

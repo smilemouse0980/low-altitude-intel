@@ -7,6 +7,75 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.095886+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.087495+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "tan",
+        "label": "person",
+        "start": 33,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "org",
+        "label": "person",
+        "start": 37,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "tan",
+        "label": "person",
+        "start": 71,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "org",
+        "label": "person",
+        "start": 75,
+        "end": 78,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 0,
+        "end": 3,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "tan",
+        "title": "",
+        "org": "无人机",
+        "context": "送餐，打个“空中的士”…… 低空经济带飞谁 - banyuetan.org 无人机送餐，打个“空中的士”…… 低空经济带飞谁b"
+      },
+      {
+        "person": "org",
+        "title": "",
+        "org": "无人机",
+        "context": "个“空中的士”…… 低空经济带飞谁 - banyuetan.org 无人机送餐，打个“空中的士”…… 低空经济带飞谁banyu"
+      },
+      {
+        "person": "tan",
+        "title": "",
+        "org": "无人机",
+        "context": "无人机送餐，打个“空中的士”…… 低空经济带飞谁banyuetan.org"
+      }
+    ]
+  }
 }

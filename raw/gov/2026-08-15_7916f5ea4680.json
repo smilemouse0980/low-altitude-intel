@@ -1,0 +1,61 @@
+{
+  "doc_id": "7916f5ea4680",
+  "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+  "title": "构建低空经济产业新生态 重庆44个“低空装备+”典型场景亮相 - 重庆市人民政府",
+  "content": "Hurricane Lala brings strong winds and heavy rain to Hawaii chevron_rightLala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands\napnews.com\nBy Ed White & Alexa St. John",
+  "publish_date": "2026-08-15",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T22:40:04.064953+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "Lala",
+        "label": "person",
+        "start": 51,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "tropical",
+        "label": "person",
+        "start": 130,
+        "end": 138,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "重庆市人民政府 Hurricane",
+        "label": "org",
+        "start": 33,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Alexa",
+        "label": "org",
+        "start": 232,
+        "end": 237,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "Lala",
+        "title": "",
+        "org": "重庆市人民政府 Hurricane",
+        "context": "备+”典型场景亮相 - 重庆市人民政府 Hurricane Lala brings strong winds and heavy"
+      }
+    ]
+  }
+}

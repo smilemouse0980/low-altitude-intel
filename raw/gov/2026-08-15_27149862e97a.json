@@ -1,12 +1,38 @@
 {
   "doc_id": "27149862e97a",
-  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MWlk2NmpaSlMyUGZuSnlNbU8tMnJiek1uVDZsN05BV0cwclR1OUNuWEp2QzltSDZ1VnoyNVFJbEwzRGppSDF2d2k4UU9aUzktOGthVEZWVTRVaFdzajJYWm9VM3NIRzg0aTdobm5PLWo?oc=5",
+  "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
   "title": "货运eVTOL率先领跑低空产业化 配套锂电迎来成长空间 - t.cj.sina.cn",
-  "content": "货运eVTOL率先领跑低空产业化 配套锂电迎来成长空间t.cj.sina.cn",
+  "content": "Hurricane Lala brings strong winds and heavy rain to Hawaii chevron_rightLala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands\napnews.com\nBy Ed White & Alexa St. John",
   "publish_date": "2026-08-15",
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.281091+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:04.063146+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "tropical",
+        "label": "person",
+        "start": 132,
+        "end": 140,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "Alexa",
+        "label": "org",
+        "start": 234,
+        "end": 239,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

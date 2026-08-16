@@ -1,12 +1,37 @@
 {
   "doc_id": "8c9a3b0a39d8",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iT1BvNUJybFU1NUpPOWw2bEdlcTlOMGxoQmxYYkw5UEtpa3RQNWxqWFRRSmJzUkhGTXZaUGFUeVFmaDg5dlZkaUhfb1JOd2MtX3FzVXluYV9UbVhDakxlandJWEUyQ3RZUGF3LTlJWno?oc=5",
-  "title": "2吨级eVTOL完成海上石油平台物资运输试飞 - stdaily.com",
-  "content": "2吨级eVTOL完成海上石油平台物资运输试飞stdaily.com",
+  "title": "2吨级eVTOL完成海上石油平台物资运输试飞 - 中国科技网",
+  "content": "2吨级eVTOL完成海上石油平台物资运输试飞中国科技网",
   "publish_date": "2025-08-03",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.672643+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.557296+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 25,
+        "end": 27,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 53,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

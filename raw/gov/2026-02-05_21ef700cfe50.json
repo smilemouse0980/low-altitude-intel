@@ -7,6 +7,31 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.671661+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.556024+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 91,
+        "end": 93,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

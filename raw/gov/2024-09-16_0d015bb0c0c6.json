@@ -7,15 +7,24 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.673410+08:00",
+  "collected_at": "2026-08-16T22:40:06.558828+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [
       {
         "text": "EHang",
         "label": "person",
-        "start": 50,
-        "end": 55,
+        "start": 53,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 109,
+        "end": 114,
         "engine": "spacy",
         "confidence": "low"
       }
@@ -38,6 +47,22 @@
         "confidence": "low"
       },
       {
+        "text": "亿航智",
+        "label": "org",
+        "start": 73,
+        "end": 76,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西国家民航局",
+        "label": "org",
+        "start": 94,
+        "end": 101,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
         "text": "亿航智能",
         "label": "org",
         "start": 14,
@@ -46,18 +71,18 @@
         "engine": "industry_dict"
       },
       {
-        "text": "亿航",
+        "text": "EHang",
         "label": "org",
-        "start": 14,
-        "end": 16,
+        "start": 53,
+        "end": 58,
         "confidence": "dict",
         "engine": "industry_dict"
       },
       {
-        "text": "EHang",
+        "text": "亿航",
         "label": "org",
-        "start": 50,
-        "end": 55,
+        "start": 14,
+        "end": 16,
         "confidence": "dict",
         "engine": "industry_dict"
       }
@@ -78,10 +103,32 @@
         "end": 5,
         "engine": "spacy",
         "confidence": "low"
+      },
+      {
+        "text": "巴西",
+        "label": "location",
+        "start": 59,
+        "end": 61,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 62,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
       }
     ],
     "dates": [],
     "relations": [
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "EHang",
+        "context": "-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang 巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶"
+      },
       {
         "person": "EHang",
         "title": "",

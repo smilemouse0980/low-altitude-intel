@@ -7,6 +7,39 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.543407+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.569421+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 8,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 36,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新华网",
+        "label": "org",
+        "start": 49,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

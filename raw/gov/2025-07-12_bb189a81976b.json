@@ -1,0 +1,70 @@
+{
+  "doc_id": "bb189a81976b",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cbcf98fa4921b67161f023c45318&url=https%3a%2f%2ffinance.sina.com.cn%2froll%2f2025-07-12%2fdoc-inffezhk9720934.shtml&c=16528777343465247377&mkt=en-us",
+  "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+  "content": "eVTOL技术的基础可以追溯到20世纪早期。最早的垂直起降飞行器（VTOL）技术出现在直升机中，例如西科斯基的VS-300，这是早期垂直起降技术的先驱。自2010年以来，随着电池技术的飞速进步，以及对无人机和自动驾驶技术的探索，eVTOL逐渐进入实质性发展阶段。",
+  "publish_date": "2025-07-12",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:40:16.100535+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 135,
+        "end": 138,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5,
+        "end": 7,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西科斯基",
+        "label": "location",
+        "start": 85,
+        "end": 89,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 0,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "20世纪早期",
+        "label": "date",
+        "start": 50,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2010年",
+        "label": "date",
+        "start": 112,
+        "end": 117,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

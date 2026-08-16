@@ -1,12 +1,77 @@
 {
   "doc_id": "8440e504c5f6",
-  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1NweklaaVVmRGhzdS00bTVqYjEtR2tibU1uZVRJNGhYRk1ZQTRvY2NyY3J1ckRBSVpvRlJDOTlOdXNLZ2Vua21EZWo4d3ZoYXZXd2l1T1JVZ3FfbmlaX3JLdU04U2x4eTVOcU1fb1FPY3R3ZjZSUnRzb0E0VkRscHdrMVlLSkli?oc=5",
+  "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
   "title": "彭州首台YIVTOL S-ZERO无人机完成总装下线 - 搜狐网",
-  "content": "彭州首台YIVTOL S-ZERO无人机完成总装下线搜狐网",
+  "content": "Hurricane Lala brings strong winds and heavy rain to Hawaii chevron_rightLala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands\napnews.com\nBy Ed White & Alexa St. John",
   "publish_date": "2026-08-15",
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.281656+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:04.059302+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "Lala",
+        "label": "person",
+        "start": 43,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "tropical",
+        "label": "person",
+        "start": 122,
+        "end": 130,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "彭州首台YIVTOL S",
+        "label": "org",
+        "start": 0,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "搜狐网 Hurricane",
+        "label": "org",
+        "start": 29,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Alexa",
+        "label": "org",
+        "start": 224,
+        "end": 229,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 17,
+        "end": 20,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "Lala",
+        "title": "",
+        "org": "无人机",
+        "context": "ZERO无人机完成总装下线 - 搜狐网 Hurricane Lala brings strong winds and heavy"
+      }
+    ]
+  }
 }

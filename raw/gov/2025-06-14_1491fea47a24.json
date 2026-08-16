@@ -7,6 +7,78 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.095497+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.086569+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "金良",
+        "label": "person",
+        "start": 12,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "金良",
+        "label": "person",
+        "start": 61,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "智航无人机创始人",
+        "label": "org",
+        "start": 0,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 2,
+        "end": 5,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "深圳市",
+        "label": "location",
+        "start": 37,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳市",
+        "label": "location",
+        "start": 83,
+        "end": 86,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "金良",
+        "title": "董事长",
+        "org": "无人机",
+        "context": "智航无人机创始人、董事长金良：创新为翼，逐梦低空-民营企业家典型事迹 - 深圳市发展和改"
+      },
+      {
+        "person": "金良",
+        "title": "董事长",
+        "org": "无人机",
+        "context": "型事迹 - 深圳市发展和改革委员会 智航无人机创始人、董事长金良：创新为翼，逐梦低空-民营企业家典型事迹深圳市发展和改革委员"
+      }
+    ]
+  }
 }

@@ -1,12 +1,37 @@
 {
   "doc_id": "f1cc1b080939",
   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LeWo4SDhRcVVOZ1NiSXZObUl0OVNodzVlVnVVakptU3Z0dHRmZTE4aDUzODhIbkE5UDF6UDd3VkhpWkNRdDh0RklmcFRybHVtTmdnT3JQQjZYTTNEdW1vakRn?oc=5",
-  "title": "万丰eVTOL完成韩国海上公开飞行 - bjnews.com.cn",
-  "content": "万丰eVTOL完成韩国海上公开飞行bjnews.com.cn",
+  "title": "万丰eVTOL完成韩国海上公开飞行 - 新京报",
+  "content": "万丰eVTOL完成韩国海上公开飞行新京报",
   "publish_date": "2026-07-31",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.660573+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.537653+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 9,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 33,
+        "end": 35,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

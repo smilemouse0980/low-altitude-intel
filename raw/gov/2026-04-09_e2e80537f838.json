@@ -7,6 +7,78 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.663301+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.542459+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "王",
+        "label": "person",
+        "start": 8,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "王",
+        "label": "person",
+        "start": 43,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "东方",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东方",
+        "label": "org",
+        "start": 35,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 10,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 45,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "王",
+        "title": "",
+        "org": "东方",
+        "context": "东方风起，驭空为王：上海剑指“世界eVTOL之都” - 潮新闻客户端 东方风起"
+      },
+      {
+        "person": "王",
+        "title": "",
+        "org": "东方",
+        "context": "指“世界eVTOL之都” - 潮新闻客户端 东方风起，驭空为王：上海剑指“世界eVTOL之都”潮新闻客户端"
+      }
+    ]
+  }
 }

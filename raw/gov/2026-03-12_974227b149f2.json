@@ -7,6 +7,70 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.671288+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.555185+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "谢陵",
+        "label": "person",
+        "start": 2,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "谢陵",
+        "label": "person",
+        "start": 34,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "搜狐网",
+        "label": "org",
+        "start": 28,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 14,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 46,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "谢陵",
+        "title": "",
+        "org": "搜狐网",
+        "context": "对话谢陵：低空经济加速出海，中国标准是“飞”出来的 - 搜狐网 对话"
+      },
+      {
+        "person": "谢陵",
+        "title": "",
+        "org": "搜狐网",
+        "context": "：低空经济加速出海，中国标准是“飞”出来的 - 搜狐网 对话谢陵：低空经济加速出海，中国标准是“飞”出来的搜狐网"
+      }
+    ]
+  }
 }

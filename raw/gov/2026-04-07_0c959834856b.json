@@ -7,6 +7,48 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.662698+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.541481+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "郭亮",
+        "label": "person",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "郭亮",
+        "label": "person",
+        "start": 49,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 3,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 52,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -7,6 +7,47 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.093199+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.083377+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "财联社",
+        "label": "person",
+        "start": 25,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "财联社",
+        "label": "org",
+        "start": 51,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 4,
+        "end": 7,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "财联社",
+        "title": "",
+        "org": "无人机",
+        "context": "我国民用无人机领域首项国标发布（附一图读懂） - 财联社 我国民用无人机领域首项国标发布（附一图读懂）财联社"
+      }
+    ]
+  }
 }

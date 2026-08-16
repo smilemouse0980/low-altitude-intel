@@ -7,15 +7,24 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.551476+08:00",
+  "collected_at": "2026-08-16T22:40:11.580662+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [
       {
-        "text": "陈聪华",
+        "text": "陈聪",
         "label": "person",
         "start": 44,
-        "end": 47,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "陈聪华",
+        "label": "person",
+        "start": 98,
+        "end": 101,
         "engine": "spacy",
         "confidence": "low"
       }
@@ -28,11 +37,34 @@
         "end": 41,
         "engine": "spacy",
         "confidence": "low"
+      },
+      {
+        "text": "通用航空科技有限公司",
+        "label": "org",
+        "start": 85,
+        "end": 95,
+        "engine": "spacy",
+        "confidence": "low"
       }
     ],
-    "locations": [],
+    "locations": [
+      {
+        "text": "华声",
+        "label": "location",
+        "start": 49,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "dates": [],
     "relations": [
+      {
+        "person": "陈聪",
+        "title": "董事长",
+        "org": "通用航空科技有限公司",
+        "context": "空经济新蓝海——对话湖南省元翼智飞通用航空科技有限公司董事长陈聪 - 华声在线 永州经开区·企航｜翱翔永州低空经济新蓝海——"
+      },
       {
         "person": "陈聪华",
         "title": "董事长",

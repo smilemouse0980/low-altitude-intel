@@ -7,6 +7,65 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.659176+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.536033+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 27,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 56,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5,
+        "end": 7,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 37,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 0,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 32,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

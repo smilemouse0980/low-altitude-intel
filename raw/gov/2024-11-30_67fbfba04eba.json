@@ -1,12 +1,62 @@
 {
   "doc_id": "67fbfba04eba",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ybVRvZDBBUlYxOTFVR0s1WW50cnV2UlRJZ0ZSX2I1R0hjb19vWWdUYW5pcWYtS2FkaVdqWXI2SUljMG1WM3N1elNHX09jZTJBM19ja3lQZ0xra0hsWXRCcGd6cFRWd3FTUHBmY2E4Sjg?oc=5",
-  "title": "中国吨级以上eVTOL航空器在日本首飞成功 - stdaily.com",
-  "content": "中国吨级以上eVTOL航空器在日本首飞成功stdaily.com",
+  "title": "中国吨级以上eVTOL航空器在日本首飞成功 - 中国科技网",
+  "content": "中国吨级以上eVTOL航空器在日本首飞成功中国科技网",
   "publish_date": "2024-11-30",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.670915+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.554579+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国科技网",
+        "label": "org",
+        "start": 51,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 15,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 24,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 45,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -1,12 +1,70 @@
 {
   "doc_id": "97ed5ee41eca",
   "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPS3loU19pc2Rfa0laMER2S1Z1T3B2LWhOeHNGNFBDOFZfRkxydTNoRjU5aDJvQUdGcEtPa1hfZW9TTEJrMDFEQ2g0dk1RaXRwaEFlTldnWWx3QUtWV3FyTlFaMEd6cUVUZ1hQMEdVQnVkd3lpU0RJUnVSbXA0VE1rWlNPWk96VW8xOXh5cGc5MzBsM2g5SmJtd0EtV1dsb3B4V3hNOHNtdUxFeGN6NWQtWnpwNjRIMmdZU2ZOa25lNGI1anJiV2w2MmhHV2stWklIc3NuSzlwaENuNXhLSDBXbWRQU3lqZDk5cmdpTmNoWFR3ODNPdjVRaTh6R0h3ejAzRVNYZ2tHdWZqUk5RdzRxQnlvd1NRWU01bHJPTUpuQzlvYzNMUUtNVHIxY3RGSnZRQlJVOFpqUlRjeTdjbkwxUE9OeWY3VUpKYWE4cDNERk1OQlZOQ1l1QmxVVEMtanQtWVBndEFDdUU1NlpmbWR0TTZsVkotcmZZdmE5cnlxSHNXUFlqWnVzeE9wSk1nSVhzeEZxQi1YaGZtMkxlOWsxcDg4MkJYQ0tmOGRjNVgtdHY?oc=5",
-  "title": "美联邦通信委员会改变政策 允许进口中国新款玩具无人机 - rfi.fr",
-  "content": "美联邦通信委员会改变政策 允许进口中国新款玩具无人机rfi.fr",
+  "title": "美联邦通信委员会改变政策 允许进口中国新款玩具无人机 - RFI",
+  "content": "美联邦通信委员会改变政策 允许进口中国新款玩具无人机RFI",
   "publish_date": "2026-06-17",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.082072+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.067026+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "联邦通信委员会",
+        "label": "org",
+        "start": 1,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美联邦通信委员会",
+        "label": "org",
+        "start": 33,
+        "end": 41,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 23,
+        "end": 26,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "美",
+        "label": "location",
+        "start": 0,
+        "end": 1,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 17,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 50,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

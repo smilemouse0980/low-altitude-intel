@@ -7,8 +7,9 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:16:22.817419+08:00",
+  "collected_at": "2026-08-16T22:40:09.090527+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -17,6 +18,14 @@
         "label": "org",
         "start": 5,
         "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港科大",
+        "label": "org",
+        "start": 82,
+        "end": 86,
         "engine": "spacy",
         "confidence": "low"
       },

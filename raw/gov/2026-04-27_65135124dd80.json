@@ -7,6 +7,65 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.083810+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.069853+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "大疆",
+        "label": "org",
+        "start": 15,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 36,
+        "end": 38,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 2,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 38,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

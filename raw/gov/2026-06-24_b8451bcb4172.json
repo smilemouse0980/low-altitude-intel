@@ -1,0 +1,37 @@
+{
+  "doc_id": "b8451bcb4172",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cbcf98fa4921b67161f023c45318&url=https%3a%2f%2ffinance.sina.com.cn%2fstock%2frelnews%2fhk%2f2026-06-24%2fdoc-inienxzt8209005.shtml&c=979071414759732870&mkt=en-us",
+  "title": "2026年中国eVTOL产业链图谱及投资布局分析",
+  "content": "eVTOL产业链上游为原材料与核心零部件，原材料包括金属材料、碳纤维材料，核心零部件包括动力电池、电机、电控、飞控系统、航电系统、高精度导航定位、低空通信、机载感知传感器、连接器 / 线束、机体结构件；中游为eVTOL整机制造，产品为多旋翼构型eVTOL ...",
+  "publish_date": "2026-06-24",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:40:16.101389+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5,
+        "end": 7,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 0,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

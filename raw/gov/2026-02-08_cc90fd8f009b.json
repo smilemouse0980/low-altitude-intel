@@ -1,12 +1,45 @@
 {
   "doc_id": "cc90fd8f009b",
   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAta0pRTVdNTTh3T2d0SThJTVZtZTlPdFRIOVNOMjBTT2c1dlhNM29qa1RYbmlqandrWDRfX3ZqZHpHOFB6eklzTEItbUZ0UVJjQWhHUU5hdw?oc=5",
-  "title": "美国联邦航空管理局近期调整了无人机监管政策 - wedoany.com",
-  "content": "美国联邦航空管理局近期调整了无人机监管政策wedoany.com",
+  "title": "美国联邦航空管理局近期调整了无人机监管政策 - 维度网",
+  "content": "美国联邦航空管理局近期调整了无人机监管政策维度网",
   "publish_date": "2026-02-08",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.087808+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.076084+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "美国联邦航空管理局",
+        "label": "org",
+        "start": 0,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国联邦航空管理局",
+        "label": "org",
+        "start": 28,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 14,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

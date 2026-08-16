@@ -7,6 +7,86 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.558434+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.585566+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 45,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 93,
+        "end": 98,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 8,
+        "end": 12,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 45,
+        "end": 50,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 8,
+        "end": 10,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 13,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 64,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "EHang",
+        "context": "市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang “低空+应急”！亿航智能与北京市房山区政府达成战略合作，打"
+      },
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "EHang",
+        "context": "与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
+      }
+    ]
+  }
 }

@@ -1,12 +1,53 @@
 {
   "doc_id": "d88552635c23",
   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aUUlSTlVMR2JwWnVGS29iSGNWTEVzX0ZQaTZZbEhHbUV2djFMdTY2bmRvUUhXbk5wZUpHdTNtbk5TQy1VZ25ERmVETUNWV1NhZmliTmFMYmVNVktrY25qdF9B?oc=5",
-  "title": "中国eVTOL在哈萨克斯坦完成公开飞行 - bjnews.com.cn",
-  "content": "中国eVTOL在哈萨克斯坦完成公开飞行bjnews.com.cn",
+  "title": "中国eVTOL在哈萨克斯坦完成公开飞行 - 新京报",
+  "content": "中国eVTOL在哈萨克斯坦完成公开飞行新京报",
   "publish_date": "2026-07-25",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.657754+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.533722+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 8,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 26,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 34,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

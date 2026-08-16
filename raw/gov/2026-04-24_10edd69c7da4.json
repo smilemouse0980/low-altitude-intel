@@ -7,6 +7,89 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.548776+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.567894+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "zgjtb.com",
+        "label": "person",
+        "start": 28,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 9,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 47,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 14,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "京",
+        "label": "location",
+        "start": 22,
+        "end": 23,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京",
+        "label": "location",
+        "start": 60,
+        "end": 61,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 38,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "zgjtb.com",
+        "title": "",
+        "org": "无人机",
+        "context": "2026（第四届）通用航空与无人机发展大会在京启幕 - zgjtb.com 2026（第四届）通用航空与无人机发展大会在京启幕zgjt"
+      }
+    ]
+  }
 }

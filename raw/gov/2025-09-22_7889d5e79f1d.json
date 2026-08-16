@@ -7,6 +7,31 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.089173+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.078240+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 12,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 46,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

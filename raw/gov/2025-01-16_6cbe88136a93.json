@@ -7,6 +7,86 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.673604+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.559137+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 46,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 95,
+        "end": 100,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 46,
+        "end": 51,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 20,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 72,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "EHang",
+        "context": "VTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang 亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中"
+      },
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "EHang",
+        "context": "驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+      }
+    ]
+  }
 }

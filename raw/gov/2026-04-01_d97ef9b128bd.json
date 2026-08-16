@@ -7,6 +7,48 @@
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.287264+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:04.071273+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "深圳",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳",
+        "label": "location",
+        "start": 34,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 7,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 41,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

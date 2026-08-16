@@ -1,0 +1,55 @@
+{
+  "doc_id": "c6dd031916c2",
+  "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+  "title": "重庆：17条举措助力低空经济飞得稳飞得高 - 重庆市人民政府",
+  "content": "Hurricane Lala brings strong winds and heavy rain to Hawaii chevron_rightLala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands\napnews.com\nBy Ed White & Alexa St. John",
+  "publish_date": "2026-08-15",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T22:40:04.062584+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "Lala",
+        "label": "person",
+        "start": 41,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "tropical",
+        "label": "person",
+        "start": 120,
+        "end": 128,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "Alexa",
+        "label": "org",
+        "start": 222,
+        "end": 227,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

@@ -7,6 +7,55 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.549748+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.576807+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "徐昌东",
+        "label": "person",
+        "start": 0,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "徐昌东",
+        "label": "person",
+        "start": 39,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "美中时报",
+        "label": "org",
+        "start": 34,
+        "end": 38,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美中时报",
+        "label": "org",
+        "start": 70,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "徐昌东",
+        "title": "",
+        "org": "美中时报",
+        "context": "新企业领袖奖” 深耕低空经济践行航空报国使命 - 美中时报 徐昌东荣膺“全球创新企业领袖奖” 深耕低空经济践行航空报国使命美中"
+      }
+    ]
+  }
 }

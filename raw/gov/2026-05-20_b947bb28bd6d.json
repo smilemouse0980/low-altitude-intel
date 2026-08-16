@@ -7,6 +7,80 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.659978+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.536718+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "湖北日报传媒集团",
+        "label": "org",
+        "start": 32,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "湖北日报传媒集团",
+        "label": "org",
+        "start": 70,
+        "end": 78,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 14,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "湖北",
+        "label": "location",
+        "start": 20,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 42,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 55,
+        "end": 57,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "湖北",
+        "label": "location",
+        "start": 61,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

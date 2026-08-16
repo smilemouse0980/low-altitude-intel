@@ -7,6 +7,77 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.660763+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.538019+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 12,
+        "end": 15,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 53,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "四川频道",
+        "label": "org",
+        "start": 36,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "人民网－",
+        "label": "org",
+        "start": 70,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川频道",
+        "label": "org",
+        "start": 74,
+        "end": 78,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 12,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "eVTOL关键技术攻克！沃兰特完成国内首次有人驾驶转换飞行 - 人民网－四川频道 eVTO"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "驾驶转换飞行 - 人民网－四川频道 eVTOL关键技术攻克！沃兰特完成国内首次有人驾驶转换飞行人民网－四川频道"
+      }
+    ]
+  }
 }

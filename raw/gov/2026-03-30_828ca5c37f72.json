@@ -7,6 +7,23 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.661353+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.538960+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "成飞",
+        "label": "org",
+        "start": 15,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

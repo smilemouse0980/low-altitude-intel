@@ -7,6 +7,48 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.671473+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.555532+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 17,
+        "end": 19,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 27,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 69,
+        "end": 71,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "网易网",
+        "label": "location",
+        "start": 77,
+        "end": 80,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

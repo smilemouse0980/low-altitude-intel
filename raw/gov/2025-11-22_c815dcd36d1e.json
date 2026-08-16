@@ -7,6 +7,47 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.664098+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.543690+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "峰飞航空研发推出",
+        "label": "org",
+        "start": 0,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空研发推出",
+        "label": "org",
+        "start": 38,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

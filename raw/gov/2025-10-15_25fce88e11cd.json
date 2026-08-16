@@ -7,6 +7,39 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.671860+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.556336+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 47,
+        "end": 49,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华映Family新浪",
+        "label": "org",
+        "start": 88,
+        "end": 98,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

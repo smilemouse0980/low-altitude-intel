@@ -7,6 +7,56 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.084249+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.070461+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "郑丽",
+        "label": "person",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 8,
+        "end": 11,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "台湾",
+        "label": "location",
+        "start": 15,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "台湾",
+        "label": "location",
+        "start": 54,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "郑丽",
+        "title": "",
+        "org": "无人机",
+        "context": "郑丽文点了一杯“无人机奶茶”，台湾低空经济政策开始酝酿-观察者网"
+      }
+    ]
+  }
 }

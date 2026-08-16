@@ -7,6 +7,47 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.083441+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.069231+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "搜狐网",
+        "label": "org",
+        "start": 57,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "DJI",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "大疆",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 12,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -7,6 +7,72 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.548982+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.574703+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "Flight",
+        "label": "person",
+        "start": 76,
+        "end": 82,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "Bell 新闻中心",
+        "label": "org",
+        "start": 19,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Bell Flight",
+        "label": "org",
+        "start": 31,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Bell 新闻中心",
+        "label": "org",
+        "start": 62,
+        "end": 71,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "安徽",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "安徽",
+        "label": "location",
+        "start": 43,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "Flight",
+        "title": "",
+        "org": "Bell Flight",
+        "context": "在低空经济浪潮中彰显卓越实力| Bell 新闻中心Bell Flight"
+      }
+    ]
+  }
 }

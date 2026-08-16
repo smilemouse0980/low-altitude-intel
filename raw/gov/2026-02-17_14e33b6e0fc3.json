@@ -7,6 +7,64 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.661935+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.540222+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "央视",
+        "label": "org",
+        "start": 19,
+        "end": 21,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "央视",
+        "label": "org",
+        "start": 61,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 15,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 57,
+        "end": 61,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

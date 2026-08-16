@@ -7,6 +7,55 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.566137+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.588535+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "华彬航空集团",
+        "label": "org",
+        "start": 5,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华彬航空集团",
+        "label": "org",
+        "start": 49,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 38,
+        "end": 43,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -7,6 +7,64 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.662129+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.540527+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 12,
+        "end": 16,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 12,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 17,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 44,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 61,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

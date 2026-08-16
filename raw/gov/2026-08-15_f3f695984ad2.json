@@ -1,0 +1,70 @@
+{
+  "doc_id": "f3f695984ad2",
+  "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+  "title": "峰飞航空亮相2026国际低空经济博览会，携手顺丰打造海上风电低空运维方案 - jfdaily.com",
+  "content": "Hurricane Lala brings strong winds and heavy rain to Hawaii chevron_rightLala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands\napnews.com\nBy Ed White & Alexa St. John",
+  "publish_date": "2026-08-15",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T22:40:04.066343+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "Lala",
+        "label": "person",
+        "start": 61,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "brings",
+        "label": "person",
+        "start": 66,
+        "end": 72,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "tropical",
+        "label": "person",
+        "start": 140,
+        "end": 148,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "Alexa",
+        "label": "org",
+        "start": 242,
+        "end": 247,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

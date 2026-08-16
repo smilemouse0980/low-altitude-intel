@@ -7,6 +7,56 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.546392+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.567574+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 12,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "南航",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南海",
+        "label": "location",
+        "start": 6,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南航",
+        "label": "location",
+        "start": 50,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南海",
+        "label": "location",
+        "start": 56,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

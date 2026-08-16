@@ -1,0 +1,134 @@
+{
+  "doc_id": "c7bdc4ef7aab",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cbcf98fa4921b67161f023c45318&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20260812A08GCJ00&c=10318740810389791738&mkt=en-us",
+  "title": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ...",
+  "content": "中经记者 杨让晨 上海报道（沃兰特旗下VE25-100。 杨让晨/摄影）自2021年“低空经济”一词首度写入国家规划以来，eVTOL（即electric Vertical Take-off and Landing，电动垂直起降航空器）开始迅速发展。近年来，不断有eVTOL企业订单落地。日前，eVTOL头部企业沃兰特宣布，与印尼头部直升机运营公司WhiteSky ...",
+  "publish_date": "2026-08-12",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:40:16.100977+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 15,
+        "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "杨让晨",
+        "label": "person",
+        "start": 48,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 57,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "杨让晨",
+        "label": "person",
+        "start": 72,
+        "end": 75,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 198,
+        "end": 201,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 52,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 205,
+        "end": 207,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 80,
+        "end": 85,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 167,
+        "end": 170,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ... 中经记者"
+      },
+      {
+        "person": "杨让晨",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "CEO董明：未来5—10年才是eVTOL ... 中经记者 杨让晨 上海报道（沃兰特旗下VE25-100。 杨让晨/摄影）自2"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "—10年才是eVTOL ... 中经记者 杨让晨 上海报道（沃兰特旗下VE25-100。 杨让晨/摄影）自2021年“低空经济"
+      },
+      {
+        "person": "杨让晨",
+        "title": "",
+        "org": "沃兰特",
+        "context": "中经记者 杨让晨 上海报道（沃兰特旗下VE25-100。 杨让晨/摄影）自2021年“低空经济”一词首度写入国家规划以来，e"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "年来，不断有eVTOL企业订单落地。日前，eVTOL头部企业沃兰特宣布，与印尼头部直升机运营公司WhiteSky ..."
+      }
+    ]
+  }
+}

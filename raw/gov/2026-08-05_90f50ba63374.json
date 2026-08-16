@@ -1,14 +1,15 @@
 {
   "doc_id": "90f50ba63374",
   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTandIZkZKYzBiTEpWVDB5MG10d0d0bGJvc0FDeGxZNnIwTng1RU1iZ3J4ZGpsTjlyWDd6dnU3TW56MkstbDFvVWxqOGJLOUlOLXJzX1B6YmU3Nmk1a213UA?oc=5",
-  "title": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨2.02% - 东方财富",
-  "content": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨2.02%东方财富",
+  "title": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨2.02% - eastmoney.com",
+  "content": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨2.02%eastmoney.com",
   "publish_date": "2026-08-05",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.542481+08:00",
+  "collected_at": "2026-08-16T22:40:11.562103+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -27,6 +28,22 @@
         "end": 50,
         "engine": "spacy",
         "confidence": "low"
+      },
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 103,
+        "end": 107,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题",
+        "label": "org",
+        "start": 134,
+        "end": 140,
+        "engine": "spacy",
+        "confidence": "low"
       }
     ],
     "locations": [],
@@ -36,6 +53,14 @@
         "label": "date",
         "start": 65,
         "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "昨日",
+        "label": "date",
+        "start": 155,
+        "end": 157,
         "engine": "spacy",
         "confidence": "low"
       }

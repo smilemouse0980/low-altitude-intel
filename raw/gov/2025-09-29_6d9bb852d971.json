@@ -7,8 +7,9 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.092616+08:00",
+  "collected_at": "2026-08-16T22:40:09.083088+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -28,6 +29,14 @@
         "label": "date",
         "start": 25,
         "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2035年",
+        "label": "date",
+        "start": 87,
+        "end": 92,
         "engine": "spacy",
         "confidence": "low"
       }

@@ -7,6 +7,80 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:16:23.368771+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.092174+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "美国之音",
+        "label": "org",
+        "start": 28,
+        "end": 32,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国之音",
+        "label": "org",
+        "start": 58,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "大疆",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 2,
+        "end": 5,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "美",
+        "label": "location",
+        "start": 8,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 12,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 41,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 45,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

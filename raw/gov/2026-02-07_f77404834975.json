@@ -7,6 +7,23 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.664288+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.544038+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "人民日报",
+        "label": "org",
+        "start": 16,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

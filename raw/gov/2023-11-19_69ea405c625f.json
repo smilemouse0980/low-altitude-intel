@@ -7,6 +7,48 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.092421+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.082479+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "广州市人民政府",
+        "label": "org",
+        "start": 55,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 0,
+        "end": 3,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "粤",
+        "label": "location",
+        "start": 17,
+        "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "粤",
+        "label": "location",
+        "start": 50,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

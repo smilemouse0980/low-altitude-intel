@@ -1,12 +1,46 @@
 {
   "doc_id": "6d8d45d2d9ee",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aTFM5WDJUenBPOGtpZnZwTmlIeGNEYWpXQkNCd24taUk4a2h4MmhvTVlaX25Gb3RCemk4cDZ0bFRqU0x1X0J6ZThoOWYwV3RhYmlaQWtoX3c1M1RaMExHeU1vRGcydmpGaUw4TElSVVg?oc=5",
-  "title": "深瞳丨无人机考证热潮下，复合型飞手短缺困局如何破 - stdaily.com",
-  "content": "深瞳丨无人机考证热潮下，复合型飞手短缺困局如何破stdaily.com",
+  "title": "深瞳丨无人机考证热潮下，复合型飞手短缺困局如何破 - 中国科技网",
+  "content": "深瞳丨无人机考证热潮下，复合型飞手短缺困局如何破中国科技网",
   "publish_date": "2025-08-06",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.087050+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.074472+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 3,
+        "end": 6,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 27,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 57,
+        "end": 59,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -7,8 +7,9 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.544011+08:00",
+  "collected_at": "2026-08-16T22:40:11.565011+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -31,8 +32,32 @@
       {
         "text": "财联社",
         "label": "org",
-        "start": 59,
-        "end": 62,
+        "start": 62,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 79,
+        "end": 83,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题指数",
+        "label": "org",
+        "start": 110,
+        "end": 118,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "财联社",
+        "label": "org",
+        "start": 125,
+        "end": 128,
         "engine": "spacy",
         "confidence": "low"
       }

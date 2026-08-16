@@ -1,0 +1,69 @@
+{
+  "doc_id": "d7d4a7472f52",
+  "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+  "title": "“低空经济和太空经济自主知识体系联盟”在中国人民大学成立 - 中国社会科学网",
+  "content": "Hurricane Lala brings strong winds and heavy rain to Hawaii chevron_rightLala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands\napnews.com\nBy Ed White & Alexa St. John",
+  "publish_date": "2026-08-15",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T22:40:04.067777+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "brings",
+        "label": "person",
+        "start": 54,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "tropical",
+        "label": "person",
+        "start": 128,
+        "end": 136,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "中国人民大学",
+        "label": "org",
+        "start": 20,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国社会科学网 Hurricane",
+        "label": "org",
+        "start": 31,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Alexa",
+        "label": "org",
+        "start": 230,
+        "end": 235,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "brings",
+        "title": "",
+        "org": "中国社会科学网 Hurricane",
+        "context": "大学成立 - 中国社会科学网 Hurricane Lala brings strong winds and heavy rain t"
+      }
+    ]
+  }
+}

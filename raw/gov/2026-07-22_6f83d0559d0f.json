@@ -7,6 +7,65 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:28.544799+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:11.563731+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "国际通用航空博览会",
+        "label": "org",
+        "start": 4,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "武汉",
+        "label": "location",
+        "start": 27,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "武汉",
+        "label": "location",
+        "start": 80,
+        "end": 82,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "9月29日至10月3日",
+        "label": "date",
+        "start": 15,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "9月29日至10月3日",
+        "label": "date",
+        "start": 68,
+        "end": 79,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
 }

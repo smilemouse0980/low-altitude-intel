@@ -7,6 +7,64 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:23.668473+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:06.550858+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "贵州省",
+        "label": "location",
+        "start": 2,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "缅华网",
+        "label": "location",
+        "start": 26,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 30,
+        "end": 32,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "贵州省",
+        "label": "location",
+        "start": 32,
+        "end": 35,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -7,8 +7,9 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.084631+08:00",
+  "collected_at": "2026-08-16T22:40:09.071090+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
@@ -17,6 +18,14 @@
         "label": "org",
         "start": 4,
         "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "世界无人机大会",
+        "label": "org",
+        "start": 63,
+        "end": 70,
         "engine": "spacy",
         "confidence": "low"
       },
@@ -36,6 +45,14 @@
         "label": "date",
         "start": 0,
         "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 59,
+        "end": 63,
         "engine": "spacy",
         "confidence": "low"
       }

@@ -7,31 +7,40 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.094916+08:00",
+  "collected_at": "2026-08-16T22:40:09.086893+08:00",
   "quality_flag": "pending",
+  "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
       {
         "text": "新浪",
         "label": "org",
-        "start": 46,
-        "end": 48,
+        "start": 49,
+        "end": 51,
         "engine": "spacy",
         "confidence": "low"
       },
       {
-        "text": "美团无人机",
+        "text": "新浪",
         "label": "org",
-        "start": 10,
-        "end": 15,
-        "confidence": "dict",
-        "engine": "industry_dict"
+        "start": 100,
+        "end": 102,
+        "engine": "spacy",
+        "confidence": "low"
       },
       {
         "text": "无人机",
         "label": "org",
         "start": 12,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "美团无人机",
+        "label": "org",
+        "start": 10,
         "end": 15,
         "confidence": "dict",
         "engine": "industry_dict"
@@ -45,6 +54,14 @@
         "end": 20,
         "engine": "spacy",
         "confidence": "low"
+      },
+      {
+        "text": "香港特别",
+        "label": "location",
+        "start": 70,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
       }
     ],
     "dates": [
@@ -53,6 +70,14 @@
         "label": "date",
         "start": 30,
         "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "|",
+        "label": "date",
+        "start": 84,
+        "end": 85,
         "engine": "spacy",
         "confidence": "low"
       }

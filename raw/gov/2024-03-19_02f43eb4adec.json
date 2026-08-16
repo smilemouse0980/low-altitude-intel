@@ -7,6 +7,48 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.096659+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.088696+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "谢锋",
+        "label": "person",
+        "start": 13,
+        "end": 15,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "谢锋",
+        "label": "person",
+        "start": 62,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "珠海市",
+        "label": "location",
+        "start": 2,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海市",
+        "label": "location",
+        "start": 51,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

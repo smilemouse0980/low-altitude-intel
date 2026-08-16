@@ -1,12 +1,46 @@
 {
   "doc_id": "6879dce60b9b",
   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNFhtWTV4RDg4aFlpVlZTVU5HMVg1UXdBbkdwUkE1S2dWYTZUOVFDUWlVTDdfVW5UWTFjN0xnRWhaMnY5dGI2RThrbDdnbWJqWEt5OTgtX045YjI2MDRlR2h3?oc=5",
-  "title": "心存侥幸，两人在北京持无人机“黑飞”被行政处罚 - bjnews.com.cn",
-  "content": "心存侥幸，两人在北京持无人机“黑飞”被行政处罚bjnews.com.cn",
+  "title": "心存侥幸，两人在北京持无人机“黑飞”被行政处罚 - 新京报",
+  "content": "心存侥幸，两人在北京持无人机“黑飞”被行政处罚新京报",
   "publish_date": "2026-03-17",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.082464+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.067633+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 8,
+        "end": 10,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

@@ -1,12 +1,46 @@
 {
   "doc_id": "acec8bf80df2",
   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFeEswWndIWllqaF85MFpXMjBfSDVEcmstUklvNkpsbklJMHlfR0dXaXlocElUQlpVYlk4clh6akliY0pyVjcwVlpWNG15akJzOVdweGVUZ0t5ckZ3UmhaSWd3?oc=5",
-  "title": "这些事项要注意！北京警方公布3类违反“无人机新规”典型案例 - bjnews.com.cn",
-  "content": "这些事项要注意！北京警方公布3类违反“无人机新规”典型案例bjnews.com.cn",
+  "title": "这些事项要注意！北京警方公布3类违反“无人机新规”典型案例 - 新京报",
+  "content": "这些事项要注意！北京警方公布3类违反“无人机新规”典型案例新京报",
   "publish_date": "2026-05-27",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.080949+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:40:09.065633+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 19,
+        "end": 22,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 8,
+        "end": 10,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 44,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }
