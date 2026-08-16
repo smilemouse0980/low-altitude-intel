@@ -139,12 +139,11 @@ class IntelPipeline:
                                 url_match = _re.search(r'<meta[^>]+http-equiv=["\']refresh["\'][^>]+url=([^"\'>\s]+)', resp.text, _re.IGNORECASE)
                             if not url_match:
                                 url_match = _re.search(r'og:url["\']\s+content=["\'](https?://[^"\']+)', resp.text)
-                            if not url_match:
-                                url_match = _re.search(r'<a[^>]+class=["\'][^"]*article[^"]*["\'][^>]+href=["\'](https?://[^"\']+)', resp.text)
-                            if not url_match:
-                                url_match = _re.search(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', resp.text)
                             if url_match:
                                 final_url = url_match.group(1)
+                                # 如果提取的 URL 仍然是 Google News，放弃
+                                if 'news.google.com' in final_url:
+                                    return ('gn_unresolved', record)
                             else:
                                 return ('gn_unresolved', record)
                         url = final_url
