@@ -123,30 +123,43 @@ class IntelPipeline:
             """单条记录的全文提取"""
             url = record.get('url', '')
             try:
-                # Step 1: 用 requests 获取页面（跟随重定向）
+                # 如果 URL 仍然是 Google News 跳转链接，先解析真实 URL
+                if 'news.google.com' in url:
+                    try:
+                        resp = session.get(url, timeout=15, allow_redirects=True)
+                        final_url = resp.url
+                        if 'news.google.com' in final_url:
+                            import re as _re
+                            url_match = _re.search(r'data-n-au="([^"]+)"', resp.text)
+                            if not url_match:
+                                url_match = _re.search(r'window\.location\.replace\(["\']([^"\']+)', resp.text)
+                            if not url_match:
+                                url_match = _re.search(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', resp.text)
+                            if url_match:
+                                final_url = url_match.group(1)
+                            else:
+                                return ('gn_unresolved', record)
+                        url = final_url
+                        record['url'] = final_url
+                    except Exception:
+                        return ('gn_error', record)
+
                 resp = session.get(url, timeout=15, allow_redirects=True)
                 final_url = resp.url
                 resp.encoding = resp.apparent_encoding or 'utf-8'
                 html_content = resp.text
 
-                # Step 2: 用 Trafilatura 提取正文
                 text = trafilatura.extract(
-                    html_content,
-                    include_comments=False,
-                    include_tables=True,
-                    favor_precision=True,
-                    url=final_url
+                    html_content, include_comments=False,
+                    include_tables=True, favor_precision=True, url=final_url
                 )
 
                 if text and len(text) > 100:
                     record['content'] = text[:8000]
-                    record['url'] = final_url  # 更新为最终 URL
-                    # 尝试提取元数据
+                    record['url'] = final_url
                     metadata = trafilatura.extract(
-                        html_content,
-                        output_format='json',
-                        with_metadata=True,
-                        url=final_url
+                        html_content, output_format='json',
+                        with_metadata=True, url=final_url
                     )
                     if metadata:
                         import json as _json
@@ -158,33 +171,48 @@ class IntelPipeline:
                             record['publisher'] = self.parser._normalize_org_name(metadata.get('sitename', ''))
                     return ('ok', record)
                 else:
+                    # Trafilatura 失败，用 BeautifulSoup 回退
+                    from bs4 import BeautifulSoup as _bs
+                    soup = _bs(html_content, 'html.parser')
+                    for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside']):
+                        tag.decompose()
+                    body_text = soup.get_text(separator='\n', strip=True)
+                    if len(body_text) > 200:
+                        record['content'] = body_text[:8000]
+                        return ('bs4_ok', record)
                     return ('empty', record)
             except req.exceptions.Timeout:
                 return ('timeout', record)
-            except Exception as e:
+            except req.exceptions.ConnectionError:
+                return ('conn_error', record)
+            except Exception:
                 return ('error', record)
 
         # 并发抓取（5 线程）
         MAX_WORKERS = 5
         success_count = 0
         fail_count = 0
+        status_counts = {}
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             futures = {executor.submit(fetch_and_parse, r): r for r in to_parse}
             for i, future in enumerate(as_completed(futures, timeout=300)):
                 try:
                     status, record = future.result(timeout=60)
-                    if status == 'ok':
+                    status_counts[status] = status_counts.get(status, 0) + 1
+                    if status in ('ok', 'bs4_ok'):
                         success_count += 1
                         self.stats['parsed'] += 1
-                        if (i + 1) % 10 == 0:
-                            logger.info(f"  进度: {i+1}/{len(to_parse)} | 成功: {success_count} 失败: {fail_count}")
                     else:
                         fail_count += 1
+                    if (i + 1) % 10 == 0:
+                        logger.info(f"  进度: {i+1}/{len(to_parse)} | 成功: {success_count} 失败: {fail_count}")
                 except Exception as e:
                     fail_count += 1
+                    status_counts['exception'] = status_counts.get('exception', 0) + 1
                     logger.warning(f"  并发异常: {type(e).__name__}: {e}")
 
+        logger.info(f"  状态分布: {status_counts}")
         logger.info(f"解析完成：{success_count} 成功 / {fail_count} 失败 / {len(to_parse)} 总计")
         return raw_records
 
