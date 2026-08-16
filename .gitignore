@@ -23,13 +23,15 @@ ENV/
 *.swo
 *~
 
-# Data files (采集数据不入库)
-raw/
-processed/
-logs/
-*.log
+# Data files — 采集数据入库（GitHub Actions 自动提交）
+# 排除大型中间文件，保留 JSON 数据
+raw/feeds/*.tmp
+raw/gov/*.tmp
+raw/associations/*.tmp
+processed/*.tmp
+logs/*.log
 
-# Reports (报告保留但大文件排除)
+# Reports — 报告数据保留
 reports/*.zip
 
 # OS
