@@ -1,0 +1,46 @@
+{
+  "doc_id": "32885c2950fe",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1neVdvMzh6QnpSRXJ0UDVHQ3ZoQVZndlJZVkYtZ3RCVjdFUm5scmdQQkQzckVOc3E1a1FUUEtZVXBwRkszYjMtWVI1Mkt3UE1QcVFpc0pDMVZGTzdtWHR1bGRDVlFMNTlIVHRHMG00SXZ2V29MSzBBSE1udE4?oc=5",
+  "title": "每日一词 | 低空经济标准体系 system of standards for the low-altitude economy - 中国日报网",
+  "content": "每日一词 | 低空经济标准体系 system of standards for the low-altitude economy中国日报网",
+  "publish_date": "2026-02-09",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T22:02:42.047237+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "for",
+        "label": "person",
+        "start": 36,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 64,
+        "end": 66,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "日报网",
+        "label": "date",
+        "start": 66,
+        "end": 69,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}
