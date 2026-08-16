@@ -1,0 +1,60 @@
+{
+  "doc_id": "f58a851618d9",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.yicai.com%2fnews%2f103291383.html&c=12640427900631352197&mkt=en-us",
+  "title": "从能飞到好用，中国eVTOL出海落地提速",
+  "content": "当前，正值低空经济从产业热度走向场景落地的关键阶段。目前来看，受政策友好度、市场需求、地理距离以及认证与监管环境等因素的影响，中亚、东南亚以及中东是中国低空企业出海的首选目的地，短途岛际和岛内运输、应急救援以及机场到酒店或景区的“最后一公里”成为eVTOL的主要应用场景。",
+  "publish_date": "2026-07-24",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:47:20.169162+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 7,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 84,
+        "end": 86,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 87,
+        "end": 90,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 92,
+        "end": 94,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 95,
+        "end": 97,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

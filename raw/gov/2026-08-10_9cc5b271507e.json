@@ -7,6 +7,78 @@
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.271057+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:47:08.176637+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "北斗",
+        "label": "person",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北斗",
+        "label": "person",
+        "start": 31,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "上海频道",
+        "label": "org",
+        "start": 26,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海频道",
+        "label": "org",
+        "start": 54,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "崇明",
+        "label": "location",
+        "start": 12,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "崇明",
+        "label": "location",
+        "start": 43,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "北斗",
+        "title": "",
+        "org": "上海频道",
+        "context": "北斗低空经济产业综合体在崇明绿华镇投用 - 人民网-上海频道 北"
+      },
+      {
+        "person": "北斗",
+        "title": "",
+        "org": "上海频道",
+        "context": "斗低空经济产业综合体在崇明绿华镇投用 - 人民网-上海频道 北斗低空经济产业综合体在崇明绿华镇投用人民网-上海频道"
+      }
+    ]
+  }
 }

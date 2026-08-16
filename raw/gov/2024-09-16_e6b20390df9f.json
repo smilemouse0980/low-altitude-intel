@@ -7,7 +7,7 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.560981+08:00",
+  "collected_at": "2026-08-16T22:47:10.755306+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -71,18 +71,18 @@
         "engine": "industry_dict"
       },
       {
-        "text": "EHang",
-        "label": "org",
-        "start": 53,
-        "end": 58,
-        "confidence": "dict",
-        "engine": "industry_dict"
-      },
-      {
         "text": "亿航",
         "label": "org",
         "start": 14,
         "end": 16,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 53,
+        "end": 58,
         "confidence": "dict",
         "engine": "industry_dict"
       }
@@ -126,13 +126,13 @@
       {
         "person": "EHang",
         "title": "",
-        "org": "EHang",
+        "org": "亿航智",
         "context": "-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang 巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶"
       },
       {
         "person": "EHang",
         "title": "",
-        "org": "EHang",
+        "org": "巴西国家民航局",
         "context": "216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
       }
     ]

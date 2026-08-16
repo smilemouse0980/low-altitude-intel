@@ -1,0 +1,53 @@
+{
+  "doc_id": "4045f76fbc00",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.msn.com%2fzh-cn%2fnews%2fother%2f%25E5%25B3%25B0%25E9%25A3%259E%25E8%2588%25AA%25E7%25A9%25BAevtol%25E5%258A%25A9%25E5%258A%259B%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BD%258E%25E7%25A9%25BA%25E7%25BB%258F%25E6%25B5%258E%25E8%25BF%2588%25E5%2590%2591%25E4%25B8%2587%25E4%25BA%25BF%25E5%25B8%2582%25E5%259C%25BA%2far-AA1AmlOx&c=12913698866766842316&mkt=en-us",
+  "title": "峰飞航空eVTOL助力中国低空经济迈向万亿市场",
+  "content": "近年来，随着全球对绿色交通和城市立体化出行的需求激增，以电动垂直起降航空器(eVTOL)为核心的“飞行汽车”概念迅速崛起，成为低空经济领域最受瞩目的赛道之一。作为中国eVTOL行业的领军企业，峰飞航空近期斩获汉阳投资发展集团12架大型eVTOL航空器订单 ...",
+  "publish_date": "2025-03-06",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:47:20.170246+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 11,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 105,
+        "end": 107,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

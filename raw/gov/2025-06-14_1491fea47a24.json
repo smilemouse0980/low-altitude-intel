@@ -7,7 +7,7 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:09.086569+08:00",
+  "collected_at": "2026-08-16T22:47:13.172043+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -70,13 +70,13 @@
       {
         "person": "金良",
         "title": "董事长",
-        "org": "无人机",
+        "org": "智航无人机创始人",
         "context": "智航无人机创始人、董事长金良：创新为翼，逐梦低空-民营企业家典型事迹 - 深圳市发展和改"
       },
       {
         "person": "金良",
         "title": "董事长",
-        "org": "无人机",
+        "org": "智航无人机创始人",
         "context": "型事迹 - 深圳市发展和改革委员会 智航无人机创始人、董事长金良：创新为翼，逐梦低空-民营企业家典型事迹深圳市发展和改革委员"
       }
     ]

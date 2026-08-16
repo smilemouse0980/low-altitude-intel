@@ -1,0 +1,100 @@
+{
+  "doc_id": "bf92eb3677a8",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20260727A0958Z00&c=14225854624565821638&mkt=en-us",
+  "title": "蓝霄航空创始人王刚：中国eVTOL产业链成熟度，是美国企业没法达到的",
+  "content": "摘要：“电车没电了，大不了停路上，但是飞机不一样，飞机没法停在天上。” 凤凰网科技讯 7月22日，当低空经济进入产业化探索阶段，eVTOL企业正在不同技术路线之间寻找答案。相比小型、纯电方案，蓝霄航空选择的是一条更“重”的路径——大型、长航程、油电混动、倾转旋翼，并将货运作为优先落地场景。 近日，蓝霄航空创始人王刚接受凤凰网科技专访时表示，这一选择既来自市场判断，也与团队过去长期从事大型飞行器研发 ...",
+  "publish_date": "2026-07-27",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:47:20.168484+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "王刚",
+        "label": "person",
+        "start": 7,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "王刚",
+        "label": "person",
+        "start": 191,
+        "end": 193,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "蓝霄航空",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "凤凰网科",
+        "label": "org",
+        "start": 71,
+        "end": 75,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 10,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 25,
+        "end": 27,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "凤凰网",
+        "label": "location",
+        "start": 195,
+        "end": 198,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "7月22日",
+        "label": "date",
+        "start": 78,
+        "end": 83,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "王刚",
+        "title": "创始人",
+        "org": "蓝霄航空",
+        "context": "蓝霄航空创始人王刚：中国eVTOL产业链成熟度，是美国企业没法达到的 摘要：“"
+      },
+      {
+        "person": "王刚",
+        "title": "创始人",
+        "org": "凤凰网科",
+        "context": "、倾转旋翼，并将货运作为优先落地场景。 近日，蓝霄航空创始人王刚接受凤凰网科技专访时表示，这一选择既来自市场判断，也与团队过"
+      }
+    ]
+  }
+}

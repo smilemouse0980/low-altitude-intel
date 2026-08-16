@@ -1,18 +1,26 @@
 {
   "doc_id": "416cccd51a0d",
   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5RWJkaDFJNTVkSmNNaXZ3aFA1NEtMZXFWUEJFcVZmTVYtSzlsbkxsbUY1UkJOM0pheWNfSnp0Y2d6TWNjc0xBMFBLZ1ltZW54M1NhanQ0Z2hMVW1UdlBjb3dFZkRCMWxTS0pBYmNB?oc=5",
-  "title": "峰飞eVTOL亮相央视春晚 - caacnews.com.cn",
-  "content": "峰飞eVTOL亮相央视春晚caacnews.com.cn",
+  "title": "峰飞eVTOL亮相央视春晚 - 中国民航网",
+  "content": "峰飞eVTOL亮相央视春晚中国民航网",
   "publish_date": "2025-01-29",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.559433+08:00",
+  "collected_at": "2026-08-16T22:47:10.753819+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 35,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
       {
         "text": "峰飞",
         "label": "org",

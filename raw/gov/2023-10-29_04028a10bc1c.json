@@ -1,0 +1,93 @@
+{
+  "doc_id": "04028a10bc1c",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.36kr.com%2fp%2f2496545683398790&c=10601504294894972133&mkt=en-us",
+  "title": "“准生证”落地，eVTOL“高飞”",
+  "content": "据不完全统计，目前全球有超300家企业布局eVTOL，其中既有Joby、亿航智能、时的科技、峰飞航空、零重力飞机工业等聚焦eVTOL的创业公司；也有波音、空客为代表的传统航空巨头；保时捷、戴姆勒、吉利汽车、小鹏汽车等一众车企纷纷下场。",
+  "publish_date": "2023-10-29",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:47:20.169832+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "戴姆勒",
+        "label": "person",
+        "start": 112,
+        "end": 115,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "空客",
+        "label": "org",
+        "start": 95,
+        "end": 97,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 54,
+        "end": 58,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 64,
+        "end": 68,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "时的科技",
+        "label": "org",
+        "start": 59,
+        "end": 63,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 54,
+        "end": 56,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 64,
+        "end": 66,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "准生证",
+        "label": "date",
+        "start": 1,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "戴姆勒",
+        "title": "代表",
+        "org": "空客",
+        "context": "OL的创业公司；也有波音、空客为代表的传统航空巨头；保时捷、戴姆勒、吉利汽车、小鹏汽车等一众车企纷纷下场。"
+      }
+    ]
+  }
+}

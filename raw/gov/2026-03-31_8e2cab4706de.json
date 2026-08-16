@@ -7,6 +7,48 @@
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.285077+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:47:08.198153+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "nda",
+        "label": "person",
+        "start": 28,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "苏州",
+        "label": "location",
+        "start": 21,
+        "end": 23,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "苏州",
+        "label": "location",
+        "start": 60,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "nda",
+        "label": "location",
+        "start": 64,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
 }

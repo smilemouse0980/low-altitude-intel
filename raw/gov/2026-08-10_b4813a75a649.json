@@ -1,13 +1,13 @@
 {
   "doc_id": "b4813a75a649",
   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93cF9lRzVBb1Y2amR1RnNqdE5RTmZ6cEdiSnRMMVJ0NlhmQTNCUVk4QXVWVDFCUElLTlVZUGlsbG1kWElBNFA3bVd5SFp4T2RhYzZR?oc=5",
-  "title": "航空电池技术突破叠加低空经济政策密集落地，通用航空ETF易方达（159255）催化不断 - FX168财经",
-  "content": "航空电池技术突破叠加低空经济政策密集落地，通用航空ETF易方达（159255）催化不断FX168财经",
+  "title": "航空电池技术突破叠加低空经济政策密集落地，通用航空ETF易方达（159255）催化不断 - fx168news.com",
+  "content": "航空电池技术突破叠加低空经济政策密集落地，通用航空ETF易方达（159255）催化不断fx168news.com",
   "publish_date": "2026-08-10",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.563111+08:00",
+  "collected_at": "2026-08-16T22:47:15.662276+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -24,8 +24,8 @@
       {
         "text": "通用航空ETF易方达",
         "label": "org",
-        "start": 75,
-        "end": 85,
+        "start": 81,
+        "end": 91,
         "engine": "spacy",
         "confidence": "low"
       }

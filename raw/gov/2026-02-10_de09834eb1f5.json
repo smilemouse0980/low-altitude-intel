@@ -1,18 +1,27 @@
 {
   "doc_id": "de09834eb1f5",
   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zdUxGa0lLQVF2RktkRFJDQmVqUXVfa2lubDh2Vm45alYzc09jNWJSajhhVXh4a1BjQ2t0ZVJWdnBFcHhHYmFaSDlzX09FUjBkaVNaSFQtTGVTamE0QUtfbw?oc=5",
-  "title": "低空经济迎来利好！五部门最新发文 - eastmoney.com",
-  "content": "低空经济迎来利好！五部门最新发文eastmoney.com",
+  "title": "低空经济迎来利好！五部门最新发文 - 东方财富",
+  "content": "低空经济迎来利好！五部门最新发文东方财富",
   "publish_date": "2026-02-10",
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:04.072860+08:00",
+  "collected_at": "2026-08-16T22:47:08.203010+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "东方",
+        "label": "org",
+        "start": 19,
+        "end": 21,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [],
     "dates": [],
     "relations": []

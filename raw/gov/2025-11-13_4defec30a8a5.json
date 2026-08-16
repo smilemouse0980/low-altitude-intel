@@ -1,18 +1,26 @@
 {
   "doc_id": "4defec30a8a5",
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTcDZsdEswNElzczJMZExubUdod2ZrVGhQRkV4Wm8yN0V2RnlOVko3eVVaRzZfUkNzdDlrSENrRG5SdEFVcS14OGd4X0VZd0RtTmJqTWsyYThKN0VjSHhFNEFibUJhU2RiaDltdw?oc=5",
-  "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - caacnews.com.cn",
-  "content": "中国eVTOL走向国际 亿航智能成美国行业大会焦点caacnews.com.cn",
+  "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
+  "content": "中国eVTOL走向国际 亿航智能成美国行业大会焦点中国民航网",
   "publish_date": "2025-11-13",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.540527+08:00",
+  "collected_at": "2026-08-16T22:47:10.735388+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 59,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      },
       {
         "text": "亿航智能",
         "label": "org",
@@ -50,16 +58,24 @@
       {
         "text": "中国",
         "label": "location",
-        "start": 44,
-        "end": 46,
+        "start": 28,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 34,
+        "end": 36,
         "engine": "spacy",
         "confidence": "low"
       },
       {
         "text": "美国",
         "label": "location",
-        "start": 61,
-        "end": 63,
+        "start": 51,
+        "end": 53,
         "engine": "spacy",
         "confidence": "low"
       }

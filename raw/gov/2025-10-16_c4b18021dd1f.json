@@ -1,13 +1,13 @@
 {
   "doc_id": "c4b18021dd1f",
   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEYkllQVUtQUI4Ni1Zb3VERVJJYzg0OTZDdTJ0WndXWFk0NDBZS0RMNk5NaldaZTlHMFE0YjZlel9qejd1Qk5GNDkxcGdwYllpRVlfSC02bnQ?oc=5",
-  "title": "650万元售价，亿航智能造出了低空经济的“Model S”？ - 维科号",
-  "content": "650万元售价，亿航智能造出了低空经济的“Model S”？维科号",
+  "title": "650万元售价，亿航智能造出了低空经济的“Model S”？ - mp.ofweek.com",
+  "content": "650万元售价，亿航智能造出了低空经济的“Model S”？mp.ofweek.com",
   "publish_date": "2025-10-16",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:09.084693+08:00",
+  "collected_at": "2026-08-16T22:47:13.170237+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -24,8 +24,8 @@
       {
         "text": "亿航智",
         "label": "org",
-        "start": 45,
-        "end": 48,
+        "start": 55,
+        "end": 58,
         "engine": "spacy",
         "confidence": "low"
       },

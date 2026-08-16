@@ -1,13 +1,13 @@
 {
   "doc_id": "72b8afe33476",
   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91X3J0OWQ3TW9aSVFQSGxkUGpBZmhIX2pyb0k0THFZelhqTFNBVzhWUE05T182aHQ0bkdhMzJ0VGdkQm9OTnpuNjN2YUxMRV9pSkxjeDB5dw?oc=5",
-  "title": "中国贵州省采用低空物流无人机eVTOL运送茶叶 - 缅华网",
-  "content": "中国贵州省采用低空物流无人机eVTOL运送茶叶缅华网",
+  "title": "中国贵州省采用低空物流无人机eVTOL运送茶叶 - mhwmm.com",
+  "content": "中国贵州省采用低空物流无人机eVTOL运送茶叶mhwmm.com",
   "publish_date": "2026-04-23",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.550858+08:00",
+  "collected_at": "2026-08-16T22:47:10.745506+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -40,26 +40,18 @@
         "confidence": "low"
       },
       {
-        "text": "缅华网",
-        "label": "location",
-        "start": 26,
-        "end": 29,
-        "engine": "spacy",
-        "confidence": "low"
-      },
-      {
         "text": "中国",
         "label": "location",
-        "start": 30,
-        "end": 32,
+        "start": 36,
+        "end": 38,
         "engine": "spacy",
         "confidence": "low"
       },
       {
         "text": "贵州省",
         "label": "location",
-        "start": 32,
-        "end": 35,
+        "start": 38,
+        "end": 41,
         "engine": "spacy",
         "confidence": "low"
       }

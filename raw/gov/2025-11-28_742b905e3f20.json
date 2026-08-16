@@ -1,18 +1,35 @@
 {
   "doc_id": "742b905e3f20",
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IcVlBbld2TEUybjZPNXBKeVZUTXBuYkl4S2p3V0lsbVhXZ2dPb1ltUDFUc3IyTXdXSFdaWVdNN3VRRWwtWGxzdlo3N3p2Sy04cm02anpEQ0prSWE4YkRZZ3RnZ2RNa214ZVQzQg?oc=5",
-  "title": "2025年亚洲通用航空展在珠海开幕 - caacnews.com.cn",
-  "content": "2025年亚洲通用航空展在珠海开幕caacnews.com.cn",
+  "title": "2025年亚洲通用航空展在珠海开幕 - 中国民航网",
+  "content": "2025年亚洲通用航空展在珠海开幕中国民航网",
   "publish_date": "2025-11-28",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.570034+08:00",
+  "collected_at": "2026-08-16T22:47:15.669287+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 20,
+        "end": 25,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 43,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [
       {
         "text": "亚洲",
@@ -33,16 +50,16 @@
       {
         "text": "亚洲",
         "label": "location",
-        "start": 41,
-        "end": 43,
+        "start": 31,
+        "end": 33,
         "engine": "spacy",
         "confidence": "low"
       },
       {
         "text": "珠海",
         "label": "location",
-        "start": 49,
-        "end": 51,
+        "start": 39,
+        "end": 41,
         "engine": "spacy",
         "confidence": "low"
       }
@@ -59,8 +76,8 @@
       {
         "text": "2025年",
         "label": "date",
-        "start": 36,
-        "end": 41,
+        "start": 26,
+        "end": 31,
         "engine": "spacy",
         "confidence": "low"
       }

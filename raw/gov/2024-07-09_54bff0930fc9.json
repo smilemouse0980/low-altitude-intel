@@ -1,18 +1,26 @@
 {
   "doc_id": "54bff0930fc9",
   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrdkZvbnpjekkyaFV6Q2NKVTJaTXppOWtUSDFyM0tnYXFENF9fby1zS3ZLYlRtZ1EyZDJ6V3pyaXRWcFJjZjBfdHpicDFUb1lkYUhxYlVpWHJTOHlwLW9WakhDWHhyaU03OWpLNzJFQQ?oc=5",
-  "title": "国内外无人机交通管理系统比较 - 7its.com",
-  "content": "国内外无人机交通管理系统比较7its.com",
+  "title": "国内外无人机交通管理系统比较 - 赛文交通网",
+  "content": "国内外无人机交通管理系统比较赛文交通网",
   "publish_date": "2024-07-09",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:09.087197+08:00",
+  "collected_at": "2026-08-16T22:47:13.172655+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
+      {
+        "text": "赛文交通网 国内外",
+        "label": "org",
+        "start": 17,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
       {
         "text": "无人机",
         "label": "org",

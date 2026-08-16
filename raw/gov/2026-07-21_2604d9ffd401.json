@@ -1,0 +1,69 @@
+{
+  "doc_id": "2604d9ffd401",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.sohu.com%2fa%2f1052851160_116237&c=6227288995811469344&mkt=en-us",
+  "title": "《中国eVTOL产业发展研究报告》发布：成都企业具全球竞争力，有望 ...",
+  "content": "现场，《财富》中国区主编章劢闻发布《中国eVTOL产业发展研究报告》，称位于成都的沃飞长空是中国最具全球竞争力的eVTOL公司，成都有望成为“全球eVTOL第一城”。",
+  "publish_date": "2026-07-21",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:47:20.169364+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "沃飞长空",
+        "label": "org",
+        "start": 79,
+        "end": 83,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞",
+        "label": "org",
+        "start": 79,
+        "end": 81,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 20,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 76,
+        "end": 78,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 84,
+        "end": 86,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 102,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

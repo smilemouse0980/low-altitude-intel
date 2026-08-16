@@ -1,13 +1,13 @@
 {
   "doc_id": "875b1c74f77b",
   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ybUpZczg5X21rSHJqeHpWVTh4LW5yNUJZdW8ybGpDZ0ZWVkxkbGhnR2w1el9sWmN5RTBiU1Z5cUN4RUt1YWZHS2c0S3ZUUGtjRkNNc3JR?oc=5",
-  "title": "大湾区企业组团“出击”！低空领域黑科技惊艳亮相亚洲通航展 - QQ News",
-  "content": "大湾区企业组团“出击”！低空领域黑科技惊艳亮相亚洲通航展QQ News",
+  "title": "大湾区企业组团“出击”！低空领域黑科技惊艳亮相亚洲通航展 - 腾讯新闻",
+  "content": "大湾区企业组团“出击”！低空领域黑科技惊艳亮相亚洲通航展腾讯新闻",
   "publish_date": "2025-11-28",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.587960+08:00",
+  "collected_at": "2026-08-16T22:47:15.687333+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -20,18 +20,33 @@
         "end": 28,
         "engine": "spacy",
         "confidence": "low"
-      }
-    ],
-    "locations": [
+      },
       {
-        "text": "亚洲",
-        "label": "location",
-        "start": 62,
+        "text": "腾讯",
+        "label": "org",
+        "start": 31,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亚洲通航展",
+        "label": "org",
+        "start": 59,
         "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 64,
+        "end": 66,
         "engine": "spacy",
         "confidence": "low"
       }
     ],
+    "locations": [],
     "dates": [],
     "relations": []
   }

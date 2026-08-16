@@ -1,0 +1,110 @@
+{
+  "doc_id": "35aa50489dfd",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.stcn.com%2farticle%2fdetail%2f3545760.html&c=6959660927480396648&mkt=en-us",
+  "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+  "content": "岁至年末，全球低空经济的出海版图仍在演化。 阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅 ...",
+  "publish_date": "2025-12-17",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-16T22:47:20.170670+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 93,
+        "end": 96,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "小鹏汇天",
+        "label": "org",
+        "start": 118,
+        "end": 122,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "时的科技",
+        "label": "org",
+        "start": 57,
+        "end": 61,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 93,
+        "end": 96,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "阿联酋",
+        "label": "location",
+        "start": 46,
+        "end": 49,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "泰国",
+        "label": "location",
+        "start": 77,
+        "end": 79,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "迪拜",
+        "label": "location",
+        "start": 123,
+        "end": 125,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "至年末",
+        "label": "date",
+        "start": 25,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "100天",
+        "label": "date",
+        "start": 107,
+        "end": 111,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩"
+      }
+    ]
+  }
+}

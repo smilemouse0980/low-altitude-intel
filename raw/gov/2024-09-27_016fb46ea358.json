@@ -1,18 +1,35 @@
 {
   "doc_id": "016fb46ea358",
   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN05CU2pSV2hMNkQwSUVoSmZZLVM0c3FuZk9IQlFFcEJZSGFqbWNSVDN5aHcxNl9FSXFOazVYTjg5U1BvakRkNGxNbW85cUZZeEU5elJLMk8yb1ZUYnNuY1dQbXF6MFVGOGJIbmlYcWVHTjl3U285YXVZRlRKQ2VvQnJDcjhTQQ?oc=5",
-  "title": "浅析低空经济 - caacnews.com.cn",
-  "content": "浅析低空经济caacnews.com.cn",
+  "title": "浅析低空经济 - 中国民航网",
+  "content": "浅析低空经济中国民航网",
   "publish_date": "2024-09-27",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.580365+08:00",
+  "collected_at": "2026-08-16T22:47:15.679726+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 9,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 21,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [],
     "dates": [],
     "relations": []

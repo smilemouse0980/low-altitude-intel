@@ -1,18 +1,34 @@
 {
   "doc_id": "77fb1b461e29",
   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zMEJ0OWpkNTNKdkdXZzNrLTVqVUl5dXhWbVoyckFzNjBkRWs4TUprY3dyN2M4RVFvYm8zTzlRMzV3Q0prdFAwUHlqVDJNeWl3M0ZLUmh3?oc=5",
-  "title": "沃兰特C轮融资引入中东投资人，中国eVTOL掀起全球化新高潮 - QQ News",
-  "content": "沃兰特C轮融资引入中东投资人，中国eVTOL掀起全球化新高潮QQ News",
+  "title": "沃兰特C轮融资引入中东投资人，中国eVTOL掀起全球化新高潮 - 腾讯新闻",
+  "content": "沃兰特C轮融资引入中东投资人，中国eVTOL掀起全球化新高潮腾讯新闻",
   "publish_date": "2026-04-29",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.550546+08:00",
+  "collected_at": "2026-08-16T22:47:10.745200+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 33,
+        "end": 35,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 68,
+        "end": 70,
+        "engine": "spacy",
+        "confidence": "low"
+      },
       {
         "text": "沃兰特",
         "label": "org",
@@ -42,16 +58,16 @@
       {
         "text": "中东",
         "label": "location",
-        "start": 50,
-        "end": 52,
+        "start": 47,
+        "end": 49,
         "engine": "spacy",
         "confidence": "low"
       },
       {
         "text": "中国",
         "label": "location",
-        "start": 56,
-        "end": 58,
+        "start": 53,
+        "end": 55,
         "engine": "spacy",
         "confidence": "low"
       }

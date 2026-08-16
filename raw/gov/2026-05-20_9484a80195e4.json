@@ -1,18 +1,35 @@
 {
   "doc_id": "9484a80195e4",
   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnQ0ZqXzUzZVJtR1RaeEgxV0loc3AtY20yZDBEN0xzWmdSMTdEZlBpWEdBWUpvSlFueHA2THE1OWVYb2RJb1hSVHdheUpwdzRWak81M1ZtYWQ3QTZHckt4N2N3Qzhlc0pnQTE3QUhPc3ZPUDVuSWhn?oc=5",
-  "title": "中国企业自主研发的eVTOL在中亚首飞 - QQ News",
-  "content": "中国企业自主研发的eVTOL在中亚首飞QQ News",
+  "title": "中国企业自主研发的eVTOL在中亚首飞 - 腾讯新闻",
+  "content": "中国企业自主研发的eVTOL在中亚首飞腾讯新闻",
   "publish_date": "2026-05-20",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.554276+08:00",
+  "collected_at": "2026-08-16T22:47:10.748956+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 22,
+        "end": 24,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 46,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [
       {
         "text": "中国",
@@ -33,16 +50,16 @@
       {
         "text": "中国",
         "label": "location",
-        "start": 30,
-        "end": 32,
+        "start": 27,
+        "end": 29,
         "engine": "spacy",
         "confidence": "low"
       },
       {
         "text": "中亚",
         "label": "location",
-        "start": 45,
-        "end": 47,
+        "start": 42,
+        "end": 44,
         "engine": "spacy",
         "confidence": "low"
       }

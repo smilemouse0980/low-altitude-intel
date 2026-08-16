@@ -1,13 +1,13 @@
 {
   "doc_id": "21ef700cfe50",
   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yMUlzQWxwTnBGZzhKWUFQYlVnU1g3OGE3MktLVlRVVTZqVTFUUXBkOXoyMWNLR1E3STd0M1Y5eHpheVdudlpfYkhPZ2EyMDNnLWpEVk9GWQ?oc=5",
-  "title": "全球首款5吨级国产eVTOL如何突破转换飞行“重量极限”？｜科学家·请回答-腾讯新闻 - QQ News",
-  "content": "全球首款5吨级国产eVTOL如何突破转换飞行“重量极限”？｜科学家·请回答-腾讯新闻QQ News",
+  "title": "全球首款5吨级国产eVTOL如何突破转换飞行“重量极限”？｜科学家·请回答-腾讯新闻 - 腾讯新闻",
+  "content": "全球首款5吨级国产eVTOL如何突破转换飞行“重量极限”？｜科学家·请回答-腾讯新闻腾讯新闻",
   "publish_date": "2026-02-05",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.556024+08:00",
+  "collected_at": "2026-08-16T22:47:10.750449+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -24,8 +24,24 @@
       {
         "text": "腾讯",
         "label": "org",
-        "start": 91,
-        "end": 93,
+        "start": 45,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 88,
+        "end": 90,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 92,
+        "end": 94,
         "engine": "spacy",
         "confidence": "low"
       }

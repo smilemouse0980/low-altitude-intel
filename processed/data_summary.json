@@ -1,0 +1,20 @@
+{
+  "total_records": 429,
+  "by_source": {
+    "news.google.com": 405,
+    "www.bing.com": 24
+  },
+  "by_type": {
+    "rss": 405,
+    "bing_rss": 24
+  },
+  "by_quality": {
+    "warning: missing_url": 391,
+    "warning: missing_url,content_too_short": 38
+  },
+  "date_range": {
+    "earliest": "2021-04-10",
+    "latest": "2026-08-16"
+  },
+  "generated_at": "2026-08-16T14:49:33.683845"
+}

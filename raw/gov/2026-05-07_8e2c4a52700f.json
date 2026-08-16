@@ -1,18 +1,27 @@
 {
   "doc_id": "8e2c4a52700f",
   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoTmtZd01RRzJacE5KNlg3dGt1ejRGSXp2T1VvSXNOMC1UUEdHYnZRS2FtYnh4aFpnYTVmNXdjb1l6VE02WVBrTmNaa0hfNjFEWUpiVU5FS1dsblVVRVJ4dHJLWkVrcDcyQl9zcDRn?oc=5",
-  "title": "全球首款混动载人eVTOL进入适航阶段 - caacnews.com.cn",
-  "content": "全球首款混动载人eVTOL进入适航阶段caacnews.com.cn",
+  "title": "全球首款混动载人eVTOL进入适航阶段 - 中国民航网",
+  "content": "全球首款混动载人eVTOL进入适航阶段中国民航网",
   "publish_date": "2026-05-07",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.539258+08:00",
+  "collected_at": "2026-08-16T22:47:10.734177+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 47,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [],
     "dates": [],
     "relations": []

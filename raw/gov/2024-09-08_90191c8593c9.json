@@ -1,13 +1,13 @@
 {
   "doc_id": "90191c8593c9",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yUW9RS01NV2lxdEhwQ1NuX2J6WGNuRFZNMUR3WDZ5YXd2MUxiR0JvTnNmZ0tPU2I2a3N2V1EwcVlNT0owZnZUNzRJTHpVcHZyWDV2SFpsYWRpU054d2dpSjEtcnBiMElQSHgtZ285WWs?oc=5",
-  "title": "宁波低空经济如何“高飞”？ - 央广网",
-  "content": "宁波低空经济如何“高飞”？央广网",
+  "title": "宁波低空经济如何“高飞”？ - zj.cnr.cn",
+  "content": "宁波低空经济如何“高飞”？zj.cnr.cn",
   "publish_date": "2024-09-08",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.588251+08:00",
+  "collected_at": "2026-08-16T22:47:15.687651+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -25,8 +25,8 @@
       {
         "text": "宁波",
         "label": "location",
-        "start": 20,
-        "end": 22,
+        "start": 26,
+        "end": 28,
         "engine": "spacy",
         "confidence": "low"
       }

@@ -7,6 +7,61 @@
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.276388+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:47:08.184917+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "罗锋",
+        "label": "person",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "罗锋",
+        "label": "person",
+        "start": 35,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 30,
+        "end": 32,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 62,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "罗锋",
+        "title": "",
+        "org": "新浪",
+        "context": "罗锋：低空经济作为新兴支柱产业，长期高质量发展态势明确 - 新浪"
+      },
+      {
+        "person": "罗锋",
+        "title": "",
+        "org": "新浪",
+        "context": "经济作为新兴支柱产业，长期高质量发展态势明确 - 新浪财经 罗锋：低空经济作为新兴支柱产业，长期高质量发展态势明确新浪财经"
+      }
+    ]
+  }
 }

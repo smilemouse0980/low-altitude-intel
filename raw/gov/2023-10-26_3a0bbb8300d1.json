@@ -1,18 +1,34 @@
 {
   "doc_id": "3a0bbb8300d1",
   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaDdCM0RKOVVfbEZUanpMdHBlOUJtNUpmUUhWQzRQWkRLU3UtcGFpdU1ZQWd3cENLa0tLS3ZGeWdrX2l3cG9EdTczYXFUZjZNT1ZEcXZZLUZtMU5KbXdIcTVGb0lsUGJUUFBobDY2bWJVSTJTV2VGQW1JaFJQRzJZS3FjUHpjQ2gxS21qbmZ6U3lxSEoyUEE?oc=5",
-  "title": "无人机适航审定政策解读 - caacnews.com.cn",
-  "content": "无人机适航审定政策解读caacnews.com.cn",
+  "title": "无人机适航审定政策解读 - 中国民航网",
+  "content": "无人机适航审定政策解读中国民航网",
   "publish_date": "2023-10-26",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:09.077009+08:00",
+  "collected_at": "2026-08-16T22:47:13.162326+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 14,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 31,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      },
       {
         "text": "无人机",
         "label": "org",

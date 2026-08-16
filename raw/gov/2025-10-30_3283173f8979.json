@@ -1,13 +1,13 @@
 {
   "doc_id": "3283173f8979",
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83SXBaQWRNX1lFMXQyNGU4Yk16TTBnMzM3U1F1SnlYYVRLVk9sR1hocjQzb0JkTFROZkNWRThhbG5yX0IxcTBUZjlyWWpVcWMyTGY0M2IyR2E4RDRPX2YyRE16dWtIVC0zc05rUQ?oc=5",
-  "title": "峰飞航空获阿联酋猎鹰航空50架eVTOL航空器订单 - caacnews.com.cn",
-  "content": "峰飞航空获阿联酋猎鹰航空50架eVTOL航空器订单caacnews.com.cn",
+  "title": "峰飞航空获阿联酋猎鹰航空50架eVTOL航空器订单 - 中国民航网",
+  "content": "峰飞航空获阿联酋猎鹰航空50架eVTOL航空器订单中国民航网",
   "publish_date": "2025-10-30",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.546008+08:00",
+  "collected_at": "2026-08-16T22:47:10.740729+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -18,6 +18,22 @@
         "label": "org",
         "start": 0,
         "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网 峰飞航空",
+        "label": "org",
+        "start": 28,
+        "end": 38,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 59,
+        "end": 64,
         "engine": "spacy",
         "confidence": "low"
       },
@@ -42,8 +58,8 @@
       {
         "text": "阿联酋",
         "label": "location",
-        "start": 49,
-        "end": 52,
+        "start": 39,
+        "end": 42,
         "engine": "spacy",
         "confidence": "low"
       }

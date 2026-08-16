@@ -1,13 +1,13 @@
 {
   "doc_id": "c46e5a9e7e76",
   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hTkRWaVBPX1VPSDJPTzV2WmQtZzVUZlQ5aVVTRVR3cW5ibTlxWEYzUVh0SGphXy1ydXY1MXZ6TXFSQzBmSjZMeVMzZ2ZVZDJrcVlLUWwwWnVUdUxMQWRoR3p6S3BjZVlQM1ZMQWllWC1ZeGo2VGJvVUgxd1BqUzA?oc=5",
-  "title": "中国载人eVTOL行业白皮书 - Boston Consulting Group",
-  "content": "中国载人eVTOL行业白皮书Boston Consulting Group",
+  "title": "中国载人eVTOL行业白皮书 - bcg.com",
+  "content": "中国载人eVTOL行业白皮书bcg.com",
   "publish_date": "2025-09-09",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.534106+08:00",
+  "collected_at": "2026-08-16T22:47:10.729042+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -25,8 +25,8 @@
       {
         "text": "中国",
         "label": "location",
-        "start": 41,
-        "end": 43,
+        "start": 25,
+        "end": 27,
         "engine": "spacy",
         "confidence": "low"
       }

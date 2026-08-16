@@ -7,6 +7,72 @@
   "publisher": "Google新闻-低空经济",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:21.277637+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-16T22:47:08.186716+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "AI",
+        "label": "person",
+        "start": 44,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "AI",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "世界人工智能大会",
+        "label": "org",
+        "start": 12,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "世界人工智能大会",
+        "label": "org",
+        "start": 56,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 8,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 52,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "AI",
+        "title": "",
+        "org": "AI",
+        "context": "人工智能大会·低空经济论坛举办 - jfdaily.com AI+低空经济！2026世界人工智能大会·低空经济论坛举办jfd"
+      }
+    ]
+  }
 }

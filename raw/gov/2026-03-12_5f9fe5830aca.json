@@ -1,18 +1,27 @@
 {
   "doc_id": "5f9fe5830aca",
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GVzBxanhCTjdhSHZnYWZJQ2pQVGhyRHh5NWJiODgtbDY1aXFmczB2a1FXU0R4dURxcmYwQ0Q4bnZtQ3diVTNSRFdQR3QzREZBT0lvMzNXN09hWFJ0VHhfbWNpS2NJSmQyWTVmcw?oc=5",
-  "title": "追觅在沪发布eVTOL - caacnews.com.cn",
-  "content": "追觅在沪发布eVTOLcaacnews.com.cn",
+  "title": "追觅在沪发布eVTOL - 中国民航网",
+  "content": "追觅在沪发布eVTOL中国民航网",
   "publish_date": "2026-03-12",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.538326+08:00",
+  "collected_at": "2026-08-16T22:47:10.733253+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 31,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [
       {
         "text": "沪",
@@ -25,8 +34,8 @@
       {
         "text": "沪",
         "label": "location",
-        "start": 33,
-        "end": 34,
+        "start": 23,
+        "end": 24,
         "engine": "spacy",
         "confidence": "low"
       }

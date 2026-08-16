@@ -1,23 +1,31 @@
 {
   "doc_id": "affcc1b12c60",
   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAteEhwVnh3alBFVHpDZ1NSRDVYVm1hWjJIcThjNEhmX3pfNk9MRzRITXlJQmRnQjA4TXVTdTZpSDlDMF9mWkdoWmd0VC1fWGl1WEx6dXg4VXpDVUhOb1lNQk5OemJlbEdwN0E?oc=5",
-  "title": "机场协会第13期“通用机场大讲堂”（低空起降基础设施专题）顺利举办 - caacnews.com.cn",
-  "content": "机场协会第13期“通用机场大讲堂”（低空起降基础设施专题）顺利举办caacnews.com.cn",
+  "title": "机场协会第13期“通用机场大讲堂”（低空起降基础设施专题）顺利举办 - 中国民航网",
+  "content": "机场协会第13期“通用机场大讲堂”（低空起降基础设施专题）顺利举办中国民航网",
   "publish_date": "2025-03-30",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.581555+08:00",
+  "collected_at": "2026-08-16T22:47:15.680938+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
     "orgs": [
       {
-        "text": "cn 机场协会",
+        "text": "中国民航网 机场协会",
         "label": "org",
-        "start": 49,
-        "end": 56,
+        "start": 36,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 75,
+        "end": 80,
         "engine": "spacy",
         "confidence": "low"
       }

@@ -7,7 +7,7 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:09.074796+08:00",
+  "collected_at": "2026-08-16T22:47:13.160131+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -62,7 +62,7 @@
       {
         "person": "财联社",
         "title": "",
-        "org": "无人机",
+        "org": "财联社",
         "context": "迈出关键一步！特朗普政府拟放宽商用无人机超视距飞行限制 - 财联社 美国低空经济将迈出关键一步！特朗普政府拟放宽商用无人机超视"
       }
     ]

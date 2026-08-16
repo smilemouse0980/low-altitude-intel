@@ -7,7 +7,7 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.567894+08:00",
+  "collected_at": "2026-08-16T22:47:15.667142+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -87,7 +87,7 @@
       {
         "person": "zgjtb.com",
         "title": "",
-        "org": "无人机",
+        "org": "通用航空",
         "context": "2026（第四届）通用航空与无人机发展大会在京启幕 - zgjtb.com 2026（第四届）通用航空与无人机发展大会在京启幕zgjt"
       }
     ]

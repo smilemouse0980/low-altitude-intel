@@ -7,7 +7,7 @@
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.585566+08:00",
+  "collected_at": "2026-08-16T22:47:15.684970+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
@@ -39,18 +39,18 @@
         "engine": "industry_dict"
       },
       {
-        "text": "EHang",
-        "label": "org",
-        "start": 45,
-        "end": 50,
-        "confidence": "dict",
-        "engine": "industry_dict"
-      },
-      {
         "text": "亿航",
         "label": "org",
         "start": 8,
         "end": 10,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 45,
+        "end": 50,
         "confidence": "dict",
         "engine": "industry_dict"
       }

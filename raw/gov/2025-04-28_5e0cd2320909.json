@@ -1,18 +1,35 @@
 {
   "doc_id": "5e0cd2320909",
   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95U0hnSGtnSWdjSUVxNGVnZ1lrNEx6Qk1OWW5xZHljcDlMbFROOGlUYks1eEk5TWZ6eXQ0ZWNnWUxXWEN1QVNMaFA1N053dHRvcXFDblpoQnF5YXdFWWVYTXlNUTYwYnpKd0E?oc=5",
-  "title": "北航经管-航空学院低空经济产业与技术研究中心成立 - caacnews.com.cn",
-  "content": "北航经管-航空学院低空经济产业与技术研究中心成立caacnews.com.cn",
+  "title": "北航经管-航空学院低空经济产业与技术研究中心成立 - 中国民航网",
+  "content": "北航经管-航空学院低空经济产业与技术研究中心成立中国民航网",
   "publish_date": "2025-04-28",
   "publisher": "Google新闻-通用航空",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:11.579176+08:00",
+  "collected_at": "2026-08-16T22:47:15.678533+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
     "persons": [],
-    "orgs": [],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 27,
+        "end": 32,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 57,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "locations": [],
     "dates": [],
     "relations": []

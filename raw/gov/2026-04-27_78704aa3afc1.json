@@ -1,17 +1,26 @@
 {
   "doc_id": "78704aa3afc1",
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBScmZVZ0RDNE81Z09oa3RaeGFIM0pYWGRpRHlZcTJPaklfck13Snp1ajdHaU1ScVZzdTcxTFZSVHpQUV9qQ3JFbUdWbGZNX1VRdWNDYkExYy1jRDVsRHZwZXRQcl9WSEk3aXF5OA?oc=5",
-  "title": "沃兰特航空完成3亿美元C轮融资 刷新eVTOL领域单笔融资规模纪录 - caacnews.com.cn",
-  "content": "沃兰特航空完成3亿美元C轮融资 刷新eVTOL领域单笔融资规模纪录caacnews.com.cn",
+  "title": "沃兰特航空完成3亿美元C轮融资 刷新eVTOL领域单笔融资规模纪录 - 中国民航网",
+  "content": "沃兰特航空完成3亿美元C轮融资 刷新eVTOL领域单笔融资规模纪录中国民航网",
   "publish_date": "2026-04-27",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:40:06.540867+08:00",
+  "collected_at": "2026-08-16T22:47:10.735712+08:00",
   "quality_flag": "pending",
   "url_resolved": false,
   "entities": {
-    "persons": [],
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 42,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
     "orgs": [
       {
         "text": "沃兰特航空",
@@ -22,10 +31,10 @@
         "confidence": "low"
       },
       {
-        "text": "沃兰特航空",
+        "text": "中国民航网",
         "label": "org",
-        "start": 52,
-        "end": 57,
+        "start": 36,
+        "end": 41,
         "engine": "spacy",
         "confidence": "low"
       },
@@ -40,6 +49,13 @@
     ],
     "locations": [],
     "dates": [],
-    "relations": []
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特航空",
+        "context": "轮融资 刷新eVTOL领域单笔融资规模纪录 - 中国民航网 沃兰特航空完成3亿美元C轮融资 刷新eVTOL领域单笔融资规模纪录"
+      }
+    ]
   }
 }
