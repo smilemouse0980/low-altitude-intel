@@ -1,0 +1,670 @@
+[
+  {
+    "id": "01-无人驾驶航空器飞行管理暂行条例",
+    "title": "无人驾驶航空器飞行管理暂行条例",
+    "category": "01-法规政策库",
+    "filename": "01-无人驾驶航空器飞行管理暂行条例.md",
+    "publisher": "国务院、中央军委",
+    "publish_date": "2023-05-31",
+    "doc_number": "国令第761号",
+    "importance": "★★★★★",
+    "tags": [
+      "国家级法规",
+      "无人机",
+      "飞行管理",
+      "空域",
+      "国务院"
+    ],
+    "source_url": "https://www.gov.cn/zhengce/content/202306/content_6888799.htm",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "02-民用无人驾驶航空器运行安全管理规则CCAR-92",
+    "title": "民用无人驾驶航空器运行安全管理规则（CCAR-92部）",
+    "category": "01-法规政策库",
+    "filename": "02-民用无人驾驶航空器运行安全管理规则CCAR-92.md",
+    "publisher": "交通运输部（民航局制定）",
+    "publish_date": "2024-01-01",
+    "doc_number": "交通运输部令2024年第1号",
+    "importance": "★★★★★",
+    "tags": [
+      "部门规章",
+      "无人机",
+      "运行安全",
+      "民航局",
+      "CCAR-92"
+    ],
+    "source_url": "https://www.gov.cn/zhengce/202401/content_6924198.htm",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "03-通用机场管理规定",
+    "title": "通用机场管理规定",
+    "category": "01-法规政策库",
+    "filename": "03-通用机场管理规定.md",
+    "publisher": "交通运输部（民航局承办）",
+    "publish_date": "2024-11-26",
+    "doc_number": "交通运输部令2024年第11号",
+    "importance": "★★★★☆",
+    "tags": [
+      "部门规章",
+      "通用机场",
+      "基础设施",
+      "民航局"
+    ],
+    "source_url": "https://www.gov.cn/zhengce/202412/content_6993562.htm",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "04-2024年政府工作报告-低空经济",
+    "title": "2024年政府工作报告（低空经济相关）",
+    "category": "01-法规政策库",
+    "filename": "04-2024年政府工作报告-低空经济.md",
+    "publisher": "国务院",
+    "publish_date": "2024-03-05",
+    "doc_number": "—",
+    "importance": "★★★★★",
+    "tags": [
+      "政府工作报告",
+      "国家战略",
+      "新兴产业",
+      "国务院"
+    ],
+    "source_url": "https://www.gov.cn/zhuanti/2024qglh/",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "05-2025年政府工作报告-低空经济",
+    "title": "2025年政府工作报告（低空经济相关）",
+    "category": "01-法规政策库",
+    "filename": "05-2025年政府工作报告-低空经济.md",
+    "publisher": "国务院",
+    "publish_date": "2025-03-00",
+    "doc_number": "—",
+    "importance": "★★★★★",
+    "tags": [
+      "政府工作报告",
+      "国家战略",
+      "安全发展",
+      "场景应用"
+    ],
+    "source_url": "https://www.gov.cn/",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "06-国家发改委设立低空经济发展司",
+    "title": "国家发改委设立'低空经济发展司'",
+    "category": "01-法规政策库",
+    "filename": "06-国家发改委设立低空经济发展司.md",
+    "publisher": "国家发展和改革委员会",
+    "publish_date": "2024-12-27",
+    "doc_number": "—",
+    "importance": "★★★★★",
+    "tags": [
+      "机构改革",
+      "发改委",
+      "低空司",
+      "顶层管理"
+    ],
+    "source_url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/wap_index.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "07-低空经济及其核心产业统计分类试行",
+    "title": "低空经济及其核心产业统计分类（试行）",
+    "category": "01-法规政策库",
+    "filename": "07-低空经济及其核心产业统计分类试行.md",
+    "publisher": "国家发展改革委、国家统计局",
+    "publish_date": "2025-12-26",
+    "doc_number": "发改低空〔2025〕1676号",
+    "importance": "★★★★☆",
+    "tags": [
+      "统计分类",
+      "发改委",
+      "产业监测",
+      "标准化"
+    ],
+    "source_url": "https://www.ndrc.gov.cn/xxgk/wjk/wap_index.html?date=2025&tab=all",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "08-关于推动低空保险高质量发展的实施意见",
+    "title": "关于推动低空保险高质量发展的实施意见",
+    "category": "01-法规政策库",
+    "filename": "08-关于推动低空保险高质量发展的实施意见.md",
+    "publisher": "国家发展改革委、金融监管总局、中国民航局",
+    "publish_date": "2026-02-12",
+    "doc_number": "发改低空〔2026〕123号",
+    "importance": "★★★★☆",
+    "tags": [
+      "低空保险",
+      "三部委",
+      "风险保障",
+      "金融"
+    ],
+    "source_url": "http://www.caac.gov.cn/",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "09-关于加快场景培育和开放推动新场景大规模应用的实施意见",
+    "title": "关于加快场景培育和开放推动新场景大规模应用的实施意见",
+    "category": "01-法规政策库",
+    "filename": "09-关于加快场景培育和开放推动新场景大规模应用的实施意见.md",
+    "publisher": "国务院办公厅",
+    "publish_date": "2025-11-00",
+    "doc_number": "国办〔2025〕37号",
+    "importance": "★★★★☆",
+    "tags": [
+      "场景应用",
+      "国务院",
+      "示范应用",
+      "落地"
+    ],
+    "source_url": "https://www.zzyuam.com/news/detail/b3fbb70b8af4af3e0578d74fadd63851",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "10-低空经济标准体系建设指南2025年版",
+    "title": "低空经济标准体系建设指南（2025年版）",
+    "category": "01-法规政策库",
+    "filename": "10-低空经济标准体系建设指南2025年版.md",
+    "publisher": "市场监管总局、中央空管办等十部门",
+    "publish_date": "2025-12-00",
+    "doc_number": "—",
+    "importance": "★★★★★",
+    "tags": [
+      "标准体系",
+      "十部门",
+      "市场监管总局",
+      "顶层设计"
+    ],
+    "source_url": "http://m.chinanews.com/wap/detail/cht/zw/10623895.shtml",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "11-通用航空装备创新应用实施方案2024-2030",
+    "title": "通用航空装备创新应用实施方案（2024-2030年）",
+    "category": "01-法规政策库",
+    "filename": "11-通用航空装备创新应用实施方案2024-2030.md",
+    "publisher": "工业和信息化部、科学技术部、财政部、中国民用航空局",
+    "publish_date": "2024-03-27",
+    "doc_number": "—",
+    "importance": "★★★★★",
+    "tags": [
+      "产业政策",
+      "工信部",
+      "万亿市场",
+      "通用航空装备",
+      "四部门"
+    ],
+    "source_url": "https://www.gov.cn/zhengce/zhengceku/202403/P020240328724691408759.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "12-空中游览和跳伞飞行服务市场管理暂行办法",
+    "title": "空中游览市场管理暂行办法 / 跳伞飞行服务市场管理暂行办法",
+    "category": "01-法规政策库",
+    "filename": "12-空中游览和跳伞飞行服务市场管理暂行办法.md",
+    "publisher": "中国民用航空局",
+    "publish_date": "2025-09-00",
+    "doc_number": "—",
+    "importance": "★★★☆☆",
+    "tags": [
+      "低空旅游",
+      "民航局",
+      "空中游览",
+      "跳伞",
+      "消费"
+    ],
+    "source_url": "https://www.gov.cn/lianbo/bumen/202509/content_7041373.htm",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "13-深圳经济特区低空经济产业促进条例",
+    "title": "深圳经济特区低空经济产业促进条例",
+    "category": "01-法规政策库",
+    "filename": "13-深圳经济特区低空经济产业促进条例.md",
+    "publisher": "深圳市人民代表大会常务委员会",
+    "publish_date": "2023-12-29",
+    "doc_number": "深圳市第七届人大常委会公告第一二八号",
+    "importance": "★★★★★",
+    "tags": [
+      "地方性法规",
+      "深圳",
+      "产业促进",
+      "全国首部"
+    ],
+    "source_url": "https://www.szrd.gov.cn/v2/zx/szfg/content/post_1123253.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "14-深圳市低空基础设施高质量建设方案2024-2026",
+    "title": "深圳市低空基础设施高质量建设方案（2024—2026年）",
+    "category": "01-法规政策库",
+    "filename": "14-深圳市低空基础设施高质量建设方案2024-2026.md",
+    "publisher": "深圳市发展和改革委员会",
+    "publish_date": "2025-08-00",
+    "doc_number": "—",
+    "importance": "★★★★☆",
+    "tags": [
+      "地方政策",
+      "深圳",
+      "基础设施",
+      "通用机场"
+    ],
+    "source_url": "http://www.gd.gov.cn/gdywdt/dsdt/content/mpost_4755458.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "15-苏州市低空经济高质量发展实施方案2024-2026",
+    "title": "苏州市低空经济高质量发展实施方案（2024-2026年）",
+    "category": "01-法规政策库",
+    "filename": "15-苏州市低空经济高质量发展实施方案2024-2026.md",
+    "publisher": "苏州市人民政府",
+    "publish_date": "2024-02-06",
+    "doc_number": "—",
+    "importance": "★★★★☆",
+    "tags": [
+      "地方政策",
+      "苏州",
+      "高质量发展",
+      "长三角"
+    ],
+    "source_url": "https://www.zzyuam.com/news/detail/1f07f0f119ca24b8796d209bc300d89f",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "16-苏州市低空经济促进条例",
+    "title": "苏州市低空经济促进条例",
+    "category": "01-法规政策库",
+    "filename": "16-苏州市低空经济促进条例.md",
+    "publisher": "苏州市人大常委会",
+    "publish_date": "2025-10-01",
+    "doc_number": "—",
+    "importance": "★★★★☆",
+    "tags": [
+      "地方性法规",
+      "苏州",
+      "eVTOL",
+      "产业促进"
+    ],
+    "source_url": "https://chejiahao.m.autohome.com.cn/info/24769885",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "17-成都市加快提升低空飞行能力培育低空经济市场若干政策措施",
+    "title": "成都市加快提升低空飞行能力培育低空经济市场的若干政策措施",
+    "category": "01-法规政策库",
+    "filename": "17-成都市加快提升低空飞行能力培育低空经济市场若干政策措施.md",
+    "publisher": "成都市发展和改革委员会联合七部门",
+    "publish_date": "2025-06-00",
+    "doc_number": "—",
+    "importance": "★★★★☆",
+    "tags": [
+      "地方政策",
+      "成都",
+      "补贴",
+      "政策措施",
+      "14条"
+    ],
+    "source_url": "http://www.sc.xinhuanet.com/20250625/3e9b0f0a30894efa9910765854b1e996/c.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "01-GB46761-2025民用无人驾驶航空器实名登记和激活要求",
+    "title": "GB 46761-2025 民用无人驾驶航空器实名登记和激活要求",
+    "category": "02-行业标准库",
+    "filename": "01-GB46761-2025民用无人驾驶航空器实名登记和激活要求.md",
+    "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+    "publish_date": "2025-10-31",
+    "doc_number": "GB 46761-2025（强制性国家标准）",
+    "importance": "★★★★★",
+    "tags": [
+      "强制性国标",
+      "无人机",
+      "实名登记",
+      "激活",
+      "2026年实施"
+    ],
+    "source_url": "http://www.caac.gov.cn/XXGK/XXGK/BZGF/BZGF_GJBZ/202601/t20260120_229784.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "02-GB46750-2025民用无人驾驶航空器系统运行识别规范",
+    "title": "GB 46750-2025 民用无人驾驶航空器系统运行识别规范",
+    "category": "02-行业标准库",
+    "filename": "02-GB46750-2025民用无人驾驶航空器系统运行识别规范.md",
+    "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+    "publish_date": "2025-10-31",
+    "doc_number": "GB 46750-2025（强制性国家标准）",
+    "importance": "★★★★★",
+    "tags": [
+      "强制性国标",
+      "无人机",
+      "运行识别",
+      "远程识别"
+    ],
+    "source_url": "http://www.caac.gov.cn/XWZX/MHYW/202512/t20251222_229506.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "03-GB46860-2025民用无人驾驶航空器唯一产品识别码",
+    "title": "GB 46860-2025 民用无人驾驶航空器唯一产品识别码",
+    "category": "02-行业标准库",
+    "filename": "03-GB46860-2025民用无人驾驶航空器唯一产品识别码.md",
+    "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+    "publish_date": "2025-12-02",
+    "doc_number": "GB 46860-2025（强制性国家标准）",
+    "importance": "★★★★☆",
+    "tags": [
+      "强制性国标",
+      "无人机",
+      "产品识别码",
+      "追溯管理"
+    ],
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=26257D27F546360A98C814D079D32C2E",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "04-MHT2017-2025无人机系统分布式操作自动化等级测试",
+    "title": "MH/T 2017—2025 民用无人驾驶航空器系统分布式操作 自动化等级测试",
+    "category": "02-行业标准库",
+    "filename": "04-MHT2017-2025无人机系统分布式操作自动化等级测试.md",
+    "publisher": "中国民用航空局",
+    "publish_date": "2025-06-20",
+    "doc_number": "MH/T 2017—2025",
+    "importance": "★★★★☆",
+    "tags": [
+      "民航行业标准",
+      "自动化测试",
+      "分布式操作",
+      "多旋翼"
+    ],
+    "source_url": "https://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/202506/P020250627521128936456.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "05-MHT5026-2026通用机场规划建设指南第1部分",
+    "title": "MH/T 5026.1—2026 通用机场规划建设指南（第1部分：跑道型机场）",
+    "category": "02-行业标准库",
+    "filename": "05-MHT5026-2026通用机场规划建设指南第1部分.md",
+    "publisher": "中国民用航空局",
+    "publish_date": "2026-04-00",
+    "doc_number": "MH/T 5026.1—2026",
+    "importance": "★★★☆☆",
+    "tags": [
+      "民航行业标准",
+      "通用机场",
+      "规划建设",
+      "基础设施"
+    ],
+    "source_url": "http://www.caac.gov.cn/PHONE/XXGK_17/XXGK/BZGF/HYBZ/202607/P020260706349265043390.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "06-MH5013-2023民用直升机场飞行场地技术标准",
+    "title": "MH 5013-2023 民用直升机场飞行场地技术标准",
+    "category": "02-行业标准库",
+    "filename": "06-MH5013-2023民用直升机场飞行场地技术标准.md",
+    "publisher": "中国民用航空局",
+    "publish_date": "2023-00-00",
+    "doc_number": "MH 5013-2023",
+    "importance": "★★★★☆",
+    "tags": [
+      "民航标准",
+      "直升机场",
+      "eVTOL",
+      "起降设施"
+    ],
+    "source_url": "http://m.sensha.com.cn/h-nd-1198.html",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "07-MHT4054-2022城市场景无人机物流航线划设规范",
+    "title": "MH/T 4054-2022 城市场景轻小型无人驾驶航空器物流航线划设规范",
+    "category": "02-行业标准库",
+    "filename": "07-MHT4054-2022城市场景无人机物流航线划设规范.md",
+    "publisher": "中国民用航空局空管行业管理办公室",
+    "publish_date": "2022-08-01",
+    "doc_number": "MH/T 4054-2022",
+    "importance": "★★★★☆",
+    "tags": [
+      "民航标准",
+      "物流配送",
+      "航线划设",
+      "城市场景"
+    ],
+    "source_url": "http://aircraft.work/Standards/MH",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "08-MHT4055-2022低空飞行服务系统技术规范",
+    "title": "MH/T 4055.1-2022 低空飞行服务系统技术规范 第1部分：架构与配置",
+    "category": "02-行业标准库",
+    "filename": "08-MHT4055-2022低空飞行服务系统技术规范.md",
+    "publisher": "中国民用航空局空管行业管理办公室",
+    "publish_date": "2022-10-28",
+    "doc_number": "MH/T 4055.1-2022",
+    "importance": "★★★☆☆",
+    "tags": [
+      "民航标准",
+      "低空飞行",
+      "服务系统",
+      "架构"
+    ],
+    "source_url": "http://aircraft.work/Standards/MH",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "09-动力提升航空器适航标准征求意见稿",
+    "title": "动力提升航空器适航标准（征求意见稿）— 全球首个eVTOL专用适航标准",
+    "category": "02-行业标准库",
+    "filename": "09-动力提升航空器适航标准征求意见稿.md",
+    "publisher": "中国民用航空局航空器适航审定司",
+    "publish_date": "2025-12-15",
+    "doc_number": "AC-21-AA-2025-XX",
+    "importance": "★★★★★",
+    "tags": [
+      "适航标准",
+      "eVTOL",
+      "全球首个",
+      "征求意见稿",
+      "民航局"
+    ],
+    "source_url": "http://www.caac.gov.cn/HDJL/YJZJ/202512/P020251215491814715130.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "10-限用类无人驾驶航空器系统适航标准征求意见稿",
+    "title": "限用类无人驾驶航空器系统适航标准（征求意见稿）",
+    "category": "02-行业标准库",
+    "filename": "10-限用类无人驾驶航空器系统适航标准征求意见稿.md",
+    "publisher": "中国民用航空局航空器适航审定司",
+    "publish_date": "2025-12-15",
+    "doc_number": "AC-21-AA-2025-XX",
+    "importance": "★★★★☆",
+    "tags": [
+      "适航标准",
+      "中大型无人机",
+      "限用类",
+      "征求意见稿"
+    ],
+    "source_url": "http://www.caac.gov.cn/HDJL/YJZJ/202512/P020251215491814531403.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "11-中型民用无人驾驶航空器适航审定指南试行",
+    "title": "中型民用无人驾驶航空器适航审定指南（试行）",
+    "category": "02-行业标准库",
+    "filename": "11-中型民用无人驾驶航空器适航审定指南试行.md",
+    "publisher": "中国民用航空局",
+    "publish_date": "2025-12-00",
+    "doc_number": "—",
+    "importance": "★★★★☆",
+    "tags": [
+      "适航审定",
+      "中型无人机",
+      "物流",
+      "限制类适航证"
+    ],
+    "source_url": "https://www.docin.com/touch_new/preview_new.do?id=4934348628",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "12-GBT44235-2025移动通信系统通感融合技术要求",
+    "title": "GB/T 44235–2025 移动通信系统通感融合技术要求与测试方法",
+    "category": "02-行业标准库",
+    "filename": "12-GBT44235-2025移动通信系统通感融合技术要求.md",
+    "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+    "publish_date": "2025-03-01",
+    "doc_number": "GB/T 44235–2025（推荐性国家标准）",
+    "importance": "★★★★☆",
+    "tags": [
+      "推荐性国标",
+      "5G-A",
+      "通感融合",
+      "低空智联网",
+      "全球首个"
+    ],
+    "source_url": "https://www.docin.com/touch_new/preview_new.do?id=4990409572",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "13-TFJIOT001-2024低空经济5G空中传输专网技术规范",
+    "title": "T/FJIOT 001-2024 低空经济 5G空中传输专网（'低空智联网'）典型应用场景技术规范",
+    "category": "02-行业标准库",
+    "filename": "13-TFJIOT001-2024低空经济5G空中传输专网技术规范.md",
+    "publisher": "福建省物联网团体标准",
+    "publish_date": "2024-09-30",
+    "doc_number": "T/FJIOT 001-2024（团体标准）",
+    "importance": "★★★☆☆",
+    "tags": [
+      "团体标准",
+      "5G-A",
+      "低空智联网",
+      "通感融合"
+    ],
+    "source_url": "https://www.ttbz.org.cn/upload/file/20240930/6386330839468303256725955.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "14-民用轻小型无人机物流配送试运行审定指南",
+    "title": "民用轻小型无人驾驶航空器物流配送试运行审定指南",
+    "category": "02-行业标准库",
+    "filename": "14-民用轻小型无人机物流配送试运行审定指南.md",
+    "publisher": "中国民用航空局",
+    "publish_date": "2024-00-00",
+    "doc_number": "—",
+    "importance": "★★★★☆",
+    "tags": [
+      "民航指南",
+      "物流配送",
+      "试运行审定",
+      "城市物流"
+    ],
+    "source_url": "https://www.sohu.com/a/924261235_120664764",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "15-军民通用低空物流配送服务管理规范征求意见稿",
+    "title": "军民通用低空物流配送服务管理规范（征求意见稿）",
+    "category": "02-行业标准库",
+    "filename": "15-军民通用低空物流配送服务管理规范征求意见稿.md",
+    "publisher": "中国和平利用军工技术协会",
+    "publish_date": "2026-03-00",
+    "doc_number": "T/CPUMT-P-2025（团体标准）",
+    "importance": "★★★☆☆",
+    "tags": [
+      "团体标准",
+      "军民融合",
+      "物流配送",
+      "征求意见稿"
+    ],
+    "source_url": "https://www.ttbz.org.cn/upload/file/20260313/6390901842483226058288515.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  },
+  {
+    "id": "16-低空经济标准体系建设指南2025年版",
+    "title": "低空经济标准体系建设指南（2025年版）",
+    "category": "02-行业标准库",
+    "filename": "16-低空经济标准体系建设指南2025年版.md",
+    "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+    "publish_date": "2026-00-00",
+    "doc_number": "—",
+    "importance": "★★★★★",
+    "tags": [
+      "标准体系",
+      "顶层设计",
+      "十部门",
+      "2030目标"
+    ],
+    "source_url": "https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20261/3b6e572b8bec4ecfb627bd306807e85a.pdf",
+    "uploaded": false,
+    "uploaded_date": null,
+    "ima_library": null
+  }
+]

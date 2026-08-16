@@ -1,0 +1,237 @@
+# ============================================
+# 低空经济情报服务 — 数据源配置
+# ============================================
+
+# P0 级数据源：九部委政府网站
+gov_sources:
+  - name: "国家发展和改革委员会"
+    short_name: "发改委"
+    url: "https://www.ndrc.gov.cn"
+    search_paths:
+      - "/xxgk/zcfb/"
+      - "/xxgk/fzggw/"
+    keywords:
+      - "低空经济"
+      - "通用航空"
+      - "无人机"
+      - "eVTOL"
+      - "低空空域"
+    update_frequency: "daily"
+    priority: "P0"
+
+  - name: "中国民用航空局"
+    short_name: "民航局"
+    url: "http://www.caac.gov.cn"
+    search_paths:
+      - "/XXGK/XXGK/"
+      - "/ZWGAO/"
+    keywords:
+      - "低空经济"
+      - "通用航空"
+      - "无人机"
+      - "适航"
+      - "空域管理"
+    update_frequency: "daily"
+    priority: "P0"
+
+  - name: "工业和信息化部"
+    short_name: "工信部"
+    url: "https://www.miit.gov.cn"
+    search_paths:
+      - "/zwgk/zcwj/"
+      - "/jgsj/"
+    keywords:
+      - "低空经济"
+      - "无人机制造"
+      - "通用航空装备"
+      - "低空产业"
+    update_frequency: "daily"
+    priority: "P0"
+
+  - name: "交通运输部"
+    short_name: "交通部"
+    url: "https://www.mot.gov.cn"
+    search_paths:
+      - "/zhuanti/"
+      - "/zhengce/"
+    keywords:
+      - "低空经济"
+      - "无人机物流"
+      - "通用航空"
+    update_frequency: "weekly"
+    priority: "P0"
+
+  - name: "科学技术部"
+    short_name: "科技部"
+    url: "https://www.most.gov.cn"
+    search_paths:
+      - "/xxgk/xinxifenlei/"
+      - "/tztg/"
+    keywords:
+      - "低空经济"
+      - "通用航空"
+      - "无人机"
+      - "科技创新"
+    update_frequency: "weekly"
+    priority: "P0"
+
+  - name: "公安部"
+    short_name: "公安部"
+    url: "https://www.mps.gov.cn"
+    search_paths:
+      - "/n2254314/"
+      - "/gonggao/"
+    keywords:
+      - "无人机"
+      - "低空"
+      - "航空安全"
+    update_frequency: "weekly"
+    priority: "P0"
+
+  - name: "应急管理部"
+    short_name: "应急部"
+    url: "https://www.mem.gov.cn"
+    search_paths:
+      - "/gk/"
+      - "/zwgk/"
+    keywords:
+      - "无人机"
+      - "低空"
+      - "应急救援"
+    update_frequency: "weekly"
+    priority: "P0"
+
+  - name: "国家市场监督管理总局"
+    short_name: "市场监管总局"
+    url: "https://www.samr.gov.cn"
+    search_paths:
+      - "/zw/"
+      - "/xzxk/"
+    keywords:
+      - "低空经济"
+      - "无人机标准"
+      - "通用航空标准"
+    update_frequency: "weekly"
+    priority: "P0"
+
+  - name: "中国气象局"
+    short_name: "气象局"
+    url: "https://www.cma.gov.cn"
+    search_paths:
+      - "/2011xwzx/"
+      - "/zwgk/"
+    keywords:
+      - "低空"
+      - "航空气象"
+      - "无人机"
+    update_frequency: "weekly"
+    priority: "P0"
+
+# P1 级数据源：行业协会
+association_sources:
+  - name: "中国航空器拥有者及驾驶员协会"
+    short_name: "AOPA中国"
+    url: "https://www.aopa.org.cn"
+    search_paths:
+      - "/news/"
+      - "/events/"
+    keywords:
+      - "低空经济"
+      - "无人机"
+      - "通用航空"
+      - "培训"
+    update_frequency: "daily"
+    priority: "P1"
+
+  - name: "中国无人机产业创新联盟"
+    short_name: "无人机联盟"
+    url: "https://www.chinauav.org.cn"
+    search_paths:
+      - "/news/"
+      - "/activities/"
+    keywords:
+      - "低空经济"
+      - "无人机"
+      - "展会"
+      - "研讨会"
+    update_frequency: "weekly"
+    priority: "P1"
+
+  - name: "中国航空运输协会"
+    short_name: "航协"
+    url: "https://www.cata.org.cn"
+    search_paths:
+      - "/xwzx/"
+      - "/tzgg/"
+    keywords:
+      - "低空经济"
+      - "通用航空"
+      - "无人机"
+    update_frequency: "weekly"
+    priority: "P1"
+
+  - name: "深圳市低空经济产业协会"
+    short_name: "深圳低空协会"
+    url: "https://www.szlaeia.com"
+    search_paths:
+      - "/news/"
+      - "/events/"
+    keywords:
+      - "低空经济"
+      - "深圳"
+      - "产业"
+    update_frequency: "weekly"
+    priority: "P1"
+
+  - name: "中国低空经济联盟"
+    short_name: "低空联盟"
+    url: "https://www.laeac.org.cn"
+    search_paths:
+      - "/news/"
+      - "/meetings/"
+    keywords:
+      - "低空经济"
+      - "联盟"
+      - "会议"
+    update_frequency: "weekly"
+    priority: "P1"
+
+# 采集配置
+collection:
+  request_interval: 30  # 请求间隔（秒）
+  max_retries: 3        # 最大重试次数
+  retry_interval: 30    # 重试间隔（秒）
+  timeout: 30           # 请求超时（秒）
+  respect_robots_txt: true
+  user_agent: "Mozilla/5.0 (compatible; LowAltitudeIntelBot/1.0)"
+  encoding: "utf-8"
+  output_format: "json"
+  save_raw_html: false  # 是否保存原始HTML
+
+# NER 配置
+ner:
+  engines:
+    - "hanlp"
+    - "spacy"
+  confidence_threshold: "intersection"  # intersection=取交集(高置信), union=取并集(全量)
+  custom_dict_path: "config/industry_dict.yaml"
+  
+# 元数据字段定义
+metadata_fields:
+  document:
+    - title
+    - publisher
+    - publish_date
+    - source_url
+    - source_site
+    - content
+  entity:
+    - person_names
+    - org_names
+    - titles
+    - speech_topics
+  meeting:
+    - meeting_name
+    - meeting_date
+    - meeting_location
+    - meeting_organizer

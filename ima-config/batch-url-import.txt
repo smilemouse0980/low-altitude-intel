@@ -1,0 +1,44 @@
+# IMA 知识库批量 URL 导入清单
+# 用法：在 IMA 知识库中使用"网页链接"导入功能，每次最多粘贴 10 条 URL
+# 按 10 条一组分批导入，共 4 组（33 条 URL）
+
+# ===== 第 1 组（法规政策库 01-10）=====
+https://www.gov.cn/zhengce/content/202306/content_6888799.htm
+https://www.gov.cn/zhengce/202401/content_6924198.htm
+https://www.gov.cn/zhengce/202412/content_6993562.htm
+https://www.gov.cn/zhuanti/2024qglh/
+https://www.gov.cn/
+https://www.ndrc.gov.cn/fzggw/jgsj/dks/wap_index.html
+https://www.ndrc.gov.cn/xxgk/wjk/wap_index.html?date=2025&tab=all
+http://www.caac.gov.cn/
+https://www.zzyuam.com/news/detail/b3fbb70b8af4af3e0578d74fadd63851
+http://m.chinanews.com/wap/detail/cht/zw/10623895.shtml
+
+# ===== 第 2 组（法规政策库 11-17）=====
+https://www.gov.cn/zhengce/zhengceku/202403/P020240328724691408759.pdf
+https://www.gov.cn/lianbo/bumen/202509/content_7041373.htm
+https://www.szrd.gov.cn/v2/zx/szfg/content/post_1123253.html
+http://www.gd.gov.cn/gdywdt/dsdt/content/mpost_4755458.html
+https://www.zzyuam.com/news/detail/1f07f0f119ca24b8796d209bc300d89f
+https://chejiahao.m.autohome.com.cn/info/24769885
+http://www.sc.xinhuanet.com/20250625/3e9b0f0a30894efa9910765854b1e996/c.html
+
+# ===== 第 3 组（行业标准库 01-10）=====
+http://www.caac.gov.cn/XXGK/XXGK/BZGF/BZGF_GJBZ/202601/t20260120_229784.html
+http://www.caac.gov.cn/XWZX/MHYW/202512/t20251222_229506.html
+https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=26257D27F546360A98C814D079D32C2E
+https://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/202506/P020250627521128936456.pdf
+http://www.caac.gov.cn/PHONE/XXGK_17/XXGK/BZGF/HYBZ/202607/P020260706349265043390.pdf
+http://m.sensha.com.cn/h-nd-1198.html
+http://aircraft.work/Standards/MH
+http://aircraft.work/Standards/MH
+http://www.caac.gov.cn/HDJL/YJZJ/202512/P020251215491814715130.pdf
+http://www.caac.gov.cn/HDJL/YJZJ/202512/P020251215491814531403.pdf
+
+# ===== 第 4 组（行业标准库 11-16）=====
+https://www.docin.com/touch_new/preview_new.do?id=4934348628
+https://www.docin.com/touch_new/preview_new.do?id=4990409572
+https://www.ttbz.org.cn/upload/file/20240930/6386330839468303256725955.pdf
+https://www.sohu.com/a/924261235_120664764
+https://www.ttbz.org.cn/upload/file/20260313/6390901842483226058288515.pdf
+https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20261/3b6e572b8bec4ecfb627bd306807e85a.pdf
