@@ -58,36 +58,28 @@ SOURCES = [
         "keywords": [],
         "priority": "P0",
     },
-    # === P1: 直接新闻源 RSS（提供真实 URL 和正文摘要） ===
-    {
-        "name": "36氪-低空经济",
-        "type": "direct_rss",
-        "url": "https://36kr.com/feed",
-        "keywords": ["低空经济", "无人机", "eVTOL", "低空", "飞行汽车", "通用航空"],
-        "priority": "P1",
-    },
-    {
-        "name": "新浪航空-低空经济",
-        "type": "direct_rss",
-        "url": "https://feed.cn/feed/aero",
-        "keywords": ["低空经济", "无人机", "eVTOL", "低空", "通用航空"],
-        "priority": "P1",
-    },
-    # === P2: Bing News RSS ===
+    # === P1: Bing News RSS（可能包含文章摘要） ===
     {
         "name": "Bing新闻-低空经济",
         "type": "bing_rss",
         "url": "https://www.bing.com/news/search?q=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&format=rss",
         "keywords": [],
-        "priority": "P2",
+        "priority": "P1",
     },
-    # === P3: 政府网站 HTML 搜索解析 ===
+    {
+        "name": "Bing新闻-eVTOL中国",
+        "type": "bing_rss",
+        "url": "https://www.bing.com/news/search?q=eVTOL+%E4%B8%AD%E5%9B%BD&format=rss",
+        "keywords": [],
+        "priority": "P1",
+    },
+    # === P2: 政府网站 HTML 搜索解析 ===
     {
         "name": "国务院政策-低空经济",
         "type": "gov_html",
         "url": "https://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&searchWord=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&t=zhengcelibrary_gw",
         "keywords": [],
-        "priority": "P3",
+        "priority": "P2",
     },
 ]
 
@@ -261,14 +253,9 @@ class FeedCollector:
                 summary = entry.get('summary', entry.get('description', '')).strip()
                 published = entry.get('published', entry.get('updated', ''))
 
-                # Google News 的 link 是编码跳转 URL，需要解码出原始文章 URL
-                url_resolved = True
-                if 'news.google.com' in link:
-                    decoded_url = self._decode_google_news_url(link)
-                    if decoded_url:
-                        link = decoded_url
-                    else:
-                        url_resolved = False
+                # Google News 的 link 是编码跳转 URL，在采集阶段不解析（太慢）
+                # URL 解析推迟到 step 2 的 fetch_and_parse 中进行
+                url_resolved = 'news.google.com' not in link
 
                 if not link:
                     continue
@@ -286,7 +273,7 @@ class FeedCollector:
                 if self._is_collected(link):
                     continue
 
-                # 如果 URL 未解析，用标题作为内容（至少有标题可用于 NER）
+                # 用标题+摘要作为内容（至少有标题可用于 NER）
                 content = summary if len(summary) > 50 else title
 
                 record = self._make_record(

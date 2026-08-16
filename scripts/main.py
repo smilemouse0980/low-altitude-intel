@@ -102,9 +102,6 @@ class IntelPipeline:
             url = record.get('url', '')
             if not url:
                 continue
-            # URL 未解析（如 Google News JS 跳转），跳过全文提取
-            if not record.get('url_resolved', True):
-                continue
             to_parse.append(record)
 
         logger.info(f"需要全文提取: {len(to_parse)} 条（已跳过 {len(raw_records) - len(to_parse)} 条内容充足）")
@@ -134,9 +131,16 @@ class IntelPipeline:
                         final_url = resp.url
                         if 'news.google.com' in final_url:
                             import re as _re
+                            # 尝试多种方式从 HTML 中提取真实 URL
                             url_match = _re.search(r'data-n-au="([^"]+)"', resp.text)
                             if not url_match:
                                 url_match = _re.search(r'window\.location\.replace\(["\']([^"\']+)', resp.text)
+                            if not url_match:
+                                url_match = _re.search(r'<meta[^>]+http-equiv=["\']refresh["\'][^>]+url=([^"\'>\s]+)', resp.text, _re.IGNORECASE)
+                            if not url_match:
+                                url_match = _re.search(r'og:url["\']\s+content=["\'](https?://[^"\']+)', resp.text)
+                            if not url_match:
+                                url_match = _re.search(r'<a[^>]+class=["\'][^"]*article[^"]*["\'][^>]+href=["\'](https?://[^"\']+)', resp.text)
                             if not url_match:
                                 url_match = _re.search(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', resp.text)
                             if url_match:
@@ -238,13 +242,17 @@ class IntelPipeline:
 
         intel_records = []
         for i, record in enumerate(records):
+            # 合并标题和内容用于 NER（标题通常包含关键实体）
+            title = record.get('title', '')
             content = record.get('content', '')
-            if len(content) < 50:
+            ner_text = f"{title} {content}".strip() if content else title
+
+            if len(ner_text) < 20:
                 intel_records.append(record)
                 continue
 
             try:
-                entities = self.ner_extractor.extract(content)
+                entities = self.ner_extractor.extract(ner_text)
                 record['entities'] = entities
                 self.stats['entities_extracted'] += 1
 
