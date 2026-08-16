@@ -1,0 +1,36 @@
+{
+  "doc_id": "a34adcf25490",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSW1qbEpKR0xvTm5Za0JsaHRudkRPM3hGX0lPbHpQWDdjdXg3T0pwY2o2Q3gwb2hBUFVJVUpGZS1LOGhfZVU3Y2lZbW1ZejBFeEhkbG1LcElnSVB2a3BBeF9uUk1rN2ZVMF9LdUR0UzZDS0xZeVpJZTNkenZkMmpLWEpyRG82Ukd6TTBPenNjaUNWZENlZ014RmN3?oc=5",
+  "title": "静音飞行：香港科大引领无人机实现低噪安全新未来 - The Hong Kong University of Science and Technology",
+  "content": "静音飞行：香港科大引领无人机实现低噪安全新未来The Hong Kong University of Science and Technology",
+  "publish_date": "2025-07-30",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-16T22:16:22.817419+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "香港科大",
+        "label": "org",
+        "start": 5,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

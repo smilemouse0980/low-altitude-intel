@@ -1,17 +1,17 @@
 {
-  "total_records": 386,
+  "total_records": 404,
   "by_source": {
-    "news.google.com": 386
+    "news.google.com": 404
   },
   "by_type": {
-    "rss": 386
+    "rss": 404
   },
   "by_quality": {
-    "warning: missing_url,content_too_short": 386
+    "warning: missing_url,content_too_short": 404
   },
   "date_range": {
-    "earliest": "2023-02-07",
+    "earliest": "2021-04-10",
     "latest": "2026-08-16"
   },
-  "generated_at": "2026-08-16T14:05:27.422074"
+  "generated_at": "2026-08-16T14:19:14.238754"
 }
