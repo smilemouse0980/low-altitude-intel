@@ -239,16 +239,20 @@ class IntelPipeline:
 
         # 测试 RSS 采集
         try:
-            from feed_collector import FeedCollector
+            from feed_collector import FeedCollector, SOURCES
             self.feed_collector = FeedCollector()
 
-            # 只采集第一个源
-            from feed_collector import RSS_SOURCES
-            source = RSS_SOURCES[0]
-            if source['type'] == 'rss':
+            # 只采集第一个源（Google News RSS）
+            source = SOURCES[0]
+            stype = source.get('type', 'rss')
+            if stype == 'rss':
                 results = self.feed_collector.collect_rss(source)
+            elif stype == 'bing_rss':
+                results = self.feed_collector.collect_bing_rss(source)
+            elif stype == 'gov_html':
+                results = self.feed_collector.collect_gov_html(source)
             else:
-                results = self.feed_collector.collect_search(source)
+                results = []
 
             self.stats['collected'] = len(results)
             logger.info(f"测试采集完成：{len(results)} 条")

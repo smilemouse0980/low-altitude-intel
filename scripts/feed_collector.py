@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-低空经济情报服务 — RSS/Atom 采集引擎
-通过 RSS 订阅源采集政府网站和行业协会的最新政策与动态
+低空经济情报服务 — 多源采集引擎 v2
+使用 Google News RSS + Bing News RSS + HTML 搜索页面解析
+确保在 GitHub Actions Ubuntu runner 上可靠运行
 """
 
 import os
@@ -12,69 +13,86 @@ import hashlib
 import logging
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, quote_plus
+import xml.etree.ElementTree as ET
 
 import feedparser
 import requests
+from bs4 import BeautifulSoup
 
 PROJECT_ROOT = Path(__file__).parent.parent
 logger = logging.getLogger(__name__)
 
 BJT = timezone(timedelta(hours=8))
 
-# RSS 订阅源配置
-# 使用多源策略：政府网站搜索 + 行业媒体 RSS + Google Alerts
-RSS_SOURCES = [
-    # === P0: 政府网站搜索接口 ===
+# ============================================================================
+# 数据源配置 — 全部使用经过验证的可靠源
+# ============================================================================
+SOURCES = [
+    # === P0: Google News RSS（最可靠，支持中文） ===
     {
-        "name": "国务院政策搜索",
-        "type": "search",
-        "url": "https://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&searchWord={keyword}&t=zhengcelibrary_gw",
-        "keywords": ["低空经济", "无人机", "通用航空"],
-        "priority": "P0",
-    },
-    {
-        "name": "发改委搜索",
-        "type": "search",
-        "url": "https://www.ndrc.gov.cn/search-searchPdf?keyword={keyword}&pageNum=1&pageSize=20",
-        "keywords": ["低空经济", "通用航空", "无人机"],
-        "priority": "P0",
-    },
-    {
-        "name": "民航局搜索",
-        "type": "search",
-        "url": "http://www.caac.gov.cn/XXGK/XXGK/index_176.html?keywords={keyword}",
-        "keywords": ["低空", "无人机", "适航", "通用航空"],
-        "priority": "P0",
-    },
-    # === P1: 行业媒体 RSS ===
-    {
-        "name": "航空工业-36氪",
+        "name": "Google新闻-低空经济",
         "type": "rss",
-        "url": "https://36kr.com/feed",
-        "keywords": ["低空经济", "eVTOL", "无人机", "飞行汽车", "通用航空"],
+        "url": "https://news.google.com/rss/search?q=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "keywords": [],
+        "priority": "P0",
+    },
+    {
+        "name": "Google新闻-eVTOL",
+        "type": "rss",
+        "url": "https://news.google.com/rss/search?q=eVTOL+%E4%B8%AD%E5%9B%BD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "keywords": [],
+        "priority": "P0",
+    },
+    {
+        "name": "Google新闻-无人机政策",
+        "type": "rss",
+        "url": "https://news.google.com/rss/search?q=%E6%97%A0%E4%BA%BA%E6%9C%BA+%E6%94%BF%E7%AD%96&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "keywords": [],
+        "priority": "P0",
+    },
+    {
+        "name": "Google新闻-通用航空",
+        "type": "rss",
+        "url": "https://news.google.com/rss/search?q=%E9%80%9A%E7%94%A8%E8%88%AA%E7%A9%BA+%E4%BD%8E%E7%A9%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "keywords": [],
+        "priority": "P0",
+    },
+    # === P1: Bing News RSS ===
+    {
+        "name": "Bing新闻-低空经济",
+        "type": "bing_rss",
+        "url": "https://www.bing.com/news/search?q=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&format=rss",
+        "keywords": [],
         "priority": "P1",
     },
+    # === P2: 政府网站 HTML 搜索解析 ===
     {
-        "name": "澎湃新闻-科技",
-        "type": "rss",
-        "url": "https://feedx.net/rss/thepapertech.xml",
-        "keywords": ["低空经济", "eVTOL", "无人机", "飞行汽车"],
-        "priority": "P1",
+        "name": "国务院政策-低空经济",
+        "type": "gov_html",
+        "url": "https://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&searchWord=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&t=zhengcelibrary_gw",
+        "keywords": [],
+        "priority": "P2",
     },
-    # === P2: 通用搜索聚合 ===
     {
-        "name": "百度新闻-低空经济",
-        "type": "baidu_news",
-        "url": "https://news.baidu.com/ns?word={keyword}&tn=newsdy&from=news",
-        "keywords": ["低空经济", "eVTOL", "无人机政策"],
+        "name": "民航局-低空经济",
+        "type": "gov_html",
+        "url": "http://www.caac.gov.cn/XXGK/XXGK/MHGZSL/index_176.html?WkUzv=%E4%BD%8E%E7%A9%BA",
+        "keywords": [],
         "priority": "P2",
     },
 ]
 
+# 关键词过滤白名单（采集后二次过滤用）
+KEYWORD_FILTER = [
+    "低空经济", "低空", "eVTOL", "无人机", "通用航空",
+    "飞行汽车", "空中交通", "UAM", "UAV", "适航",
+    "空域管理", "低空空域", "城市空中交通", "电动垂直起降"
+]
+
 
 class FeedCollector:
-    """RSS/Atom 采集器"""
+    """多源采集器 v2"""
 
     def __init__(self):
         self.raw_dir = PROJECT_ROOT / 'raw' / 'feeds'
@@ -83,8 +101,11 @@ class FeedCollector:
         self.state = self._load_state()
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (compatible; LowAltitudeIntelBot/1.0; +https://github.com/low-altitude-intel)'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/rss+xml,application/xml,text/xml,*/*',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
         })
+        self.session.verify = False
 
     def _load_state(self):
         if self.state_file.exists():
@@ -94,8 +115,7 @@ class FeedCollector:
 
     def _save_state(self):
         self.state['last_run'] = datetime.now(BJT).isoformat()
-        # 只保留最近 500 条 URL 防止文件过大
-        self.state['collected_urls'] = self.state['collected_urls'][-500:]
+        self.state['collected_urls'] = self.state['collected_urls'][-1000:]
         with open(self.state_file, 'w', encoding='utf-8') as f:
             json.dump(self.state, f, ensure_ascii=False, indent=2)
 
@@ -110,13 +130,57 @@ class FeedCollector:
     def _url_hash(self, url):
         return hashlib.md5(url.encode('utf-8')).hexdigest()[:12]
 
-    def _matches_keywords(self, text, keywords):
-        """检查文本是否包含任一关键词"""
+    def _is_relevant(self, text):
+        """检查内容是否与低空经济相关"""
+        if not text:
+            return False
         text_lower = text.lower()
-        return any(kw.lower() in text_lower for kw in keywords)
+        return any(kw.lower() in text_lower for kw in KEYWORD_FILTER)
 
+    def _clean_html(self, text):
+        """去除 HTML 标签"""
+        if not text:
+            return ""
+        soup = BeautifulSoup(text, 'html.parser')
+        return soup.get_text(strip=True)
+
+    def _parse_date(self, date_str):
+        """解析日期字符串"""
+        if not date_str:
+            return datetime.now(BJT).strftime('%Y-%m-%d')
+        try:
+            from dateutil import parser as date_parser
+            dt = date_parser.parse(date_str)
+            return dt.strftime('%Y-%m-%d')
+        except Exception:
+            match = re.search(r'(\d{4})-(\d{1,2})-(\d{1,2})', str(date_str))
+            if match:
+                return f"{match.group(1)}-{int(match.group(2)):02d}-{int(match.group(3)):02d}"
+            return datetime.now(BJT).strftime('%Y-%m-%d')
+
+    def _make_record(self, url, title, content, publish_date, publisher, source_type, extra=None):
+        """创建标准化记录"""
+        record = {
+            'doc_id': self._url_hash(url),
+            'url': url,
+            'title': title.strip() if title else '',
+            'content': self._clean_html(content)[:5000] if content else '',
+            'publish_date': self._parse_date(publish_date),
+            'publisher': publisher,
+            'source_site': urlparse(url).netloc,
+            'source_type': source_type,
+            'collected_at': datetime.now(BJT).isoformat(),
+            'quality_flag': 'pending'
+        }
+        if extra:
+            record.update(extra)
+        return record
+
+    # =========================================================================
+    # 采集方法 1: 标准 RSS/Atom（Google News）
+    # =========================================================================
     def collect_rss(self, source):
-        """采集 RSS 源"""
+        """采集标准 RSS 源"""
         name = source['name']
         url = source['url']
         keywords = source.get('keywords', [])
@@ -125,10 +189,11 @@ class FeedCollector:
         results = []
 
         try:
-            resp = self.session.get(url, timeout=30, verify=False)
+            resp = self.session.get(url, timeout=30)
             resp.encoding = resp.apparent_encoding or 'utf-8'
 
-            feed = feedparser.parse(resp.text)
+            # Google News RSS 返回的是标准 XML
+            feed = feedparser.parse(resp.content)
 
             for entry in feed.entries:
                 title = entry.get('title', '').strip()
@@ -136,126 +201,206 @@ class FeedCollector:
                 summary = entry.get('summary', entry.get('description', '')).strip()
                 published = entry.get('published', entry.get('updated', ''))
 
-                # 关键词过滤
+                # Google News 的 link 通常是 redirect URL
+                if 'news.google.com' in link:
+                    # 提取实际 URL
+                    match = re.search(r'url=([^&]+)', link)
+                    if match:
+                        from urllib.parse import unquote
+                        link = unquote(match.group(1))
+
+                if not link:
+                    continue
+
+                # 关键词过滤（如果有配置）
                 combined_text = f"{title} {summary}"
-                if keywords and not self._matches_keywords(combined_text, keywords):
+                if keywords and not any(kw.lower() in combined_text.lower() for kw in keywords):
+                    continue
+
+                # 相关性过滤
+                if not self._is_relevant(combined_text):
                     continue
 
                 # 去重
                 if self._is_collected(link):
                     continue
 
-                record = {
-                    'doc_id': self._url_hash(link),
-                    'url': link,
-                    'title': title,
-                    'content': summary,
-                    'publish_date': self._parse_date(published),
-                    'publisher': name,
-                    'source_site': urlparse(url).netloc,
-                    'source_type': 'rss',
-                    'collected_at': datetime.now(BJT).isoformat(),
-                    'quality_flag': 'pending'
-                }
-
+                record = self._make_record(
+                    link, title, summary, published, name, 'rss'
+                )
                 results.append(record)
                 self._mark_collected(link)
 
             logger.info(f"    获取 {len(results)} 条新内容")
 
         except Exception as e:
-            logger.warning(f"    采集失败: {e}")
+            logger.warning(f"    采集失败: {type(e).__name__}: {e}")
 
         return results
 
-    def collect_search(self, source):
-        """采集搜索接口"""
+    # =========================================================================
+    # 采集方法 2: Bing News RSS
+    # =========================================================================
+    def collect_bing_rss(self, source):
+        """采集 Bing News RSS"""
         name = source['name']
-        base_url = source['url']
-        keywords = source.get('keywords', [])
+        url = source['url']
 
-        logger.info(f"  采集搜索: {name}")
+        logger.info(f"  采集 Bing RSS: {name}")
         results = []
 
-        for kw in keywords:
-            url = base_url.format(keyword=requests.utils.quote(kw))
-            try:
-                resp = self.session.get(url, timeout=30, verify=False)
-                resp.encoding = resp.apparent_encoding or 'utf-8'
+        try:
+            resp = self.session.get(url, timeout=30)
+            resp.encoding = resp.apparent_encoding or 'utf-8'
 
-                # 尝试解析为 RSS
-                feed = feedparser.parse(resp.text)
-                if feed.entries:
-                    for entry in feed.entries:
-                        title = entry.get('title', '').strip()
-                        link = entry.get('link', '').strip()
-                        summary = entry.get('summary', '').strip()
+            # Bing RSS 也是标准 XML
+            feed = feedparser.parse(resp.content)
 
-                        if self._is_collected(link):
-                            continue
+            for entry in feed.entries:
+                title = entry.get('title', '').strip()
+                link = entry.get('link', '').strip()
+                summary = entry.get('summary', entry.get('description', '')).strip()
+                published = entry.get('published', entry.get('updated', ''))
 
-                        record = {
-                            'doc_id': self._url_hash(link),
-                            'url': link,
-                            'title': title,
-                            'content': summary,
-                            'publish_date': self._parse_date(entry.get('published', '')),
-                            'publisher': name,
-                            'source_site': urlparse(url).netloc,
-                            'source_type': 'search',
-                            'search_keyword': kw,
-                            'collected_at': datetime.now(BJT).isoformat(),
-                            'quality_flag': 'pending'
-                        }
-                        results.append(record)
-                        self._mark_collected(link)
+                if not link:
+                    continue
 
-                time.sleep(2)  # 礼貌延迟
+                # 相关性过滤
+                combined_text = f"{title} {summary}"
+                if not self._is_relevant(combined_text):
+                    continue
 
-            except Exception as e:
-                logger.warning(f"    搜索 '{kw}' 失败: {e}")
+                if self._is_collected(link):
+                    continue
 
-        logger.info(f"    获取 {len(results)} 条新内容")
+                record = self._make_record(
+                    link, title, summary, published, name, 'bing_rss'
+                )
+                results.append(record)
+                self._mark_collected(link)
+
+            logger.info(f"    获取 {len(results)} 条新内容")
+
+        except Exception as e:
+            logger.warning(f"    采集失败: {type(e).__name__}: {e}")
+
         return results
 
-    def _parse_date(self, date_str):
-        """解析日期字符串"""
-        if not date_str:
-            return datetime.now(BJT).strftime('%Y-%m-%d')
+    # =========================================================================
+    # 采集方法 3: 政府网站 HTML 搜索页面解析
+    # =========================================================================
+    def collect_gov_html(self, source):
+        """采集政府网站 HTML 搜索页面"""
+        name = source['name']
+        url = source['url']
+
+        logger.info(f"  采集政府网站: {name}")
+        results = []
 
         try:
-            from dateutil import parser as date_parser
-            dt = date_parser.parse(date_str)
-            return dt.strftime('%Y-%m-%d')
-        except Exception:
-            # 尝试正则匹配
-            match = re.search(r'(\d{4})-(\d{1,2})-(\d{1,2})', date_str)
-            if match:
-                return f"{match.group(1)}-{int(match.group(2)):02d}-{int(match.group(3)):02d}"
-            return datetime.now(BJT).strftime('%Y-%m-%d')
+            resp = self.session.get(url, timeout=30)
+            resp.encoding = resp.apparent_encoding or 'utf-8'
 
+            soup = BeautifulSoup(resp.content, 'html.parser')
+
+            # 通用策略：查找所有包含链接的列表项
+            # 政府网站通常用 <li>, <div>, <a> 等元素展示搜索结果
+            found_items = []
+
+            # 策略 1: 查找带有标题和日期的链接
+            for a_tag in soup.find_all('a', href=True):
+                href = a_tag.get('href', '')
+                text = a_tag.get_text(strip=True)
+
+                # 跳过导航链接等
+                if len(text) < 8 or len(text) > 200:
+                    continue
+                if any(skip in text for skip in ['首页', '下一页', '上一页', '更多', '登录', '搜索']):
+                    continue
+
+                # 补全相对 URL
+                if href.startswith('/'):
+                    href = urljoin(url, href)
+                elif not href.startswith('http'):
+                    continue
+
+                # 尝试查找同级或父级的日期
+                parent = a_tag.parent
+                date_text = ''
+                if parent:
+                    date_match = re.search(r'(\d{4})[-/年](\d{1,2})[-/月](\d{1,2})', parent.get_text())
+                    if date_match:
+                        date_text = f"{date_match.group(1)}-{int(date_match.group(2)):02d}-{int(date_match.group(3)):02d}"
+
+                found_items.append({
+                    'url': href,
+                    'title': text,
+                    'date': date_text,
+                    'summary': ''
+                })
+
+            # 去重（同一 URL 只保留第一条）
+            seen_urls = set()
+            for item in found_items:
+                if item['url'] in seen_urls:
+                    continue
+                seen_urls.add(item['url'])
+
+                # 相关性过滤
+                if not self._is_relevant(item['title']):
+                    continue
+
+                if self._is_collected(item['url']):
+                    continue
+
+                record = self._make_record(
+                    item['url'], item['title'], item['summary'],
+                    item['date'], name, 'gov_html'
+                )
+                results.append(record)
+                self._mark_collected(item['url'])
+
+            logger.info(f"    获取 {len(results)} 条新内容")
+
+        except Exception as e:
+            logger.warning(f"    采集失败: {type(e).__name__}: {e}")
+
+        return results
+
+    # =========================================================================
+    # 主运行方法
+    # =========================================================================
     def run(self):
         """运行所有源的采集"""
         logger.info("=" * 60)
-        logger.info("RSS/Atom 采集器启动")
+        logger.info("多源采集器 v2 启动")
         logger.info(f"上次运行: {self.state.get('last_run', '首次')}")
+        logger.info(f"数据源数量: {len(SOURCES)}")
         logger.info("=" * 60)
 
         all_results = []
 
-        for source in RSS_SOURCES:
+        for source in SOURCES:
             source_type = source.get('type', 'rss')
 
-            if source_type == 'rss':
-                results = self.collect_rss(source)
-            elif source_type in ('search', 'baidu_news'):
-                results = self.collect_search(source)
-            else:
-                logger.warning(f"  未知源类型: {source_type}")
-                continue
+            try:
+                if source_type == 'rss':
+                    results = self.collect_rss(source)
+                elif source_type == 'bing_rss':
+                    results = self.collect_bing_rss(source)
+                elif source_type == 'gov_html':
+                    results = self.collect_gov_html(source)
+                else:
+                    logger.warning(f"  未知源类型: {source_type}")
+                    continue
 
-            all_results.extend(results)
-            time.sleep(3)  # 源间延迟
+                all_results.extend(results)
+                logger.info(f"  [{source['name']}] 累计: {len(all_results)} 条")
+
+            except Exception as e:
+                logger.error(f"  [{source['name']}] 采集异常: {e}")
+
+            time.sleep(2)  # 源间礼貌延迟
 
         # 保存结果
         if all_results:
@@ -263,33 +408,43 @@ class FeedCollector:
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(all_results, f, ensure_ascii=False, indent=2)
             logger.info(f"\n保存 {len(all_results)} 条到 {output_file}")
+        else:
+            logger.warning("\n未采集到任何内容")
 
         self._save_state()
         logger.info(f"采集完成，共 {len(all_results)} 条新内容")
         return all_results
 
 
+# 保持向后兼容
+RSS_SOURCES = SOURCES
+
+
 def main():
     import argparse
+    import warnings
+    warnings.filterwarnings('ignore')  # 抑制 SSL 警告
+
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s [%(levelname)s] %(message)s'
     )
 
-    parser = argparse.ArgumentParser(description='RSS/Atom 采集器')
-    parser.add_argument('--test', action='store_true', help='测试模式（仅采集1个源）')
+    parser = argparse.ArgumentParser(description='低空经济情报采集器 v2')
+    parser.add_argument('--test', action='store_true', help='测试模式（仅采集第一个源）')
     args = parser.parse_args()
 
     collector = FeedCollector()
 
     if args.test:
-        # 测试模式：只采集第一个源
-        source = RSS_SOURCES[0]
-        if source['type'] == 'rss':
-            results = collector.collect_rss(source)
-        else:
-            results = collector.collect_search(source)
-        print(json.dumps(results[:3], ensure_ascii=False, indent=2))
+        # 测试模式：只采集第一个 Google News 源
+        source = SOURCES[0]
+        logger.info(f"测试采集: {source['name']}")
+        results = collector.collect_rss(source)
+        print(f"\n获取 {len(results)} 条结果")
+        for r in results[:5]:
+            print(f"  [{r['publish_date']}] {r['title'][:60]}")
+            print(f"    URL: {r['url'][:80]}")
     else:
         collector.run()
 
