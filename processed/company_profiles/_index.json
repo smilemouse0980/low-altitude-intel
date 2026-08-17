@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:55:02.686358+08:00",
+  "generated_at": "2026-08-17T23:36:12.485318+08:00",
   "total_companies": 6,
   "companies": [
     {
@@ -9,9 +9,7 @@
       "first_seen": "2025-07-12",
       "last_seen": "2026-08-15",
       "key_persons": [
-        "凯瑞鸥",
-        "阿布扎比",
-        "倾转旋翼"
+        "Tiltrotor"
       ],
       "event_count": 68
     },
@@ -22,9 +20,7 @@
       "first_seen": "2025-03-06",
       "last_seen": "2026-08-15",
       "key_persons": [
-        "凯瑞鸥",
-        "倾转旋翼",
-        "Tech"
+        "Tiltrotor"
       ],
       "event_count": 35
     },
@@ -35,9 +31,7 @@
       "first_seen": "2025-07-12",
       "last_seen": "2026-08-15",
       "key_persons": [
-        "凯瑞鸥",
-        "倾转旋翼",
-        "Tech"
+        "Tiltrotor"
       ],
       "event_count": 45
     },
@@ -48,9 +42,7 @@
       "first_seen": "2025-07-12",
       "last_seen": "2026-08-15",
       "key_persons": [
-        "倾转旋翼",
-        "Lilium",
-        "张潇聪"
+        "Tiltrotor"
       ],
       "event_count": 22
     },
@@ -60,11 +52,7 @@
       "mention_count": 4,
       "first_seen": "2025-10-23",
       "last_seen": "2026-08-15",
-      "key_persons": [
-        "阿布扎比",
-        "张潇聪",
-        "黄小飞"
-      ],
+      "key_persons": [],
       "event_count": 24
     },
     {
@@ -73,11 +61,7 @@
       "mention_count": 2,
       "first_seen": "2025-12-18",
       "last_seen": "2025-12-18",
-      "key_persons": [
-        "阿布扎比",
-        "黄小飞",
-        "黄雍威"
-      ],
+      "key_persons": [],
       "event_count": 12
     }
   ]

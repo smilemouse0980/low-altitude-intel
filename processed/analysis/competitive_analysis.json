@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:55:02.728444+08:00",
+  "generated_at": "2026-08-17T23:36:12.490940+08:00",
   "market_segments": [
     {
       "segment": "eVTOL整机",
@@ -259,64 +259,6 @@
       "activity_score": 103.0
     },
     {
-      "company": "沃飞长空",
-      "category": "eVTOL整机",
-      "mention_count": 4,
-      "event_distribution": {
-        "product": 3,
-        "financing": 4,
-        "cooperation": 4,
-        "international": 4,
-        "certification": 3
-      },
-      "top_locations": [
-        [
-          "华羽",
-          8
-        ],
-        [
-          "德国",
-          7
-        ],
-        [
-          "华东",
-          4
-        ],
-        [
-          "华北",
-          3
-        ],
-        [
-          "欧美",
-          3
-        ]
-      ],
-      "top_partners": [
-        [
-          "亿航智能",
-          8
-        ],
-        [
-          "沃兰特",
-          5
-        ],
-        [
-          "峰飞航空",
-          4
-        ],
-        [
-          "小鹏汇天",
-          2
-        ],
-        [
-          "中国商飞",
-          1
-        ]
-      ],
-      "latest_activity": "2026-08-15",
-      "activity_score": 66.0
-    },
-    {
       "company": "小鹏汇天",
       "category": "eVTOL整机",
       "mention_count": 4,
@@ -373,6 +315,64 @@
       ],
       "latest_activity": "2026-08-15",
       "activity_score": 72.0
+    },
+    {
+      "company": "沃飞长空",
+      "category": "eVTOL整机",
+      "mention_count": 4,
+      "event_distribution": {
+        "product": 3,
+        "financing": 4,
+        "cooperation": 4,
+        "international": 4,
+        "certification": 3
+      },
+      "top_locations": [
+        [
+          "华羽",
+          8
+        ],
+        [
+          "德国",
+          7
+        ],
+        [
+          "华东",
+          4
+        ],
+        [
+          "华北",
+          3
+        ],
+        [
+          "欧美",
+          3
+        ]
+      ],
+      "top_partners": [
+        [
+          "亿航智能",
+          8
+        ],
+        [
+          "沃兰特",
+          5
+        ],
+        [
+          "峰飞航空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          2
+        ],
+        [
+          "中国商飞",
+          1
+        ]
+      ],
+      "latest_activity": "2026-08-15",
+      "activity_score": 66.0
     },
     {
       "company": "中信海直",
@@ -436,7 +436,7 @@
       "top_locations": [
         [
           "北京",
-          2
+          1
         ]
       ],
       "top_partners": [],
@@ -1257,34 +1257,6 @@
       ]
     },
     {
-      "location": "上海",
-      "mention_count": 16,
-      "top_companies": [
-        [
-          "亿航智能",
-          16
-        ],
-        [
-          "沃兰特",
-          10
-        ],
-        [
-          "峰飞航空",
-          9
-        ]
-      ],
-      "top_topics": [
-        [
-          "政策",
-          10
-        ],
-        [
-          "项目",
-          10
-        ]
-      ]
-    },
-    {
       "location": "阿联酋",
       "mention_count": 14,
       "top_companies": [
@@ -1309,6 +1281,34 @@
         [
           "项目",
           13
+        ]
+      ]
+    },
+    {
+      "location": "上海",
+      "mention_count": 13,
+      "top_companies": [
+        [
+          "亿航智能",
+          16
+        ],
+        [
+          "沃兰特",
+          10
+        ],
+        [
+          "峰飞航空",
+          9
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          10
+        ],
+        [
+          "项目",
+          10
         ]
       ]
     },
@@ -1453,17 +1453,6 @@
       ]
     },
     {
-      "location": "北京",
-      "mention_count": 6,
-      "top_companies": [
-        [
-          "大疆创新",
-          2
-        ]
-      ],
-      "top_topics": []
-    },
-    {
       "location": "华东",
       "mention_count": 6,
       "top_companies": [
@@ -1516,56 +1505,6 @@
         [
           "项目",
           6
-        ]
-      ]
-    },
-    {
-      "location": "香港",
-      "mention_count": 4,
-      "top_companies": [
-        [
-          "亿航智能",
-          6
-        ]
-      ],
-      "top_topics": [
-        [
-          "项目",
-          2
-        ]
-      ]
-    },
-    {
-      "location": "长春",
-      "mention_count": 4,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "成都",
-      "mention_count": 4,
-      "top_companies": [
-        [
-          "亿航智能",
-          4
-        ],
-        [
-          "峰飞航空",
-          3
-        ],
-        [
-          "沃兰特",
-          3
-        ]
-      ],
-      "top_topics": [
-        [
-          "政策",
-          2
-        ],
-        [
-          "项目",
-          2
         ]
       ]
     },
@@ -1626,38 +1565,43 @@
       ]
     },
     {
-      "location": "河北",
-      "mention_count": 3,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "珠海",
+      "location": "成都",
       "mention_count": 3,
       "top_companies": [
         [
           "亿航智能",
-          2
+          4
         ],
         [
           "峰飞航空",
-          2
+          3
         ],
         [
           "沃兰特",
-          2
+          3
         ]
       ],
       "top_topics": [
         [
           "政策",
-          3
+          2
         ],
         [
           "项目",
-          1
+          2
         ]
       ]
+    },
+    {
+      "location": "北京",
+      "mention_count": 3,
+      "top_companies": [
+        [
+          "大疆创新",
+          1
+        ]
+      ],
+      "top_topics": []
     },
     {
       "location": "华北",
@@ -1706,6 +1650,84 @@
           3
         ]
       ]
+    },
+    {
+      "location": "日本",
+      "mention_count": 3,
+      "top_companies": [
+        [
+          "亿航智能",
+          6
+        ],
+        [
+          "峰飞航空",
+          3
+        ],
+        [
+          "小鹏汇天",
+          3
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          3
+        ],
+        [
+          "项目",
+          3
+        ]
+      ]
+    },
+    {
+      "location": "欧美",
+      "mention_count": 3,
+      "top_companies": [
+        [
+          "亿航智能",
+          6
+        ],
+        [
+          "峰飞航空",
+          3
+        ],
+        [
+          "沃飞长空",
+          3
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          3
+        ],
+        [
+          "项目",
+          3
+        ]
+      ]
+    },
+    {
+      "location": "香港",
+      "mention_count": 2,
+      "top_companies": [
+        [
+          "亿航智能",
+          3
+        ]
+      ],
+      "top_topics": [
+        [
+          "项目",
+          1
+        ]
+      ]
+    },
+    {
+      "location": "长春",
+      "mention_count": 2,
+      "top_companies": [],
+      "top_topics": []
     }
   ],
   "technology_landscape": [

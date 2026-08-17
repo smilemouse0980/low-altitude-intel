@@ -4,32 +4,7 @@
   "mention_count": 2,
   "first_seen": "2025-12-18",
   "last_seen": "2025-12-18",
-  "key_persons": [
-    {
-      "name": "阿布扎比",
-      "mentions": 4
-    },
-    {
-      "name": "黄小飞",
-      "mentions": 2
-    },
-    {
-      "name": "黄雍威",
-      "mentions": 2
-    },
-    {
-      "name": "凯瑞鸥",
-      "mentions": 2
-    },
-    {
-      "name": "杜超",
-      "mentions": 2
-    },
-    {
-      "name": "谢嘉",
-      "mentions": 2
-    }
-  ],
+  "key_persons": [],
   "locations": [
     {
       "name": "中东",
@@ -180,5 +155,5 @@
       "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
     }
   ],
-  "generated_at": "2026-08-17T16:55:02.685813+08:00"
+  "generated_at": "2026-08-17T23:36:12.484991+08:00"
 }

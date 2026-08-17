@@ -4,48 +4,7 @@
   "mention_count": 4,
   "first_seen": "2025-10-23",
   "last_seen": "2026-08-15",
-  "key_persons": [
-    {
-      "name": "阿布扎比",
-      "mentions": 4
-    },
-    {
-      "name": "张潇聪",
-      "mentions": 2
-    },
-    {
-      "name": "黄小飞",
-      "mentions": 2
-    },
-    {
-      "name": "黄雍威",
-      "mentions": 2
-    },
-    {
-      "name": "凯瑞鸥",
-      "mentions": 2
-    },
-    {
-      "name": "杜超",
-      "mentions": 2
-    },
-    {
-      "name": "谢嘉",
-      "mentions": 2
-    },
-    {
-      "name": "Lilium",
-      "mentions": 1
-    },
-    {
-      "name": "张潇",
-      "mentions": 1
-    },
-    {
-      "name": "吴秋菊",
-      "mentions": 1
-    }
-  ],
+  "key_persons": [],
   "locations": [
     {
       "name": "中东",
@@ -274,5 +233,5 @@
       "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
     }
   ],
-  "generated_at": "2026-08-17T16:55:02.684973+08:00"
+  "generated_at": "2026-08-17T23:36:12.484442+08:00"
 }

@@ -1,8 +1,14 @@
 [
   {
+    "company": "中信海直",
+    "category": "通航运营",
+    "mentions": 2,
+    "file": "company-cards/中信海直.md"
+  },
+  {
     "company": "亿航智能",
     "category": "eVTOL整机",
-    "mentions": 31,
+    "mentions": 15,
     "file": "company-cards/亿航智能.md"
   },
   {
@@ -14,13 +20,13 @@
   {
     "company": "小鹏汇天",
     "category": "eVTOL整机",
-    "mentions": 2,
+    "mentions": 4,
     "file": "company-cards/小鹏汇天.md"
   },
   {
     "company": "峰飞航空",
     "category": "eVTOL整机",
-    "mentions": 15,
+    "mentions": 9,
     "file": "company-cards/峰飞航空.md"
   },
   {
@@ -28,5 +34,11 @@
     "category": "eVTOL整机",
     "mentions": 9,
     "file": "company-cards/沃兰特.md"
+  },
+  {
+    "company": "沃飞长空",
+    "category": "eVTOL整机",
+    "mentions": 4,
+    "file": "company-cards/沃飞长空.md"
   }
 ]

@@ -43,166 +43,14 @@
   ],
   "persons": [
     {
-      "name": "凯瑞鸥",
-      "mentions": 4
-    },
-    {
-      "name": "阿布扎比",
-      "mentions": 4
-    },
-    {
-      "name": "倾转旋翼",
-      "mentions": 3
-    },
-    {
-      "name": "黄雍威",
-      "mentions": 3
-    },
-    {
-      "name": "杨岭受",
-      "mentions": 2
-    },
-    {
-      "name": "郭亮",
-      "mentions": 2
-    },
-    {
-      "name": "航空展",
-      "mentions": 2
-    },
-    {
-      "name": "Lilium",
-      "mentions": 2
-    },
-    {
-      "name": "张潇聪",
-      "mentions": 2
-    },
-    {
-      "name": "杨让晨",
-      "mentions": 2
-    },
-    {
-      "name": "Sky Group",
-      "mentions": 2
-    },
-    {
-      "name": "Tech",
-      "mentions": 2
-    },
-    {
-      "name": "曾毓群",
-      "mentions": 2
-    },
-    {
-      "name": "摩根士丹利",
-      "mentions": 2
-    },
-    {
-      "name": "黄小飞",
-      "mentions": 2
-    },
-    {
-      "name": "杜超",
-      "mentions": 2
-    },
-    {
-      "name": "谢嘉",
-      "mentions": 2
-    },
-    {
-      "name": "金钥匙",
-      "mentions": 1
-    },
-    {
-      "name": "L哈萨克斯坦",
-      "mentions": 1
-    },
-    {
-      "name": "罗马尼亚",
-      "mentions": 1
-    },
-    {
-      "name": "张潇",
-      "mentions": 1
-    },
-    {
-      "name": "UAM",
-      "mentions": 1
-    },
-    {
-      "name": "何为e",
-      "mentions": 1
-    },
-    {
-      "name": "张靖超",
-      "mentions": 1
-    },
-    {
-      "name": "李正豪",
-      "mentions": 1
-    },
-    {
-      "name": "张国刚",
-      "mentions": 1
-    },
-    {
-      "name": "阿森特",
-      "mentions": 1
-    },
-    {
-      "name": "梁晴",
-      "mentions": 1
-    },
-    {
-      "name": "吴秋菊",
-      "mentions": 1
-    },
-    {
-      "name": "高密度",
-      "mentions": 1
-    },
-    {
-      "name": "[3",
-      "mentions": 1
-    },
-    {
-      "name": "[5",
-      "mentions": 1
-    },
-    {
-      "name": "洪泰智造",
-      "mentions": 1
-    },
-    {
-      "name": "兽门槛",
-      "mentions": 1
-    },
-    {
-      "name": "Airbus",
-      "mentions": 1
-    },
-    {
       "name": "Tiltrotor",
-      "mentions": 1
-    },
-    {
-      "name": "沃飞长空",
-      "mentions": 1
-    },
-    {
-      "name": "张型号",
-      "mentions": 1
-    },
-    {
-      "name": "⚠️",
       "mentions": 1
     }
   ],
   "locations": [
     {
       "name": "中国",
-      "mentions": 114
+      "mentions": 97
     },
     {
       "name": "中东",
@@ -210,15 +58,15 @@
     },
     {
       "name": "美国",
-      "mentions": 17
-    },
-    {
-      "name": "上海",
       "mentions": 16
     },
     {
       "name": "阿联酋",
       "mentions": 14
+    },
+    {
+      "name": "上海",
+      "mentions": 13
     },
     {
       "name": "泰国",
@@ -241,28 +89,12 @@
       "mentions": 7
     },
     {
-      "name": "北京",
-      "mentions": 6
-    },
-    {
       "name": "华东",
       "mentions": 6
     },
     {
       "name": "欧洲",
       "mentions": 6
-    },
-    {
-      "name": "香港",
-      "mentions": 4
-    },
-    {
-      "name": "长春",
-      "mentions": 4
-    },
-    {
-      "name": "成都",
-      "mentions": 4
     },
     {
       "name": "沙特",
@@ -273,11 +105,11 @@
       "mentions": 4
     },
     {
-      "name": "河北",
+      "name": "成都",
       "mentions": 3
     },
     {
-      "name": "珠海",
+      "name": "北京",
       "mentions": 3
     },
     {
@@ -297,35 +129,15 @@
       "mentions": 3
     },
     {
-      "name": "南昌智造",
+      "name": "香港",
       "mentions": 2
     },
     {
-      "name": "山东省",
+      "name": "长春",
       "mentions": 2
     },
     {
-      "name": "粤",
-      "mentions": 2
-    },
-    {
-      "name": "智造",
-      "mentions": 2
-    },
-    {
-      "name": "俄罗斯",
-      "mentions": 2
-    },
-    {
-      "name": "越南",
-      "mentions": 2
-    },
-    {
-      "name": "武汉",
-      "mentions": 2
-    },
-    {
-      "name": "西藏",
+      "name": "珠海",
       "mentions": 2
     },
     {
@@ -397,15 +209,47 @@
       "mentions": 2
     },
     {
+      "name": "南昌智造",
+      "mentions": 1
+    },
+    {
+      "name": "山东省",
+      "mentions": 1
+    },
+    {
+      "name": "粤",
+      "mentions": 1
+    },
+    {
+      "name": "智造",
+      "mentions": 1
+    },
+    {
       "name": "罗马尼亚",
       "mentions": 1
     },
     {
-      "name": "亚洲",
+      "name": "俄罗斯",
       "mentions": 1
     },
     {
-      "name": "北大荒",
+      "name": "越南",
+      "mentions": 1
+    },
+    {
+      "name": "武汉",
+      "mentions": 1
+    },
+    {
+      "name": "河北",
+      "mentions": 1
+    },
+    {
+      "name": "西藏",
+      "mentions": 1
+    },
+    {
+      "name": "亚洲",
       "mentions": 1
     },
     {
