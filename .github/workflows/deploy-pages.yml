@@ -29,9 +29,6 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 设置 Pages
-        uses: actions/configure-pages@v5
-
       - name: 准备站点文件
         run: |
           mkdir -p _site
