@@ -277,9 +277,22 @@ class NERExtractor:
 
     def _filter_false_persons(self, results):
         """NER 消歧：过滤误识别为人物的实体"""
+        import re as _re
+
         blocklist = set(self.industry_dict.get('ner_blocklist_persons', []))
         companies = set(self.industry_dict.get('companies', []))
         locations = {e['text'] for e in results.get('locations', [])}
+
+        # 非人物术语黑名单（技术词汇、行业术语等）
+        non_person_terms = {
+            '倾转旋翼', '航空展', '兽门槛', '高密度', '金钥匙', '阿森特',
+            '凯瑞鸥', '飞长', '华羽', '中长', '空AE', '瑞鸥',
+            '摩根士丹利', '洪泰智造', '南昌智造', '智造',
+            'Sky Group', 'Tech', 'UAM', 'VIP',
+        }
+
+        # 过滤含这些子串的实体
+        bad_substrings = ['旋翼', '航空展', '门槛', '密度', '钥匙', '型号']
 
         filtered_persons = []
         for person in results.get('persons', []):
@@ -297,21 +310,54 @@ class NERExtractor:
             if name in locations:
                 continue
 
-            # 规则4: 中文姓名长度检查（2-4个汉字）
+            # 规则4: 在非人物术语集合中 → 过滤
+            if name in non_person_terms:
+                continue
+
+            # 规则5: 包含括号、方括号等 → 过滤
+            if any(c in name for c in '[]()【】{}<>'):
+                continue
+
+            # 规则6: 包含 emoji 或特殊符号 → 过滤
+            if any(ord(c) > 0x2000 and c not in '—…' for c in name):
+                continue
+
+            # 规则7: 包含数字 → 过滤
+            if any(c.isdigit() for c in name):
+                continue
+
+            # 规则8: 包含不良子串 → 过滤
+            if any(sub in name for sub in bad_substrings):
+                continue
+
+            # 规则9: 纯英文大写缩写（如 UAM, VIP, Tech）→ 过滤
+            if name.isascii() and len(name) <= 5 and name.isupper():
+                continue
+
+            # 规则10: 以 L 开头后跟非ASCII字符 → 过滤（如 L哈萨克斯坦）
+            if len(name) > 1 and name[0] == 'L' and any(ord(c) > 127 for c in name[1:]):
+                continue
+
+            # 规则11: 包含"何为"等疑问词 → 过滤
+            if '何为' in name or '什么是' in name:
+                continue
+
+            # 规则12: 中文姓名长度检查（2-4个汉字）
             chinese_chars = [c for c in name if '\u4e00' <= c <= '\u9fff']
             if len(chinese_chars) > 0:
                 if len(chinese_chars) < 2 or len(chinese_chars) > 4:
                     continue
-                # 如果包含非汉字字符且长度>6，可能不是人名
+                # 混合中英文且长度>6 → 过滤
                 if len(name) > 6 and not name.isascii():
                     continue
+                # 纯中文但包含常见非姓氏开头 → 可疑，但不强制过滤
 
-            # 规则5: 纯英文姓名长度检查（至少2个字符）
+            # 规则13: 纯英文姓名长度检查（至少3个字符）
             if name.isascii() and len(name) < 3:
                 continue
 
-            # 规则6: 包含数字 → 过滤
-            if any(c.isdigit() for c in name):
+            # 规则14: 纯英文但首字母未大写 → 可能不是人名
+            if name.isascii() and len(name) > 0 and not name[0].isupper():
                 continue
 
             filtered_persons.append(person)
