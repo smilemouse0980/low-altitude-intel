@@ -1,0 +1,26 @@
+# IMA 知识库批量导入清单
+# 生成时间: 2026-08-17
+# 用途: 将以下 Markdown 文件批量导入 IMA 知识库，每行一个文件路径（相对于 ima-export/ 的上级目录）
+# 说明: 以 # 开头的行为分类标题，非 # 行为待导入文件路径
+
+# 企业卡片
+ima-export/company-cards/亿航智能.md
+ima-export/company-cards/大疆创新.md
+ima-export/company-cards/峰飞航空.md
+ima-export/company-cards/沃兰特.md
+ima-export/company-cards/小鹏汇天.md
+ima-export/company-cards/沃飞长空.md
+ima-export/company-cards/中信海直.md
+
+# 情报摘要
+ima-export/intel-digest/政策法规.md
+ima-export/intel-digest/产品技术.md
+ima-export/intel-digest/企业融资.md
+ima-export/intel-digest/合作签约.md
+ima-export/intel-digest/适航认证.md
+ima-export/intel-digest/应用场景.md
+ima-export/intel-digest/国际动态.md
+ima-export/intel-digest/地方动态.md
+
+# Copilot 配置
+ima-export/copilot-qa.md
