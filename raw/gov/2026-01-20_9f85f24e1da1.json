@@ -1,0 +1,62 @@
+{
+  "doc_id": "9f85f24e1da1",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOUNpSkhNYU50Tnh4ZW83TEdSQmdKMThEMHJjMVB5N3JIQ2tfbEFRaHpHcFBKcTNFZF9nYTl6R0ctNVVHSjFMMmNuYkNoQWQ0RWNIOXFnSVA4SFQydjlWY3pGMXBPdFc1akdpNXBuMURqRnVxRGJUMnZiQk1kTkh5N2h6ZjI?oc=5",
+  "title": "2026无人机航飞新规全攻略:法规解读+空域申请+安全指南,飞手必存! - 新浪财经",
+  "content": "2026无人机航飞新规全攻略:法规解读+空域申请+安全指南,飞手必存!新浪财经",
+  "publish_date": "2026-01-20",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:54.954177+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 78,
+        "end": 80,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 4,
+        "end": 7,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 43,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

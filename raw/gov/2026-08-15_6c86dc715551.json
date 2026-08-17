@@ -1,0 +1,746 @@
+{
+  "doc_id": "6c86dc715551",
+  "url": "https://www.sohu.com/a/1063011230_217394",
+  "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+  "content": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全年，其中eVTOL载人及货运整机赛道可追踪大额融资合计172亿元，占全部大额融资的76.4%。\n然而，若对近两年的投资动向加以细察，便会发现资本关注的重心正在悄然发生转移。过去，业界讨论多集中于融资规模、订单数量和试飞进展。近一年来，投资机构关注的重心已明显转向技术路线选择、航空工程能力的可持续性，以及商业化运营的实际前景。这一转变在2026年7月上海国家会展中心举办的国际低空经济博览会上尤为明显。\n2026国际低空经济博览会现场展示的eVTOL飞行器。图源：央广网\n前五家拿走近八成融资，资本转向死磕技术路线\n在过去五年间，eVTOL投资经历了三个清晰的阶段演变。2021年至2023年是概念期，融资额、明星团队和PPT愿景是资本的主要评判标准。这一阶段，美国Joby、Lilium等企业相继通过SPAC登陆资本市场，国内亿航智能在2023年10月获得中国民航局颁发的全球首张无人驾驶eVTOL型号合格证（TC），标志着行业正式进入验证期。2023年至2025年间，订单数量、试飞进展和适航取证速度成为资本追逐的核心指标。亿航智能EH216-S先后取得TC、AC、PC、OC四证，成为全球首个集齐四大通行证的载人eVTOL，多家企业竞相冲刺取证节点。\n而2025年至今，行业进入分化期，技术路线选择、工程能力储备和商业化路径规划成为决定企业命运的核心变量。据36氪统计，2026年上半年前五家整机厂合计拿走约八成融资资金，其余十余家企业分食不足两成。头部企业融资节奏明显加快，沃兰特航空一个月内连融两轮合计超32亿元，累计融资超50亿元。小鹏汇天累计融资接近9亿美元，沃飞长空完成近10亿元D轮融资，并向四川证监局提交科创板IPO辅导备案。\n资本结构也在发生深层变化。国资成为压舱石，成都50亿低空母基金、上海临港国资、各地经开区引导基金批量入场，投资逻辑从短期财务回报转向产业战略卡位，能接受8至10年长期退出周期。险资正式入场，国寿科创领投沃兰特C+轮，是国内保险资金首次大额布局载人eVTOL。车企及新能源产业链资本持续加注，蔚来、吉利、一汽、宁德时代关联资本不断布局。纯财务VC则逐步收缩观望，仅头部具备适航确定性的企业能拿到新一轮资金。\n华羽先翔在2026低空经济商业落地论坛上领取TOP20榜单荣誉。图源：东方网\n与此同时，海外市场传来警示信号。德国Lilium于2024年底申请破产，累计融资超10亿美元，却始终未能完成一次载人试飞，其300余项专利最终以1800万欧元被美国Archer收购。另一家德国企业Volocopter也进入破产程序，后被万丰集团旗下Diamond Aircraft收购。\n这一系列的事件表明，资本已经从“广撒网、赌赛道”转向“聚焦头部、看订单、看取证、看交付”。在国内市场，资本筛选同样加速推进。《中国战略新兴产业》杂志报道称，过去几年资本关注的是企业飞得快不快，如今更关注企业是不是一开始就站在一条能够走得更远的技术路线上。对于航空制造而言，很多关键设计一旦确定，后续研发都会围绕这一总体方案展开，任何涉及总体构型的重大调整都意味着研发投入、研发周期以及适航验证工作将随之增加。\n2025年，华羽先翔完成全倾转旋翼eVTOL过渡飞行验证，成为国内首家、全球第二家实现这一关键技术突破的企业。对于资本而言，投资eVTOL本质上不只是投资一家创业公司，更是投资一种未来交通解决方案，技术路线的判断往往决定了一家企业未来十年甚至更长时间的成长空间。\n全倾转旋翼效率最优，全球此前仅Joby一家攻克\n当前，全球eVTOL主要形成多旋翼、复合翼和倾转旋翼等几种并行技术路线，不同构型各有适用场景，也没有绝对意义上的“最优解”。但如果放眼未来十年，行业越来越关注的是哪一种技术路线更适合未来规模化商业运营。\n多旋翼最为简单，类似放大的无人机，结构容易、成本低，但航程短、速度慢。亿航智能EH216-S采用的正是多旋翼构型，技术最成熟、适航取证进度最快，但航程和载荷受限明显，被部分投资机构视为过渡方案。复合翼有两套动力系统，一套负责起降、一套负责平飞，效率有所提升但总有一套系统在巡航时处于闲置状态，带来额外重量和能耗代价。峰飞航空等企业在这一路线上布局，资本对其态度以观望为主。\n全倾转旋翼则将起降和巡航两套系统合二为一。起飞时旋翼垂直朝上，把飞机拉起，平飞时六具旋翼同步前倾，转为水平推力。不冗余、不浪费，速度更快、航程更远、能耗更低。华羽先翔副总经理张潇聪将其比喻为“像鸟类飞翔一样”的自然最优解。\n鸿鹄eVTOL全倾转旋翼飞行器工程样机。图源：飞行汽车之家\n美国Joby Aviation长期坚持全倾转构型，2026年其市值一度达到约98亿美元，被视为全球eVTOL产业标杆。不过，倾转旋翼路线内部还存在技术分野。沃飞长空AE200采用的是半倾转旋翼构型，即部分旋翼倾转，2024年6月已完成倾转过渡飞行验证。而华羽先翔鸿鹄Mark1采用全倾转旋翼构型，全部六具旋翼同步倾转，2025年完成过渡飞行验证。国内坚持全倾转技术路线研发的企业并不多，华羽先翔是其中最具代表性的企业之一。\n但这个“最优解”的代价是技术难度呈指数级上升。张潇聪表示，倾转旋翼技术的难点在于如何在紧凑空间和有限时间内处理好两种物理状态的转换。旋翼在倾转过程中，倾转角度必须严格跟随空速变化，不能太快也不能太慢，更不能过头，本质上是在气动边界与动力边界的交汇处寻找微妙的平衡。全球范围内，真正攻克全倾转技术的此前只有Joby一家，且其技术对全球封锁。航空制造中存在一个共识：路线选择比研发速度更重要，真正昂贵的不是一次试飞也不是一次融资，而是在非最优技术路线上投入数年的研发成本。\n超八成研发出自航空头部，载人版目标定价1200万\n技术路线只是起点，真正决定企业能否走到终点的，是航空工程能力。据《中国战略新兴产业》杂志介绍，航空制造是一项高度复杂的系统工程，飞控、动力、总体设计、结构、航电、适航每一个环节都需要长期积累，不是依靠资本快速堆出来的。近年来，越来越多投资机构开始重新审视企业背后的研发团队和工程体系，而不仅仅关注融资节奏。\n在评估eVTOL企业时，吉晟资本给出三个维度的硬性标准：技术实力、产业协同、商业化能力。其华东区域负责人孙策表示，技术不再看“PPT参数”而是看“试飞轨迹”，优先选择技术路线清晰、已完成关键试飞验证的企业，适航取证进展、核心部件自研能力、安全冗余设计才是技术壁垒的真实体现。在这个长周期、高投入的赛道中，能够接受的回报周期为6至8年，前3年为技术攻坚与适航取证期，后3至5年为量产爬坡与商业化放量期。\n鸿鹄eVTOL在长沙完成首次公开演示飞行。图源：长沙晚报\n华羽先翔的团队构成和工程体系，是当前资本评估eVTOL企业时关注的典型样本。其创始团队主要来自西北工业大学航空学院，曾参与C919、AG600等型号的研制工作。研发团队超八成来自航空头部企业，累计参与过C919、AG600、AC313A、新舟60、ARJ21等数十个飞行器型号的研发、制造、测试及适航审定。在核心技术上，华羽先翔飞控系统采用“3+1”备份设计，三套主系统各含两个互相监督的通道，另设一套技术路线不同的备用系统，螺旋桨系统噪音控制在65分贝以下。\n商业化方面，华羽先翔目前采取“先货后人”的路径。2025年11月，华羽先翔与湘江通航签署100架意向采购合同，签约额超10亿元。鸿鹄eVTOL历经超200次试飞，完成车载实验、全剖面飞控测试、工程样机过渡飞行等验证。按规划，2027年货运型有望获取TC证，2029至2030年间载人版面市，目标售价1200万至1500万元，对比贝尔407直升机约3000万元、空客H135近7000万元的售价，成本优势明显。\n张潇聪称，在应急救援场景下，eVTOL运营成本可降至直升机的30%左右。安全标准上，中国民航局要求载人eVTOL达到民航客机水平，灾难性事故概率控制在一亿分之一，比直升机高两个数量级。\n《中国战略新兴产业》杂志认为，今天的eVTOL产业，真正决定未来竞争格局的，也许并不是谁融资最多、谁估值最高，而是谁在产业发展的起点做出了最优的技术路线选择，并拥有持续兑现这一路线的能力。真正的竞争，不是谁先飞，也不是谁拥有更多意向订单，而是谁最终能够飞进商业化，兑现产业价值。\n[引用]\n① 华羽先翔：“飞行汽车”近在眼前.湖南省工业和信息化厅.2026-03-04.\n② eVTOL投资逻辑变了，资本为何青睐全倾转路线？.《中国战略新兴产业》杂志.2026-07-28.\n③ 硬核实力！华羽先翔再登2026低空经济最具投资价值企业榜单.网易新闻.2026-07-27.\n④ 蚂蚁集团领投，华羽先翔完成超亿元Pre-A+轮融资.NE时代.2026-05-18.\n⑤ 华羽先翔入选2025年低空飞行器科创尖兵榜TOP20.华羽先翔官网.2025-09-30.\n⑥ 2026国际低空经济博览会7月22日举办.央广网.2026-07-11.\n⑦ 293亿资金流向谁？低空经济2026年上半年融资全景拆解.36氪.2026-07-15.\n⑧ 亿航智能EH216-S无人驾驶载人航空器系统成功取得中国民航局颁发的型号合格证.亿航智能官网.2023-10-13.",
+  "publish_date": "2026-08-15",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.805954+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "Lilium",
+        "label": "person",
+        "start": 520,
+        "end": 526,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "张潇聪",
+        "label": "person",
+        "start": 2029,
+        "end": 2032,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "张潇聪",
+        "label": "person",
+        "start": 2319,
+        "end": 2322,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "张潇",
+        "label": "person",
+        "start": 3376,
+        "end": 3378,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "上海国家会展中心",
+        "label": "org",
+        "start": 357,
+        "end": 365,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 561,
+        "end": 566,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特航空",
+        "label": "org",
+        "start": 823,
+        "end": 828,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川证监局",
+        "label": "org",
+        "start": 887,
+        "end": 892,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国寿科",
+        "label": "org",
+        "start": 1001,
+        "end": 1004,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "一汽",
+        "label": "org",
+        "start": 1057,
+        "end": 1059,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国Archer",
+        "label": "org",
+        "start": 1228,
+        "end": 1236,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 1913,
+        "end": 1917,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "org",
+        "start": 2021,
+        "end": 2023,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "org",
+        "start": 2211,
+        "end": 2213,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "org",
+        "start": 2277,
+        "end": 2279,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西北工业大学航空学院",
+        "label": "org",
+        "start": 2987,
+        "end": 2997,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "空客",
+        "label": "org",
+        "start": 3351,
+        "end": 3353,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 3418,
+        "end": 3423,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "org",
+        "start": 3714,
+        "end": 3716,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "网易",
+        "label": "org",
+        "start": 3739,
+        "end": 3741,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "④ 蚂蚁集团",
+        "label": "org",
+        "start": 3756,
+        "end": 3762,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 3963,
+        "end": 3968,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 546,
+        "end": 550,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 546,
+        "end": 548,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞长空",
+        "label": "org",
+        "start": 869,
+        "end": 873,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 823,
+        "end": 826,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "小鹏汇天",
+        "label": "org",
+        "start": 854,
+        "end": 858,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞",
+        "label": "org",
+        "start": 869,
+        "end": 871,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "华羽先翔",
+        "label": "org",
+        "start": 1109,
+        "end": 1113,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 1768,
+        "end": 1771,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 1913,
+        "end": 1915,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 513,
+        "end": 515,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 927,
+        "end": 929,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 938,
+        "end": 940,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 1109,
+        "end": 1111,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 1164,
+        "end": 1166,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 1242,
+        "end": 1244,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 1503,
+        "end": 1505,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 2084,
+        "end": 2086,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "飞长",
+        "label": "location",
+        "start": 2163,
+        "end": 2165,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "空AE",
+        "label": "location",
+        "start": 2165,
+        "end": 2168,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华东",
+        "label": "location",
+        "start": 2755,
+        "end": 2757,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "长沙",
+        "label": "location",
+        "start": 2919,
+        "end": 2921,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 2940,
+        "end": 2942,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 3100,
+        "end": 3102,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 3177,
+        "end": 3179,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 3204,
+        "end": 3206,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 3765,
+        "end": 3767,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华羽",
+        "label": "location",
+        "start": 3830,
+        "end": 3832,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年上半年",
+        "label": "date",
+        "start": 38,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年1至6月",
+        "label": "date",
+        "start": 130,
+        "end": 139,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年全年",
+        "label": "date",
+        "start": 176,
+        "end": 183,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近两年",
+        "label": "date",
+        "start": 235,
+        "end": 238,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近一年",
+        "label": "date",
+        "start": 294,
+        "end": 297,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年7月",
+        "label": "date",
+        "start": 350,
+        "end": 357,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 384,
+        "end": 388,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "过去五年间",
+        "label": "date",
+        "start": 441,
+        "end": 446,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年至2023年",
+        "label": "date",
+        "start": 467,
+        "end": 478,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年10月",
+        "label": "date",
+        "start": 551,
+        "end": 559,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年至2025年",
+        "label": "date",
+        "start": 605,
+        "end": 616,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 712,
+        "end": 717,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "36氪",
+        "label": "date",
+        "start": 764,
+        "end": 767,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年上半年",
+        "label": "date",
+        "start": 770,
+        "end": 778,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "一个月",
+        "label": "date",
+        "start": 828,
+        "end": 831,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "50亿",
+        "label": "date",
+        "start": 929,
+        "end": 932,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "8至10年",
+        "label": "date",
+        "start": 982,
+        "end": 987,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 1114,
+        "end": 1118,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年底",
+        "label": "date",
+        "start": 1173,
+        "end": 1179,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "过去几年",
+        "label": "date",
+        "start": 1370,
+        "end": 1374,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 1497,
+        "end": 1502,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "未来十年",
+        "label": "date",
+        "start": 1612,
+        "end": 1616,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "未来十年",
+        "label": "date",
+        "start": 1720,
+        "end": 1724,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 2109,
+        "end": 2114,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年6月",
+        "label": "date",
+        "start": 2191,
+        "end": 2198,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 2243,
+        "end": 2248,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "数年",
+        "label": "date",
+        "start": 2522,
+        "end": 2524,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 2665,
+        "end": 2668,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "6至8年",
+        "label": "date",
+        "start": 2872,
+        "end": 2876,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "前3年",
+        "label": "date",
+        "start": 2877,
+        "end": 2880,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年11月",
+        "label": "date",
+        "start": 3195,
+        "end": 3203,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 3283,
+        "end": 3288,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029至2030年",
+        "label": "date",
+        "start": 3299,
+        "end": 3309,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "1200万至1500万",
+        "label": "date",
+        "start": 3320,
+        "end": 3331,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今天",
+        "label": "date",
+        "start": 3484,
+        "end": 3486,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 3720,
+        "end": 3724,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 3809,
+        "end": 3814,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "7月22日",
+        "label": "date",
+        "start": 3864,
+        "end": 3869,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年上半年",
+        "label": "date",
+        "start": 3904,
+        "end": 3912,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "Lilium",
+        "title": "",
+        "org": "亿航智能",
+        "context": "队和PPT愿景是资本的主要评判标准。这一阶段，美国Joby、Lilium等企业相继通过SPAC登陆资本市场，国内亿航智能在2023年"
+      },
+      {
+        "person": "张潇聪",
+        "title": "总经理",
+        "org": "华羽先翔",
+        "context": "冗余、不浪费，速度更快、航程更远、能耗更低。华羽先翔副总经理张潇聪将其比喻为“像鸟类飞翔一样”的自然最优解。\n鸿鹄eVTOL全"
+      },
+      {
+        "person": "张潇",
+        "title": "",
+        "org": "空客",
+        "context": "00万元、空客H135近7000万元的售价，成本优势明显。\n张潇聪称，在应急救援场景下，eVTOL运营成本可降至直升机的30"
+      }
+    ]
+  }
+}

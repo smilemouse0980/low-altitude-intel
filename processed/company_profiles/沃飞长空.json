@@ -1,0 +1,268 @@
+{
+  "company_name": "沃飞长空",
+  "category": "eVTOL整机",
+  "mention_count": 4,
+  "first_seen": "2025-07-12",
+  "last_seen": "2026-08-15",
+  "key_persons": [
+    {
+      "name": "倾转旋翼",
+      "mentions": 3
+    },
+    {
+      "name": "Lilium",
+      "mentions": 2
+    },
+    {
+      "name": "张潇聪",
+      "mentions": 2
+    },
+    {
+      "name": "Tech",
+      "mentions": 2
+    },
+    {
+      "name": "凯瑞鸥",
+      "mentions": 2
+    },
+    {
+      "name": "曾毓群",
+      "mentions": 2
+    },
+    {
+      "name": "摩根士丹利",
+      "mentions": 2
+    },
+    {
+      "name": "张潇",
+      "mentions": 1
+    },
+    {
+      "name": "UAM",
+      "mentions": 1
+    },
+    {
+      "name": "吴秋菊",
+      "mentions": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "华羽",
+      "mentions": 8
+    },
+    {
+      "name": "德国",
+      "mentions": 7
+    },
+    {
+      "name": "华东",
+      "mentions": 4
+    },
+    {
+      "name": "华北",
+      "mentions": 3
+    },
+    {
+      "name": "欧美",
+      "mentions": 3
+    },
+    {
+      "name": "成都",
+      "mentions": 2
+    },
+    {
+      "name": "上海",
+      "mentions": 2
+    },
+    {
+      "name": "飞长",
+      "mentions": 2
+    },
+    {
+      "name": "亚太",
+      "mentions": 2
+    },
+    {
+      "name": "东北",
+      "mentions": 2
+    }
+  ],
+  "partners": [
+    {
+      "name": "亿航智能",
+      "co_occurrences": 8
+    },
+    {
+      "name": "沃兰特",
+      "co_occurrences": 5
+    },
+    {
+      "name": "峰飞航空",
+      "co_occurrences": 4
+    },
+    {
+      "name": "小鹏汇天",
+      "co_occurrences": 2
+    },
+    {
+      "name": "中国商飞",
+      "co_occurrences": 1
+    }
+  ],
+  "events": {
+    "product_launch": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      }
+    ],
+    "financing": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      }
+    ],
+    "cooperation": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      }
+    ],
+    "policy_related": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      }
+    ],
+    "certification": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      }
+    ],
+    "market_expansion": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2026-08-15",
+      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+      "source": "www.bing.com",
+      "url": "https://www.sohu.com/a/1063011230_217394",
+      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
+    },
+    {
+      "date": "2026-05-03",
+      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
+      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
+    },
+    {
+      "date": "2025-10-23",
+      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+      "source": "www.bing.com",
+      "url": "https://news.qq.com/rain/a/20251023A018N400",
+      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
+    },
+    {
+      "date": "2025-07-12",
+      "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/roll/2025-07-12/doc-inffezhk9720934.shtml",
+      "content_snippet": "（转自：华经产业研究院）\neVTOL技术的基础可以追溯到20世纪早期。最早的垂直起降飞行器（VTOL）技术出现在直升机中，例如西科斯基的VS-300，这是早期垂直起降技术的先驱。自2010年以来，随着电池技术的飞速进步，以及对无人机和自动驾驶技术的探索，eVTOL逐渐进入实质性发展阶段。随着技术的不"
+    }
+  ],
+  "generated_at": "2026-08-17T16:55:02.683844+08:00"
+}

@@ -7,6 +7,53 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:16:05.904069+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-17T16:41:52.435164+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 16,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 60,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 16,
+        "end": 19,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "5家上市企业入局eVTOL赛道 沃兰特宣布完成数亿元B+轮融资 - cb.com.cn 5家上市企"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "资 - cb.com.cn 5家上市企业入局eVTOL赛道 沃兰特宣布完成数亿元B+轮融资cb.com.cn"
+      }
+    ]
+  }
 }

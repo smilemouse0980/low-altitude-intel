@@ -1,0 +1,54 @@
+{
+  "doc_id": "ef4109b3b048",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA0WVpXazJ3NHQ4cjZVaXlKRER4ckRVU1NLUUJqeUJQb3NmZVZ1ZVdkYlZPcUJzYmkxSG0xQU9kYnktWEZzX1RSdTZUUVdZcFpyVjB3ZDc0b3g?oc=5",
+  "title": "2个月融资近2亿，这家中国eVTOL新锐，要造低空经济的新面孔 - Jiemian.com",
+  "content": "2个月融资近2亿，这家中国eVTOL新锐，要造低空经济的新面孔Jiemian.com",
+  "publish_date": "2026-04-12",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:52.432970+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 11,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 57,
+        "end": 59,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2个月",
+        "label": "date",
+        "start": 0,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2个月",
+        "label": "date",
+        "start": 46,
+        "end": 49,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

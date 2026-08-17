@@ -7,6 +7,53 @@
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:16:08.095527+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-17T16:41:52.437242+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "郭亮",
+        "label": "person",
+        "start": 2,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "郭亮",
+        "label": "person",
+        "start": 27,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 41,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "郭亮",
+        "title": "",
+        "org": "中国民航网",
+        "context": "对话郭亮：低空飞行时代已触手可及 - 中国民航网 对话郭亮：低空飞行"
+      },
+      {
+        "person": "郭亮",
+        "title": "",
+        "org": "中国民航网",
+        "context": "对话郭亮：低空飞行时代已触手可及 - 中国民航网 对话郭亮：低空飞行时代已触手可及中国民航网"
+      }
+    ]
+  }
 }

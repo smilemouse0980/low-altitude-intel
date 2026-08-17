@@ -1,220 +1,372 @@
 {
   "company_name": "峰飞航空",
   "category": "eVTOL整机",
-  "mention_count": 15,
-  "first_seen": "2023-10-29",
-  "last_seen": "2026-07-25",
+  "mention_count": 9,
+  "first_seen": "2025-03-06",
+  "last_seen": "2026-08-15",
   "key_persons": [
     {
-      "name": "戴姆勒",
-      "mentions": 1
+      "name": "凯瑞鸥",
+      "mentions": 6
+    },
+    {
+      "name": "倾转旋翼",
+      "mentions": 6
+    },
+    {
+      "name": "Tech",
+      "mentions": 4
+    },
+    {
+      "name": "曾毓群",
+      "mentions": 4
+    },
+    {
+      "name": "摩根士丹利",
+      "mentions": 4
+    },
+    {
+      "name": "阿布扎比",
+      "mentions": 4
+    },
+    {
+      "name": "Lilium",
+      "mentions": 3
+    },
+    {
+      "name": "张潇聪",
+      "mentions": 2
+    },
+    {
+      "name": "洪泰智造",
+      "mentions": 2
+    },
+    {
+      "name": "兽门槛",
+      "mentions": 2
     }
   ],
   "locations": [
     {
+      "name": "中东",
+      "mentions": 27
+    },
+    {
+      "name": "德国",
+      "mentions": 12
+    },
+    {
       "name": "阿联酋",
-      "mentions": 2
+      "mentions": 12
     },
     {
-      "name": "印尼",
-      "mentions": 2
+      "name": "泰国",
+      "mentions": 10
     },
     {
-      "name": "网易网",
-      "mentions": 1
+      "name": "上海",
+      "mentions": 9
+    },
+    {
+      "name": "华羽",
+      "mentions": 8
+    },
+    {
+      "name": "迪拜",
+      "mentions": 8
+    },
+    {
+      "name": "欧洲",
+      "mentions": 6
+    },
+    {
+      "name": "东南亚",
+      "mentions": 6
+    },
+    {
+      "name": "深圳",
+      "mentions": 4
     }
   ],
   "partners": [
     {
       "name": "亿航智能",
+      "co_occurrences": 12
+    },
+    {
+      "name": "沃兰特",
+      "co_occurrences": 8
+    },
+    {
+      "name": "沃飞长空",
+      "co_occurrences": 4
+    },
+    {
+      "name": "小鹏汇天",
+      "co_occurrences": 4
+    },
+    {
+      "name": "中国商飞",
+      "co_occurrences": 2
+    },
+    {
+      "name": "中信海直",
       "co_occurrences": 2
     }
   ],
   "events": {
     "product_launch": [
       {
-        "date": "2026-02-06",
-        "title": "峰飞航空发布5吨级eVTOL“天际龙”并完成转换飞行 - 中国民航网",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-11-22",
-        "title": "峰飞航空研发推出eVTOL零碳水上机场 - 中国民航网",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2026-07-25",
-        "title": "峰飞eVTOL阿斯塔纳首飞，多国政要现场见证，中国低空力量，飞向世界 - 新浪网",
-        "source": "news.google.com"
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "financing": [
       {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
         "date": "2025-03-06",
         "title": "峰飞航空eVTOL助力中国低空经济迈向万亿市场",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
         "source": "www.bing.com"
       }
     ],
     "cooperation": [
       {
-        "date": "2026-07-22",
-        "title": "峰飞航空亮相2026国际低空经济博览会，携手顺丰打造海上风电低空运维方案 - jfdaily.com",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2026-04-19",
-        "title": "峰飞航空携手京东物流 eVTOL助贵州春茶最快当日抵长三角 - 中国民航网",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "policy_related": [
       {
-        "date": "2026-06-12",
-        "title": "全球首张！峰飞航空V2000CG获颁eVTOL境外适航证 - 21财经",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2026-06-12",
-        "title": "全球首张eVTOL境外适航证落地！峰飞V2000CG获印尼“签证” - 手机网易网",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "certification": [
       {
-        "date": "2026-06-12",
-        "title": "全球首张！峰飞航空V2000CG获颁eVTOL境外适航证 - 21财经",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2026-06-12",
-        "title": "全球首张eVTOL境外适航证落地！峰飞V2000CG获印尼“签证” - 手机网易网",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "market_expansion": [
       {
-        "date": "2026-07-22",
-        "title": "峰飞航空亮相2026国际低空经济博览会，携手顺丰打造海上风电低空运维方案 - jfdaily.com",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2026-06-11",
-        "title": "全球首张！峰飞航空获颁eVTOL出海“第一证” - 中国民航网",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2026-06-12",
-        "title": "全球首张eVTOL境外适航证落地！峰飞V2000CG获印尼“签证” - 手机网易网",
-        "source": "news.google.com"
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ]
   },
   "timeline": [
     {
-      "date": "2026-07-25",
-      "title": "峰飞eVTOL阿斯塔纳首飞，多国政要现场见证，中国低空力量，飞向世界 - 新浪网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1NlRqRUhfaFNjb3FTb1J6VUFGcS1wb2dhaDRPWTlXbENKMUU3QlZMYWxyNlJqT0hLRTVOR3pPR25RVEhOc05ia1ZsNThGbW5kOFZGYU9PWVdKRlZiOVd3Z21n?oc=5",
-      "content_snippet": "峰飞eVTOL阿斯塔纳首飞，多国政要现场见证，中国低空力量，飞向世界新浪网"
+      "date": "2026-08-15",
+      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+      "source": "www.bing.com",
+      "url": "https://www.sohu.com/a/1063011230_217394",
+      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
     },
     {
-      "date": "2026-07-22",
-      "title": "峰飞航空亮相2026国际低空经济博览会，携手顺丰打造海上风电低空运维方案 - jfdaily.com",
+      "date": "2026-05-29",
+      "title": "峰飞航空科技高级副总裁谢嘉：大型eVTOL是低空经济产业跃升的“金钥匙” - cb.com.cn",
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BcnlWbHJqWmxUbTVwUkdvc2pfbTZBbE5yQWVZZ29fNVdDbUFQRUZiaDh2MC1kaEtQYzNyWTJCczFNam85SWNUVDJic3hGX3RxdmFQSlEyNEtSUQ?oc=5",
-      "content_snippet": "峰飞航空亮相2026国际低空经济博览会，携手顺丰打造海上风电低空运维方案jfdaily.com"
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4Z1lwR1RfNHlidnBNSXpGNmF1a0J0dXdrdXBuY3RpSXU0WHhEN3lubVlzRHVyLVowbEp3bDBQTkVJTmJVbndMNld0ejd1cV9oczA3Q0I2MmZDaXVmVVd0QnBB?oc=5",
+      "content_snippet": "峰飞航空科技高级副总裁谢嘉：大型eVTOL是低空经济产业跃升的“金钥匙”cb.com.cn"
     },
     {
-      "date": "2026-06-12",
-      "title": "全球首张！峰飞航空V2000CG获颁eVTOL境外适航证 - 21财经",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ0xmclFOX3I3TUtkUDFSNFNBb0lfU1h4cjRhdDAtaGNyQVQtNER6SjR4Y0s3RlNucy1lZ0RlbV9sTy1XQWJBZkJDVlVUNW5OYVRKSml0S2toWng4a29xNGFIMXlCNlFZR0dHTE1GV21MU2JMOW9veHVUcU5DQjAxeWw3TDcxZ2FWMzRpNUlGR3hBaFF0?oc=5",
-      "content_snippet": "全球首张！峰飞航空V2000CG获颁eVTOL境外适航证21财经"
+      "date": "2026-05-03",
+      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
+      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
     },
     {
-      "date": "2026-06-12",
-      "title": "全球首张eVTOL境外适航证落地！峰飞V2000CG获印尼“签证” - 手机网易网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3cDFDbXdjd1dOREhzdV9jNjAwQ0FBNEFjZmNMdWN5WXFWd1NkdWR3R0xZcGZiNE9ic3JoQ3JJZDhZY3F2MjZpRWRlSU9tRkNPYkF3dWo4Q3ppbVVkb3VGa0FR?oc=5",
-      "content_snippet": "全球首张eVTOL境外适航证落地！峰飞V2000CG获印尼“签证”手机网易网"
-    },
-    {
-      "date": "2026-06-11",
-      "title": "全球首张！峰飞航空获颁eVTOL出海“第一证” - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iS1dfd0RkUmFwRWFKS2syVTdhNm0ta0ZhRThXUVhQaTEzOE54WXVsUC1UdmlzZ1RXMHg3VHhzVmJJQXhxcDNaVjNHV1RySFE4WUs2YXd0TWk2bVVZanJYekhPNTJBY3NaM1NGNXNn?oc=5",
-      "content_snippet": "全球首张！峰飞航空获颁eVTOL出海“第一证”中国民航网"
-    },
-    {
-      "date": "2026-04-19",
-      "title": "峰飞航空携手京东物流 eVTOL助贵州春茶最快当日抵长三角 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pUmgzSDA0Zm13aG9feHFLXy1ILVlDUnhJbVFFdGdQSGxrYWw0VXZwZlRKUHZRbkk4dWp3Mi0tUzVPWVB5ZXJMcmJNUWE3Ul9VYmFlY2NZdjNYQWZIcG9VUTcxX3o3YTBjR3NfLQ?oc=5",
-      "content_snippet": "峰飞航空携手京东物流 eVTOL助贵州春茶最快当日抵长三角中国民航网"
-    },
-    {
-      "date": "2026-02-17",
-      "title": "峰飞航空eVTOL水上机场亮相2026央视春晚 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85d0ozUDVJUnN0OUdNYXRGSE9wT1JDWHowWWVEYWxvR3ZTQUgwVG5MSE9MVW1fSUNMbVBPOE1zTVJza09VbThzSkV5bXEzOHNEMXdvWm1ibERzRlZ4Y2hQckZBa2w2RENYTmN2Tg?oc=5",
-      "content_snippet": "峰飞航空eVTOL水上机场亮相2026央视春晚中国民航网"
-    },
-    {
-      "date": "2026-02-06",
-      "title": "峰飞航空发布5吨级eVTOL“天际龙”并完成转换飞行 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84YnpiRkVyUzM3V2dkVElSX3ZwNGZJZTYwdjBrWG1ERGNJb05FNURYeGJNUkZFbDdVQXdQTTNmcnFvSmwzYjF6aWxnVXAzdVMydlR1bW56VVp4T2hKZDRJdXR6bzN5UGJWcHRIeA?oc=5",
-      "content_snippet": "峰飞航空发布5吨级eVTOL“天际龙”并完成转换飞行中国民航网"
-    },
-    {
-      "date": "2026-02-06",
-      "title": "全球首款，峰飞航空5吨级eVTOL完成转换飞行 - 观察者",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QWkhxUVVqUHp2QUZsN2FsY2NMaHI2cmJUOFJqQU8tWFBGREJPTDJvQUNrejEwNDN3aXA4ejFTR1pHbHdMWjhYNmVmZUhXU2xydV9QRWJHMnp4QUFzalVvbm1ONGw?oc=5",
-      "content_snippet": "全球首款，峰飞航空5吨级eVTOL完成转换飞行观察者"
+      "date": "2026-05-03",
+      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
+      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
     },
     {
       "date": "2026-02-05",
-      "title": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行 - 爱咖号",
+      "title": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行 - qq.com",
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wLWVUMW5zTEdRVXF4MGZWSlV0YUFyRGtNbGRGWDZwTkVQVFRfYjNtSVo5bGE0R000YXZRWXc2Q0FYUmpNOEVVWUw1emRUWHZhb1F0UzZwcW4?oc=5",
-      "content_snippet": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行爱咖号"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04Tm5zZWtFbW9HVVpQblRKaGZHTDFsbF9kSjVSRG4ybVhPY19GYXhRMUNCem5PSzlMLURhZ3JHUkRDMGlIaE5KalFkYUVaU29mSU5vZ2R3?oc=5",
+      "content_snippet": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行qq.com"
     },
     {
-      "date": "2025-11-22",
-      "title": "峰飞航空研发推出eVTOL零碳水上机场 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0UmV2VEhhNm5TLTNDQ0NLU3lHNlBCbENRa0NMX296MmJNXzhfTmxRNWk5elVWRkxLTEVaMzZJby12VEgzc2VoWFJkZHFLT3gxUDhpei1iakp6QXFkeXZYbVlDbjktM1JKMzdnMA?oc=5",
-      "content_snippet": "峰飞航空研发推出eVTOL零碳水上机场中国民航网"
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3546179.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
     },
     {
-      "date": "2025-10-30",
-      "title": "峰飞航空获阿联酋猎鹰航空50架eVTOL航空器订单 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83SXBaQWRNX1lFMXQyNGU4Yk16TTBnMzM3U1F1SnlYYVRLVk9sR1hocjQzb0JkTFROZkNWRThhbG5yX0IxcTBUZjlyWWpVcWMyTGY0M2IyR2E4RDRPX2YyRE16dWtIVC0zc05rUQ?oc=5",
-      "content_snippet": "峰飞航空获阿联酋猎鹰航空50架eVTOL航空器订单中国民航网"
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3545760.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
+    },
+    {
+      "date": "2025-10-23",
+      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+      "source": "www.bing.com",
+      "url": "https://news.qq.com/rain/a/20251023A018N400",
+      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
     },
     {
       "date": "2025-03-06",
       "title": "峰飞航空eVTOL助力中国低空经济迈向万亿市场",
       "source": "www.bing.com",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.msn.com%2fzh-cn%2fnews%2fother%2f%25E5%25B3%25B0%25E9%25A3%259E%25E8%2588%25AA%25E7%25A9%25BAevtol%25E5%258A%25A9%25E5%258A%259B%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BD%258E%25E7%25A9%25BA%25E7%25BB%258F%25E6%25B5%258E%25E8%25BF%2588%25E5%2590%2591%25E4%25B8%2587%25E4%25BA%25BF%25E5%25B8%2582%25E5%259C%25BA%2far-AA1AmlOx&c=12913698866766842316&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a82c959d9be45c6827478f3e431a025&url=https%3a%2f%2fwww.msn.com%2fzh-cn%2fnews%2fother%2f%25E5%25B3%25B0%25E9%25A3%259E%25E8%2588%25AA%25E7%25A9%25BAevtol%25E5%258A%25A9%25E5%258A%259B%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BD%258E%25E7%25A9%25BA%25E7%25BB%258F%25E6%25B5%258E%25E8%25BF%2588%25E5%2590%2591%25E4%25B8%2587%25E4%25BA%25BF%25E5%25B8%2582%25E5%259C%25BA%2far-AA1AmlOx&c=12913698866766842316&mkt=en-us",
       "content_snippet": "近年来，随着全球对绿色交通和城市立体化出行的需求激增，以电动垂直起降航空器(eVTOL)为核心的“飞行汽车”概念迅速崛起，成为低空经济领域最受瞩目的赛道之一。作为中国eVTOL行业的领军企业，峰飞航空近期斩获汉阳投资发展集团12架大型eVTOL航空器订单 ..."
-    },
-    {
-      "date": "2025-01-29",
-      "title": "峰飞eVTOL亮相央视春晚 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5RWJkaDFJNTVkSmNNaXZ3aFA1NEtMZXFWUEJFcVZmTVYtSzlsbkxsbUY1UkJOM0pheWNfSnp0Y2d6TWNjc0xBMFBLZ1ltZW54M1NhanQ0Z2hMVW1UdlBjb3dFZkRCMWxTS0pBYmNB?oc=5",
-      "content_snippet": "峰飞eVTOL亮相央视春晚中国民航网"
-    },
-    {
-      "date": "2023-10-29",
-      "title": "“准生证”落地，eVTOL“高飞”",
-      "source": "www.bing.com",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a81cd77c6e34f738cb5ae087cd77750&url=https%3a%2f%2fwww.36kr.com%2fp%2f2496545683398790&c=10601504294894972133&mkt=en-us",
-      "content_snippet": "据不完全统计，目前全球有超300家企业布局eVTOL，其中既有Joby、亿航智能、时的科技、峰飞航空、零重力飞机工业等聚焦eVTOL的创业公司；也有波音、空客为代表的传统航空巨头；保时捷、戴姆勒、吉利汽车、小鹏汽车等一众车企纷纷下场。"
     }
   ],
-  "generated_at": "2026-08-16T23:52:20.037076+08:00"
+  "generated_at": "2026-08-17T16:55:02.680747+08:00"
 }

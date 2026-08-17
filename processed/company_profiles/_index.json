@@ -1,58 +1,84 @@
 {
-  "generated_at": "2026-08-16T23:52:20.040561+08:00",
-  "total_companies": 5,
+  "generated_at": "2026-08-17T16:55:02.686358+08:00",
+  "total_companies": 6,
   "companies": [
     {
       "name": "亿航智能",
       "category": "eVTOL整机",
-      "mention_count": 31,
-      "first_seen": "2023-10-29",
-      "last_seen": "2025-11-13",
+      "mention_count": 15,
+      "first_seen": "2025-07-12",
+      "last_seen": "2026-08-15",
       "key_persons": [
-        "戴姆勒"
+        "凯瑞鸥",
+        "阿布扎比",
+        "倾转旋翼"
       ],
-      "event_count": 35
+      "event_count": 68
     },
     {
       "name": "峰飞航空",
       "category": "eVTOL整机",
-      "mention_count": 15,
-      "first_seen": "2023-10-29",
-      "last_seen": "2026-07-25",
+      "mention_count": 9,
+      "first_seen": "2025-03-06",
+      "last_seen": "2026-08-15",
       "key_persons": [
-        "戴姆勒"
+        "凯瑞鸥",
+        "倾转旋翼",
+        "Tech"
       ],
-      "event_count": 13
-    },
-    {
-      "name": "大疆创新",
-      "category": "无人机整机",
-      "mention_count": 11,
-      "first_seen": "2023-07-31",
-      "last_seen": "2026-07-10",
-      "key_persons": [],
-      "event_count": 4
+      "event_count": 35
     },
     {
       "name": "沃兰特",
       "category": "eVTOL整机",
       "mention_count": 9,
-      "first_seen": "2025-10-15",
-      "last_seen": "2026-08-12",
+      "first_seen": "2025-07-12",
+      "last_seen": "2026-08-15",
       "key_persons": [
-        "黄小飞",
-        "杨让晨"
+        "凯瑞鸥",
+        "倾转旋翼",
+        "Tech"
       ],
-      "event_count": 11
+      "event_count": 45
+    },
+    {
+      "name": "沃飞长空",
+      "category": "eVTOL整机",
+      "mention_count": 4,
+      "first_seen": "2025-07-12",
+      "last_seen": "2026-08-15",
+      "key_persons": [
+        "倾转旋翼",
+        "Lilium",
+        "张潇聪"
+      ],
+      "event_count": 22
     },
     {
       "name": "小鹏汇天",
       "category": "eVTOL整机",
+      "mention_count": 4,
+      "first_seen": "2025-10-23",
+      "last_seen": "2026-08-15",
+      "key_persons": [
+        "阿布扎比",
+        "张潇聪",
+        "黄小飞"
+      ],
+      "event_count": 24
+    },
+    {
+      "name": "中信海直",
+      "category": "通航运营",
       "mention_count": 2,
-      "first_seen": "2025-12-17",
+      "first_seen": "2025-12-18",
       "last_seen": "2025-12-18",
-      "key_persons": [],
-      "event_count": 3
+      "key_persons": [
+        "阿布扎比",
+        "黄小飞",
+        "黄雍威"
+      ],
+      "event_count": 12
     }
   ]
 }

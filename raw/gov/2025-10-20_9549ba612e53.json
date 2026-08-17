@@ -1,0 +1,53 @@
+{
+  "doc_id": "9549ba612e53",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a82c959d9be45c6827478f3e431a025&url=https%3a%2f%2ffinance.china.com.cn%2froll%2f20251021%2f6273293.shtml&c=3464951739377151558&mkt=en-us",
+  "title": "创始人同乘！时的科技完成全球首个吨级eVTOL载多人飞行试验",
+  "content": "近日，时的科技研发进展取得重大突破，自主研发的倾转旋翼E20 eVTOL在完整构型下成功完成载多人飞行试验！ 更令人振奋的是，公司创始人兼CEO黄雍威亲自参与，与首席飞行员一同完成这次飞行任务。这不仅仅是中国eVTOL发展史上重要里程碑，也标志着时的科技 ...",
+  "publish_date": "2025-10-20",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.808218+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "黄雍威",
+        "label": "person",
+        "start": 103,
+        "end": 106,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "时的科技",
+        "label": "org",
+        "start": 6,
+        "end": 10,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 133,
+        "end": 135,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "黄雍威",
+        "title": "CEO",
+        "org": "",
+        "context": "成功完成载多人飞行试验！ 更令人振奋的是，公司创始人兼CEO黄雍威亲自参与，与首席飞行员一同完成这次飞行任务。这不仅仅是中国e"
+      }
+    ]
+  }
+}

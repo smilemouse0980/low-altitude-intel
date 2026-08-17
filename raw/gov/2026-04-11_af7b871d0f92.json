@@ -1,0 +1,62 @@
+{
+  "doc_id": "af7b871d0f92",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYV93d1ZEbUFzV3JyYzdiR1J6YUl1S1otdXZTSTl5ZjVXQldYUGc0NHJZamMydkg2cXA3T3VDRHhzdkNSNFRvZjlrMDJjenh6WkVTbmJUNGRjQ1JaNG0taHFmeXhaVkNHdW1mX3gwMU1GaEppc3ZkR1RxZWtKLVBNZEJYTzI?oc=5",
+  "title": "通航产业加速腾飞:低空场景日渐成熟 无人机产业今年有哪些新期待? - 新浪财经",
+  "content": "通航产业加速腾飞:低空场景日渐成熟 无人机产业今年有哪些新期待?新浪财经",
+  "publish_date": "2026-04-11",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.410541+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 35,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 72,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 18,
+        "end": 21,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "今年",
+        "label": "date",
+        "start": 23,
+        "end": 25,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年",
+        "label": "date",
+        "start": 63,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

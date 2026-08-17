@@ -1,0 +1,54 @@
+{
+  "doc_id": "0f2c237d3a78",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WbHJhS0M5bEoyTnFwNGR3eEJicjZYMlEyZGxkR1Z0NGRGbEFyT25NcndmSGlWeVlWbS1UejZoelVuZXVDMmpIUEpNX1Utc1AzWENwb1VZNGVKS3ZFbDc0?oc=5",
+  "title": "直击进博会|专访天翎科联合创始人卢懿：混动增程eVTOL预计2028年实现商业载人飞行 成本媲美高铁票价 - cb.com.cn",
+  "content": "直击进博会|专访天翎科联合创始人卢懿：混动增程eVTOL预计2028年实现商业载人飞行 成本媲美高铁票价cb.com.cn",
+  "publish_date": "2025-11-10",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:52.435812+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "天翎科联合创始人",
+        "label": "org",
+        "start": 8,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "天翎科联合创始人",
+        "label": "org",
+        "start": 73,
+        "end": 81,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2028年",
+        "label": "date",
+        "start": 30,
+        "end": 35,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2028年",
+        "label": "date",
+        "start": 95,
+        "end": 100,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

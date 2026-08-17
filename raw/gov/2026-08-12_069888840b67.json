@@ -1,0 +1,414 @@
+{
+  "doc_id": "069888840b67",
+  "url": "https://news.qq.com/rain/a/20260812A08GCJ00",
+  "title": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ...",
+  "content": "中经记者 杨让晨 上海报道\n（沃兰特旗下VE25-100。 杨让晨/摄影）\n自2021年“低空经济”一词首度写入国家规划以来，eVTOL（即electric Vertical Take-off and Landing，电动垂直起降航空器）开始迅速发展。\n近年来，不断有eVTOL企业订单落地。日前，eVTOL头部企业沃兰特宣布，与印尼头部直升机运营公司WhiteSky Group、国内知名金融租赁公司民生金租完成260架VE25-100采购订单签约。\n在这背后是这一新兴出行方式拥有的较高的成本优势。据波士顿咨询发布的《中国载人eVTOL行业白皮书》，eVTOL载人出行的单人每公里乘坐成本约为10元人民币，远低于直升机单人每公里约50元人民币的价格，这与豪华网约车的单位价格接近。\n不过，价格只是eVTOL经济性的体现之一。沃兰特创始人、CEO董明告诉《中国经营报》记者，eVTOL要实现经济性，除了要具备每天持续飞行的能力外，地面运营方对于飞行效率的管理能力也很重要。“换言之，对于eVTOL的经济性而言，场景是‘外壳’，运行效率则是‘内核’。”\n在拥有经济性优势之前，安全性被放在eVTOL落地首位。“飞机的安全性不是试出来的，而是设计出来的。”董明告诉记者，在机型组装前，公司在结构强度、系统集成等方面都完成了设计与验证，在试飞后则会对数据进行分析，不停地修正本体仿真模型。\n十亿分之一的安全界限\n作为新型空中出行工具，安全问题被放在首位。\n相关资料显示，在现代航空工业和适航认证中，对于可能导致诸如全员遇难、飞机完全损毁等灾难性后果的系统级故障，设计的单次飞行失效安全指标标准概率为十的负九次方，即十亿分之一。\n这就要求eVTOL严格控制故障发生的概率。\n“eVTOL的安全是设计出来的，从架构到设备进行设计验证，并在试飞前对eVTOL的各项专业系统进行完好监控。”董明告诉记者，在此基础上，沃兰特也为eVTOL的所有可能的故障状态都设计了应对策略并完成了验证。“要确保在包括动力系统失效在内的各种故障状态下，eVTOL飞行仍然是安全的，通过飞机各系统的优化，把所有的故障状态都进行了完好的覆盖。”\n同时，随着分布式动力、智能飞控、多源感知融合等新技术落地应用，eVTOL采用SOV系统，极大地简化了此前传统直升机的很多操控步骤，使得飞行员不用耗费精力钻研系统操作细节，能把更多注意力放在观察外部空域、监控航路变化、和空管沟通等这类核心飞行工作上，有利于缓解疲劳，提升飞行安全性。\n目前eVTOL的机上操作人员，更多被定义为“空中安全管理员”，岗位的核心能力正从传统飞行器动力、气动操纵实操，转变为低空运行规则落地、空域与地面协同处置、飞行风险预判与突发状况应急决策等。\n不过，这并不意味着eVTOL飞行员的工作难度降低了。董明告诉记者，eVTOL飞行员的机上操作与飞手在地面操作感受并不完全一样，视线更加受限的同时，也容易受到eVTOL的噪声、震动以及温度变化的影响。\n“飞行员在空中专注飞行的同时，需要获取全机的信息，显示控制系统需要给飞行员提供正确的信息，无意义的信息则需要通过淡化的方式呈现。”董明进一步对记者表示，相较于无人驾驶的eVTOL，沃兰特的产品设定了飞控系统，架构的完好度达到了干支线飞机的飞控架构水平。\n产业尚处早期酝酿阶段\n“eVTOL行业想要蓬勃发展，基本点在于其经济性能够被验证。”在董明看来，eVTOL要能够对包括主机厂、供应链、运营商以及最终用户在内的多方产生价值，才能实现其经济性。希望在国内市场能够看到用类似美国eIPP（eVTOL Integration Pilot Program，eVTOL整合试点计划）的试点计划，来推动运营场景的探索和经济性的确认。\n何为eIPP试点计划？记者注意到，该计划为美国联邦航空管理局联合美国交通部公布的eVTOL整合试点计划，包括允许美国28个州的8个eVTOL项目在等待最终适航批准期间进行商业飞行，试点涵盖有人、无人驾驶两类模式，聚焦先进空中交通商业化的核心场景，包括空中出租车、区域先进航空、航空货运等在内的试点运营等，是针对eVTOL行业长期面临的“认证周期长、商业落地难、真实场景验证不足”的共性问题提出的解决方案。\n不过，在董明看来，各种试点的目的是要证明eVTOL在各种场景下都能够每天在空中良好地飞行4个小时以上，其中包括空中飞行的效率和地面运营方的效率。“换言之，场景只是经济性的外壳，而在空中飞行和地面运营的效率才是eVTOL实现经济性的核心。”\n对此，董明也表示，公司希望能够在今年下半年和明年上半年进行经济性的验证工作。“在这之后，公司的核心工作是聚焦确认订单及交付订单，希望在今明两年实现小规模的批量订单交付，在客户感兴趣的地区与场景中，证实eVTOL的安全性和经济性，也希望能够通过海外订单，推动海外同步适航审定。”\n记者注意到，近年来，沃兰特在加速推进适航审定的同时，也在发展海外市场，在今年7月末，沃兰特宣布全球研发总部落户上海市闵行区虹桥镇的同时，还同步签订了260架海内外采购订单。\n据了解，印尼民航管理局计划于2029年开放eVTOL商业运营，而此次与沃兰特签约海外订单的印尼头部直升机运营公司WhiteSky Group看好中国低空eVTOL赛道，认为沃兰特VE25-100商用客运飞机产品适配其本土多元场景运营需求。\n不过，董明也强调，目前eVTOL的商用客运仍处于早期酝酿阶段，产业并没有有效供给，也没有形成有效商业闭环。“在当前阶段，公司核心的突破是进入市场，有效地证实经济性，并且在此基础上有效快速地迭代产品。”\n“未来的5—10年才是eVTOL的早期闭环阶段，公司产品的研制状态、产品质量及性能能否匹配产业不同发展阶段的要求，这对于我们而言是一大挑战，公司希望能够在度过当前的早期酝酿阶段后，进入一个快速发展的中期阶段。”董明表示。\n（编辑：张靖超 审核：李正豪 校对：张国刚）",
+  "publish_date": "2026-08-12",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.806456+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 15,
+        "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "杨让晨",
+        "label": "person",
+        "start": 48,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 58,
+        "end": 61,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "杨让晨",
+        "label": "person",
+        "start": 73,
+        "end": 76,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 201,
+        "end": 204,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Sky Group",
+        "label": "person",
+        "start": 224,
+        "end": 233,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 407,
+        "end": 410,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 845,
+        "end": 848,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 1375,
+        "end": 1378,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "何为e",
+        "label": "person",
+        "start": 1597,
+        "end": 1600,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2069,
+        "end": 2072,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2101,
+        "end": 2104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2181,
+        "end": 2184,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Sky Group",
+        "label": "person",
+        "start": 2207,
+        "end": 2216,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "张靖超",
+        "label": "person",
+        "start": 2482,
+        "end": 2485,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "李正豪",
+        "label": "person",
+        "start": 2489,
+        "end": 2492,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "张国刚",
+        "label": "person",
+        "start": 2496,
+        "end": 2499,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "中国经营报",
+        "label": "org",
+        "start": 422,
+        "end": 427,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国eIPP",
+        "label": "org",
+        "start": 1521,
+        "end": 1527,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国联邦航空管理局联合美国交通部",
+        "label": "org",
+        "start": 1618,
+        "end": 1634,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼民航管理局",
+        "label": "org",
+        "start": 2150,
+        "end": 2157,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "航空工业",
+        "label": "org",
+        "start": 679,
+        "end": 683,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 52,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 208,
+        "end": 210,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "波士顿",
+        "label": "location",
+        "start": 295,
+        "end": 298,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 304,
+        "end": 306,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 1653,
+        "end": 1655,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海市",
+        "label": "location",
+        "start": 2114,
+        "end": 2117,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 2191,
+        "end": 2193,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 2218,
+        "end": 2220,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 82,
+        "end": 87,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 170,
+        "end": 173,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年下半年",
+        "label": "date",
+        "start": 1936,
+        "end": 1941,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "明年上半年",
+        "label": "date",
+        "start": 1942,
+        "end": 1947,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今明两年",
+        "label": "date",
+        "start": 1987,
+        "end": 1991,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 2065,
+        "end": 2068,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年7月末",
+        "label": "date",
+        "start": 2095,
+        "end": 2100,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029年",
+        "label": "date",
+        "start": 2160,
+        "end": 2165,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ... 中经记者"
+      },
+      {
+        "person": "杨让晨",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "CEO董明：未来5—10年才是eVTOL ... 中经记者 杨让晨 上海报道\n（沃兰特旗下VE25-100。 杨让晨/摄影）"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "10年才是eVTOL ... 中经记者 杨让晨 上海报道\n（沃兰特旗下VE25-100。 杨让晨/摄影）\n自2021年“低空经"
+      },
+      {
+        "person": "杨让晨",
+        "title": "",
+        "org": "沃兰特",
+        "context": "中经记者 杨让晨 上海报道\n（沃兰特旗下VE25-100。 杨让晨/摄影）\n自2021年“低空经济”一词首度写入国家规划以来，"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "年来，不断有eVTOL企业订单落地。日前，eVTOL头部企业沃兰特宣布，与印尼头部直升机运营公司WhiteSky Group、"
+      },
+      {
+        "person": "Sky Group",
+        "title": "",
+        "org": "沃兰特",
+        "context": "TOL头部企业沃兰特宣布，与印尼头部直升机运营公司WhiteSky Group、国内知名金融租赁公司民生金租完成260架VE25-100采"
+      },
+      {
+        "person": "沃兰特",
+        "title": "CEO",
+        "org": "沃兰特",
+        "context": "的单位价格接近。\n不过，价格只是eVTOL经济性的体现之一。沃兰特创始人、CEO董明告诉《中国经营报》记者，eVTOL要实现经"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "OL的各项专业系统进行完好监控。”董明告诉记者，在此基础上，沃兰特也为eVTOL的所有可能的故障状态都设计了应对策略并完成了验"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "式呈现。”董明进一步对记者表示，相较于无人驾驶的eVTOL，沃兰特的产品设定了飞控系统，架构的完好度达到了干支线飞机的飞控架构"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "通过海外订单，推动海外同步适航审定。”\n记者注意到，近年来，沃兰特在加速推进适航审定的同时，也在发展海外市场，在今年7月末，沃"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "特在加速推进适航审定的同时，也在发展海外市场，在今年7月末，沃兰特宣布全球研发总部落户上海市闵行区虹桥镇的同时，还同步签订了2"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "尼民航管理局计划于2029年开放eVTOL商业运营，而此次与沃兰特签约海外订单的印尼头部直升机运营公司WhiteSky Gro"
+      },
+      {
+        "person": "Sky Group",
+        "title": "",
+        "org": "沃兰特",
+        "context": "而此次与沃兰特签约海外订单的印尼头部直升机运营公司WhiteSky Group看好中国低空eVTOL赛道，认为沃兰特VE25-100商用客"
+      }
+    ]
+  }
+}

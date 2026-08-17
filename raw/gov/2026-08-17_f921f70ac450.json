@@ -1,0 +1,92 @@
+{
+  "doc_id": "f921f70ac450",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQzBtbFNKSmFEOHFVZ0hncEVSZGVmN24tcmVHR2FvWVpBRHdUSExmSDI0MFpWM1VQaVJfdjlrbmtnX3lWdjRCT1hEdFdyYTdZRFRhYWhMeXp1Nm9qWm04TERPU0dMRmJJVmRBVV94N3FXZG9JekJoeXBNZUdNM0RCX3NpWENPZllf?oc=5",
+  "title": "赛迪顾问智能装备产业研究中心总经理杨岭受邀为山东省全省低空经济专题培训班作《低空产业发展与实践的思考》专题授课 - 搜狐网",
+  "content": "赛迪顾问智能装备产业研究中心总经理杨岭受邀为山东省全省低空经济专题培训班作《低空产业发展与实践的思考》专题授课搜狐网",
+  "publish_date": "2026-08-17",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:49.012408+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "杨岭受",
+        "label": "person",
+        "start": 17,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "杨岭受",
+        "label": "person",
+        "start": 79,
+        "end": 82,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "赛迪",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "搜狐网 赛迪顾问智能",
+        "label": "org",
+        "start": 58,
+        "end": 68,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "搜狐网",
+        "label": "org",
+        "start": 117,
+        "end": 120,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "山东省",
+        "label": "location",
+        "start": 22,
+        "end": 25,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "山东省",
+        "label": "location",
+        "start": 84,
+        "end": 87,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "杨岭受",
+        "title": "总经理",
+        "org": "赛迪",
+        "context": "赛迪顾问智能装备产业研究中心总经理杨岭受邀为山东省全省低空经济专题培训班作《低空产业发展与实践的思考"
+      },
+      {
+        "person": "杨岭受",
+        "title": "总经理",
+        "org": "搜狐网 赛迪顾问智能",
+        "context": "考》专题授课 - 搜狐网 赛迪顾问智能装备产业研究中心总经理杨岭受邀为山东省全省低空经济专题培训班作《低空产业发展与实践的思考"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "doc_id": "9043da88b230",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0ySjh0THM2OU1Jb3BwQk9hUjFOLU1FZnd5YWpKaFV6VjljdG5wRW1TTnR2dk9yd2ZtUmxJbk5hQzB4d0o4REQ4UThsc3I0WGZ4LUVHWkY3M1ZUbV9PenZVYVdjaFYzWGFadEsxSTlXWEVTWUFSVDZTNWRfdFE?oc=5",
+  "title": "（经济观察）“起飞”一周年，香港低空经济成效几何？ - 中国日报网",
+  "content": "（经济观察）“起飞”一周年，香港低空经济成效几何？中国日报网",
+  "publish_date": "2026-03-20",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:49.017256+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "经济观察",
+        "label": "org",
+        "start": 1,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "经济观察",
+        "label": "org",
+        "start": 35,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 14,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 28,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 48,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 59,
+        "end": 61,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "一周年",
+        "label": "date",
+        "start": 10,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日报网",
+        "label": "date",
+        "start": 30,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "一周年",
+        "label": "date",
+        "start": 44,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日报网",
+        "label": "date",
+        "start": 61,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

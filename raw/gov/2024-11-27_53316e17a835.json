@@ -7,6 +7,14 @@
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.094155+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-17T16:41:54.959171+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

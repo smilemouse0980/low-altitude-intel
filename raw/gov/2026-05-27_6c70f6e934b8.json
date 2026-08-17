@@ -1,0 +1,46 @@
+{
+  "doc_id": "6c70f6e934b8",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BRGxaX1pKSjRpZFNoNjVfb3JrM01wYzZLNlFhZi1wY0Z2Y1VNNGRSNHdJX2lZRDVHMEtrNkcwZk91cDQ3WGpZU2lIY19sQXhyRW1WMXY5MnBMZHdLakFz?oc=5",
+  "title": "北京警方公布3类违反“无人机新规”典型案例！这些事项要注意—— - 光明网",
+  "content": "北京警方公布3类违反“无人机新规”典型案例！这些事项要注意——光明网",
+  "publish_date": "2026-05-27",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:54.954877+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "doc_id": "55a0429b9671",
+  "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE90UDRNb3l3bENVTy1Nb3Z5TGdMNEhLdkNwNi1ULUlBMWtoT1lJck5QSkF6VG5jSExwSlVKLTNaYVFyZDRuMW1jOQ?oc=5",
+  "title": "航投基金领投 上海eVTOL企业御风未来获新一轮亿元融资 - 财联社",
+  "content": "航投基金领投 上海eVTOL企业御风未来获新一轮亿元融资财联社",
+  "publish_date": "2025-12-19",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:52.433279+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "财联社 航投基金",
+        "label": "org",
+        "start": 31,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "御风未来",
+        "label": "org",
+        "start": 16,
+        "end": 20,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 7,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 42,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

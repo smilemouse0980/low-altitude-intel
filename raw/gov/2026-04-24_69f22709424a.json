@@ -1,0 +1,87 @@
+{
+  "doc_id": "69f22709424a",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMbVBvMGoxOHhqaWpZaFlVR3V6LU5mRmR2eVZMdER6UDl0NkYwOWIySG5wbFNWbVZMNml0MmxzdzNQRFhfdHRPN3BjLW02STVJdlVhdEItSGE4VGVtVTI3NHdVZDMyblV4cXRuU3Q1YVdubjNlTnpLSW93bDBaTEE?oc=5",
+  "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+  "content": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品新浪财经",
+  "publish_date": "2026-04-24",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:54.953314+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 32,
+        "end": 34,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 66,
+        "end": 68,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "大疆",
+        "label": "org",
+        "start": 15,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 37,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 2,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 39,
+        "end": 43,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

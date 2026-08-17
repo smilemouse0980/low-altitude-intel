@@ -1,0 +1,101 @@
+{
+  "doc_id": "2f34d0fd3cbb",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96WVd3SGJxQXlraklRbGhZRXdMeVpFYjhpbDFYOUNVdmptWEk4VHp3Mng1TWhpNGxRUnlFaHV3bk05NXFoeUJmNW94VlUyV1phVklZc25EbEZnUjBMSkxHNDJkdi1DQnJHc1pocmJrNG44Zw?oc=5",
+  "title": "2025亚洲通用航空展今天开幕，多款通用航空展品“首展首秀” - xinwen.bjd.com.cn",
+  "content": "2025亚洲通用航空展今天开幕，多款通用航空展品“首展首秀”xinwen.bjd.com.cn",
+  "publish_date": "2025-11-27",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.411748+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "航空展",
+        "label": "person",
+        "start": 8,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "航空展",
+        "label": "person",
+        "start": 59,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 18,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025亚洲",
+        "label": "org",
+        "start": 51,
+        "end": 57,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 69,
+        "end": 73,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "亚洲",
+        "label": "location",
+        "start": 4,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "今天",
+        "label": "date",
+        "start": 11,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今天",
+        "label": "date",
+        "start": 62,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "航空展",
+        "title": "",
+        "org": "通用航空",
+        "context": "2025亚洲通用航空展今天开幕，多款通用航空展品“首展首秀” - xinwen.b"
+      },
+      {
+        "person": "航空展",
+        "title": "",
+        "org": "通用航空",
+        "context": "” - xinwen.bjd.com.cn 2025亚洲通用航空展今天开幕，多款通用航空展品“首展首秀”xinwen.bjd."
+      }
+    ]
+  }
+}

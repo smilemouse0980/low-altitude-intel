@@ -1,0 +1,47 @@
+{
+  "doc_id": "c87b49754748",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TMy11ekVjc3h5YkZtejJBN1N3b0YxUjRkRDBPRGVnUlVYYl9HcTlyTnlRX2hUSXBGSGN5ZDZDdC1pVGJ4VFh4UFdiQUQ5XzF0YjJlcUhMMENveGFGT3RrbHBkMUpvTlVYVlJLemtsQl8?oc=5",
+  "title": "中国eVTOL哈萨克斯坦完成公开飞行 探索未来空中交通 - 中华军事",
+  "content": "中国eVTOL哈萨克斯坦完成公开飞行 探索未来空中交通中华军事",
+  "publish_date": "2026-07-27",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:52.432626+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "L哈萨克斯坦",
+        "label": "person",
+        "start": 6,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "中华军事 中国eVTOL哈萨克斯坦",
+        "label": "org",
+        "start": 30,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

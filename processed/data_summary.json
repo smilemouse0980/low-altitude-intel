@@ -1,20 +1,20 @@
 {
-  "total_records": 429,
+  "total_records": 490,
   "by_source": {
-    "news.google.com": 405,
-    "www.bing.com": 24
+    "news.google.com": 454,
+    "www.bing.com": 36
   },
   "by_type": {
-    "rss": 405,
-    "bing_rss": 24
+    "rss": 454,
+    "bing_rss": 36
   },
   "by_quality": {
-    "warning: missing_url": 391,
-    "warning: missing_url,content_too_short": 38
+    "warning: missing_url": 472,
+    "warning: missing_url,content_too_short": 18
   },
   "date_range": {
     "earliest": "2021-04-10",
-    "latest": "2026-08-16"
+    "latest": "2026-08-17"
   },
-  "generated_at": "2026-08-16T14:49:33.683845"
+  "generated_at": "2026-08-17T08:55:02.660667"
 }

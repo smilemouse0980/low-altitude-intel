@@ -1,0 +1,70 @@
+{
+  "doc_id": "723b5ea5abbc",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2szYS1JZE14YTlXVFMyTDlvd1ZxR085OHVSSkx6UGN3ZnhEenNHNXlMOF9GTHY3UzJsMmcxa0ZsckJ5dFVWNEpOTUFnWlRZbEZPS0xfRHdsWUxSMV91aU80M2I2R05tb3g0cm9EOU83NmpDNU9fYnZVZ0o0ZHBJOUlJaFdoUlBBWklXRzBrbkN6OW80a1Fkbg?oc=5",
+  "title": "工作会快递 | 2024年通用航空和低空经济安全有序发展 - 中国民航网",
+  "content": "工作会快递 | 2024年通用航空和低空经济安全有序发展中国民航网",
+  "publish_date": "2025-01-09",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.412543+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 13,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网 工作会",
+        "label": "org",
+        "start": 31,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 50,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 65,
+        "end": 70,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 8,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 45,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

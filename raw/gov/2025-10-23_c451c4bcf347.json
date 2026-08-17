@@ -1,0 +1,1080 @@
+{
+  "doc_id": "c451c4bcf347",
+  "url": "https://news.qq.com/rain/a/20251023A018N400",
+  "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+  "content": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空间的开发利用它必然冲击城市发展的逻辑，其所关联的科技进展亦会辐射千行百业，可以说eVTOL产业的发展能够带来的想象空间无限。本文将结合书籍、文章、研报，以及笔者所在研究团队近期对相关企业的走访调研，对eVTOL产业进行一些梳理。这些梳理或不足以形成一些对行业发展的判断，但本文尝试提出一些值得思考和长期关注的问题。\n一、关于eVTOL的定义\neVTOL全称是electric vertical takeoff and landing，即电动垂直起降飞行器，是一种具备垂直起降能力、依靠电机驱动的飞行器。它结合了直升机的垂直起降优势与固定翼飞机的高效巡航能力，同时具有低噪音和低碳排放的特点，更适用于低空应用场景。作为面向低空出行场景的新一代飞行器形态，eVTOL被视为重塑未来交通体系的关键方向之一。波士顿咨询公司（BCG）用一张图展示了eVTOL与传统飞机的关系（图1）。BCG研究报告总结的eVTOL的核心特点是：（1）可承载人员或货物，具备垂直起降能力；（2）电力推进；（3）多旋翼设计，保留系统冗余；（4）可满足中国民航局、美国联邦航空管理局、欧洲航空安全局等适航审定标准。\n2007年，eVTOL在美国问世，在康涅狄格州贸易展销会上一种超轻飞机首次亮相，与其他飞机相比，它的重量更轻，速度更快，使用更便捷，被称为“空中SUV”，此后eVTOL进入探索发展阶段。 一般认为eVTOL发展至今经历了早期探索、概念引入、企业初创、监管跟进、商业试点五个发展阶段（如图2），其中2016 年Uber提出的“Uber Elevate”空中出租车计划， 在全球范围内引发了eVTOL浪潮，随后大量初创公司和汽车、航空产业巨头开始投入eVTOL 市场，我国民用eVTOL市场在这一时期也深受其影响。2020年以来，大量城市空中交通试点项目迅速落地，以验证eVTOL及相关基础设施在城市交通中的可行性和效益，推动eVTOL的商业化应用不断走向现实。\n值得一提的是，目前在一些研究报告上eVTOL与飞行汽车、空中出租车、电动垂直起降器等概念的使用有一定的交错或混用，这些概念之间的相互关系不甚明了，例如有的研报将飞行汽车作为eVTOL的一种类型，有的研报将eVTOL作为飞行汽车的一种类型，总之这是由于行业发展还处于早期阶段，相关概念还并未成熟所导致的。本文采用eVTOL这一国际通行的概念来探讨低空经济相关问题，将电动垂直起降飞行器作为其中文翻译，将飞行汽车作为其具体类型，将空中出租车作为相关概念来进行讨论。\n总的来说，eVTOL是在航空发展史上新产生的航空器类型，由于其低噪音、绿色化、垂直起降等技术优势，它更适用于低空应用场景，并且规模化量产后其成本远低于传统通航领域的直升机、固定翼飞机，它必将带来通用航空发展的新机遇。\n二、eVTOL的分类\n关于eVTOL的分类，从不同的维度可以进行不同的分类。\n按运行模式，eVTOL可分为有人驾驶和无人驾驶两种类别。\n按运载模式，eVTOL可分为载人、载货及兼容载人载货三种类别。\n按照动力能源维度，eVTOL可分为全电动、混合动力两大类，全电动类别包括锂电池、氢燃料电池、太阳能电池三种；混合动力类别包括锂电池+氢燃料电池、锂电池+燃油两种。\n按照设计荷载维度，eVTOL可分为轻型（有效荷载100-200公斤）、中型（有效荷载200-1000公斤）、重型（有效荷载≥1000公斤）三类。\n按照整机构型维度，eVTOL主要可分为多旋翼型、升力+旋翼型（即复合翼型）、矢量推力型（包括倾转旋翼和涵道技术等在内）。（1）多旋翼eVTOL采用分布式旋翼设计，无机翼或有短机翼，巡航和起飞着陆阶段均依靠旋翼提供升力，技术风险和研制难度较低，可靠性高，具有悬停状态的最佳效率，eVTOL初创公司大多采用多旋翼型作为前期产品。（2）升力+巡航型即复合翼eVTOL，使用独立螺旋桨分别实现垂直起降和巡航。该类型受到传统航空企业的偏爱，由于配置了专用的水平推进螺旋桨，且设计和飞控系统相对简单，可以有效地提升巡航效率、航程和安全性。同时研制速度较快，研制风险和成本较低，生产和维护简单。监管部门有着熟悉的适航路径和符合性方法，在市场准入方面较为宽松。但另一方面，垂直升力系统在平飞阶段属于“死重”(对当前飞行没有帮助，却必须携带的部件重量)，且会产生额外阻力，在经济效益和设计思路上较为逊色。（3）矢量推力型包括倾转旋翼和涵道技术等在内，在不同使用阶段通过改变推力方向实现垂直起降和巡航。在综合考虑航程、巡航速度和载重比方面优势明显，具有较好的有效载荷、最大起飞重量和运营经济性，使其在未来商业场景中为用户节约更多出行时间。但同时，复杂空气动力学问题也带来了飞控系统和机械设计上额外的技术挑战，导致了目前较高的事故风险。\n      根据美国SMG Consulting发布的《全球eVTOL厂商先进空中交通现实指数》（AAM REALITY INDEX），截至2025年6月，在全球31家主流eVTOL整机厂商中，选择复合翼构型的占比近42%，为所有eVTOL构型中占比最高，倾转旋翼构型以35%占比紧随其后。虽然国内外主流eVTOL公司目前主要的选择是复合翼型和倾转旋翼型，这并不意味着eVTOL已经形成了主流乃至成熟的技术路线，接下来哪种技术路线会成为主流还要看市场的选择。\n      三、eVTOL产业发展预期\n      （一）产业发展规模预期\n       不少研究机构，依据eVTOL的发展现状与趋势，参考eVTOL现有机型定价、eVTOL在一些行业领域的渗透情况与趋势，对eVTOL产业的发展规模进行了预测。\n据美国市场调查公司Grand View Research2022年的研究预测，2024-2030年，全球eVTOL市场复合增长率将达54.9%，到2030年全球eVTOL市场规模可能达到286亿美元。报告还预测从2024 年到 2030 年，美国的 eVTOL 市场预计将以 53% 左右的复合年增长率增长，而亚太地区的 eVTOL 市场预计将以超过 60% 的最高复合年增长率增长。\n根据罗兰贝格预测，2030、2040、2050年全球 eVTOL 运行数量分别为0.5、4.5、16万架，全球运营商收入分别为10、160、900亿美元。其中2050年收入中，50% 来自机场往返，40%来自城际往返。\n而BCG2025年的研究报告《中国载人eVTOL行业白皮书》表示，“未来，在政策支持、监管放宽、基础设施建设完善和供需共振的推动下，我们预计到2040年，中国eVTOL市场规模将达410亿美元，年销量约16万台。其中，个人飞行eVTOL凭借高净值人群对飞行体验、科技尝鲜、户外爱好等高端消费的需求，市场规模有望达到230亿美元，占比约为55%；出行eVTOL则依托城市空中交通网络的构建，在私人购买、商务包机、机场与高铁接驳等场景中发力，预计2040年市场规模将达180亿美元，占比约为45%。”\n    （二）eVTOL商业化进程展望\nBCG2025年的研究报告《中国载人eVTOL行业白皮书》表示，“个人飞行eVTOL与出行eVTOL均具备广阔的中长期市场潜力，但两者的商业化路径和节奏存在显著差异。结合当前政策支持、监管要求和基础设施建设等情况，我们预计个人飞行eVTOL将在未来一至两年内率先实现规模化发展；而出行eVTOL则将以更为审慎的方式，在三到五年内逐步实现商业化。个人飞行eVTOL凭借轻量化的技术架构、更为清晰的认证路径以及终端消费群体的积极关注，正率先实现商业化突破。目前在型号合格证获批、空域申请流程、轻量化基础设施建设等多个关键环节上，已具备较为成熟的支撑条件。相比之下，出行eVTOL的目标是实现中长距离、高容量和高频次的公共出行，对适航性、安全性、运行效率的要求更高，监管也更为严格，并需依托更完善的配套基础设施。截至2025年7月，尚无出行eVTOL机型在中国获批型号合格证。要真正实现城市空中出行还需在空域管理、起降点建设、导航与通信系统等多个方面取得实质性突破。”\n根据德勤公司的研究及预测，eVTOL商业化落地将分为三个阶段：（1）2020-2025年，货运eVTOL将实现商业化；（2）2025-2030年，客运eVTOL商用化进入第一阶段；（3）2030年后，成熟的自动驾驶将eVTOL应用到更广泛的领域。\n行业界一般将今年，即2025年称为eVTOL商业化运营元年，2025年3月，亿航智能率先拿到了全球首张无人驾驶航空器运营合格证（OC），补齐了eVTOL商业化运营的“最后一块拼图”。目前适航取证加速推进，预计2026-2027年，小鹏汇天、峰飞、沃飞长空等多家企业有望陆续获颁适航证。2025年以来，eVTOL领域迎来了订单的集中爆发，时的科技、沃兰特等头部企业相继在海外斩获巨额订单。总的来说，今年以来，随着政策支持持续强化、适航认证加速推进、订单潮涌现以及供应链日趋成熟，eVTOL产业正式向商业化运营迈进。\n四、我国eVTOL产业发展现状与困境\n目前，全球主要国家都非常重视eVTOL和低空经济的发展，纷纷出台战略举措，力争抢占发展先机。美国总统拜登于2022年10月签署《AAM协调与领导》法案，强调美国要在城市空中交通行业占据世界领导地位。2023年3月，美国白宫科技政策办公室(OSTP)发布《国家航空科技优先事项》白皮书，其中即包括eVTOL等内容。欧盟的“地平线2020(Horizon 2020)”和“欧洲地平线(Horizon Europe)”两期计划孵化出来多个城市空中交通相关的项目和企业，截至2022年底，欧洲地平线计划征集资助的与IAM相关项目超过100个。2018年，日本设立AAM公私委员会并发布路线图，率先将无人机和飞行汽车纳入国家层面战略规划，明确了AAM在偏远地区运输和灾害应急中的应用场景。2024年，国土交通省将AAM的运营和增长分四阶段推进，涵盖试飞验证至高密度自主运营。\n但是，从目前全球eVTOL产业发展现状来看，将来eVTOL的产业竞争也将主要在中美之间展开。SMG咨询公司（SMG Consulting LLC）发布AAM Reality Index（AAM现实指数，以下简称ARI），该指数旨在评估先进空中交通（AAM）企业将其产品（主要是eVTOL）成功推向市场的能力。根据ARI评估方式，其主要从五个维度评价，主要为公司获得的资金、领导团队、飞机的技术准备情况、飞机的认证进度以及全面制造的生产准备情况，覆盖了当前eVTOL企业发展的核心环节。根据2024年12月最新公布的AAM Reality Index，中国、美国eVTOL企业排名较为靠前，其中发展较快的前十名企业包括中国的亿航智能、峰飞航空、沃飞长空，亿航智能综合排名第一。\n图5：AAM Reality Index（2024年）\n目前，中美eVTOL产业在全球产业竞争格局中同处于第一梯队，美国基于通用航空产业基础，正积极拓展eVTOL行业在国防军事，先进空中交通的应用，并在中东区域进行大力布局，取得较好的进展。中国则得益于新能源汽车产业链、无人机产业链、航空技术的蓬勃发展及深厚积累，在航空电池、电机、材料、整机制造等环节占据优势。\n保时捷管理咨询研究报告《驾乘低空经济新风 畅享新质出行体验》则对我国eVTOL产业在全球的竞争力给予了充分肯定，“纵观世界范围内各eVTOL厂商的最新进展，不难发现虽然中国企业起步相对较晚，但依托国内顶层规划和鼓励政策出台，以亿航为代表的中国eVTOL企业在适航认证和商业化运营方面已走在世界前列。……从飞行器定价来看，依托于国内完善的供应链体系和成本优势，已发布的国产eVTOL飞行器普遍比海外同行具有较大竞争优势……。”\n不过，eVTOL产业的发展总体上还处于起步阶段，其发展仍然面临诸多困难与挑战。腾讯研究院在大量专家访谈的基础上，总结了我国eVTOL产业发展面临的10个方面的主要困难与挑战：\n1.在技术研发方面：eVTOL飞行器的设计和制造涉及到众多领域的技术，如电池技术、电动机、复合材料、自动驾驶等。这些技术的发展对于提高eVTOL飞行器的性能至关重要。然而，中国在这些领域的研发水平与国际先进水平仍有一定差距。\n2.在法规和标准方面：目前，全球范围内对于eVTOL飞行器的法规和标准尚未完全统一。中国在这方面的立法和制定标准的工作还处于起步阶段，行业管理政策、法规、标准亟待完善，这给行业的健康发展带来了不小的挑战。美国在2024年3月，确定joby5-4的最终适航审定标准，为后续类似机型审定确定了工作框架和方向;类似的，全球各国均在摸索。美国完整的运行法规也没有正式推出，主要内容沿用传统通航运营的要求。我国的相关法规、标准也仍然处于摸索和试点阶段。\n3.在安全风险方面：eVTOL飞行器的安全性是一个重要的关注点。在飞行器设计、制造和运营过程中，需要充分考虑到安全风险，确保旅客和地面人员的安全。如何在技术上解决这些安全问题，是当前行业亟待解决的问题。\n4.在基础设施方面：eVTOL飞行器的运营需要相应的基础设施支持，主要是网络化的起降场、充电桩、配套电网改造，以及新一代空管基础设施、气象保障设备等。如起降场地、充电设施等。在中国，这方面的建设仍然滞后需要大量投资和时间来完善。\n5.在配套供应链方面：受限于过去国内适航型号较少，配套企业的项目和锻炼较少。比如，开发航电、机载设备、软件的企业，经历过取证，对Do-160/178/254的要求、开发方法、程序能充分掌握的企业凤毛麟角。\n6.在公众接受度方面：虽然eVTOL飞行器被认为是未来城市交通的一种解决方案，但公众对这种新型交通工具的接受程度仍有待提高。民众需要对eVTOL的安全性、噪音等环境影响有更全面、深入的认识，才能建立信任。这需要eVTOL整机厂家和运营单位开展更多的演示试飞活动、推广活动，逐步建立。如何让更多人认识到eVTOL飞行器的优点和安全性，是行业发展需要面临的挑战。\n7.在市场竞争方面：随着全球eVTOL行业的快速发展，市场竞争日益激烈。中国的eVTOL企业需要在技术创新、产品性能、成本控制等方面不断加强，才能在国际市场上保持竞争力。\n8.在融资方面：eVTOL行业的发展需要大量资金投入，包括研发、生产、运营等各个环节。在当前的经济环境下，如何获得充足的资金支持，是中国eVTOL企业面临的一个重要问题。因为eVTOL大量采用了新技术，缺乏验证和现成经验可以借鉴，研发周期长、工作量大、资金需求大。典型的欧美头部企业，融资量都在10亿美元以上，预计完成取证和量产，将需要花费20亿美元以上。对于中国企业，人工成本要低一些，在可以预见的未来一段时间内，仍将是10亿元人民币以上的量级。\n9.在工程技术人员经验方面：我国符合民航适航标准的航空器的研发，主要集中在近20年，拥有完整的机型研发经历的人员基数不像具有发达航空产业的欧美国家。中国的eVTOL研发企业，团队工程能力更弱。但这是短期内无法快速提升的，只能通过型号锻炼，用一代人的时间耐心追赶。部分技术的成熟度和EIS时间节点不匹配。有一些项目选择了复杂、前沿性的技术方案，开发工作量大、技术风险高、技术储备不足，但设定的取证和投入商业运营的节点很激进。典型的如高阶辅助驾驶(SVO)、复杂倾转旋翼方案等。中国eVTOL企业对噪音的管理能力也不足，也未有足够重视。\n10.在人才方面：我国符合民航适航标准的航空器的研发，主要集中在近20年，拥有完整的机型研发经历的人员基数不像具有发达航空产业的欧美国家。很多整机制造企业有数年后取证、大量交付的商业计划，但是运行需要多个专业的人员支撑。比如，eVTOL短期内无法实现全自主驾驶，还需要有飞行员操纵，则需要数千、数万名飞行员。我国面临如何在数年内完成培养，相应的标准、培训大纲、训练设备如何确定等问题。机务、航务、签派等专业也有类似需求。中国的eVTOL研发企业，团队工程能力更弱。但这是短期内无法快速提升的，只能通过型号锻炼，用一代人的时间耐心追赶。\n五、几点总结与思考\n       基于以上梳理，我们可以形成对eVTOL产业较为完整的认识。eVTOL是目前全球范围内都非常重视的产业赛道，我国在eVTOL的技术与产业发展上具有一定的领先优势，加之eVTOL供应链与新能源汽车供应链的高度重合，这为我国eVTOL产业带来了高度的战略机遇。不过，目前我国eVTOL产业的发展总体上还处于起步阶段，2025年被誉为我国eVTOL产业商业化元年。当前我国eVTOL产业发展面临的中心问题是形成成熟的eVTOL商业化路径的问题。\n作为新兴产业，eVTOL的商业化路径问题很显然并不只是企业端需要去思考和应对的问题，它关涉如下几个基础性的问题：\n（1）空域管理改革深化问题。目前企业感受到没有空间可飞依然是现实的困境。\n（2）eVTOL产业的硬基建、软基建建设的问题。eVTOL作为一种新型的交通工具，它需要公共基础设施进行配套，也需要规则、规范等制度公共品。当前eVTOL产业的基建面临由谁投入、怎么建设的问题，特别在产业技术发展还没有成熟的现阶段，这个问题甚至很难形成科学的决策依据。\n（3）技术成熟度深化问题，特别在安全维度的技术水平还有待深化。\n（4）产业生态培育问题。由于系新兴产业，产业运行要形成一套规则体系，没有产业生态组织的结构性支撑是很难实现的。\n（5）消费主体培育问题。eVTOL是新型交通工具，公众需要有一个接受的过程，消费群体的培育需要企业、政府、行业的共同参与投入。\n以上几个方面都是eVTOL产业研究需要去深化的问题。除此之外，关于企业/行业诉求与政策匹配问题，关于具体产业政策的“最后一公里”问题，关于产业政策落地中的低效或悖论问题，都还需要在产业发展的实践中进行探讨与深化研究。\n参考文献：\n[1]波士顿咨询公司.中国载人eVTOL行业白皮书[EB/OL].(2025-09-12)[2025-10-16]. https://mp.weixin.qq.com/s/9EW3eqC0peEwuTRT8OBlOw.\n[2]图片来源：波士顿咨询公司.中国载人eVTOL行业白皮书[EB/OL].(2025-09-12)[2025-10-16]. https://mp.weixin.qq.com/s/9EW3eqC0peEwuTRT8OBlOw.\n[3]中国科技咨询协会·智囊机构.低空经济产业发展研究报告[EB/OL].(2025-04-28)[2025-10-16]. https://mp.weixin.qq.com/s/K9FO9w_OzjyY-UHRNjU4Bg.\n[4]图片转引自：中国科技咨询协会·智囊机构.低空经济产业发展研究报告[EB/OL].(2025-04-28)[2025-10-16]. https://mp.weixin.qq.com/s/K9FO9w_OzjyY-UHRNjU4Bg.\n[5]腾讯微证券.世界主流eVTOL现状浅析[EB/OL].(2025-10-11)",
+  "publish_date": "2025-10-23",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.806886+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "吴秋菊",
+        "label": "person",
+        "start": 9,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 3808,
+        "end": 3811,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "高密度",
+        "label": "person",
+        "start": 4285,
+        "end": 4288,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "[3",
+        "label": "person",
+        "start": 7753,
+        "end": 7755,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "[5",
+        "label": "person",
+        "start": 7987,
+        "end": 7989,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "波士顿咨询公司",
+        "label": "org",
+        "start": 529,
+        "end": 536,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "BCG",
+        "label": "org",
+        "start": 537,
+        "end": 540,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "BCG",
+        "label": "org",
+        "start": 566,
+        "end": 569,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 639,
+        "end": 644,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国联邦航空管理局",
+        "label": "org",
+        "start": 645,
+        "end": 654,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲航空安全局",
+        "label": "org",
+        "start": 655,
+        "end": 662,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空发展",
+        "label": "org",
+        "start": 1329,
+        "end": 1335,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国SMG Consulting",
+        "label": "org",
+        "start": 2162,
+        "end": 2178,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "REALITY INDEX",
+        "label": "org",
+        "start": 2207,
+        "end": 2220,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "罗兰贝格",
+        "label": "org",
+        "start": 2702,
+        "end": 2706,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "BCG",
+        "label": "org",
+        "start": 2811,
+        "end": 2814,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "BCG",
+        "label": "org",
+        "start": 3079,
+        "end": 3082,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智",
+        "label": "org",
+        "start": 3673,
+        "end": 3676,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃飞长空",
+        "label": "org",
+        "start": 3758,
+        "end": 3762,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "AAM",
+        "label": "org",
+        "start": 3975,
+        "end": 3978,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国家航空科技优先事项",
+        "label": "org",
+        "start": 4038,
+        "end": 4048,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧盟",
+        "label": "org",
+        "start": 4067,
+        "end": 4069,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "AAM公私委员会",
+        "label": "org",
+        "start": 4188,
+        "end": 4196,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SMG咨询公司",
+        "label": "org",
+        "start": 4340,
+        "end": 4347,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Reality Index",
+        "label": "org",
+        "start": 4373,
+        "end": 4386,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 4610,
+        "end": 4614,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智",
+        "label": "org",
+        "start": 4620,
+        "end": 4623,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Reality Index",
+        "label": "org",
+        "start": 4639,
+        "end": 4652,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 4694,
+        "end": 4698,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯研究院",
+        "label": "org",
+        "start": 5066,
+        "end": 5071,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "EIS",
+        "label": "org",
+        "start": 6401,
+        "end": 6404,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "波士顿咨询公司",
+        "label": "org",
+        "start": 7646,
+        "end": 7653,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国科技咨询协会",
+        "label": "org",
+        "start": 7756,
+        "end": 7764,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国科技咨询协会",
+        "label": "org",
+        "start": 7876,
+        "end": 7884,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "腾讯",
+        "label": "org",
+        "start": 7990,
+        "end": 7992,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 3673,
+        "end": 3677,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 3673,
+        "end": 3675,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 3808,
+        "end": 3811,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "小鹏汇天",
+        "label": "org",
+        "start": 3750,
+        "end": 3754,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞",
+        "label": "org",
+        "start": 3758,
+        "end": 3760,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 55,
+        "end": 58,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 3755,
+        "end": 3757,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "时的科技",
+        "label": "org",
+        "start": 3803,
+        "end": 3807,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 19,
+        "end": 21,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 683,
+        "end": 685,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "康涅狄格州",
+        "label": "location",
+        "start": 689,
+        "end": 694,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 2508,
+        "end": 2510,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 2628,
+        "end": 2630,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亚太",
+        "label": "location",
+        "start": 2662,
+        "end": 2664,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 2825,
+        "end": 2827,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 2887,
+        "end": 2889,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 3093,
+        "end": 3095,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中长",
+        "label": "location",
+        "start": 3372,
+        "end": 3374,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 3454,
+        "end": 3456,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 3957,
+        "end": 3959,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 3989,
+        "end": 3991,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 4018,
+        "end": 4020,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 4095,
+        "end": 4097,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 4151,
+        "end": 4153,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 4184,
+        "end": 4186,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中",
+        "label": "location",
+        "start": 4333,
+        "end": 4334,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 4334,
+        "end": 4335,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4569,
+        "end": 4571,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 4572,
+        "end": 4574,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4602,
+        "end": 4604,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中",
+        "label": "location",
+        "start": 4663,
+        "end": 4664,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 4664,
+        "end": 4665,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 4690,
+        "end": 4692,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 4733,
+        "end": 4735,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4752,
+        "end": 4754,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4898,
+        "end": 4900,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4933,
+        "end": 4935,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5201,
+        "end": 5203,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5270,
+        "end": 5272,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 5330,
+        "end": 5332,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 5393,
+        "end": 5395,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5640,
+        "end": 5642,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5986,
+        "end": 5988,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 6102,
+        "end": 6104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧美",
+        "label": "location",
+        "start": 6171,
+        "end": 6173,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 6216,
+        "end": 6218,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧美",
+        "label": "location",
+        "start": 6330,
+        "end": 6332,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 6335,
+        "end": 6337,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 6498,
+        "end": 6500,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧美",
+        "label": "location",
+        "start": 6592,
+        "end": 6594,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 6738,
+        "end": 6740,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 7539,
+        "end": 7541,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 7654,
+        "end": 7656,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2007年",
+        "label": "date",
+        "start": 671,
+        "end": 676,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2016 年",
+        "label": "date",
+        "start": 819,
+        "end": 825,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2020年",
+        "label": "date",
+        "start": 926,
+        "end": 931,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年6月",
+        "label": "date",
+        "start": 2224,
+        "end": 2231,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年",
+        "label": "date",
+        "start": 2535,
+        "end": 2540,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 2551,
+        "end": 2556,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 2580,
+        "end": 2585,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024 年到",
+        "label": "date",
+        "start": 2613,
+        "end": 2620,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030 年",
+        "label": "date",
+        "start": 2621,
+        "end": 2627,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2050年",
+        "label": "date",
+        "start": 2719,
+        "end": 2724,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2050年",
+        "label": "date",
+        "start": 2779,
+        "end": 2784,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "50%",
+        "label": "date",
+        "start": 2788,
+        "end": 2791,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 2814,
+        "end": 2819,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2040年",
+        "label": "date",
+        "start": 2881,
+        "end": 2886,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2040年",
+        "label": "date",
+        "start": 3031,
+        "end": 3036,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 3082,
+        "end": 3087,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "未来一至两年内",
+        "label": "date",
+        "start": 3201,
+        "end": 3208,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "三到五年内",
+        "label": "date",
+        "start": 3238,
+        "end": 3243,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年7月",
+        "label": "date",
+        "start": 3434,
+        "end": 3441,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 3550,
+        "end": 3555,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 3578,
+        "end": 3583,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年",
+        "label": "date",
+        "start": 3641,
+        "end": 3643,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 3645,
+        "end": 3650,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年3月",
+        "label": "date",
+        "start": 3665,
+        "end": 3672,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 3739,
+        "end": 3743,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 3744,
+        "end": 3749,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 3777,
+        "end": 3782,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年",
+        "label": "date",
+        "start": 3833,
+        "end": 3835,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年10月",
+        "label": "date",
+        "start": 3964,
+        "end": 3972,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年3月",
+        "label": "date",
+        "start": 4010,
+        "end": 4017,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年底",
+        "label": "date",
+        "start": 4144,
+        "end": 4150,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2018年",
+        "label": "date",
+        "start": 4178,
+        "end": 4183,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 4250,
+        "end": 4255,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年12月",
+        "label": "date",
+        "start": 4538,
+        "end": 4546,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 4653,
+        "end": 4658,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年3月",
+        "label": "date",
+        "start": 5333,
+        "end": 5340,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "4.",
+        "label": "date",
+        "start": 5552,
+        "end": 5554,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "数年内",
+        "label": "date",
+        "start": 6689,
+        "end": 6692,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 6968,
+        "end": 6973,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "28)[2025",
+        "label": "date",
+        "start": 7799,
+        "end": 7807,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "28)[2025",
+        "label": "date",
+        "start": 7919,
+        "end": 7927,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "025年以来，eVTOL领域迎来了订单的集中爆发，时的科技、沃兰特等头部企业相继在海外斩获巨额订单。总的来说，今年以来，随着政"
+      },
+      {
+        "person": "高密度",
+        "title": "",
+        "org": "AAM",
+        "context": "，国土交通省将AAM的运营和增长分四阶段推进，涵盖试飞验证至高密度自主运营。\n但是，从目前全球eVTOL产业发展现状来看，将来"
+      },
+      {
+        "person": "[3",
+        "title": "",
+        "org": "中国科技咨询协会",
+        "context": "com/s/9EW3eqC0peEwuTRT8OBlOw.\n[3]中国科技咨询协会·智囊机构.低空经济产业发展研究报告[EB"
+      },
+      {
+        "person": "[5",
+        "title": "",
+        "org": "腾讯",
+        "context": "com/s/K9FO9w_OzjyY-UHRNjU4Bg.\n[5]腾讯微证券.世界主流eVTOL现状浅析[EB/OL].(2"
+      }
+    ]
+  }
+}

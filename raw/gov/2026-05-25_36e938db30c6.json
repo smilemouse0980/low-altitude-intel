@@ -1,0 +1,54 @@
+{
+  "doc_id": "36e938db30c6",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUVGRDU0OUQ4UEw4NlM0VW9GdkgxbGFRUU1RVnp0Q3hrX2NNYnhuZEc5NEtDUmM3NWktT1A4RHBtb3A1N1lhNDF1NENwcjlkRmhaSkdWMjRDRk5JOTJXb2E2YzhDa1h1ZmdjTm81c0thWXhFZHNhbU5GdWR1ejRhLVdWM3RrQm8?oc=5",
+  "title": "长春净月高新区亮相《300秒看家乡》：低空经济蓄势起 科创生态筑新城 - 新华网",
+  "content": "长春净月高新区亮相《300秒看家乡》：低空经济蓄势起 科创生态筑新城新华网",
+  "publish_date": "2026-05-25",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:49.017870+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新华网",
+        "label": "org",
+        "start": 37,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新城新华网",
+        "label": "org",
+        "start": 73,
+        "end": 78,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "长春",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "长春",
+        "label": "location",
+        "start": 41,
+        "end": 43,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

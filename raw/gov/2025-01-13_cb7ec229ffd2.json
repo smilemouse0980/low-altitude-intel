@@ -1,0 +1,37 @@
+{
+  "doc_id": "cb7ec229ffd2",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNXNpYUJ5Wi1lVTBNTlhjSjF3bEh4Z1BNWWNoYlFFRWhPNWhucGg2OHVGbnRRRmtTeFFtY3pZWUU1ckF4d084aHhtalhGSUFHSV95NDJsU1BLMnNKQ29IdXhodlBuc0JSN29rbWQ4aldPbFotM2huQWkyQTY5NnN6UDFSYmlYejU3Vms4bDI1cTI?oc=5",
+  "title": "解码低空经济圈新疆篇：在不一样的高度看别样风景 - 中国民航网",
+  "content": "解码低空经济圈新疆篇：在不一样的高度看别样风景中国民航网",
+  "publish_date": "2025-01-13",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.413332+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国民航网 解码低空",
+        "label": "org",
+        "start": 26,
+        "end": 36,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 55,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

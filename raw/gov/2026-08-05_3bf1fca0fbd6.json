@@ -1,0 +1,53 @@
+{
+  "doc_id": "3bf1fca0fbd6",
+  "url": "https://news.google.com/rss/articles/CBMijwVBVV95cUxOa0tsN05nUVJWaGxvOXhxMGNhVnFVSV92ZTJHcnhFX2Z0bjlGMTlWU2hPWmx1VzBlN2ZDZFJhVnQxc1E0MlJaUnVpam1sSjBCV0pjLTFvYm4tU3NTQ1ZEOFljWlRLNmFiYnVjUHY3b1FBQ1BoUGZGTTNMUlVmUU4yZ2hiZEFHbmJ1UUtiN3pXd0dXWEFKQVBYN2JYQTR4T0F1OHdnWXlQRWR6VmdnMUR6blN1aDJCN0k0NFBFMTdPRTRpOVdIcks1MlRiUm9KN0h0Y1pCOXhwcy04dDAwT3o3dzZ0eUJfeWw2Y0VmbkVuWDdNLWZFREZXeG9CVk55MU9pMW9NODBOMnZZclNSeEZyZW1DQ0MzbElFaWVCYV9VUW9TQlF6dnIzRG0zMlBkNzBEWGtEMWRkdnpEZ3pDSTVvSHJWd0dQem4wR2UwVm9RSXY5ZVZRbUdIWDM1ZzE4Qks4em5XSDNjR3BHa09UdmJfeDhTX1daSXhLTmxvbTBPajJwNWFONktVSU93eFNna01JLWZrTFNxNlNCbWFGUnBjbE9wbkNJNEdzRlJNaHBKX0JVck8tSFVMYlJiN2o2ZUJIM0dLS3puc0FJNUU2MWlpeVZPUmEtWXBDbUl6RFVobVJVTzVqQWROZmpjNWgwMVYxeENyVE9Yb0FNWmJwc2M4WTZUQkR3UlItYmMtUlZFdHMzM2hrV1M0RkpINktkTko2Q1B6dDZpa2VnbnJBR05DSHNPQXVITWdXUHpNT29OZGt6VmQxMXBuSDE3M2dfM3ljVEhPWXFrekJXY3VjV2J4YmwxeHJqT3pVcTZLLWJDbkVoSmtva05sdXlDMWhSTTFSbDNoUDNtTE9wTmpldHNR?oc=5",
+  "title": "SpaceX首份季报超预期，华宝基金通用航空ETF（159231）涨超1%冲击四连阳 - 新浪财经",
+  "content": "SpaceX首份季报超预期，华宝基金通用航空ETF（159231）涨超1%冲击四连阳新浪财经",
+  "publish_date": "2026-08-05",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.410096+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "华宝基金通用",
+        "label": "org",
+        "start": 14,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 45,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "华宝基金通用",
+        "label": "org",
+        "start": 64,
+        "end": 70,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 92,
+        "end": 94,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

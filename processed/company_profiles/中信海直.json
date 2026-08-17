@@ -1,0 +1,184 @@
+{
+  "company_name": "中信海直",
+  "category": "通航运营",
+  "mention_count": 2,
+  "first_seen": "2025-12-18",
+  "last_seen": "2025-12-18",
+  "key_persons": [
+    {
+      "name": "阿布扎比",
+      "mentions": 4
+    },
+    {
+      "name": "黄小飞",
+      "mentions": 2
+    },
+    {
+      "name": "黄雍威",
+      "mentions": 2
+    },
+    {
+      "name": "凯瑞鸥",
+      "mentions": 2
+    },
+    {
+      "name": "杜超",
+      "mentions": 2
+    },
+    {
+      "name": "谢嘉",
+      "mentions": 2
+    }
+  ],
+  "locations": [
+    {
+      "name": "中东",
+      "mentions": 26
+    },
+    {
+      "name": "阿联酋",
+      "mentions": 12
+    },
+    {
+      "name": "泰国",
+      "mentions": 10
+    },
+    {
+      "name": "迪拜",
+      "mentions": 8
+    },
+    {
+      "name": "上海",
+      "mentions": 6
+    },
+    {
+      "name": "东南亚",
+      "mentions": 6
+    },
+    {
+      "name": "沙特",
+      "mentions": 4
+    },
+    {
+      "name": "欧洲",
+      "mentions": 4
+    },
+    {
+      "name": "北非地区",
+      "mentions": 4
+    },
+    {
+      "name": "华东",
+      "mentions": 2
+    }
+  ],
+  "partners": [
+    {
+      "name": "亿航智能",
+      "co_occurrences": 4
+    },
+    {
+      "name": "峰飞航空",
+      "co_occurrences": 2
+    },
+    {
+      "name": "小鹏汇天",
+      "co_occurrences": 2
+    },
+    {
+      "name": "沃兰特",
+      "co_occurrences": 2
+    }
+  ],
+  "events": {
+    "product_launch": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
+    "financing": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
+    "cooperation": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
+    "policy_related": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
+    "certification": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
+    "market_expansion": [
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3546179.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
+    },
+    {
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3545760.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
+    }
+  ],
+  "generated_at": "2026-08-17T16:55:02.685813+08:00"
+}

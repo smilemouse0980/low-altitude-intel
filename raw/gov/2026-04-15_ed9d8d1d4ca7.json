@@ -1,0 +1,37 @@
+{
+  "doc_id": "ed9d8d1d4ca7",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92M3p5RHN6YkQ2LTZ1emlTT29FREZ5emNXemZsMUFHMGJvVGFHVGktQWlqU0JoN051YmR4Q3FNRkE0aG93VG9fX09mR1JRSld5VkE?oc=5",
+  "title": "西藏发布低空政策，最高奖励2000万元 - C114通信网",
+  "content": "西藏发布低空政策，最高奖励2000万元C114通信网",
+  "publish_date": "2026-04-15",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.409518+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "西藏",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西藏",
+        "label": "location",
+        "start": 30,
+        "end": 32,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

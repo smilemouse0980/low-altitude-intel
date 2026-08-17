@@ -3,17 +3,12 @@
     {
       "name": "亿航智能",
       "category": "eVTOL整机",
-      "mentions": 68
+      "mentions": 32
     },
     {
       "name": "峰飞航空",
       "category": "eVTOL整机",
-      "mentions": 42
-    },
-    {
-      "name": "大疆创新",
-      "category": "无人机整机",
-      "mentions": 22
+      "mentions": 26
     },
     {
       "name": "沃兰特",
@@ -21,69 +16,50 @@
       "mentions": 18
     },
     {
-      "name": "小鹏汇天",
-      "category": "eVTOL整机",
-      "mentions": 4
-    },
-    {
-      "name": "航发动力",
-      "category": "核心零部件",
-      "mentions": 3
-    },
-    {
       "name": "沃飞长空",
       "category": "eVTOL整机",
+      "mentions": 12
+    },
+    {
+      "name": "小鹏汇天",
+      "category": "eVTOL整机",
+      "mentions": 8
+    },
+    {
+      "name": "中信海直",
+      "category": "通航运营",
+      "mentions": 6
+    },
+    {
+      "name": "中国商飞",
+      "category": "军工航空",
       "mentions": 3
     },
     {
-      "name": "中航成飞",
-      "category": "军工航空",
+      "name": "大疆创新",
+      "category": "无人机整机",
       "mentions": 2
     }
   ],
   "persons": [
     {
-      "name": "陈聪",
+      "name": "凯瑞鸥",
+      "mentions": 4
+    },
+    {
+      "name": "阿布扎比",
+      "mentions": 4
+    },
+    {
+      "name": "倾转旋翼",
       "mentions": 3
     },
     {
-      "name": "黄海平",
-      "mentions": 2
+      "name": "黄雍威",
+      "mentions": 3
     },
     {
-      "name": "北斗",
-      "mentions": 2
-    },
-    {
-      "name": "罗锋",
-      "mentions": 2
-    },
-    {
-      "name": "张万民",
-      "mentions": 2
-    },
-    {
-      "name": "华润微",
-      "mentions": 2
-    },
-    {
-      "name": "安阳",
-      "mentions": 2
-    },
-    {
-      "name": "王志国",
-      "mentions": 2
-    },
-    {
-      "name": "郑家响",
-      "mentions": 2
-    },
-    {
-      "name": "阿拉木图",
-      "mentions": 2
-    },
-    {
-      "name": "黄小飞",
+      "name": "杨岭受",
       "mentions": 2
     },
     {
@@ -91,47 +67,15 @@
       "mentions": 2
     },
     {
-      "name": "陈源",
-      "mentions": 2
-    },
-    {
-      "name": "朱雀e",
-      "mentions": 2
-    },
-    {
-      "name": "谢陵",
-      "mentions": 2
-    },
-    {
-      "name": "财联社",
-      "mentions": 2
-    },
-    {
-      "name": "金良",
-      "mentions": 2
-    },
-    {
-      "name": "谢锋",
-      "mentions": 2
-    },
-    {
       "name": "航空展",
       "mentions": 2
     },
     {
-      "name": "张仲麟",
+      "name": "Lilium",
       "mentions": 2
     },
     {
-      "name": "徐昌东",
-      "mentions": 2
-    },
-    {
-      "name": "宋志勇",
-      "mentions": 2
-    },
-    {
-      "name": "王刚",
+      "name": "张潇聪",
       "mentions": 2
     },
     {
@@ -139,305 +83,237 @@
       "mentions": 2
     },
     {
-      "name": "AI",
+      "name": "Sky Group",
+      "mentions": 2
+    },
+    {
+      "name": "Tech",
+      "mentions": 2
+    },
+    {
+      "name": "曾毓群",
+      "mentions": 2
+    },
+    {
+      "name": "摩根士丹利",
+      "mentions": 2
+    },
+    {
+      "name": "黄小飞",
+      "mentions": 2
+    },
+    {
+      "name": "杜超",
+      "mentions": 2
+    },
+    {
+      "name": "谢嘉",
+      "mentions": 2
+    },
+    {
+      "name": "金钥匙",
       "mentions": 1
     },
     {
-      "name": "nda",
+      "name": "L哈萨克斯坦",
       "mentions": 1
     },
     {
-      "name": "京报",
+      "name": "罗马尼亚",
       "mentions": 1
     },
     {
-      "name": "京报网",
+      "name": "张潇",
       "mentions": 1
     },
     {
-      "name": "Eve全尺",
+      "name": "UAM",
       "mentions": 1
     },
     {
-      "name": "郑丽",
+      "name": "何为e",
       "mentions": 1
     },
     {
-      "name": "郑州",
+      "name": "张靖超",
       "mentions": 1
     },
     {
-      "name": "zgjtb.com",
+      "name": "李正豪",
       "mentions": 1
     },
     {
-      "name": "Flight",
+      "name": "张国刚",
       "mentions": 1
     },
     {
-      "name": "陈聪华",
+      "name": "阿森特",
       "mentions": 1
     },
     {
-      "name": "戴姆勒",
+      "name": "梁晴",
       "mentions": 1
     },
     {
-      "name": "黄雍威",
+      "name": "吴秋菊",
+      "mentions": 1
+    },
+    {
+      "name": "高密度",
+      "mentions": 1
+    },
+    {
+      "name": "[3",
+      "mentions": 1
+    },
+    {
+      "name": "[5",
+      "mentions": 1
+    },
+    {
+      "name": "洪泰智造",
+      "mentions": 1
+    },
+    {
+      "name": "兽门槛",
+      "mentions": 1
+    },
+    {
+      "name": "Airbus",
+      "mentions": 1
+    },
+    {
+      "name": "Tiltrotor",
+      "mentions": 1
+    },
+    {
+      "name": "沃飞长空",
+      "mentions": 1
+    },
+    {
+      "name": "张型号",
+      "mentions": 1
+    },
+    {
+      "name": "⚠️",
       "mentions": 1
     }
   ],
   "locations": [
     {
       "name": "中国",
-      "mentions": 174
-    },
-    {
-      "name": "美国",
-      "mentions": 29
-    },
-    {
-      "name": "上海",
-      "mentions": 19
-    },
-    {
-      "name": "北京",
-      "mentions": 16
-    },
-    {
-      "name": "重庆",
-      "mentions": 14
-    },
-    {
-      "name": "珠海",
-      "mentions": 12
-    },
-    {
-      "name": "深圳",
-      "mentions": 10
-    },
-    {
-      "name": "广州",
-      "mentions": 8
-    },
-    {
-      "name": "湖南",
-      "mentions": 8
-    },
-    {
-      "name": "新疆",
-      "mentions": 8
-    },
-    {
-      "name": "台湾",
-      "mentions": 8
-    },
-    {
-      "name": "武汉",
-      "mentions": 8
-    },
-    {
-      "name": "成都",
-      "mentions": 7
-    },
-    {
-      "name": "印尼",
-      "mentions": 7
-    },
-    {
-      "name": "广东",
-      "mentions": 6
-    },
-    {
-      "name": "粤",
-      "mentions": 6
-    },
-    {
-      "name": "日本",
-      "mentions": 6
-    },
-    {
-      "name": "美",
-      "mentions": 6
-    },
-    {
-      "name": "沪",
-      "mentions": 5
-    },
-    {
-      "name": "中亚",
-      "mentions": 5
-    },
-    {
-      "name": "阿联酋",
-      "mentions": 5
+      "mentions": 114
     },
     {
       "name": "中东",
-      "mentions": 5
+      "mentions": 31
     },
     {
-      "name": "巴西",
-      "mentions": 5
+      "name": "美国",
+      "mentions": 17
     },
     {
-      "name": "海南",
-      "mentions": 4
+      "name": "上海",
+      "mentions": 16
+    },
+    {
+      "name": "阿联酋",
+      "mentions": 14
+    },
+    {
+      "name": "泰国",
+      "mentions": 10
+    },
+    {
+      "name": "东南亚",
+      "mentions": 9
+    },
+    {
+      "name": "华羽",
+      "mentions": 8
+    },
+    {
+      "name": "迪拜",
+      "mentions": 8
+    },
+    {
+      "name": "德国",
+      "mentions": 7
+    },
+    {
+      "name": "北京",
+      "mentions": 6
+    },
+    {
+      "name": "华东",
+      "mentions": 6
+    },
+    {
+      "name": "欧洲",
+      "mentions": 6
     },
     {
       "name": "香港",
       "mentions": 4
     },
     {
-      "name": "中山",
+      "name": "长春",
       "mentions": 4
     },
     {
-      "name": "京",
+      "name": "成都",
       "mentions": 4
     },
     {
-      "name": "湖北",
+      "name": "沙特",
       "mentions": 4
     },
     {
-      "name": "宁波",
+      "name": "北非地区",
       "mentions": 4
     },
     {
-      "name": "深圳市",
-      "mentions": 4
+      "name": "河北",
+      "mentions": 3
     },
     {
-      "name": "珠海市",
-      "mentions": 4
+      "name": "珠海",
+      "mentions": 3
     },
     {
-      "name": "南航",
-      "mentions": 4
+      "name": "华北",
+      "mentions": 3
     },
     {
-      "name": "亚洲",
-      "mentions": 4
+      "name": "印尼",
+      "mentions": 3
     },
     {
-      "name": "安徽",
-      "mentions": 4
+      "name": "日本",
+      "mentions": 3
+    },
+    {
+      "name": "欧美",
+      "mentions": 3
+    },
+    {
+      "name": "南昌智造",
+      "mentions": 2
     },
     {
       "name": "山东省",
-      "mentions": 4
-    },
-    {
-      "name": "河南安阳",
-      "mentions": 3
-    },
-    {
-      "name": "重庆市",
-      "mentions": 3
-    },
-    {
-      "name": "四川",
-      "mentions": 3
-    },
-    {
-      "name": "崇明",
       "mentions": 2
     },
     {
-      "name": "合肥",
+      "name": "粤",
       "mentions": 2
     },
     {
-      "name": "天津市",
+      "name": "智造",
       "mentions": 2
     },
     {
-      "name": "津",
-      "mentions": 2
-    },
-    {
-      "name": "丽江",
-      "mentions": 2
-    },
-    {
-      "name": "山东",
-      "mentions": 2
-    },
-    {
-      "name": "龙岗",
-      "mentions": 2
-    },
-    {
-      "name": "京报",
-      "mentions": 2
-    },
-    {
-      "name": "苏州",
-      "mentions": 2
-    },
-    {
-      "name": "宝安",
-      "mentions": 2
-    },
-    {
-      "name": "珠海率",
-      "mentions": 2
-    },
-    {
-      "name": "哈萨克斯坦",
-      "mentions": 2
-    },
-    {
-      "name": "韩国",
-      "mentions": 2
-    },
-    {
-      "name": "贵州省",
-      "mentions": 2
-    },
-    {
-      "name": "中",
-      "mentions": 2
-    },
-    {
-      "name": "乌克兰",
-      "mentions": 2
-    },
-    {
-      "name": "北京史",
-      "mentions": 2
-    },
-    {
-      "name": "海峡",
-      "mentions": 2
-    },
-    {
-      "name": "欧洲",
-      "mentions": 2
-    },
-    {
-      "name": "西安",
-      "mentions": 2
-    },
-    {
-      "name": "印度",
-      "mentions": 2
-    },
-    {
-      "name": "香港特别",
-      "mentions": 2
-    },
-    {
-      "name": "东欧",
-      "mentions": 2
-    },
-    {
-      "name": "澳大利亚",
-      "mentions": 2
-    },
-    {
-      "name": "拟禁",
+      "name": "俄罗斯",
       "mentions": 2
     },
     {
@@ -445,11 +321,19 @@
       "mentions": 2
     },
     {
-      "name": "缅甸",
+      "name": "武汉",
       "mentions": 2
     },
     {
-      "name": "南海",
+      "name": "西藏",
+      "mentions": 2
+    },
+    {
+      "name": "飞长",
+      "mentions": 2
+    },
+    {
+      "name": "亚太",
       "mentions": 2
     },
     {
@@ -457,83 +341,79 @@
       "mentions": 2
     },
     {
-      "name": "沈阳",
+      "name": "合肥",
       "mentions": 2
     },
     {
-      "name": "安徽省",
+      "name": "菲律宾",
       "mentions": 2
     },
     {
-      "name": "华声",
+      "name": "中",
       "mentions": 2
     },
     {
-      "name": "印发",
+      "name": "美",
       "mentions": 2
     },
     {
-      "name": "温州",
+      "name": "深圳",
       "mentions": 2
     },
     {
-      "name": "北京市",
+      "name": "沙特阿拉伯",
       "mentions": 2
     },
     {
-      "name": "浙江",
+      "name": "卡塔尔",
       "mentions": 2
     },
     {
-      "name": "泰国",
+      "name": "瑞鸥",
       "mentions": 2
     },
     {
-      "name": "迪拜",
+      "name": "Autocraft",
       "mentions": 2
     },
     {
-      "name": "嘉鱼",
+      "name": "曼谷",
+      "mentions": 2
+    },
+    {
+      "name": "印度尼西亚",
+      "mentions": 2
+    },
+    {
+      "name": "西班牙",
+      "mentions": 2
+    },
+    {
+      "name": "阿根廷",
+      "mentions": 2
+    },
+    {
+      "name": "蓝海",
+      "mentions": 2
+    },
+    {
+      "name": "罗马尼亚",
       "mentions": 1
     },
     {
-      "name": "中华",
+      "name": "亚洲",
       "mentions": 1
     },
     {
-      "name": "广州市",
+      "name": "北大荒",
       "mentions": 1
     },
     {
-      "name": "多京",
+      "name": "空AE",
       "mentions": 1
     },
     {
-      "name": "nda",
-      "mentions": 1
-    },
-    {
-      "name": "河南",
-      "mentions": 1
-    },
-    {
-      "name": "华羽",
-      "mentions": 1
-    },
-    {
-      "name": "网易网",
-      "mentions": 1
-    },
-    {
-      "name": "无人机",
-      "mentions": 1
-    },
-    {
-      "name": "欧美",
-      "mentions": 1
-    },
-    {
-      "name": "凤凰网",
+      "name": "长沙",
       "mentions": 1
     },
     {
@@ -541,38 +421,107 @@
       "mentions": 1
     },
     {
-      "name": "东南亚",
+      "name": "北美",
+      "mentions": 1
+    },
+    {
+      "name": "VIP",
+      "mentions": 1
+    },
+    {
+      "name": "波士顿",
+      "mentions": 1
+    },
+    {
+      "name": "上海市",
+      "mentions": 1
+    },
+    {
+      "name": "中亚",
+      "mentions": 1
+    },
+    {
+      "name": "非洲",
+      "mentions": 1
+    },
+    {
+      "name": "印度",
+      "mentions": 1
+    },
+    {
+      "name": "土耳其",
+      "mentions": 1
+    },
+    {
+      "name": "马尼拉",
+      "mentions": 1
+    },
+    {
+      "name": "康涅狄格州",
+      "mentions": 1
+    },
+    {
+      "name": "中长",
+      "mentions": 1
+    },
+    {
+      "name": "中航",
+      "mentions": 1
+    },
+    {
+      "name": "广州",
       "mentions": 1
     }
   ],
-  "policies": [],
+  "policies": [
+    {
+      "name": "低空经济发展司",
+      "mentions": 1
+    }
+  ],
   "techs": [
     {
       "name": "eVTOL",
-      "mentions": 99
+      "mentions": 32
     },
     {
       "name": "通用航空",
-      "mentions": 29
+      "mentions": 7
     },
     {
       "name": "电动垂直起降",
       "mentions": 7
     },
     {
-      "name": "应急救援",
-      "mentions": 3
+      "name": "城市空中交通",
+      "mentions": 6
     },
     {
-      "name": "无人驾驶航空器",
-      "mentions": 2
+      "name": "适航认证",
+      "mentions": 6
+    },
+    {
+      "name": "应急救援",
+      "mentions": 5
+    },
+    {
+      "name": "复合材料",
+      "mentions": 4
     },
     {
       "name": "电池技术",
+      "mentions": 3
+    },
+    {
+      "name": "UAM",
       "mentions": 2
     },
     {
-      "name": "城市空中交通",
+      "name": "低空空域",
+      "mentions": 2
+    },
+    {
+      "name": "无人驾驶航空器",
       "mentions": 1
     }
   ]

@@ -1,0 +1,29 @@
+{
+  "doc_id": "8461f6118607",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zNnNfdmdMZGJJdW5CdlRrM3FzSVpBVFNkY21ZbG9aNElsS2VEQlZNaWFZRXVfSElyZzRyUmdPMUlPQnZ0enhfUkdVRkNVcGtzRDFwZEIxRU14SHQ0cGhTS3VCQzY2RjdRLTByOA?oc=5",
+  "title": "重磅发布丨卓翼智能ZMD200大载重无人机全新登场，破解山地、应急、吊运、基建作业难题 - 中华网",
+  "content": "重磅发布丨卓翼智能ZMD200大载重无人机全新登场，破解山地、应急、吊运、基建作业难题中华网",
+  "publish_date": "2026-08-17",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:49.013801+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 18,
+        "end": 21,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

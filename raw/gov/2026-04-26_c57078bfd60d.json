@@ -1,0 +1,45 @@
+{
+  "doc_id": "c57078bfd60d",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS25EOE5NQUxmeUNBUDljb1lCY1l3MmhDdm43MFJjb1QxVWh3SV9IN1psN1pYQUxVLVBCcUl4bG1rYXlRSF8tQ0JjSk9zOGVSQmhmWF9ERlBIUzJocWNxbkRnMFAzbFBNVG8taldlbVh4NWF0VmM2TUptSlZ2Y1h2RG5aNUY?oc=5",
+  "title": "低空经济加速起飞，无人机为何是最先落地的核心力量？ - 新浪财经",
+  "content": "低空经济加速起飞，无人机为何是最先落地的核心力量？新浪财经",
+  "publish_date": "2026-04-26",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:54.955663+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 28,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 58,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 9,
+        "end": 12,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

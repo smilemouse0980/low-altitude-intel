@@ -1,0 +1,37 @@
+{
+  "doc_id": "ffac88d77251",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QRVZad2hXQWNaanhCNTFHMmFZeE1pcmRJcE1sWlBjdkh1X0Y5SzFoblctUTZDTnRNX3lfYU9TQ1JVc0JTcndlSFZ2NFl5bkRkTlVfeTFxNGh1NzdueTJKNlRGOVJhczdtdXdvSw?oc=5",
+  "title": "专家学者羊城探讨“低空经济与低空治理” - 中国社会科学网",
+  "content": "专家学者羊城探讨“低空经济与低空治理”中国社会科学网",
+  "publish_date": "2026-03-20",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:49.016142+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国社会科学网",
+        "label": "org",
+        "start": 22,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国社会科学网",
+        "label": "org",
+        "start": 49,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

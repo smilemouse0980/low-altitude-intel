@@ -1,0 +1,45 @@
+{
+  "doc_id": "6d2b77d98671",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OalpuREJzeDJzTEJvRjBmRUczSGlkc244ZVRSTDkyck9RWHdLN3RNVzVwalhBeGxSLXNGZUZkZFg4UFE3Z0VXMzdRaUkxcmxkUkJNZmE3dVkyaXUyalhTem1HVC1aSEtKVnpPU3RPc09jQQ?oc=5",
+  "title": "欧盟发布防务备战路线图，包含“无人机墙” - xinwen.bjd.com.cn",
+  "content": "欧盟发布防务备战路线图，包含“无人机墙”xinwen.bjd.com.cn",
+  "publish_date": "2025-10-16",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:54.958150+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "欧盟",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧盟",
+        "label": "org",
+        "start": 41,
+        "end": 43,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
+}

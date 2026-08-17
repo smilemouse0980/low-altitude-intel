@@ -1,12 +1,29 @@
 {
   "doc_id": "6e010089dff2",
   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kenM3eFdHLXJpXzlYcGt0S1huNmRxaUtQYkRBTFVjMjN4eVJfT1ZVT003LTlHbnZlUjJXNUozcFdybkdNanRYcl9oUDFGVFV4aHJZLWs0bUdXc2hQSDhyUHd4ck1IaVRQRm92YjB2czN6Zw?oc=5",
-  "title": "当70万台无人机飞入田野上空 - 京报网",
-  "content": "当70万台无人机飞入田野上空京报网",
+  "title": "当70万台无人机飞入田野上空 - xinwen.bjd.com.cn",
+  "content": "当70万台无人机飞入田野上空xinwen.bjd.com.cn",
   "publish_date": "2026-07-25",
   "publisher": "Google新闻-无人机政策",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T21:45:26.081571+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-17T16:41:54.955238+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 5,
+        "end": 8,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

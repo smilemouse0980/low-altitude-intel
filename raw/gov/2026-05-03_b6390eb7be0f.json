@@ -1,0 +1,1282 @@
+{
+  "doc_id": "b6390eb7be0f",
+  "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
+  "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+  "content": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投资的创业公司（不含已上市企业，如亿航智能），基于公开融资记录和官方宣传资料，深度对比五家企业的估值规模、核心投资方、技术特色与商业化进展。\n一、中国eVTOL头部企业TOP5总览\n中国eVTOL赛道在2024-2026年间经历了爆发式增长。截至2026年5月，估值超过40亿人民币的头部企业已有5家（其中3家达10亿美元独角兽门槛），对应估值区间从40亿到145亿人民币不等。\n本文聚焦成立10年内、获主流市场化VC投资的创业公司，已上市企业（如亿航智能，纳斯达克上市，估值约80-100亿）不纳入此列。五家公司采用了四类技术路线——复合翼、倾转旋翼、多旋翼、eCTOL——体现了行业对技术路径选择的不同判断。\n以下是五家企业的核心数据总览：\nTOP1：峰飞航空科技（AutoFlight）——估值约145亿人民币（20亿美元），2017年成立，复合翼技术路线，核心投资方包括红杉中国、宁德时代\nTOP2：沃飞长空——估值约100-115亿人民币（2026年2月融资后市场估算，非官方披露），2016年成立（2022年更名），倾转旋翼路线（AE200），德国Volocopter中国独家战略合作伙伴，核心投资方包括中信建投\nTOP3：沃兰特航空（Volant）——估值约72亿人民币（10亿美元），2021年成立，复合翼路线（VE25），核心投资方包括红杉中国、君联资本、明势创投、磊石资本。\nTOP4：时的科技（TCab Tech）——估值约50-60亿人民币，2021年成立，倾转旋翼路线（E20），核心投资方包括蓝驰资本、德迅资本、KIP、昆仑资本。\nTOP5：零重力飞机工业（ZeroG）——估值约40-50亿人民币，2021年成立，多元布局（eCTOL+多旋翼+倾转旋翼），早期获蓝驰创投、联想创投等市场化VC投资，后期以中信建投、锡创投、金浦动力等产业/国资为主。\n二、峰飞航空科技：估值145亿的领跑者\n峰飞航空科技（AutoFlight）是中国eVTOL赛道估值最高的企业，达到约145亿人民币（20亿美元），2017年启动商用飞行器研发。公司总部位于上海，研发团队涵盖中国和德国两地。\n技术路线：复合翼（Lift+Cruise）\n峰飞的核心产品包括载人eVTOL——盛世龙（Prosperity），以及大型载物飞行器——凯瑞鸥（CarryAll）。公司采用复合翼构型，即在机翼上固定安装升力电机和巡航电机，垂直起降阶段使用升力电机，巡航阶段切换至巡航电机。这一构型的优势在于结构简单、可靠性高、技术风险相对较低。\n关键里程碑：2024年2月，峰飞盛世龙完成深圳至珠海的跨城飞行演示，飞行距离约55公里，时长约20分钟，成为全球首条跨海跨城的eVTOL航线演示。2024年4月，载人版盛世龙获得中国民航局型号合格证（TC）受理。2026年1月，货运版V2000CG（凯瑞鸥）获得全球首张吨级eVTOL型号合格证，标志着峰飞在货运eVTOL领域的全球领先地位。\n投资方阵营：峰飞的投资方阵容堪称豪华。红杉中国的入局标志着顶级风投对eVTOL赛道的认可；宁德时代创始人曾毓群的参与投资，则体现了产业资本对电动航空器的战略兴趣——电池技术是制约eVTOL航程和载荷的核心瓶颈，动力电池龙头对赛道的直接参与具有深远的产业意义。高榕资本也是早期重要投资者。\n三、沃飞长空：倾转旋翼路线的先行者\n沃飞长空估值约100-115亿人民币（2026年2月融资后市场估算，非官方披露），是吉利科技集团旗下的eVTOL企业。公司于2016年成立（前身为太力飞车），2022年更名为沃飞长空，是德国Volocopter中国独家战略合作伙伴/合资方，定位为城市空中交通（UAM）整体解决方案提供商。\n技术路线：倾转旋翼（AE200）\n沃飞长空的核心产品AE200采用倾转旋翼构型，其核心特点是在垂直起降阶段，旋翼朝向水平方向提供升力；巡航阶段则倾转至垂直方向，像常规螺旋桨飞机一样提供前进推力。这一构型的优势在于飞行效率更高、航程更远，但技术复杂性也更高——需要解决旋翼倾转过程中的气动力学控制和过渡阶段的飞行稳定性问题。\n根据官方公开信息，AE200设计座位数为5座（1名飞行员+4名乘客），设计航程约200公里，巡航速度约250km/h。沃飞长空在适航取证方面处于国内第一梯队，2023年获得中国民航局颁发的型号审定受理申请通知书。\n投资方阵营：沃飞长空的投资方以头部券商和产业资本为主导。中信建投作为主力投资方，松禾资本、联新资本、祥峰资本均深度参与。吉利科技集团作为母公司提供产业资源支持。\n四、沃兰特航空：后起之秀的快速追赶\n沃兰特航空（Volant）成立于2021年，虽然起步较晚，但发展速度极快，估值已达约72亿人民币（10亿美元），进入全球eVTOL独角兽阵营。公司创始团队拥有深厚的航空产业背景，核心成员来自中航工业、中国商飞等国内航空巨头以及Airbus等国际航空企业。\n技术路线：复合翼（VE25）\n沃兰特的核心产品VE25采用复合翼构型，与峰飞的技术路线相同。根据官方公布的技术参数，VE25设计最大起飞重量约2.5吨，有效载荷约500公斤，航程约200-400公里，巡航速度约235km/h。VE25在设计上强调大载荷能力与长航程的结合，意图覆盖城市内和城际间的多种应用场景。\n2023年9月，VE25-100型验证机完成首次全尺寸验证机悬停测试，标志工程验证阶段取得关键突破。2024年获得中国民航局的型号审定受理。\n投资方阵营：沃兰特的投资方质量同样出色。红杉中国先后投资峰飞（2021年）、沃兰特（2023年），覆盖复合翼赛道头部企业，体现对该技术路线的长期看好。君联资本、明势创投、磊石资本的加入，使沃兰特成为极少数被国内一线VC集体下注的eVTOL企业之一。\n五、时的科技与零重力飞机工业\n时的科技（TCab Tech）——估值约50-60亿人民币。公司成立于2021年，核心技术路线为倾转旋翼，核心产品E20。与沃飞长空在技术路线上形成直接竞争。E20采用5座布局（1+4），设计巡航速度约260km/h，设计航程约200公里。公司创始团队同样来自航空产业，具备丰富的适航审定经验。2024年，E20全尺寸验证机完成悬停和过渡飞行测试。投资方以蓝驰资本、德迅资本、KIP、昆仑资本为主，属于典型的新兴VC组合。\n零重力飞机工业（ZeroG）——估值约40-50亿人民币。公司成立于2021年，在技术路线上采取差异化的多元布局策略——同时覆盖eCTOL（电动常规起降）、多旋翼、倾转旋翼三种构型。这一策略在对冲技术路线风险的同时，也带来了资金和研发资源的分散化挑战。零重力的投资方经历了从市场化VC到国资的过渡——早期获蓝驰创投、联想创投、启赋资本等市场化VC投资，后期以中信建投、锡创投、金浦动力等产业/国资为主。这种资本结构的变化，暗示其可能在特定应用场景（如政府对公服务、应急管理等）有独特资源优势。\n六、四大技术路线之争\n中国eVTOL头部企业的技术路线分化，本质上是全球eVTOL行业主流技术路线之争的缩影。当前行业主要呈现四类技术路径：\n复合翼（Lift+Cruise）——代表企业：峰飞、沃兰特。优势是结构简单、可靠性高、技术风险低、研制周期短；劣势是巡航时部分电机处于闲置状态，带来重量和效率方面的权衡。复合翼路线是目前国内外eVTOL企业选择最多的构型之一。\n倾转旋翼（Tiltrotor）——代表企业：沃飞长空、时的科技。优势是飞行效率高、推重比优、巡航经济性好；劣势是技术复杂——旋翼倾转机构的机械设计、倾转过程中的气动控制、过渡段的飞控算法三者构成极高难度的\"三角困境\"。V-22鱼鹰和美军下一代倾转旋翼机的实践经验为这一路线提供了参考，但技术挑战依然严峻。\n多旋翼——以亿航智能为代表，技术最成熟、适航取证进度最快，但航程和载荷受限明显。\neCTOL（电动常规起降）+ 多元布局——代表企业：零重力。零重力同时覆盖eCTOL、多旋翼、倾转旋翼三种构型，采用多元化策略灵活应对不同市场需求。\n全球范围内，Joby Aviation（美国，纯电动倾转旋翼）和Archer Aviation（美国，倾转旋翼）是倾转旋翼路线的代表；而Volocopter（德国，多旋翼）和Lilium（德国，分布式推进矢量推力）则选择了不同路线。中国市场的路线分化并非孤例，而是全球技术探索的有机组成部分。\n七、核心投资方图谱：谁在押注低空经济\n从五家企业的投资方阵容，可以清晰看到不同类型资本对eVTOL赛道的差异化布局策略。\n红杉中国——先后投资峰飞（2021年）、沃兰特（2023年），覆盖复合翼赛道两家头部企业，体现对该技术路线的长期看好和分阶段布局的稳健策略。\n中信建投——同时出现在沃飞长空和零重力的投资方名单中，作为头部券商，其参与显示对赛道长期价值判断的同时，也可能为被投企业后续上市路径提供投行资源支持。\n宁德时代（曾毓群）——直接参与峰飞的投资，是产业链上游龙头向下游应用的战略延伸，释放出动力电池巨头对航空电动化前景的明确信心信号。\n蓝驰资本——同时出现在时的科技和零重力的早期投资方名单中，显示其在eVTOL赛道的跨企业布局。\n总体来看，国内一线VC普遍选择在eVTOL赛道\"下注而不重仓\"，以估值合理、门槛较高的早期阶段入场，等待商业化拐点。央企、国资背景的投资方则更关注战略布局，对短期投资回报的容忍度更高。\n八、市场前景分析与关键挑战\n市场规模预测\n根据2024年摩根士丹利报告预测，全球城市空中交通（UAM）市场规模将在2030年达到约250亿美元，2040年突破1500亿美元，2050年可能达到1万亿美元。中国市场凭借政策推动力度、无人机产业基础、城市交通拥堵痛点，被视为全球最具爆发力的区域市场之一。\n政策推动\n低空经济已被明确列为中国重点发展的战略性新兴产业。2024年，\"低空经济\"首次被写入政府工作报告。深圳、广州、合肥、成都等城市密集出台了低空经济发展规划，包括建设低空飞行航线网络、起降场站基础设施、适航审定快速通道等。这些政策为eVTOL的商业运营落地提供了关键支撑。\n适航取证与商业化进程\n当前全球载人eVTOL领域尚无主流企业完成全适航认证（无人驾驶领域的亿航智能EH216-S于2023年获中国民航局全认证，货运领域的峰飞V2000CG于2026年1月获TC）。中国市场适航取证主要集中在2026-2028年集中落地。\n商业化路径通常被划分为三个阶段。短期（2025-2027年）：适航取证冲刺，以低空旅游、紧急医疗、短途货运等场景为突破口。中期（2027-2030年）：取证落地，城市内通勤和短途城际出行等核心应用场景逐步开启。长期（2030年以后）：随着电池能量密度提升、自动驾驶技术成熟、基础设施完善，eVTOL有望进入大规模商业化阶段。\n关键挑战\n当前eVTOL行业面临五大核心挑战。第一，适航取证——这是最关键的\"生死关\"，载人eVTOL的全认证仍在推进中，进度直接决定商业化启动时间。第二，电池性能——现有动力电池的能量密度（约250-300Wh/kg）难以满足eVTOL对航程和冗余度的需求，固态电池的突破将直接改变行业格局。第三，安全性验证——eVTOL需要在城市环境内达到商业航空级别的安全性标准，这对飞控系统、动力冗余、应急降落在内提出了极高要求。第四，基础设施——起降场、充电站、空管系统的建设需要大量前期投入。第五，公众接受度——噪音水平、安全性信任、乘坐体验等直接影响市场接受度。\n九、总结与展望\n中国eVTOL赛道已形成清晰的第一梯队格局。峰飞航空科技以145亿估值领跑，沃飞长空（100-115亿）和沃兰特（72亿）紧随其后。两家复合翼+两家倾转旋翼+一家多元布局企业的结构，体现了市场对不同技术路线的初步选择，同时也留下了技术迭代的空间。\n值得密切关注的是几个关键的\"未来拐点\"：载人eVTOL首张型号合格证的发放、固态电池的商用化突破、首个eVTOL商业航线的开通——任何一个拐点的到来，都可能引发行业格局的重新洗牌。对于五强企业而言，技术路线的选择、适航取证的进度、商业落地的速度，将共同决定它们在下一轮行业整合中的位置。\n数据来源：峰飞航空科技、沃飞长空、沃兰特航空、时的科技、零重力飞机工业官方公开信息及融资公告；摩根士丹利2024年城市空中交通市场研究报告；中国民航局适航审定公告。\n⚠️ 本文数据来源于企业公开披露信息和媒体报道，估值信息为基于公开融资记录的行业估算值（部分为非官方披露），不构成任何投资建议。技术参数来源于企业官方宣传材料，适航进度请以中国民航局最新公告为准。\nVIP课程推荐\nAPP专享直播\n热门推荐\n收起\n24小时滚动播报最新的财经资讯和视频，更多粉丝福利扫描二维码关注（sinafinance）",
+  "publish_date": "2026-05-03",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.807137+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [
+      {
+        "text": "洪泰智造",
+        "label": "person",
+        "start": 41,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "兽门槛",
+        "label": "person",
+        "start": 349,
+        "end": 352,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "AutoFlight",
+        "label": "person",
+        "start": 521,
+        "end": 531,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Tech",
+        "label": "person",
+        "start": 799,
+        "end": 803,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "AutoFlight",
+        "label": "person",
+        "start": 1003,
+        "end": 1013,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "凯瑞鸥",
+        "label": "person",
+        "start": 1156,
+        "end": 1159,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "凯瑞鸥",
+        "label": "person",
+        "start": 1378,
+        "end": 1381,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "曾毓群",
+        "label": "person",
+        "start": 1477,
+        "end": 1480,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "倾转旋翼",
+        "label": "person",
+        "start": 1737,
+        "end": 1741,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Airbus",
+        "label": "person",
+        "start": 2213,
+        "end": 2219,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2243,
+        "end": 2246,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2461,
+        "end": 2464,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2493,
+        "end": 2496,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 2549,
+        "end": 2552,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Tech",
+        "label": "person",
+        "start": 2605,
+        "end": 2609,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 3151,
+        "end": 3154,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "倾转旋翼",
+        "label": "person",
+        "start": 3239,
+        "end": 3243,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Tiltrotor",
+        "label": "person",
+        "start": 3244,
+        "end": 3253,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "倾转旋翼",
+        "label": "person",
+        "start": 3559,
+        "end": 3563,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Lilium",
+        "label": "person",
+        "start": 3595,
+        "end": 3601,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 3736,
+        "end": 3739,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "曾毓群",
+        "label": "person",
+        "start": 3868,
+        "end": 3871,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "摩根士丹利",
+        "label": "person",
+        "start": 4098,
+        "end": 4103,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃飞长空",
+        "label": "person",
+        "start": 4979,
+        "end": 4983,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特",
+        "label": "person",
+        "start": 4994,
+        "end": 4997,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "张型号",
+        "label": "person",
+        "start": 5093,
+        "end": 5096,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "摩根士丹利",
+        "label": "person",
+        "start": 5256,
+        "end": 5261,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "⚠️",
+        "label": "person",
+        "start": 5292,
+        "end": 5294,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "中信建投",
+        "label": "org",
+        "start": 694,
+        "end": 698,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "联想创投",
+        "label": "org",
+        "start": 937,
+        "end": 941,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投",
+        "label": "org",
+        "start": 953,
+        "end": 957,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空科技",
+        "label": "org",
+        "start": 996,
+        "end": 1002,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局型号合格证",
+        "label": "org",
+        "start": 1342,
+        "end": 1352,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "吉利科技集团",
+        "label": "org",
+        "start": 1629,
+        "end": 1635,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 1980,
+        "end": 1985,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投",
+        "label": "org",
+        "start": 2029,
+        "end": 2033,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "吉利科技集团",
+        "label": "org",
+        "start": 2061,
+        "end": 2067,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特航空",
+        "label": "org",
+        "start": 2084,
+        "end": 2089,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特航空（Volant",
+        "label": "org",
+        "start": 2100,
+        "end": 2112,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 2441,
+        "end": 2446,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "联想创投",
+        "label": "org",
+        "start": 2965,
+        "end": 2969,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投",
+        "label": "org",
+        "start": 2986,
+        "end": 2990,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "政府",
+        "label": "org",
+        "start": 3032,
+        "end": 3034,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美军",
+        "label": "org",
+        "start": 3355,
+        "end": 3357,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Archer",
+        "label": "org",
+        "start": 3540,
+        "end": 3546,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投",
+        "label": "org",
+        "start": 3787,
+        "end": 3791,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 4424,
+        "end": 4429,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃飞长空",
+        "label": "org",
+        "start": 5221,
+        "end": 5225,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃兰特航空",
+        "label": "org",
+        "start": 5226,
+        "end": 5231,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 5279,
+        "end": 5284,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 5378,
+        "end": 5383,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 203,
+        "end": 207,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 203,
+        "end": 205,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "商飞",
+        "label": "org",
+        "start": 2202,
+        "end": 2204,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "中国商飞",
+        "label": "org",
+        "start": 2200,
+        "end": 2204,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 704,
+        "end": 707,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "AutoFlight",
+        "label": "org",
+        "start": 521,
+        "end": 531,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 514,
+        "end": 518,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞",
+        "label": "org",
+        "start": 590,
+        "end": 592,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "中航工业",
+        "label": "org",
+        "start": 2195,
+        "end": 2199,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 4185,
+        "end": 4188,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "Volant",
+        "label": "org",
+        "start": 710,
+        "end": 716,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 514,
+        "end": 516,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "时的科技",
+        "label": "org",
+        "start": 789,
+        "end": 793,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 5,
+        "end": 7,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 98,
+        "end": 100,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 259,
+        "end": 261,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 277,
+        "end": 279,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 577,
+        "end": 579,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "飞长",
+        "label": "location",
+        "start": 591,
+        "end": 593,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 664,
+        "end": 666,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 676,
+        "end": 678,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 765,
+        "end": 767,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1015,
+        "end": 1017,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 1071,
+        "end": 1073,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1080,
+        "end": 1082,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 1083,
+        "end": 1085,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳",
+        "label": "location",
+        "start": 1274,
+        "end": 1276,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海",
+        "label": "location",
+        "start": 1277,
+        "end": 1279,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1446,
+        "end": 1448,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 1680,
+        "end": 1682,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1692,
+        "end": 1694,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中航",
+        "label": "location",
+        "start": 2195,
+        "end": 2197,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 2200,
+        "end": 2202,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 2477,
+        "end": 2479,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 3065,
+        "end": 3067,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 3528,
+        "end": 3530,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 3556,
+        "end": 3558,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 3587,
+        "end": 3589,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 3602,
+        "end": 3604,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 3718,
+        "end": 3720,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4172,
+        "end": 4174,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4236,
+        "end": 4238,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳",
+        "label": "location",
+        "start": 4275,
+        "end": 4277,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "广州",
+        "label": "location",
+        "start": 4278,
+        "end": 4280,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 4281,
+        "end": 4283,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 4284,
+        "end": 4286,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 4941,
+        "end": 4943,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "10年内",
+        "label": "date",
+        "start": 175,
+        "end": 179,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 292,
+        "end": 297,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年5月",
+        "label": "date",
+        "start": 309,
+        "end": 316,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "10年内",
+        "label": "date",
+        "start": 382,
+        "end": 386,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2017年",
+        "label": "date",
+        "start": 552,
+        "end": 557,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年2月",
+        "label": "date",
+        "start": 611,
+        "end": 618,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2016年",
+        "label": "date",
+        "start": 633,
+        "end": 638,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年",
+        "label": "date",
+        "start": 641,
+        "end": 646,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 736,
+        "end": 741,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 819,
+        "end": 824,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 900,
+        "end": 905,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2017年",
+        "label": "date",
+        "start": 1050,
+        "end": 1055,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年2月",
+        "label": "date",
+        "start": 1259,
+        "end": 1266,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年4月",
+        "label": "date",
+        "start": 1326,
+        "end": 1333,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年1月",
+        "label": "date",
+        "start": 1359,
+        "end": 1366,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年2月",
+        "label": "date",
+        "start": 1606,
+        "end": 1613,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2016年",
+        "label": "date",
+        "start": 1649,
+        "end": 1654,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年",
+        "label": "date",
+        "start": 1666,
+        "end": 1671,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年",
+        "label": "date",
+        "start": 1973,
+        "end": 1978,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 2116,
+        "end": 2121,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年9月",
+        "label": "date",
+        "start": 2384,
+        "end": 2391,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 2434,
+        "end": 2439,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 2486,
+        "end": 2491,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年",
+        "label": "date",
+        "start": 2497,
+        "end": 2502,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 2630,
+        "end": 2635,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 2742,
+        "end": 2747,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 2841,
+        "end": 2846,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 3729,
+        "end": 3734,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年",
+        "label": "date",
+        "start": 3740,
+        "end": 3745,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 4093,
+        "end": 4098,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 4127,
+        "end": 4132,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2040年",
+        "label": "date",
+        "start": 4142,
+        "end": 4147,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2050年",
+        "label": "date",
+        "start": 4157,
+        "end": 4162,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 4251,
+        "end": 4256,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年",
+        "label": "date",
+        "start": 4418,
+        "end": 4423,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2000CG于2026年1月获TC",
+        "label": "date",
+        "start": 4441,
+        "end": 4458,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 4473,
+        "end": 4477,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2028年",
+        "label": "date",
+        "start": 4478,
+        "end": 4483,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 4513,
+        "end": 4518,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 4558,
+        "end": 4563,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 4597,
+        "end": 4602,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 5261,
+        "end": 5266,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": [
+      {
+        "person": "AutoFlight",
+        "title": "",
+        "org": "峰飞航空",
+        "context": "。\n以下是五家企业的核心数据总览：\nTOP1：峰飞航空科技（AutoFlight）——估值约145亿人民币（20亿美元），2017年成立，复"
+      },
+      {
+        "person": "Tech",
+        "title": "",
+        "org": "时的科技",
+        "context": "联资本、明势创投、磊石资本。\nTOP4：时的科技（TCab Tech）——估值约50-60亿人民币，2021年成立，倾转旋翼路线"
+      },
+      {
+        "person": "AutoFlight",
+        "title": "",
+        "org": "峰飞航空",
+        "context": "主。\n二、峰飞航空科技：估值145亿的领跑者\n峰飞航空科技（AutoFlight）是中国eVTOL赛道估值最高的企业，达到约145亿人民币（"
+      },
+      {
+        "person": "凯瑞鸥",
+        "title": "",
+        "org": "峰飞",
+        "context": "号合格证（TC）受理。2026年1月，货运版V2000CG（凯瑞鸥）获得全球首张吨级eVTOL型号合格证，标志着峰飞在货运eV"
+      },
+      {
+        "person": "曾毓群",
+        "title": "创始人",
+        "org": "",
+        "context": "国的入局标志着顶级风投对eVTOL赛道的认可；宁德时代创始人曾毓群的参与投资，则体现了产业资本对电动航空器的战略兴趣——电池技"
+      },
+      {
+        "person": "倾转旋翼",
+        "title": "",
+        "org": "沃飞",
+        "context": "定位为城市空中交通（UAM）整体解决方案提供商。\n技术路线：倾转旋翼（AE200）\n沃飞长空的核心产品AE200采用倾转旋翼构型"
+      },
+      {
+        "person": "Airbus",
+        "title": "",
+        "org": "中国商飞",
+        "context": "空产业背景，核心成员来自中航工业、中国商飞等国内航空巨头以及Airbus等国际航空企业。\n技术路线：复合翼（VE25）\n沃兰特的核心"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "Airbus等国际航空企业。\n技术路线：复合翼（VE25）\n沃兰特的核心产品VE25采用复合翼构型，与峰飞的技术路线相同。根据"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "突破。2024年获得中国民航局的型号审定受理。\n投资方阵营：沃兰特的投资方质量同样出色。红杉中国先后投资峰飞（2021年）、沃"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "特的投资方质量同样出色。红杉中国先后投资峰飞（2021年）、沃兰特（2023年），覆盖复合翼赛道头部企业，体现对该技术路线的长"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "该技术路线的长期看好。君联资本、明势创投、磊石资本的加入，使沃兰特成为极少数被国内一线VC集体下注的eVTOL企业之一。\n五、"
+      },
+      {
+        "person": "Tech",
+        "title": "",
+        "org": "时的科技",
+        "context": "业之一。\n五、时的科技与零重力飞机工业\n时的科技（TCab Tech）——估值约50-60亿人民币。公司成立于2021年，核心技"
+      },
+      {
+        "person": "沃兰特",
+        "title": "代表",
+        "org": "沃兰特",
+        "context": "路径：\n复合翼（Lift+Cruise）——代表企业：峰飞、沃兰特。优势是结构简单、可靠性高、技术风险低、研制周期短；劣势是巡"
+      },
+      {
+        "person": "倾转旋翼",
+        "title": "代表",
+        "org": "沃飞",
+        "context": "。复合翼路线是目前国内外eVTOL企业选择最多的构型之一。\n倾转旋翼（Tiltrotor）——代表企业：沃飞长空、时的科技。优势"
+      },
+      {
+        "person": "Tiltrotor",
+        "title": "代表",
+        "org": "沃飞",
+        "context": "线是目前国内外eVTOL企业选择最多的构型之一。\n倾转旋翼（Tiltrotor）——代表企业：沃飞长空、时的科技。优势是飞行效率高、推重比"
+      },
+      {
+        "person": "倾转旋翼",
+        "title": "代表",
+        "org": "Archer",
+        "context": "国，纯电动倾转旋翼）和Archer Aviation（美国，倾转旋翼）是倾转旋翼路线的代表；而Volocopter（德国，多旋翼"
+      },
+      {
+        "person": "Lilium",
+        "title": "代表",
+        "org": "",
+        "context": "倾转旋翼路线的代表；而Volocopter（德国，多旋翼）和Lilium（德国，分布式推进矢量推力）则选择了不同路线。中国市场的路线"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃兰特",
+        "context": "的差异化布局策略。\n红杉中国——先后投资峰飞（2021年）、沃兰特（2023年），覆盖复合翼赛道两家头部企业，体现对该技术路线"
+      },
+      {
+        "person": "曾毓群",
+        "title": "",
+        "org": "峰飞",
+        "context": "，也可能为被投企业后续上市路径提供投行资源支持。\n宁德时代（曾毓群）——直接参与峰飞的投资，是产业链上游龙头向下游应用的战略延"
+      },
+      {
+        "person": "沃飞长空",
+        "title": "",
+        "org": "峰飞航空",
+        "context": "道已形成清晰的第一梯队格局。峰飞航空科技以145亿估值领跑，沃飞长空（100-115亿）和沃兰特（72亿）紧随其后。两家复合翼+"
+      },
+      {
+        "person": "沃兰特",
+        "title": "",
+        "org": "沃飞",
+        "context": "飞航空科技以145亿估值领跑，沃飞长空（100-115亿）和沃兰特（72亿）紧随其后。两家复合翼+两家倾转旋翼+一家多元布局企"
+      },
+      {
+        "person": "摩根士丹利",
+        "title": "",
+        "org": "沃兰特航空",
+        "context": "沃兰特航空、时的科技、零重力飞机工业官方公开信息及融资公告；摩根士丹利2024年城市空中交通市场研究报告；中国民航局适航审定公告。"
+      },
+      {
+        "person": "⚠️",
+        "title": "",
+        "org": "中国民航局",
+        "context": "024年城市空中交通市场研究报告；中国民航局适航审定公告。\n⚠️ 本文数据来源于企业公开披露信息和媒体报道，估值信息为基于公"
+      }
+    ]
+  }
+}

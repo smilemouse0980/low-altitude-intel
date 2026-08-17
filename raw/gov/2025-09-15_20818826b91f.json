@@ -1,0 +1,102 @@
+{
+  "doc_id": "20818826b91f",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wNEdKNkY3cDJoRWhMUFFKRHd4cnB5c24wYmd6R3I5eFloOURMTFdTdkUxSFdQSm43MzNvdTFJS1hzT0VNMndwWmxBTk5OSXl0azd0NVNRN2VQUEc2bTFGV2FnZlpKQdIBa0FVX3lxTE9qdnY5ZEZXcC1aNlZKTXlVTWRGTHV4cENzNndaN3prazcxbFBpdTVUUUI0bGVZZ2tqX0dYajlmRS1OcEV3RE1MUmlBLW4tcFUwUXpSZHViWUU3QW1XemQ2THk4d1JoOU9pS21B?oc=5",
+  "title": "罗马尼亚成为第二个报告俄罗斯无人机进入其领空的北约国家 - BBC",
+  "content": "罗马尼亚成为第二个报告俄罗斯无人机进入其领空的北约国家BBC",
+  "publish_date": "2025-09-15",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:54.956526+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "罗马尼亚",
+        "label": "person",
+        "start": 34,
+        "end": 38,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "北约",
+        "label": "org",
+        "start": 23,
+        "end": 25,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "BBC",
+        "label": "org",
+        "start": 30,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北约",
+        "label": "org",
+        "start": 57,
+        "end": 59,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "BBC",
+        "label": "org",
+        "start": 61,
+        "end": 64,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 14,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "罗马尼亚",
+        "label": "location",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "俄罗斯",
+        "label": "location",
+        "start": 11,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "俄罗斯",
+        "label": "location",
+        "start": 45,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "罗马尼亚",
+        "title": "",
+        "org": "无人机",
+        "context": "成为第二个报告俄罗斯无人机进入其领空的北约国家 - BBC 罗马尼亚成为第二个报告俄罗斯无人机进入其领空的北约国家BBC"
+      }
+    ]
+  }
+}

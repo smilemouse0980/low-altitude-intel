@@ -1,0 +1,86 @@
+{
+  "doc_id": "84ef16c6c660",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLTMtUUN3T3A0N0RkYVRGTjVUcklob2FQUl85UTNONnVkN2cyVjhCeVJ1QmtzS1o0RjJCNElVNzZTWFhWS0w4RTdIcWZieDVPck1ZV3lBbUtnYkdhNU1rOUpLOGJmNnp1ci13S0xfZERmb0tFMGVkR21yNVFtQmNzaVl0Tjk?oc=5",
+  "title": "长春航空展+深圳eVTOL大会无缝衔接，低空经济异动走强！通用航空ETF（159231）涨超2% - 新浪财经",
+  "content": "长春航空展+深圳eVTOL大会无缝衔接，低空经济异动走强！通用航空ETF（159231）涨超2%新浪财经",
+  "publish_date": "2025-09-24",
+  "publisher": "Google新闻-通用航空",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:57.412871+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "深圳eVTOL大会无缝衔接",
+        "label": "org",
+        "start": 6,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 29,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 51,
+        "end": 53,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳eVTOL大会无缝衔接",
+        "label": "org",
+        "start": 62,
+        "end": 75,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 85,
+        "end": 87,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 104,
+        "end": 106,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "长春",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "长春",
+        "label": "location",
+        "start": 56,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

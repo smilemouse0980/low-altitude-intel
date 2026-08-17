@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T23:53:41.904113+08:00",
+  "generated_at": "2026-08-17T16:55:02.728444+08:00",
   "market_segments": [
     {
       "segment": "eVTOL整机",
@@ -11,33 +11,54 @@
         "沃兰特",
         "沃飞长空"
       ],
-      "mention_count": 58,
-      "key_event_count": 7,
+      "mention_count": 41,
+      "key_event_count": 27,
       "recent_events": [
         {
-          "date": "2026-07-25",
-          "title": "峰飞eVTOL阿斯塔纳首飞，多国政要现场见证，中国低空力量，飞向世界 - 新浪网",
+          "date": "2026-08-15",
+          "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+          "company": "亿航智能"
+        },
+        {
+          "date": "2026-08-15",
+          "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+          "company": "亿航智能"
+        },
+        {
+          "date": "2026-08-15",
+          "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
           "company": "峰飞航空"
         },
         {
-          "date": "2026-07-21",
-          "title": "《中国eVTOL产业发展研究报告》发布：成都企业具全球竞争力，有望 ...",
+          "date": "2026-08-15",
+          "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
           "company": "沃飞长空"
         },
         {
-          "date": "2026-05-07",
-          "title": "专访沃兰特总裁黄小飞：eVTOL适航取证和研制效率“两手抓” 今年要完成小批量交付 - 证券时报",
-          "company": "沃兰特"
+          "date": "2026-08-15",
+          "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+          "company": "小鹏汇天"
+        }
+      ]
+    },
+    {
+      "segment": "通航运营",
+      "company_count": 1,
+      "companies": [
+        "中信海直"
+      ],
+      "mention_count": 2,
+      "key_event_count": 2,
+      "recent_events": [
+        {
+          "date": "2025-12-18",
+          "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+          "company": "中信海直"
         },
         {
-          "date": "2026-02-06",
-          "title": "峰飞航空发布5吨级eVTOL“天际龙”并完成转换飞行 - 中国民航网",
-          "company": "峰飞航空"
-        },
-        {
-          "date": "2025-01-16",
-          "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-          "company": "亿航智能"
+          "date": "2025-12-18",
+          "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+          "company": "中信海直"
         }
       ]
     },
@@ -47,31 +68,15 @@
       "companies": [
         "大疆创新"
       ],
-      "mention_count": 11,
-      "key_event_count": 1,
-      "recent_events": [
-        {
-          "date": "2023-07-31",
-          "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
-          "company": "大疆创新"
-        }
-      ]
-    },
-    {
-      "segment": "军工航空",
-      "company_count": 1,
-      "companies": [
-        "中航成飞"
-      ],
       "mention_count": 1,
       "key_event_count": 0,
       "recent_events": []
     },
     {
-      "segment": "核心零部件",
+      "segment": "军工航空",
       "company_count": 1,
       "companies": [
-        "航发动力"
+        "中国商飞"
       ],
       "mention_count": 1,
       "key_event_count": 0,
@@ -82,24 +87,391 @@
     {
       "company": "峰飞航空",
       "category": "eVTOL整机",
-      "mention_count": 15,
+      "mention_count": 8,
       "event_distribution": {
-        "international": 2,
-        "certification": 2,
-        "product": 2,
-        "financing": 1
+        "product": 4,
+        "financing": 6,
+        "cooperation": 5,
+        "international": 5,
+        "certification": 5
       },
       "top_locations": [
         [
+          "中东",
+          27
+        ],
+        [
           "阿联酋",
+          12
+        ],
+        [
+          "泰国",
+          10
+        ],
+        [
+          "上海",
+          8
+        ],
+        [
+          "华羽",
+          8
+        ]
+      ],
+      "top_partners": [
+        [
+          "亿航智能",
+          10
+        ],
+        [
+          "沃兰特",
+          6
+        ],
+        [
+          "小鹏汇天",
+          4
+        ],
+        [
+          "沃飞长空",
+          3
+        ],
+        [
+          "中信海直",
+          2
+        ]
+      ],
+      "latest_activity": "2026-08-15",
+      "activity_score": 95.0
+    },
+    {
+      "company": "沃兰特",
+      "category": "eVTOL整机",
+      "mention_count": 8,
+      "event_distribution": {
+        "financing": 7,
+        "product": 6,
+        "cooperation": 7,
+        "international": 7,
+        "certification": 6
+      },
+      "top_locations": [
+        [
+          "中东",
+          27
+        ],
+        [
+          "阿联酋",
+          12
+        ],
+        [
+          "泰国",
+          10
+        ],
+        [
+          "上海",
+          9
+        ],
+        [
+          "华羽",
+          8
+        ]
+      ],
+      "top_partners": [
+        [
+          "亿航智能",
+          12
+        ],
+        [
+          "峰飞航空",
+          6
+        ],
+        [
+          "沃飞长空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ],
+        [
+          "中信海直",
+          2
+        ]
+      ],
+      "latest_activity": "2026-08-15",
+      "activity_score": 121.0
+    },
+    {
+      "company": "亿航智能",
+      "category": "eVTOL整机",
+      "mention_count": 7,
+      "event_distribution": {
+        "product": 5,
+        "financing": 6,
+        "cooperation": 6,
+        "international": 6,
+        "certification": 5
+      },
+      "top_locations": [
+        [
+          "中东",
+          27
+        ],
+        [
+          "阿联酋",
+          12
+        ],
+        [
+          "泰国",
+          10
+        ],
+        [
+          "上海",
+          8
+        ],
+        [
+          "华羽",
+          8
+        ]
+      ],
+      "top_partners": [
+        [
+          "沃兰特",
+          7
+        ],
+        [
+          "峰飞航空",
+          6
+        ],
+        [
+          "沃飞长空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ],
+        [
+          "中信海直",
+          2
+        ]
+      ],
+      "latest_activity": "2026-08-15",
+      "activity_score": 103.0
+    },
+    {
+      "company": "沃飞长空",
+      "category": "eVTOL整机",
+      "mention_count": 4,
+      "event_distribution": {
+        "product": 3,
+        "financing": 4,
+        "cooperation": 4,
+        "international": 4,
+        "certification": 3
+      },
+      "top_locations": [
+        [
+          "华羽",
+          8
+        ],
+        [
+          "德国",
+          7
+        ],
+        [
+          "华东",
+          4
+        ],
+        [
+          "华北",
+          3
+        ],
+        [
+          "欧美",
+          3
+        ]
+      ],
+      "top_partners": [
+        [
+          "亿航智能",
+          8
+        ],
+        [
+          "沃兰特",
+          5
+        ],
+        [
+          "峰飞航空",
+          4
+        ],
+        [
+          "小鹏汇天",
           2
         ],
         [
-          "印尼",
+          "中国商飞",
+          1
+        ]
+      ],
+      "latest_activity": "2026-08-15",
+      "activity_score": 66.0
+    },
+    {
+      "company": "小鹏汇天",
+      "category": "eVTOL整机",
+      "mention_count": 4,
+      "event_distribution": {
+        "product": 4,
+        "financing": 4,
+        "cooperation": 4,
+        "international": 4,
+        "certification": 4
+      },
+      "top_locations": [
+        [
+          "中东",
+          27
+        ],
+        [
+          "阿联酋",
+          12
+        ],
+        [
+          "泰国",
+          10
+        ],
+        [
+          "华羽",
+          8
+        ],
+        [
+          "迪拜",
+          8
+        ]
+      ],
+      "top_partners": [
+        [
+          "亿航智能",
+          8
+        ],
+        [
+          "峰飞航空",
+          4
+        ],
+        [
+          "沃兰特",
+          4
+        ],
+        [
+          "沃飞长空",
           2
         ],
         [
-          "网易网",
+          "中信海直",
+          2
+        ]
+      ],
+      "latest_activity": "2026-08-15",
+      "activity_score": 72.0
+    },
+    {
+      "company": "中信海直",
+      "category": "通航运营",
+      "mention_count": 2,
+      "event_distribution": {
+        "product": 2,
+        "financing": 2,
+        "cooperation": 2,
+        "international": 2,
+        "certification": 2
+      },
+      "top_locations": [
+        [
+          "中东",
+          26
+        ],
+        [
+          "阿联酋",
+          12
+        ],
+        [
+          "泰国",
+          10
+        ],
+        [
+          "迪拜",
+          8
+        ],
+        [
+          "上海",
+          6
+        ]
+      ],
+      "top_partners": [
+        [
+          "亿航智能",
+          4
+        ],
+        [
+          "峰飞航空",
+          2
+        ],
+        [
+          "小鹏汇天",
+          2
+        ],
+        [
+          "沃兰特",
+          2
+        ]
+      ],
+      "latest_activity": "2025-12-18",
+      "activity_score": 36.0
+    },
+    {
+      "company": "大疆创新",
+      "category": "无人机整机",
+      "mention_count": 1,
+      "event_distribution": {},
+      "top_locations": [
+        [
+          "北京",
+          2
+        ]
+      ],
+      "top_partners": [],
+      "latest_activity": "2026-04-24",
+      "activity_score": 1.0
+    },
+    {
+      "company": "中国商飞",
+      "category": "军工航空",
+      "mention_count": 1,
+      "event_distribution": {
+        "financing": 1,
+        "cooperation": 1,
+        "international": 1,
+        "certification": 1
+      },
+      "top_locations": [
+        [
+          "德国",
+          5
+        ],
+        [
+          "深圳",
+          2
+        ],
+        [
+          "飞长",
+          1
+        ],
+        [
+          "上海",
+          1
+        ],
+        [
+          "珠海",
           1
         ]
       ],
@@ -107,234 +479,26 @@
         [
           "亿航智能",
           2
-        ]
-      ],
-      "latest_activity": "2026-07-25",
-      "activity_score": 40.0
-    },
-    {
-      "company": "亿航智能",
-      "category": "eVTOL整机",
-      "mention_count": 12,
-      "event_distribution": {
-        "international": 1,
-        "cooperation": 6,
-        "certification": 2,
-        "product": 1
-      },
-      "top_locations": [
-        [
-          "巴西",
-          4
         ],
-        [
-          "上海",
-          2
-        ],
-        [
-          "中东",
-          2
-        ],
-        [
-          "日本",
-          2
-        ],
-        [
-          "南航",
-          2
-        ]
-      ],
-      "top_partners": [
         [
           "峰飞航空",
-          1
-        ]
-      ],
-      "latest_activity": "2025-11-13",
-      "activity_score": 37.0
-    },
-    {
-      "company": "大疆创新",
-      "category": "无人机整机",
-      "mention_count": 10,
-      "event_distribution": {
-        "product": 1,
-        "international": 1
-      },
-      "top_locations": [
-        [
-          "北京",
           2
         ],
-        [
-          "美",
-          2
-        ]
-      ],
-      "top_partners": [],
-      "latest_activity": "2026-07-10",
-      "activity_score": 17.0
-    },
-    {
-      "company": "沃兰特",
-      "category": "eVTOL整机",
-      "mention_count": 9,
-      "event_distribution": {
-        "financing": 2,
-        "product": 1,
-        "certification": 1,
-        "international": 2,
-        "cooperation": 1
-      },
-      "top_locations": [
-        [
-          "中东",
-          2
-        ],
-        [
-          "阿联酋",
-          2
-        ],
-        [
-          "泰国",
-          2
-        ],
-        [
-          "迪拜",
-          2
-        ],
-        [
-          "上海",
-          1
-        ]
-      ],
-      "top_partners": [
-        [
-          "小鹏汇天",
-          2
-        ]
-      ],
-      "latest_activity": "2026-08-12",
-      "activity_score": 35.0
-    },
-    {
-      "company": "小鹏汇天",
-      "category": "eVTOL整机",
-      "mention_count": 2,
-      "event_distribution": {
-        "international": 2,
-        "cooperation": 1
-      },
-      "top_locations": [
-        [
-          "阿联酋",
-          2
-        ],
-        [
-          "泰国",
-          2
-        ],
-        [
-          "迪拜",
-          2
-        ]
-      ],
-      "top_partners": [
         [
           "沃兰特",
           2
-        ]
-      ],
-      "latest_activity": "2025-12-18",
-      "activity_score": 12.0
-    },
-    {
-      "company": "中航成飞",
-      "category": "军工航空",
-      "mention_count": 1,
-      "event_distribution": {},
-      "top_locations": [],
-      "top_partners": [],
-      "latest_activity": "2026-03-30",
-      "activity_score": 1.0
-    },
-    {
-      "company": "航发动力",
-      "category": "核心零部件",
-      "mention_count": 1,
-      "event_distribution": {},
-      "top_locations": [],
-      "top_partners": [],
-      "latest_activity": "2025-07-14",
-      "activity_score": 1.0
-    },
-    {
-      "company": "沃飞长空",
-      "category": "eVTOL整机",
-      "mention_count": 1,
-      "event_distribution": {
-        "product": 1
-      },
-      "top_locations": [
+        ],
         [
-          "成都",
-          3
+          "沃飞长空",
+          1
         ]
       ],
-      "top_partners": [],
-      "latest_activity": "2026-07-21",
-      "activity_score": 4.0
+      "latest_activity": "2026-05-03",
+      "activity_score": 15.0
     }
   ],
   "trend_analysis": {
     "all_months": [
-      {
-        "month": "2021-04",
-        "total_articles": 1,
-        "top_companies": [],
-        "top_topics": []
-      },
-      {
-        "month": "2023-02",
-        "total_articles": 1,
-        "top_companies": [],
-        "top_topics": []
-      },
-      {
-        "month": "2023-06",
-        "total_articles": 1,
-        "top_companies": [],
-        "top_topics": [
-          [
-            "产品发布",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2023-07",
-        "total_articles": 1,
-        "top_companies": [
-          [
-            "大疆创新",
-            1
-          ]
-        ],
-        "top_topics": [
-          [
-            "政策法规",
-            1
-          ],
-          [
-            "产品发布",
-            1
-          ],
-          [
-            "国际动态",
-            1
-          ]
-        ]
-      },
       {
         "month": "2023-09",
         "total_articles": 1,
@@ -342,200 +506,53 @@
         "top_topics": []
       },
       {
-        "month": "2023-10",
-        "total_articles": 3,
-        "top_companies": [
-          [
-            "亿航智能",
-            2
-          ],
-          [
-            "峰飞航空",
-            1
-          ]
-        ],
+        "month": "2024-03",
+        "total_articles": 1,
+        "top_companies": [],
         "top_topics": [
-          [
-            "政策法规",
-            1
-          ],
           [
             "适航认证",
             1
           ]
         ]
-      },
-      {
-        "month": "2023-11",
-        "total_articles": 1,
-        "top_companies": [],
-        "top_topics": []
-      },
-      {
-        "month": "2024-02",
-        "total_articles": 2,
-        "top_companies": [
-          [
-            "亿航智能",
-            3
-          ]
-        ],
-        "top_topics": []
-      },
-      {
-        "month": "2024-03",
-        "total_articles": 3,
-        "top_companies": [],
-        "top_topics": [
-          [
-            "融资投资",
-            2
-          ],
-          [
-            "合作签约",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2024-04",
-        "total_articles": 1,
-        "top_companies": [],
-        "top_topics": []
-      },
-      {
-        "month": "2024-05",
-        "total_articles": 2,
-        "top_companies": [],
-        "top_topics": [
-          [
-            "产品发布",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2024-06",
-        "total_articles": 2,
-        "top_companies": [
-          [
-            "大疆创新",
-            1
-          ]
-        ],
-        "top_topics": []
       },
       {
         "month": "2024-07",
-        "total_articles": 3,
-        "top_companies": [
-          [
-            "亿航智能",
-            3
-          ]
-        ],
-        "top_topics": [
-          [
-            "合作签约",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2024-08",
-        "total_articles": 2,
-        "top_companies": [],
-        "top_topics": [
-          [
-            "国际动态",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2024-09",
-        "total_articles": 9,
-        "top_companies": [
-          [
-            "亿航智能",
-            6
-          ]
-        ],
-        "top_topics": [
-          [
-            "合作签约",
-            2
-          ],
-          [
-            "适航认证",
-            2
-          ]
-        ]
-      },
-      {
-        "month": "2024-10",
-        "total_articles": 2,
+        "total_articles": 1,
         "top_companies": [],
         "top_topics": []
       },
       {
         "month": "2024-11",
-        "total_articles": 5,
+        "total_articles": 1,
         "top_companies": [],
         "top_topics": [
           [
-            "产品发布",
-            2
+            "政策法规",
+            1
           ]
         ]
       },
       {
         "month": "2024-12",
-        "total_articles": 4,
-        "top_companies": [
-          [
-            "亿航智能",
-            3
-          ]
-        ],
+        "total_articles": 1,
+        "top_companies": [],
         "top_topics": [
           [
-            "合作签约",
-            2
-          ],
-          [
-            "应用场景",
+            "政策法规",
             1
           ]
         ]
       },
       {
         "month": "2025-01",
-        "total_articles": 8,
-        "top_companies": [
-          [
-            "亿航智能",
-            3
-          ],
-          [
-            "峰飞航空",
-            1
-          ]
-        ],
-        "top_topics": [
-          [
-            "政策法规",
-            2
-          ],
-          [
-            "产品发布",
-            1
-          ]
-        ]
+        "total_articles": 2,
+        "top_companies": [],
+        "top_topics": []
       },
       {
         "month": "2025-03",
-        "total_articles": 9,
+        "total_articles": 1,
         "top_companies": [
           [
             "峰飞航空",
@@ -543,10 +560,6 @@
           ]
         ],
         "top_topics": [
-          [
-            "产品发布",
-            1
-          ],
           [
             "融资投资",
             1
@@ -555,134 +568,95 @@
       },
       {
         "month": "2025-04",
-        "total_articles": 5,
+        "total_articles": 3,
         "top_companies": [],
-        "top_topics": [
-          [
-            "政策法规",
-            1
-          ],
-          [
-            "应用场景",
-            1
-          ],
-          [
-            "适航认证",
-            1
-          ]
-        ]
+        "top_topics": []
       },
       {
         "month": "2025-05",
-        "total_articles": 5,
+        "total_articles": 2,
         "top_companies": [],
         "top_topics": [
           [
-            "政策法规",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2025-06",
-        "total_articles": 7,
-        "top_companies": [],
-        "top_topics": [
-          [
-            "政策法规",
+            "产品发布",
             1
           ],
           [
-            "国际动态",
+            "政策法规",
             1
           ]
         ]
       },
       {
         "month": "2025-07",
-        "total_articles": 14,
+        "total_articles": 2,
         "top_companies": [
           [
             "亿航智能",
-            6
+            2
           ],
           [
-            "大疆创新",
+            "沃飞长空",
             1
           ],
           [
-            "航发动力",
+            "沃兰特",
             1
           ]
         ],
         "top_topics": [
           [
-            "国际动态",
-            4
-          ],
-          [
             "合作签约",
-            3
-          ],
-          [
-            "政策法规",
             2
           ],
           [
+            "国际动态",
+            2
+          ],
+          [
+            "政策法规",
+            1
+          ],
+          [
             "产品发布",
+            1
+          ],
+          [
+            "融资投资",
             1
           ]
         ]
       },
       {
         "month": "2025-08",
-        "total_articles": 7,
+        "total_articles": 1,
         "top_companies": [],
-        "top_topics": [
-          [
-            "产品发布",
-            1
-          ],
-          [
-            "合作签约",
-            1
-          ]
-        ]
+        "top_topics": []
       },
       {
         "month": "2025-09",
-        "total_articles": 13,
-        "top_companies": [
-          [
-            "大疆创新",
-            1
-          ]
-        ],
-        "top_topics": [
-          [
-            "产品发布",
-            2
-          ],
-          [
-            "适航认证",
-            1
-          ],
-          [
-            "应用场景",
-            1
-          ]
-        ]
+        "total_articles": 2,
+        "top_companies": [],
+        "top_topics": []
       },
       {
         "month": "2025-10",
-        "total_articles": 12,
+        "total_articles": 4,
         "top_companies": [
           [
             "亿航智能",
-            3
+            2
           ],
           [
             "峰飞航空",
+            1
+          ],
+          [
+            "沃飞长空",
+            1
+          ],
+          [
+            "小鹏汇天",
             1
           ],
           [
@@ -692,182 +666,123 @@
         ],
         "top_topics": [
           [
-            "适航认证",
-            1
+            "产品发布",
+            2
           ],
           [
             "政策法规",
             1
           ],
           [
-            "产品发布",
+            "融资投资",
+            1
+          ],
+          [
+            "合作签约",
+            1
+          ],
+          [
+            "国际动态",
             1
           ]
         ]
       },
       {
         "month": "2025-11",
-        "total_articles": 26,
+        "total_articles": 3,
         "top_companies": [
           [
-            "亿航智能",
-            2
-          ],
-          [
-            "峰飞航空",
+            "沃兰特",
             1
           ]
         ],
         "top_topics": [
           [
-            "产品发布",
-            2
-          ],
-          [
-            "国际动态",
-            1
-          ],
-          [
-            "适航认证",
-            1
-          ],
-          [
-            "合作签约",
-            1
-          ],
-          [
-            "应用场景",
+            "融资投资",
             1
           ]
         ]
       },
       {
         "month": "2025-12",
-        "total_articles": 18,
+        "total_articles": 6,
         "top_companies": [
+          [
+            "亿航智能",
+            4
+          ],
+          [
+            "峰飞航空",
+            2
+          ],
           [
             "小鹏汇天",
             2
           ],
           [
-            "沃兰特",
+            "中信海直",
             2
           ],
           [
-            "大疆创新",
-            1
+            "沃兰特",
+            2
           ]
         ],
         "top_topics": [
           [
-            "产品发布",
-            2
-          ],
-          [
             "国际动态",
-            2
+            3
           ],
           [
-            "适航认证",
-            1
+            "融资投资",
+            3
+          ],
+          [
+            "产品发布",
+            3
           ],
           [
             "应用场景",
-            1
+            3
           ],
           [
             "政策法规",
-            1
+            2
           ]
         ]
       },
       {
         "month": "2026-01",
-        "total_articles": 13,
+        "total_articles": 5,
         "top_companies": [],
-        "top_topics": [
-          [
-            "适航认证",
-            1
-          ],
-          [
-            "政策法规",
-            1
-          ]
-        ]
+        "top_topics": []
       },
       {
         "month": "2026-02",
-        "total_articles": 23,
+        "total_articles": 3,
         "top_companies": [
           [
             "峰飞航空",
-            4
-          ]
-        ],
-        "top_topics": [
-          [
-            "产品发布",
-            3
-          ],
-          [
-            "政策法规",
-            2
-          ],
-          [
-            "融资投资",
-            2
-          ],
-          [
-            "应用场景",
-            2
-          ],
-          [
-            "适航认证",
             1
           ]
-        ]
+        ],
+        "top_topics": []
       },
       {
         "month": "2026-03",
-        "total_articles": 21,
-        "top_companies": [
-          [
-            "中航成飞",
-            1
-          ],
-          [
-            "大疆创新",
-            1
-          ]
-        ],
+        "total_articles": 4,
+        "top_companies": [],
         "top_topics": [
           [
             "政策法规",
-            3
-          ],
-          [
-            "国际动态",
-            2
-          ],
-          [
-            "产品发布",
             1
           ]
         ]
       },
       {
         "month": "2026-04",
-        "total_articles": 37,
+        "total_articles": 8,
         "top_companies": [
-          [
-            "沃兰特",
-            2
-          ],
-          [
-            "峰飞航空",
-            1
-          ],
           [
             "大疆创新",
             1
@@ -875,20 +790,12 @@
         ],
         "top_topics": [
           [
-            "应用场景",
-            4
-          ],
-          [
             "融资投资",
-            4
-          ],
-          [
-            "国际动态",
             2
           ],
           [
             "政策法规",
-            2
+            1
           ],
           [
             "产品发布",
@@ -898,136 +805,130 @@
       },
       {
         "month": "2026-05",
-        "total_articles": 28,
+        "total_articles": 8,
         "top_companies": [
+          [
+            "峰飞航空",
+            3
+          ],
+          [
+            "亿航智能",
+            2
+          ],
           [
             "沃兰特",
             2
           ],
           [
-            "大疆创新",
+            "沃飞长空",
+            1
+          ],
+          [
+            "中国商飞",
             1
           ]
         ],
         "top_topics": [
           [
-            "产品发布",
-            4
-          ],
-          [
             "适航认证",
-            3
-          ],
-          [
-            "融资投资",
             2
           ],
           [
-            "应用场景",
+            "政策法规",
+            1
+          ],
+          [
+            "融资投资",
             1
           ],
           [
             "合作签约",
+            1
+          ],
+          [
+            "国际动态",
             1
           ]
         ]
       },
       {
         "month": "2026-06",
-        "total_articles": 19,
+        "total_articles": 1,
         "top_companies": [
           [
-            "峰飞航空",
+            "亿航智能",
             3
           ]
         ],
+        "top_topics": []
+      },
+      {
+        "month": "2026-07",
+        "total_articles": 10,
+        "top_companies": [],
         "top_topics": [
           [
-            "适航认证",
-            2
+            "国际动态",
+            5
           ],
           [
-            "产品发布",
+            "适航认证",
             2
           ],
           [
             "政策法规",
-            2
-          ],
-          [
-            "合作签约",
             1
-          ],
-          [
-            "融资投资",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2026-07",
-        "total_articles": 36,
-        "top_companies": [
-          [
-            "大疆创新",
-            3
-          ],
-          [
-            "峰飞航空",
-            2
-          ],
-          [
-            "沃飞长空",
-            1
-          ]
-        ],
-        "top_topics": [
-          [
-            "国际动态",
-            11
           ],
           [
             "产品发布",
-            4
-          ],
-          [
-            "适航认证",
-            3
+            1
           ],
           [
             "合作签约",
-            2
-          ],
-          [
-            "应用场景",
-            2
+            1
           ]
         ]
       },
       {
         "month": "2026-08",
-        "total_articles": 36,
+        "total_articles": 11,
         "top_companies": [
+          [
+            "亿航智能",
+            2
+          ],
           [
             "沃兰特",
             2
+          ],
+          [
+            "峰飞航空",
+            1
+          ],
+          [
+            "沃飞长空",
+            1
+          ],
+          [
+            "小鹏汇天",
+            1
           ]
         ],
         "top_topics": [
           [
             "产品发布",
-            4
+            3
           ],
           [
-            "国际动态",
-            4
+            "适航认证",
+            3
+          ],
+          [
+            "融资投资",
+            2
           ],
           [
             "政策法规",
-            4
-          ],
-          [
-            "应用场景",
             2
           ],
           [
@@ -1040,44 +941,19 @@
     "recent_6_months": [
       {
         "month": "2026-03",
-        "total_articles": 21,
-        "top_companies": [
-          [
-            "中航成飞",
-            1
-          ],
-          [
-            "大疆创新",
-            1
-          ]
-        ],
+        "total_articles": 4,
+        "top_companies": [],
         "top_topics": [
           [
             "政策法规",
-            3
-          ],
-          [
-            "国际动态",
-            2
-          ],
-          [
-            "产品发布",
             1
           ]
         ]
       },
       {
         "month": "2026-04",
-        "total_articles": 37,
+        "total_articles": 8,
         "top_companies": [
-          [
-            "沃兰特",
-            2
-          ],
-          [
-            "峰飞航空",
-            1
-          ],
           [
             "大疆创新",
             1
@@ -1085,20 +961,12 @@
         ],
         "top_topics": [
           [
-            "应用场景",
-            4
-          ],
-          [
             "融资投资",
-            4
-          ],
-          [
-            "国际动态",
             2
           ],
           [
             "政策法规",
-            2
+            1
           ],
           [
             "产品发布",
@@ -1108,136 +976,130 @@
       },
       {
         "month": "2026-05",
-        "total_articles": 28,
+        "total_articles": 8,
         "top_companies": [
+          [
+            "峰飞航空",
+            3
+          ],
+          [
+            "亿航智能",
+            2
+          ],
           [
             "沃兰特",
             2
           ],
           [
-            "大疆创新",
+            "沃飞长空",
+            1
+          ],
+          [
+            "中国商飞",
             1
           ]
         ],
         "top_topics": [
           [
-            "产品发布",
-            4
-          ],
-          [
             "适航认证",
-            3
-          ],
-          [
-            "融资投资",
             2
           ],
           [
-            "应用场景",
+            "政策法规",
+            1
+          ],
+          [
+            "融资投资",
             1
           ],
           [
             "合作签约",
+            1
+          ],
+          [
+            "国际动态",
             1
           ]
         ]
       },
       {
         "month": "2026-06",
-        "total_articles": 19,
+        "total_articles": 1,
         "top_companies": [
           [
-            "峰飞航空",
+            "亿航智能",
             3
           ]
         ],
+        "top_topics": []
+      },
+      {
+        "month": "2026-07",
+        "total_articles": 10,
+        "top_companies": [],
         "top_topics": [
           [
-            "适航认证",
-            2
+            "国际动态",
+            5
           ],
           [
-            "产品发布",
+            "适航认证",
             2
           ],
           [
             "政策法规",
-            2
-          ],
-          [
-            "合作签约",
             1
-          ],
-          [
-            "融资投资",
-            1
-          ]
-        ]
-      },
-      {
-        "month": "2026-07",
-        "total_articles": 36,
-        "top_companies": [
-          [
-            "大疆创新",
-            3
-          ],
-          [
-            "峰飞航空",
-            2
-          ],
-          [
-            "沃飞长空",
-            1
-          ]
-        ],
-        "top_topics": [
-          [
-            "国际动态",
-            11
           ],
           [
             "产品发布",
-            4
-          ],
-          [
-            "适航认证",
-            3
+            1
           ],
           [
             "合作签约",
-            2
-          ],
-          [
-            "应用场景",
-            2
+            1
           ]
         ]
       },
       {
         "month": "2026-08",
-        "total_articles": 36,
+        "total_articles": 11,
         "top_companies": [
+          [
+            "亿航智能",
+            2
+          ],
           [
             "沃兰特",
             2
+          ],
+          [
+            "峰飞航空",
+            1
+          ],
+          [
+            "沃飞长空",
+            1
+          ],
+          [
+            "小鹏汇天",
+            1
           ]
         ],
         "top_topics": [
           [
             "产品发布",
-            4
+            3
           ],
           [
-            "国际动态",
-            4
+            "适航认证",
+            3
+          ],
+          [
+            "融资投资",
+            2
           ],
           [
             "政策法规",
-            4
-          ],
-          [
-            "应用场景",
             2
           ],
           [
@@ -1251,42 +1113,6 @@
       "政策法规": [
         {
           "month": "2026-03",
-          "count": 3
-        },
-        {
-          "month": "2026-04",
-          "count": 2
-        },
-        {
-          "month": "2026-06",
-          "count": 2
-        },
-        {
-          "month": "2026-08",
-          "count": 4
-        }
-      ],
-      "国际动态": [
-        {
-          "month": "2026-03",
-          "count": 2
-        },
-        {
-          "month": "2026-04",
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "count": 11
-        },
-        {
-          "month": "2026-08",
-          "count": 4
-        }
-      ],
-      "产品发布": [
-        {
-          "month": "2026-03",
           "count": 1
         },
         {
@@ -1295,33 +1121,11 @@
         },
         {
           "month": "2026-05",
-          "count": 4
-        },
-        {
-          "month": "2026-06",
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "count": 4
-        },
-        {
-          "month": "2026-08",
-          "count": 4
-        }
-      ],
-      "应用场景": [
-        {
-          "month": "2026-04",
-          "count": 4
-        },
-        {
-          "month": "2026-05",
           "count": 1
         },
         {
           "month": "2026-07",
-          "count": 2
+          "count": 1
         },
         {
           "month": "2026-08",
@@ -1331,28 +1135,42 @@
       "融资投资": [
         {
           "month": "2026-04",
-          "count": 4
-        },
-        {
-          "month": "2026-05",
           "count": 2
         },
         {
-          "month": "2026-06",
+          "month": "2026-05",
           "count": 1
+        },
+        {
+          "month": "2026-08",
+          "count": 2
+        }
+      ],
+      "产品发布": [
+        {
+          "month": "2026-04",
+          "count": 1
+        },
+        {
+          "month": "2026-07",
+          "count": 1
+        },
+        {
+          "month": "2026-08",
+          "count": 3
         }
       ],
       "适航认证": [
         {
           "month": "2026-05",
-          "count": 3
-        },
-        {
-          "month": "2026-06",
           "count": 2
         },
         {
           "month": "2026-07",
+          "count": 2
+        },
+        {
+          "month": "2026-08",
           "count": 3
         }
       ],
@@ -1362,16 +1180,22 @@
           "count": 1
         },
         {
-          "month": "2026-06",
-          "count": 1
-        },
-        {
           "month": "2026-07",
-          "count": 2
+          "count": 1
         },
         {
           "month": "2026-08",
           "count": 2
+        }
+      ],
+      "国际动态": [
+        {
+          "month": "2026-05",
+          "count": 1
+        },
+        {
+          "month": "2026-07",
+          "count": 5
         }
       ]
     },
@@ -1380,258 +1204,506 @@
         "topic": "政策法规",
         "trend": "rising",
         "change": "+100%"
+      },
+      {
+        "topic": "融资投资",
+        "trend": "rising",
+        "change": "+100%"
+      },
+      {
+        "topic": "产品发布",
+        "trend": "rising",
+        "change": "+200%"
+      },
+      {
+        "topic": "合作签约",
+        "trend": "rising",
+        "change": "+100%"
+      },
+      {
+        "topic": "国际动态",
+        "trend": "rising",
+        "change": "+400%"
       }
     ]
   },
   "geographic_distribution": [
     {
+      "location": "中东",
+      "mention_count": 31,
+      "top_companies": [
+        [
+          "亿航智能",
+          54
+        ],
+        [
+          "峰飞航空",
+          27
+        ],
+        [
+          "小鹏汇天",
+          27
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          31
+        ],
+        [
+          "项目",
+          31
+        ]
+      ]
+    },
+    {
       "location": "上海",
-      "mention_count": 19,
+      "mention_count": 16,
+      "top_companies": [
+        [
+          "亿航智能",
+          16
+        ],
+        [
+          "沃兰特",
+          10
+        ],
+        [
+          "峰飞航空",
+          9
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          10
+        ],
+        [
+          "项目",
+          10
+        ]
+      ]
+    },
+    {
+      "location": "阿联酋",
+      "mention_count": 14,
+      "top_companies": [
+        [
+          "亿航智能",
+          24
+        ],
+        [
+          "峰飞航空",
+          12
+        ],
+        [
+          "小鹏汇天",
+          12
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          13
+        ],
+        [
+          "项目",
+          13
+        ]
+      ]
+    },
+    {
+      "location": "泰国",
+      "mention_count": 10,
+      "top_companies": [
+        [
+          "亿航智能",
+          20
+        ],
+        [
+          "峰飞航空",
+          10
+        ],
+        [
+          "小鹏汇天",
+          10
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          10
+        ],
+        [
+          "项目",
+          10
+        ]
+      ]
+    },
+    {
+      "location": "东南亚",
+      "mention_count": 9,
+      "top_companies": [
+        [
+          "亿航智能",
+          12
+        ],
+        [
+          "峰飞航空",
+          6
+        ],
+        [
+          "小鹏汇天",
+          6
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          9
+        ],
+        [
+          "项目",
+          9
+        ]
+      ]
+    },
+    {
+      "location": "华羽",
+      "mention_count": 8,
+      "top_companies": [
+        [
+          "亿航智能",
+          16
+        ],
+        [
+          "峰飞航空",
+          8
+        ],
+        [
+          "沃飞长空",
+          8
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          8
+        ],
+        [
+          "项目",
+          8
+        ]
+      ]
+    },
+    {
+      "location": "迪拜",
+      "mention_count": 8,
+      "top_companies": [
+        [
+          "亿航智能",
+          16
+        ],
+        [
+          "峰飞航空",
+          8
+        ],
+        [
+          "小鹏汇天",
+          8
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          8
+        ],
+        [
+          "项目",
+          8
+        ]
+      ]
+    },
+    {
+      "location": "德国",
+      "mention_count": 7,
+      "top_companies": [
+        [
+          "亿航智能",
+          14
+        ],
+        [
+          "峰飞航空",
+          12
+        ],
+        [
+          "沃兰特",
+          12
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          7
+        ],
+        [
+          "项目",
+          7
+        ]
+      ]
+    },
+    {
+      "location": "北京",
+      "mention_count": 6,
+      "top_companies": [
+        [
+          "大疆创新",
+          2
+        ]
+      ],
+      "top_topics": []
+    },
+    {
+      "location": "华东",
+      "mention_count": 6,
+      "top_companies": [
+        [
+          "亿航智能",
+          12
+        ],
+        [
+          "沃兰特",
+          6
+        ],
+        [
+          "沃飞长空",
+          4
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          6
+        ],
+        [
+          "项目",
+          6
+        ]
+      ]
+    },
+    {
+      "location": "欧洲",
+      "mention_count": 6,
+      "top_companies": [
+        [
+          "亿航智能",
+          12
+        ],
+        [
+          "峰飞航空",
+          6
+        ],
+        [
+          "小鹏汇天",
+          6
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          6
+        ],
+        [
+          "项目",
+          6
+        ]
+      ]
+    },
+    {
+      "location": "香港",
+      "mention_count": 4,
+      "top_companies": [
+        [
+          "亿航智能",
+          6
+        ]
+      ],
+      "top_topics": [
+        [
+          "项目",
+          2
+        ]
+      ]
+    },
+    {
+      "location": "长春",
+      "mention_count": 4,
+      "top_companies": [],
+      "top_topics": []
+    },
+    {
+      "location": "成都",
+      "mention_count": 4,
+      "top_companies": [
+        [
+          "亿航智能",
+          4
+        ],
+        [
+          "峰飞航空",
+          3
+        ],
+        [
+          "沃兰特",
+          3
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          2
+        ],
+        [
+          "项目",
+          2
+        ]
+      ]
+    },
+    {
+      "location": "沙特",
+      "mention_count": 4,
+      "top_companies": [
+        [
+          "亿航智能",
+          8
+        ],
+        [
+          "峰飞航空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          4
+        ],
+        [
+          "项目",
+          4
+        ]
+      ]
+    },
+    {
+      "location": "北非地区",
+      "mention_count": 4,
+      "top_companies": [
+        [
+          "亿航智能",
+          8
+        ],
+        [
+          "峰飞航空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          4
+        ],
+        [
+          "项目",
+          4
+        ]
+      ]
+    },
+    {
+      "location": "河北",
+      "mention_count": 3,
+      "top_companies": [],
+      "top_topics": []
+    },
+    {
+      "location": "珠海",
+      "mention_count": 3,
+      "top_companies": [
+        [
+          "亿航智能",
+          2
+        ],
+        [
+          "峰飞航空",
+          2
+        ],
+        [
+          "沃兰特",
+          2
+        ]
+      ],
+      "top_topics": [
+        [
+          "政策",
+          3
+        ],
+        [
+          "项目",
+          1
+        ]
+      ]
+    },
+    {
+      "location": "华北",
+      "mention_count": 3,
       "top_companies": [
         [
           "亿航智能",
           6
         ],
         [
-          "沃兰特",
-          1
-        ]
-      ],
-      "top_topics": [
-        [
-          "政策",
-          1
+          "沃飞长空",
+          3
         ],
         [
-          "项目",
-          1
-        ]
-      ]
-    },
-    {
-      "location": "北京",
-      "mention_count": 16,
-      "top_companies": [
-        [
-          "大疆创新",
-          2
-        ]
-      ],
-      "top_topics": []
-    },
-    {
-      "location": "重庆",
-      "mention_count": 14,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "珠海",
-      "mention_count": 12,
-      "top_companies": [],
-      "top_topics": [
-        [
-          "政策",
-          2
-        ]
-      ]
-    },
-    {
-      "location": "深圳",
-      "mention_count": 10,
-      "top_companies": [],
-      "top_topics": [
-        [
-          "政策",
-          2
-        ]
-      ]
-    },
-    {
-      "location": "广州",
-      "mention_count": 8,
-      "top_companies": [],
-      "top_topics": [
-        [
-          "基建",
-          2
-        ]
-      ]
-    },
-    {
-      "location": "湖南",
-      "mention_count": 8,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "新疆",
-      "mention_count": 8,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "台湾",
-      "mention_count": 8,
-      "top_companies": [],
-      "top_topics": [
-        [
-          "政策",
-          2
-        ]
-      ]
-    },
-    {
-      "location": "武汉",
-      "mention_count": 8,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "成都",
-      "mention_count": 7,
-      "top_companies": [
-        [
-          "沃飞长空",
+          "沃兰特",
           3
         ]
       ],
-      "top_topics": []
+      "top_topics": [
+        [
+          "政策",
+          3
+        ],
+        [
+          "项目",
+          3
+        ]
+      ]
     },
     {
       "location": "印尼",
-      "mention_count": 7,
-      "top_companies": [
-        [
-          "峰飞航空",
-          2
-        ],
-        [
-          "沃兰特",
-          1
-        ]
-      ],
-      "top_topics": [
-        [
-          "项目",
-          7
-        ],
-        [
-          "政策",
-          1
-        ]
-      ]
-    },
-    {
-      "location": "广东",
-      "mention_count": 6,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "粤",
-      "mention_count": 6,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "日本",
-      "mention_count": 6,
-      "top_companies": [
-        [
-          "亿航智能",
-          2
-        ]
-      ],
-      "top_topics": [
-        [
-          "项目",
-          2
-        ]
-      ]
-    },
-    {
-      "location": "美",
-      "mention_count": 6,
-      "top_companies": [
-        [
-          "大疆创新",
-          2
-        ]
-      ],
-      "top_topics": [
-        [
-          "政策",
-          1
-        ]
-      ]
-    },
-    {
-      "location": "沪",
-      "mention_count": 5,
-      "top_companies": [],
-      "top_topics": []
-    },
-    {
-      "location": "中亚",
-      "mention_count": 5,
-      "top_companies": [],
-      "top_topics": [
-        [
-          "政策",
-          1
-        ],
-        [
-          "项目",
-          1
-        ]
-      ]
-    },
-    {
-      "location": "阿联酋",
-      "mention_count": 5,
-      "top_companies": [
-        [
-          "峰飞航空",
-          2
-        ],
-        [
-          "小鹏汇天",
-          2
-        ],
-        [
-          "沃兰特",
-          2
-        ]
-      ],
-      "top_topics": [
-        [
-          "项目",
-          1
-        ]
-      ]
-    },
-    {
-      "location": "中东",
-      "mention_count": 5,
+      "mention_count": 3,
       "top_companies": [
         [
           "沃兰特",
           2
-        ],
-        [
-          "亿航智能",
-          2
         ]
       ],
       "top_topics": [
         [
           "政策",
-          1
+          3
         ],
         [
           "项目",
-          1
+          3
         ]
       ]
     }
@@ -1639,242 +1711,379 @@
   "technology_landscape": [
     {
       "tech_area": "eVTOL/电动垂直起降",
-      "mention_count": 102,
+      "mention_count": 32,
       "top_companies": [
         [
           "亿航智能",
-          26
+          12
         ],
         [
           "峰飞航空",
-          14
+          9
         ],
         [
           "沃兰特",
           9
+        ],
+        [
+          "沃飞长空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ]
+      ],
+      "first_seen": "2025-03-06",
+      "last_seen": "2026-08-17"
+    },
+    {
+      "tech_area": "无人机系统",
+      "mention_count": 23,
+      "top_companies": [
+        [
+          "亿航智能",
+          8
+        ],
+        [
+          "沃兰特",
+          5
+        ],
+        [
+          "峰飞航空",
+          4
+        ],
+        [
+          "沃飞长空",
+          4
         ],
         [
           "小鹏汇天",
           2
-        ],
-        [
-          "大疆创新",
-          1
         ]
       ],
-      "first_seen": "2023-10-29",
-      "last_seen": "2026-08-15"
-    },
-    {
-      "tech_area": "无人机系统",
-      "mention_count": 97,
-      "top_companies": [
-        [
-          "大疆创新",
-          11
-        ]
-      ],
-      "first_seen": "2021-04-10",
-      "last_seen": "2026-08-16"
+      "first_seen": "2023-09-02",
+      "last_seen": "2026-08-17"
     },
     {
       "tech_area": "通航运营",
-      "mention_count": 37,
+      "mention_count": 13,
       "top_companies": [
         [
           "亿航智能",
-          9
-        ],
-        [
-          "航发动力",
-          1
-        ]
-      ],
-      "first_seen": "2024-07-01",
-      "last_seen": "2026-08-10"
-    },
-    {
-      "tech_area": "适航认证",
-      "mention_count": 17,
-      "top_companies": [
-        [
-          "亿航智能",
-          6
+          8
         ],
         [
           "峰飞航空",
-          2
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
         ],
         [
           "沃兰特",
-          1
+          4
+        ],
+        [
+          "沃飞长空",
+          2
         ]
       ],
-      "first_seen": "2023-10-26",
-      "last_seen": "2026-07-29"
+      "first_seen": "2024-07-30",
+      "last_seen": "2026-08-15"
     },
     {
-      "tech_area": "物流配送",
+      "tech_area": "适航认证",
       "mention_count": 11,
       "top_companies": [
         [
-          "大疆创新",
-          1
+          "亿航智能",
+          10
+        ],
+        [
+          "沃兰特",
+          7
         ],
         [
           "峰飞航空",
-          1
+          6
+        ],
+        [
+          "小鹏汇天",
+          4
+        ],
+        [
+          "沃飞长空",
+          3
         ]
       ],
-      "first_seen": "2025-09-29",
+      "first_seen": "2024-03-29",
+      "last_seen": "2026-08-17"
+    },
+    {
+      "tech_area": "物流配送",
+      "mention_count": 9,
+      "top_companies": [
+        [
+          "亿航智能",
+          12
+        ],
+        [
+          "沃兰特",
+          8
+        ],
+        [
+          "峰飞航空",
+          6
+        ],
+        [
+          "沃飞长空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ]
+      ],
+      "first_seen": "2025-07-12",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "tech_area": "动力电池",
+      "mention_count": 7,
+      "top_companies": [
+        [
+          "亿航智能",
+          12
+        ],
+        [
+          "沃兰特",
+          8
+        ],
+        [
+          "峰飞航空",
+          6
+        ],
+        [
+          "沃飞长空",
+          4
+        ],
+        [
+          "小鹏汇天",
+          4
+        ]
+      ],
+      "first_seen": "2025-07-12",
       "last_seen": "2026-08-15"
     },
     {
       "tech_area": "应用场景",
-      "mention_count": 10,
+      "mention_count": 6,
       "top_companies": [
         [
           "亿航智能",
+          8
+        ],
+        [
+          "沃兰特",
+          4
+        ],
+        [
+          "峰飞航空",
           3
         ],
         [
-          "大疆创新",
-          1
+          "小鹏汇天",
+          3
+        ],
+        [
+          "沃飞长空",
+          2
         ]
       ],
-      "first_seen": "2024-12-26",
-      "last_seen": "2026-08-16"
-    },
-    {
-      "tech_area": "导航通信",
-      "mention_count": 7,
-      "top_companies": [],
-      "first_seen": "2025-05-22",
-      "last_seen": "2026-08-10"
-    },
-    {
-      "tech_area": "空中交通管理",
-      "mention_count": 2,
-      "top_companies": [],
-      "first_seen": "2026-01-11",
-      "last_seen": "2026-02-08"
-    },
-    {
-      "tech_area": "动力电池",
-      "mention_count": 2,
-      "top_companies": [],
       "first_seen": "2025-07-12",
-      "last_seen": "2026-08-10"
+      "last_seen": "2026-08-15"
     },
     {
       "tech_area": "航空材料",
-      "mention_count": 1,
-      "top_companies": [],
-      "first_seen": "2026-05-26",
-      "last_seen": "2026-05-26"
+      "mention_count": 5,
+      "top_companies": [
+        [
+          "亿航智能",
+          10
+        ],
+        [
+          "沃兰特",
+          6
+        ],
+        [
+          "峰飞航空",
+          5
+        ],
+        [
+          "沃飞长空",
+          3
+        ],
+        [
+          "小鹏汇天",
+          3
+        ]
+      ],
+      "first_seen": "2025-07-12",
+      "last_seen": "2026-05-03"
+    },
+    {
+      "tech_area": "导航通信",
+      "mention_count": 4,
+      "top_companies": [
+        [
+          "沃兰特",
+          2
+        ],
+        [
+          "亿航智能",
+          2
+        ],
+        [
+          "峰飞航空",
+          1
+        ],
+        [
+          "沃飞长空",
+          1
+        ],
+        [
+          "小鹏汇天",
+          1
+        ]
+      ],
+      "first_seen": "2025-10-23",
+      "last_seen": "2026-08-12"
+    },
+    {
+      "tech_area": "空中交通管理",
+      "mention_count": 4,
+      "top_companies": [
+        [
+          "沃兰特",
+          4
+        ],
+        [
+          "亿航智能",
+          4
+        ],
+        [
+          "峰飞航空",
+          3
+        ],
+        [
+          "沃飞长空",
+          2
+        ],
+        [
+          "小鹏汇天",
+          1
+        ]
+      ],
+      "first_seen": "2025-10-23",
+      "last_seen": "2026-08-12"
     }
   ],
   "investment_signals": [
     {
-      "type": "product_milestone",
-      "date": "2026-07-25",
-      "title": "峰飞eVTOL阿斯塔纳首飞，多国政要现场见证，中国低空力量，飞向世界 - 新浪网",
+      "type": "financing",
+      "date": "2026-08-15",
+      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
       "companies": [
-        "峰飞航空"
+        "亿航智能",
+        "小鹏汇天",
+        "峰飞航空",
+        "沃兰特",
+        "沃飞长空"
       ],
-      "source": "news.google.com"
-    },
-    {
-      "type": "international",
-      "date": "2026-07-22",
-      "title": "峰飞航空亮相2026国际低空经济博览会，携手顺丰打造海上风电低空运维方案 - jfdaily.com",
-      "companies": [
-        "峰飞航空"
-      ],
-      "source": "news.google.com"
-    },
-    {
-      "type": "international",
-      "date": "2026-06-11",
-      "title": "全球首张！峰飞航空获颁eVTOL出海“第一证” - 中国民航网",
-      "companies": [
-        "峰飞航空"
-      ],
-      "source": "news.google.com"
+      "source": "www.bing.com"
     },
     {
       "type": "product_milestone",
-      "date": "2026-05-07",
-      "title": "专访沃兰特总裁黄小飞：eVTOL适航取证和研制效率“两手抓” 今年要完成小批量交付 - 证券时报",
+      "date": "2026-08-12",
+      "title": "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ...",
       "companies": [
         "沃兰特"
       ],
-      "source": "news.google.com"
+      "source": "www.bing.com"
     },
     {
       "type": "financing",
-      "date": "2026-04-29",
-      "title": "沃兰特C轮融资引入中东投资人，中国eVTOL掀起全球化新高潮 - 腾讯新闻",
+      "date": "2026-05-03",
+      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
       "companies": [
-        "沃兰特"
+        "中国商飞",
+        "亿航智能",
+        "峰飞航空",
+        "沃兰特",
+        "沃飞长空"
       ],
-      "source": "news.google.com"
+      "source": "www.bing.com"
     },
     {
       "type": "financing",
-      "date": "2026-04-27",
-      "title": "沃兰特航空完成3亿美元C轮融资 刷新eVTOL领域单笔融资规模纪录 - 中国民航网",
-      "companies": [
-        "沃兰特"
-      ],
-      "source": "news.google.com"
-    },
-    {
-      "type": "international",
       "date": "2025-12-18",
       "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
       "companies": [
+        "中信海直",
+        "亿航智能",
         "小鹏汇天",
+        "峰飞航空",
         "沃兰特"
       ],
       "source": "www.bing.com"
     },
     {
-      "type": "international",
-      "date": "2025-12-17",
+      "type": "financing",
+      "date": "2025-12-18",
       "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
       "companies": [
+        "中信海直",
+        "亿航智能",
         "小鹏汇天",
+        "峰飞航空",
         "沃兰特"
       ],
       "source": "www.bing.com"
     },
     {
-      "type": "international",
-      "date": "2025-11-13",
-      "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
+      "type": "financing",
+      "date": "2025-11-14",
+      "title": "5家上市企业入局eVTOL赛道 沃兰特宣布完成数亿元B+轮融资 - cb.com.cn",
       "companies": [
-        "亿航智能"
+        "沃兰特"
       ],
       "source": "news.google.com"
     },
     {
       "type": "financing",
-      "date": "2025-10-15",
-      "title": "最新突破：VOLANT沃兰特完成国内首轮吨级载人eVTOL有人驾驶飞行丨华映Family - 新浪财经",
+      "date": "2025-10-23",
+      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
       "companies": [
-        "沃兰特"
+        "亿航智能",
+        "小鹏汇天",
+        "峰飞航空",
+        "沃兰特",
+        "沃飞长空"
       ],
-      "source": "news.google.com"
+      "source": "www.bing.com"
     },
     {
-      "type": "international",
-      "date": "2025-07-14",
-      "title": "关税阻碍进口，大疆无人机在美国售罄-观察者网 - 观察者",
+      "type": "financing",
+      "date": "2025-07-12",
+      "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
       "companies": [
-        "大疆创新"
+        "亿航智能",
+        "沃兰特",
+        "沃飞长空"
       ],
-      "source": "news.google.com"
+      "source": "www.bing.com"
     },
     {
       "type": "financing",
@@ -1884,24 +2093,6 @@
         "峰飞航空"
       ],
       "source": "www.bing.com"
-    },
-    {
-      "type": "product_milestone",
-      "date": "2025-01-16",
-      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-      "companies": [
-        "亿航智能"
-      ],
-      "source": "news.google.com"
-    },
-    {
-      "type": "international",
-      "date": "2023-07-31",
-      "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
-      "companies": [
-        "大疆创新"
-      ],
-      "source": "news.google.com"
     }
   ]
 }

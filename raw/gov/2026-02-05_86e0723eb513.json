@@ -1,12 +1,37 @@
 {
   "doc_id": "86e0723eb513",
   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04Tm5zZWtFbW9HVVpQblRKaGZHTDFsbF9kSjVSRG4ybVhPY19GYXhRMUNCem5PSzlMLURhZ3JHUkRDMGlIaE5KalFkYUVaU29mSU5vZ2R3?oc=5",
-  "title": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行 - 腾讯新闻",
-  "content": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行腾讯新闻",
+  "title": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行 - qq.com",
+  "content": "全球首款！峰飞航空5吨级eVTOL天际龙成功完成转换飞行qq.com",
   "publish_date": "2026-02-05",
   "publisher": "Google新闻-eVTOL",
   "source_site": "news.google.com",
   "source_type": "rss",
-  "collected_at": "2026-08-16T22:16:07.443582+08:00",
-  "quality_flag": "pending"
+  "collected_at": "2026-08-17T16:41:52.436218+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 5,
+        "end": 9,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 5,
+        "end": 7,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": []
+  }
 }

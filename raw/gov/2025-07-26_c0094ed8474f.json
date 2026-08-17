@@ -1,0 +1,70 @@
+{
+  "doc_id": "c0094ed8474f",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a82c959d9be45c6827478f3e431a025&url=https%3a%2f%2fwww.msn.com%2fzh-cn%2fnews%2fother%2f%25E4%25B8%25AD%25E5%259B%25BDevtol%25E4%25BC%2581%25E4%25B8%259A%25E6%25B5%25B7%25E5%25A4%2596%25E8%25AE%25A2%25E5%258D%2595%25E7%2588%2586%25E6%25A3%259A-%25E4%25BD%2586-iphone%25E6%2597%25B6%25E5%2588%25BB-%25E8%25BF%2598%25E9%259C%2580%25E7%25AD%2589%25E5%25BE%2585%2far-AA1Jlcuc&c=3214737128771546025&mkt=en-us",
+  "title": "中国eVTOL企业海外订单爆棚，但“iPhone时刻”还需等待",
+  "content": "近期，中国电动垂直起降飞行器（eVTOL）行业迎来了两笔重大的海外采购意向协议，为这一仍处于市场风口的技术再添一把火。 7月16日，时的科技宣布与阿联酋企业Autocraft达成协议，后者计划采购350架E20 eVTOL，总金额高达10亿美元。仅仅一周后，在首届国际低空 ...",
+  "publish_date": "2025-07-26",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.807351+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "时的科技",
+        "label": "org",
+        "start": 98,
+        "end": 102,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 35,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "阿联酋",
+        "label": "location",
+        "start": 105,
+        "end": 108,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "7月16日",
+        "label": "date",
+        "start": 92,
+        "end": 97,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "一周后",
+        "label": "date",
+        "start": 157,
+        "end": 160,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

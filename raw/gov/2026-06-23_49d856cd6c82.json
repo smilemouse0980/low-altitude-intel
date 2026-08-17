@@ -1,0 +1,78 @@
+{
+  "doc_id": "49d856cd6c82",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
+  "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+  "content": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang",
+  "publish_date": "2026-06-23",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:49.013454+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "EHang",
+        "label": "person",
+        "start": 55,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "EHang",
+        "label": "org",
+        "start": 26,
+        "end": 31,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 6,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": [
+      {
+        "person": "EHang",
+        "title": "",
+        "org": "亿航智能",
+        "context": "EHang 亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
+      }
+    ]
+  }
+}

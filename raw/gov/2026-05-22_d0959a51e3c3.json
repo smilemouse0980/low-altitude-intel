@@ -1,0 +1,46 @@
+{
+  "doc_id": "d0959a51e3c3",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBLWl6WDVoMEVlZ3dUSUp5cXExeVExNjNMaUxRTlBoRUhSRkVacVhTZXBjQ3pobnUxWndlUU5tUWxlTEU5UDhqY3VoYmlmZlQ5aGlj?oc=5",
+  "title": "中国吨级载人eVTOL适航取证进度梳理 - 搜狐网",
+  "content": "中国吨级载人eVTOL适航取证进度梳理搜狐网",
+  "publish_date": "2026-05-22",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:52.434284+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "搜狐网 中国吨级",
+        "label": "org",
+        "start": 22,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "搜狐网",
+        "label": "org",
+        "start": 45,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "relations": []
+  }
+}

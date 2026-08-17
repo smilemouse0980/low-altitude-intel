@@ -1,0 +1,69 @@
+{
+  "doc_id": "3b965c7e76c8",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4Z1lwR1RfNHlidnBNSXpGNmF1a0J0dXdrdXBuY3RpSXU0WHhEN3lubVlzRHVyLVowbEp3bDBQTkVJTmJVbndMNld0ejd1cV9oczA3Q0I2MmZDaXVmVVd0QnBB?oc=5",
+  "title": "峰飞航空科技高级副总裁谢嘉：大型eVTOL是低空经济产业跃升的“金钥匙” - cb.com.cn",
+  "content": "峰飞航空科技高级副总裁谢嘉：大型eVTOL是低空经济产业跃升的“金钥匙”cb.com.cn",
+  "publish_date": "2026-05-29",
+  "publisher": "Google新闻-eVTOL",
+  "source_site": "news.google.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-17T16:41:52.431435+08:00",
+  "quality_flag": "pending",
+  "url_resolved": false,
+  "entities": {
+    "persons": [
+      {
+        "text": "金钥匙",
+        "label": "person",
+        "start": 32,
+        "end": 35,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "峰飞航空科技高级副总裁",
+        "label": "org",
+        "start": 0,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空科技高级副总裁",
+        "label": "org",
+        "start": 49,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "relations": [
+      {
+        "person": "金钥匙",
+        "title": "总裁",
+        "org": "峰飞航空科技高级副总裁",
+        "context": "航空科技高级副总裁谢嘉：大型eVTOL是低空经济产业跃升的“金钥匙” - cb.com.cn 峰飞航空科技高级副总裁谢嘉：大型"
+      }
+    ]
+  }
+}

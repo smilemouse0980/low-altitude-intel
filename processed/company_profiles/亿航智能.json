@@ -1,376 +1,579 @@
 {
   "company_name": "亿航智能",
   "category": "eVTOL整机",
-  "mention_count": 31,
-  "first_seen": "2023-10-29",
-  "last_seen": "2025-11-13",
+  "mention_count": 15,
+  "first_seen": "2025-07-12",
+  "last_seen": "2026-08-15",
   "key_persons": [
     {
-      "name": "戴姆勒",
-      "mentions": 2
+      "name": "凯瑞鸥",
+      "mentions": 8
+    },
+    {
+      "name": "阿布扎比",
+      "mentions": 8
+    },
+    {
+      "name": "倾转旋翼",
+      "mentions": 6
+    },
+    {
+      "name": "Lilium",
+      "mentions": 4
+    },
+    {
+      "name": "张潇聪",
+      "mentions": 4
+    },
+    {
+      "name": "Tech",
+      "mentions": 4
+    },
+    {
+      "name": "曾毓群",
+      "mentions": 4
+    },
+    {
+      "name": "摩根士丹利",
+      "mentions": 4
+    },
+    {
+      "name": "黄小飞",
+      "mentions": 4
+    },
+    {
+      "name": "黄雍威",
+      "mentions": 4
     }
   ],
   "locations": [
     {
-      "name": "巴西",
-      "mentions": 12
+      "name": "中东",
+      "mentions": 54
+    },
+    {
+      "name": "阿联酋",
+      "mentions": 24
+    },
+    {
+      "name": "泰国",
+      "mentions": 20
     },
     {
       "name": "上海",
-      "mentions": 6
+      "mentions": 16
     },
     {
-      "name": "南航",
-      "mentions": 6
+      "name": "华羽",
+      "mentions": 16
     },
     {
-      "name": "北京市",
-      "mentions": 6
+      "name": "迪拜",
+      "mentions": 16
     },
     {
-      "name": "中东",
-      "mentions": 2
+      "name": "德国",
+      "mentions": 14
     },
     {
-      "name": "日本",
-      "mentions": 2
+      "name": "华东",
+      "mentions": 12
+    },
+    {
+      "name": "欧洲",
+      "mentions": 12
+    },
+    {
+      "name": "东南亚",
+      "mentions": 12
     }
   ],
   "partners": [
     {
+      "name": "沃兰特",
+      "co_occurrences": 14
+    },
+    {
       "name": "峰飞航空",
+      "co_occurrences": 12
+    },
+    {
+      "name": "沃飞长空",
+      "co_occurrences": 8
+    },
+    {
+      "name": "小鹏汇天",
+      "co_occurrences": 8
+    },
+    {
+      "name": "中信海直",
+      "co_occurrences": 4
+    },
+    {
+      "name": "中国商飞",
       "co_occurrences": 2
     }
   ],
   "events": {
     "product_launch": [
       {
-        "date": "2025-01-16",
-        "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-01-16",
-        "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-01-16",
-        "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-        "source": "news.google.com"
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
-    "financing": [],
+    "financing": [
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      }
+    ],
     "cooperation": [
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-07-01",
-        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-        "source": "news.google.com"
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-07-01",
-        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-        "source": "news.google.com"
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-07-01",
-        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-        "source": "news.google.com"
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-07-01",
-        "title": "亿航智能与南航通航达成战略合作，共推无人驾驶eVTOL低空经济合作运营新范示 - EHang",
-        "source": "news.google.com"
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-07-01",
-        "title": "亿航智能与南航通航达成战略合作，共推无人驾驶eVTOL低空经济合作运营新范示 - EHang",
-        "source": "news.google.com"
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-07-01",
-        "title": "亿航智能与南航通航达成战略合作，共推无人驾驶eVTOL低空经济合作运营新范示 - EHang",
-        "source": "news.google.com"
-      },
-      {
-        "date": "2024-12-26",
-        "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
-        "source": "news.google.com"
-      },
-      {
-        "date": "2024-12-26",
-        "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
-        "source": "news.google.com"
-      },
-      {
-        "date": "2024-12-26",
-        "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
-        "source": "news.google.com"
-      },
-      {
-        "date": "2025-07-01",
-        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-        "source": "news.google.com"
-      },
-      {
-        "date": "2025-07-01",
-        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-        "source": "news.google.com"
-      },
-      {
-        "date": "2025-07-01",
-        "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-        "source": "news.google.com"
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "policy_related": [
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "certification": [
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
       },
       {
-        "date": "2024-09-16",
-        "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-        "source": "news.google.com"
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ],
     "market_expansion": [
       {
-        "date": "2025-11-13",
-        "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
       },
       {
-        "date": "2025-11-13",
-        "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
-        "source": "news.google.com"
+        "date": "2026-08-15",
+        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-07-12",
+        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2026-05-03",
+        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "source": "www.bing.com"
       }
     ]
   },
   "timeline": [
     {
-      "date": "2025-11-13",
-      "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTcDZsdEswNElzczJMZExubUdod2ZrVGhQRkV4Wm8yN0V2RnlOVko3eVVaRzZfUkNzdDlrSENrRG5SdEFVcS14OGd4X0VZd0RtTmJqTWsyYThKN0VjSHhFNEFibUJhU2RiaDltdw?oc=5",
-      "content_snippet": "中国eVTOL走向国际 亿航智能成美国行业大会焦点中国民航网"
+      "date": "2026-08-15",
+      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+      "source": "www.bing.com",
+      "url": "https://www.sohu.com/a/1063011230_217394",
+      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
     },
     {
-      "date": "2025-11-13",
-      "title": "中国eVTOL走向国际 亿航智能成美国行业大会焦点 - 中国民航网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTcDZsdEswNElzczJMZExubUdod2ZrVGhQRkV4Wm8yN0V2RnlOVko3eVVaRzZfUkNzdDlrSENrRG5SdEFVcS14OGd4X0VZd0RtTmJqTWsyYThKN0VjSHhFNEFibUJhU2RiaDltdw?oc=5",
-      "content_snippet": "中国eVTOL走向国际 亿航智能成美国行业大会焦点中国民航网"
+      "date": "2026-08-15",
+      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+      "source": "www.bing.com",
+      "url": "https://www.sohu.com/a/1063011230_217394",
+      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
     },
     {
-      "date": "2025-10-16",
-      "title": "650万元售价，亿航智能造出了低空经济的“Model S”？ - mp.ofweek.com",
+      "date": "2026-06-23",
+      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEYkllQVUtQUI4Ni1Zb3VERVJJYzg0OTZDdTJ0WndXWFk0NDBZS0RMNk5NaldaZTlHMFE0YjZlel9qejd1Qk5GNDkxcGdwYllpRVlfSC02bnQ?oc=5",
-      "content_snippet": "650万元售价，亿航智能造出了低空经济的“Model S”？mp.ofweek.com"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
+      "content_snippet": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
     },
     {
-      "date": "2025-10-16",
-      "title": "650万元售价，亿航智能造出了低空经济的“Model S”？ - mp.ofweek.com",
+      "date": "2026-06-23",
+      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEYkllQVUtQUI4Ni1Zb3VERVJJYzg0OTZDdTJ0WndXWFk0NDBZS0RMNk5NaldaZTlHMFE0YjZlel9qejd1Qk5GNDkxcGdwYllpRVlfSC02bnQ?oc=5",
-      "content_snippet": "650万元售价，亿航智能造出了低空经济的“Model S”？mp.ofweek.com"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
+      "content_snippet": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
     },
     {
-      "date": "2025-10-05",
-      "title": "中国eVTOL亿航，中东首次载人飞行，在日本12个地点成功飞行 - 华人头条",
+      "date": "2026-06-23",
+      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd094Vi1sdXdtaE9Hb1hMMm90clFaRTQ3VWw4T1lHU3o4alZGbmdEd1dvZGw3YU9sVVE5WU4tUmFVSzdLUVREUzVYLWlLSWRKU2hOaV9JQTYyWERsZ1FxUF9jTm56RUI1dE9uMm1PV1NESVZfeFpVcVZSNzRoTzM3SFQ0TVJGQQ?oc=5",
-      "content_snippet": "中国eVTOL亿航，中东首次载人飞行，在日本12个地点成功飞行华人头条"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
+      "content_snippet": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
     },
     {
-      "date": "2025-07-01",
-      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzSndwbmV4TVVab3VwUGFVb1FETzNGQmtuRDNXcmQtODVoMS1HUF8zSEMxOEJpb0VFTDJGYjNDNEtaMlhfRGw2TER1STE?oc=5",
-      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+      "date": "2026-05-03",
+      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
+      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
     },
     {
-      "date": "2025-07-01",
-      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzSndwbmV4TVVab3VwUGFVb1FETzNGQmtuRDNXcmQtODVoMS1HUF8zSEMxOEJpb0VFTDJGYjNDNEtaMlhfRGw2TER1STE?oc=5",
-      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+      "date": "2026-05-03",
+      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
+      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
     },
     {
-      "date": "2025-07-01",
-      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzSndwbmV4TVVab3VwUGFVb1FETzNGQmtuRDNXcmQtODVoMS1HUF8zSEMxOEJpb0VFTDJGYjNDNEtaMlhfRGw2TER1STE?oc=5",
-      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3546179.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
     },
     {
-      "date": "2025-07-01",
-      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82LW9jREV3Vy1RX3ZtcjlVX19LN05XX2Q2ZE9mbUhtMG05Ry1rMm1Mdy1LTVd3WUlfNjJnRjRac1dpYXE0MmNHQmNCZ1FUTUIy?oc=5",
-      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3546179.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
     },
     {
-      "date": "2025-07-01",
-      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82LW9jREV3Vy1RX3ZtcjlVX19LN05XX2Q2ZE9mbUhtMG05Ry1rMm1Mdy1LTVd3WUlfNjJnRjRac1dpYXE0MmNHQmNCZ1FUTUIy?oc=5",
-      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3545760.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
     },
     {
-      "date": "2025-07-01",
-      "title": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82LW9jREV3Vy1RX3ZtcjlVX19LN05XX2Q2ZE9mbUhtMG05Ry1rMm1Mdy1LTVd3WUlfNjJnRjRac1dpYXE0MmNHQmNCZ1FUTUIy?oc=5",
-      "content_snippet": "亿航智能与华彬航空集团达成战略合作，打造通航+eVTOL低空合作新范式EHang"
+      "date": "2025-12-18",
+      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
+      "source": "www.bing.com",
+      "url": "https://www.stcn.com/article/detail/3545760.html",
+      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
     },
     {
-      "date": "2025-01-16",
-      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SaWhTZ0ZuRE5DeWh1UndXRzg5MnpLRng2WVplQkVjU29sMk05MVh3REJGd01EZjBEUDM3dHZXRjRmRFhTMU1aSnJuZjk?oc=5",
-      "content_snippet": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+      "date": "2025-10-23",
+      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+      "source": "www.bing.com",
+      "url": "https://news.qq.com/rain/a/20251023A018N400",
+      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
     },
     {
-      "date": "2025-01-16",
-      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SaWhTZ0ZuRE5DeWh1UndXRzg5MnpLRng2WVplQkVjU29sMk05MVh3REJGd01EZjBEUDM3dHZXRjRmRFhTMU1aSnJuZjk?oc=5",
-      "content_snippet": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+      "date": "2025-10-23",
+      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+      "source": "www.bing.com",
+      "url": "https://news.qq.com/rain/a/20251023A018N400",
+      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
     },
     {
-      "date": "2025-01-16",
-      "title": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SaWhTZ0ZuRE5DeWh1UndXRzg5MnpLRng2WVplQkVjU29sMk05MVh3REJGd01EZjBEUDM3dHZXRjRmRFhTMU1aSnJuZjk?oc=5",
-      "content_snippet": "亿航智能EH216-S无人驾驶eVTOL上海首飞，世界级中心城市将迎来空中出租车新出行EHang"
+      "date": "2025-07-12",
+      "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/roll/2025-07-12/doc-inffezhk9720934.shtml",
+      "content_snippet": "（转自：华经产业研究院）\neVTOL技术的基础可以追溯到20世纪早期。最早的垂直起降飞行器（VTOL）技术出现在直升机中，例如西科斯基的VS-300，这是早期垂直起降技术的先驱。自2010年以来，随着电池技术的飞速进步，以及对无人机和自动驾驶技术的探索，eVTOL逐渐进入实质性发展阶段。随着技术的不"
     },
     {
-      "date": "2024-12-26",
-      "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSmtuSFpUZGE4ZlozSDNXUkFhWGRVZ0pKSkVBYUFxUTdkTVlFMVNkdnp6bHMteVNKZzgwUnFhTkN4emMyRXZieDVNSzRGZEhH?oc=5",
-      "content_snippet": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
-    },
-    {
-      "date": "2024-12-26",
-      "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSmtuSFpUZGE4ZlozSDNXUkFhWGRVZ0pKSkVBYUFxUTdkTVlFMVNkdnp6bHMteVNKZzgwUnFhTkN4emMyRXZieDVNSzRGZEhH?oc=5",
-      "content_snippet": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
-    },
-    {
-      "date": "2024-12-26",
-      "title": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSmtuSFpUZGE4ZlozSDNXUkFhWGRVZ0pKSkVBYUFxUTdkTVlFMVNkdnp6bHMteVNKZzgwUnFhTkN4emMyRXZieDVNSzRGZEhH?oc=5",
-      "content_snippet": "“低空+应急”！亿航智能与北京市房山区政府达成战略合作，打造低空应急救援装备全国总部EHang"
-    },
-    {
-      "date": "2024-09-16",
-      "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
-      "content_snippet": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
-    },
-    {
-      "date": "2024-09-16",
-      "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
-      "content_snippet": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
-    },
-    {
-      "date": "2024-09-16",
-      "title": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ERldoTkp0d3JvbEJDaXhMUGlxWXRDcWIybXFKbnQ0VmwzbXZMOE54dktsMWRkelBRRFhLaEs5ZEM1aVlUVWxKbWg4bGg?oc=5",
-      "content_snippet": "巴西和中国加强民航适航合作，亿航智能EH216-S无人驾驶eVTOL获巴西国家民航局试验飞行许可证书EHang"
+      "date": "2025-07-12",
+      "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+      "source": "www.bing.com",
+      "url": "https://finance.sina.com.cn/roll/2025-07-12/doc-inffezhk9720934.shtml",
+      "content_snippet": "（转自：华经产业研究院）\neVTOL技术的基础可以追溯到20世纪早期。最早的垂直起降飞行器（VTOL）技术出现在直升机中，例如西科斯基的VS-300，这是早期垂直起降技术的先驱。自2010年以来，随着电池技术的飞速进步，以及对无人机和自动驾驶技术的探索，eVTOL逐渐进入实质性发展阶段。随着技术的不"
     }
   ],
-  "generated_at": "2026-08-16T23:52:20.039345+08:00"
+  "generated_at": "2026-08-17T16:55:02.678960+08:00"
 }

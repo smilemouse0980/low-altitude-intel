@@ -1,0 +1,70 @@
+{
+  "doc_id": "d5873a1db7fc",
+  "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a82c959d9be45c6827478f3e431a025&url=https%3a%2f%2fwww.dzwww.com%2fxinwen%2fjishixinwen%2f202604%2ft20260414_17632860.htm&c=1556149210334437766&mkt=en-us",
+  "title": "2个月融资近2亿，这家中国eVTOL新锐，要造“空中特斯拉” 低空经济 ...",
+  "content": "低空经济的浪潮奔涌而来，一位新锐力量正悄然站上舞台中央。 据悉，Skyla母公司——蓝色向量，近日完成Pre-A5轮融资，由金鼎资本领投，中金资本等跟投，老股东弘晖基金持续加码。短短两个月内，公司已累计完成近2亿元融资。一支融合航空基因与软件思维的 ...",
+  "publish_date": "2026-04-14",
+  "publisher": "Bing新闻-eVTOL中国",
+  "source_site": "www.bing.com",
+  "source_type": "bing_rss",
+  "collected_at": "2026-08-17T16:42:01.808426+08:00",
+  "quality_flag": "pending",
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "Skyla母公司",
+        "label": "org",
+        "start": 72,
+        "end": 80,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "金鼎",
+        "label": "org",
+        "start": 102,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东弘晖基金",
+        "label": "org",
+        "start": 119,
+        "end": 124,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 11,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2个月",
+        "label": "date",
+        "start": 0,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "两个月",
+        "label": "date",
+        "start": 131,
+        "end": 134,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "relations": []
+  }
+}

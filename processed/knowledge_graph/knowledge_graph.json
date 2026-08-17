@@ -1,38 +1,40 @@
 {
   "metadata": {
-    "generated_at": "2026-08-16T23:52:58.505681+08:00",
-    "total_nodes": 140,
-    "total_edges": 45,
+    "generated_at": "2026-08-17T16:55:02.713440+08:00",
+    "total_nodes": 127,
+    "total_edges": 446,
     "node_types": {
       "company": 8,
-      "person": 36,
-      "location": 89,
-      "tech": 7
+      "person": 39,
+      "location": 68,
+      "policy": 1,
+      "tech": 11
     },
     "edge_types": {
-      "mentions_person": 5,
-      "located_in": 29,
-      "cooperates_with": 1,
-      "operates_in": 10
+      "mentions_person": 133,
+      "located_in": 227,
+      "cooperates_with": 18,
+      "affected_by": 3,
+      "operates_in": 65
     }
   },
   "nodes": [
+    {
+      "id": "company:亿航智能",
+      "type": "company",
+      "name": "亿航智能",
+      "properties": {
+        "category": "eVTOL整机",
+        "mention_count": 32
+      }
+    },
     {
       "id": "company:峰飞航空",
       "type": "company",
       "name": "峰飞航空",
       "properties": {
         "category": "eVTOL整机",
-        "mention_count": 42
-      }
-    },
-    {
-      "id": "company:大疆创新",
-      "type": "company",
-      "name": "大疆创新",
-      "properties": {
-        "category": "无人机整机",
-        "mention_count": 22
+        "mention_count": 26
       }
     },
     {
@@ -45,30 +47,12 @@
       }
     },
     {
-      "id": "company:中航成飞",
+      "id": "company:大疆创新",
       "type": "company",
-      "name": "中航成飞",
+      "name": "大疆创新",
       "properties": {
-        "category": "军工航空",
+        "category": "无人机整机",
         "mention_count": 2
-      }
-    },
-    {
-      "id": "company:亿航智能",
-      "type": "company",
-      "name": "亿航智能",
-      "properties": {
-        "category": "eVTOL整机",
-        "mention_count": 68
-      }
-    },
-    {
-      "id": "company:航发动力",
-      "type": "company",
-      "name": "航发动力",
-      "properties": {
-        "category": "核心零部件",
-        "mention_count": 3
       }
     },
     {
@@ -77,7 +61,7 @@
       "name": "沃飞长空",
       "properties": {
         "category": "eVTOL整机",
-        "mention_count": 3
+        "mention_count": 12
       }
     },
     {
@@ -86,127 +70,49 @@
       "name": "小鹏汇天",
       "properties": {
         "category": "eVTOL整机",
-        "mention_count": 4
+        "mention_count": 8
       }
     },
     {
-      "id": "person:黄海平",
+      "id": "company:中国商飞",
+      "type": "company",
+      "name": "中国商飞",
+      "properties": {
+        "category": "军工航空",
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "company:中信海直",
+      "type": "company",
+      "name": "中信海直",
+      "properties": {
+        "category": "通航运营",
+        "mention_count": 6
+      }
+    },
+    {
+      "id": "person:杨岭受",
       "type": "person",
-      "name": "黄海平",
+      "name": "杨岭受",
       "properties": {
         "mention_count": 2
       }
     },
     {
-      "id": "person:北斗",
+      "id": "person:金钥匙",
       "type": "person",
-      "name": "北斗",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:罗锋",
-      "type": "person",
-      "name": "罗锋",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:张万民",
-      "type": "person",
-      "name": "张万民",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:AI",
-      "type": "person",
-      "name": "AI",
+      "name": "金钥匙",
       "properties": {
         "mention_count": 1
       }
     },
     {
-      "id": "person:华润微",
+      "id": "person:L哈萨克斯坦",
       "type": "person",
-      "name": "华润微",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:安阳",
-      "type": "person",
-      "name": "安阳",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:王志国",
-      "type": "person",
-      "name": "王志国",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:nda",
-      "type": "person",
-      "name": "nda",
+      "name": "L哈萨克斯坦",
       "properties": {
         "mention_count": 1
-      }
-    },
-    {
-      "id": "person:京报",
-      "type": "person",
-      "name": "京报",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "person:京报网",
-      "type": "person",
-      "name": "京报网",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "person:郑家响",
-      "type": "person",
-      "name": "郑家响",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:阿拉木图",
-      "type": "person",
-      "name": "阿拉木图",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:Eve全尺",
-      "type": "person",
-      "name": "Eve全尺",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "person:黄小飞",
-      "type": "person",
-      "name": "黄小飞",
-      "properties": {
-        "mention_count": 2
       }
     },
     {
@@ -218,73 +124,9 @@
       }
     },
     {
-      "id": "person:陈源",
+      "id": "person:罗马尼亚",
       "type": "person",
-      "name": "陈源",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:朱雀e",
-      "type": "person",
-      "name": "朱雀e",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:谢陵",
-      "type": "person",
-      "name": "谢陵",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:郑丽",
-      "type": "person",
-      "name": "郑丽",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "person:财联社",
-      "type": "person",
-      "name": "财联社",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:金良",
-      "type": "person",
-      "name": "金良",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:谢锋",
-      "type": "person",
-      "name": "谢锋",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:郑州",
-      "type": "person",
-      "name": "郑州",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "person:zgjtb.com",
-      "type": "person",
-      "name": "zgjtb.com",
+      "name": "罗马尼亚",
       "properties": {
         "mention_count": 1
       }
@@ -298,59 +140,35 @@
       }
     },
     {
-      "id": "person:张仲麟",
+      "id": "person:Lilium",
       "type": "person",
-      "name": "张仲麟",
+      "name": "Lilium",
       "properties": {
         "mention_count": 2
       }
     },
     {
-      "id": "person:陈聪",
+      "id": "person:张潇聪",
       "type": "person",
-      "name": "陈聪",
+      "name": "张潇聪",
       "properties": {
-        "mention_count": 3
+        "mention_count": 2
       }
     },
     {
-      "id": "person:Flight",
+      "id": "person:张潇",
       "type": "person",
-      "name": "Flight",
+      "name": "张潇",
       "properties": {
         "mention_count": 1
       }
     },
     {
-      "id": "person:徐昌东",
+      "id": "person:UAM",
       "type": "person",
-      "name": "徐昌东",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:陈聪华",
-      "type": "person",
-      "name": "陈聪华",
+      "name": "UAM",
       "properties": {
         "mention_count": 1
-      }
-    },
-    {
-      "id": "person:宋志勇",
-      "type": "person",
-      "name": "宋志勇",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "person:王刚",
-      "type": "person",
-      "name": "王刚",
-      "properties": {
-        "mention_count": 2
       }
     },
     {
@@ -362,11 +180,195 @@
       }
     },
     {
-      "id": "person:戴姆勒",
+      "id": "person:Sky Group",
       "type": "person",
-      "name": "戴姆勒",
+      "name": "Sky Group",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:何为e",
+      "type": "person",
+      "name": "何为e",
       "properties": {
         "mention_count": 1
+      }
+    },
+    {
+      "id": "person:张靖超",
+      "type": "person",
+      "name": "张靖超",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:李正豪",
+      "type": "person",
+      "name": "李正豪",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:张国刚",
+      "type": "person",
+      "name": "张国刚",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:阿森特",
+      "type": "person",
+      "name": "阿森特",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:梁晴",
+      "type": "person",
+      "name": "梁晴",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:吴秋菊",
+      "type": "person",
+      "name": "吴秋菊",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:高密度",
+      "type": "person",
+      "name": "高密度",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:[3",
+      "type": "person",
+      "name": "[3",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:[5",
+      "type": "person",
+      "name": "[5",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:洪泰智造",
+      "type": "person",
+      "name": "洪泰智造",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:兽门槛",
+      "type": "person",
+      "name": "兽门槛",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:Tech",
+      "type": "person",
+      "name": "Tech",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:凯瑞鸥",
+      "type": "person",
+      "name": "凯瑞鸥",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "person:曾毓群",
+      "type": "person",
+      "name": "曾毓群",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:倾转旋翼",
+      "type": "person",
+      "name": "倾转旋翼",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "person:Airbus",
+      "type": "person",
+      "name": "Airbus",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:Tiltrotor",
+      "type": "person",
+      "name": "Tiltrotor",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:摩根士丹利",
+      "type": "person",
+      "name": "摩根士丹利",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:沃飞长空",
+      "type": "person",
+      "name": "沃飞长空",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:张型号",
+      "type": "person",
+      "name": "张型号",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:⚠️",
+      "type": "person",
+      "name": "⚠️",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "person:黄小飞",
+      "type": "person",
+      "name": "黄小飞",
+      "properties": {
+        "mention_count": 2
       }
     },
     {
@@ -374,7 +376,39 @@
       "type": "person",
       "name": "黄雍威",
       "properties": {
-        "mention_count": 1
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "person:阿布扎比",
+      "type": "person",
+      "name": "阿布扎比",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "person:杜超",
+      "type": "person",
+      "name": "杜超",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "person:谢嘉",
+      "type": "person",
+      "name": "谢嘉",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:南昌智造",
+      "type": "location",
+      "name": "南昌智造",
+      "properties": {
+        "mention_count": 2
       }
     },
     {
@@ -382,159 +416,15 @@
       "type": "location",
       "name": "中国",
       "properties": {
-        "mention_count": 174
+        "mention_count": 114
       }
     },
     {
-      "id": "location:崇明",
+      "id": "location:山东省",
       "type": "location",
-      "name": "崇明",
+      "name": "山东省",
       "properties": {
         "mention_count": 2
-      }
-    },
-    {
-      "id": "location:广州",
-      "type": "location",
-      "name": "广州",
-      "properties": {
-        "mention_count": 8
-      }
-    },
-    {
-      "id": "location:合肥",
-      "type": "location",
-      "name": "合肥",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:天津市",
-      "type": "location",
-      "name": "天津市",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:津",
-      "type": "location",
-      "name": "津",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:湖南",
-      "type": "location",
-      "name": "湖南",
-      "properties": {
-        "mention_count": 8
-      }
-    },
-    {
-      "id": "location:丽江",
-      "type": "location",
-      "name": "丽江",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:嘉鱼",
-      "type": "location",
-      "name": "嘉鱼",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:海南",
-      "type": "location",
-      "name": "海南",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:上海",
-      "type": "location",
-      "name": "上海",
-      "properties": {
-        "mention_count": 19
-      }
-    },
-    {
-      "id": "location:成都",
-      "type": "location",
-      "name": "成都",
-      "properties": {
-        "mention_count": 7
-      }
-    },
-    {
-      "id": "location:河南安阳",
-      "type": "location",
-      "name": "河南安阳",
-      "properties": {
-        "mention_count": 3
-      }
-    },
-    {
-      "id": "location:中华",
-      "type": "location",
-      "name": "中华",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:沪",
-      "type": "location",
-      "name": "沪",
-      "properties": {
-        "mention_count": 5
-      }
-    },
-    {
-      "id": "location:广州市",
-      "type": "location",
-      "name": "广州市",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:山东",
-      "type": "location",
-      "name": "山东",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:广东",
-      "type": "location",
-      "name": "广东",
-      "properties": {
-        "mention_count": 6
-      }
-    },
-    {
-      "id": "location:深圳",
-      "type": "location",
-      "name": "深圳",
-      "properties": {
-        "mention_count": 10
-      }
-    },
-    {
-      "id": "location:新疆",
-      "type": "location",
-      "name": "新疆",
-      "properties": {
-        "mention_count": 8
       }
     },
     {
@@ -546,11 +436,11 @@
       }
     },
     {
-      "id": "location:印尼",
+      "id": "location:长春",
       "type": "location",
-      "name": "印尼",
+      "name": "长春",
       "properties": {
-        "mention_count": 7
+        "mention_count": 4
       }
     },
     {
@@ -558,39 +448,31 @@
       "type": "location",
       "name": "粤",
       "properties": {
-        "mention_count": 6
-      }
-    },
-    {
-      "id": "location:龙岗",
-      "type": "location",
-      "name": "龙岗",
-      "properties": {
         "mention_count": 2
       }
     },
     {
-      "id": "location:中山",
+      "id": "location:上海",
       "type": "location",
-      "name": "中山",
+      "name": "上海",
+      "properties": {
+        "mention_count": 16
+      }
+    },
+    {
+      "id": "location:成都",
+      "type": "location",
+      "name": "成都",
       "properties": {
         "mention_count": 4
       }
     },
     {
-      "id": "location:京报",
+      "id": "location:智造",
       "type": "location",
-      "name": "京报",
+      "name": "智造",
       "properties": {
         "mention_count": 2
-      }
-    },
-    {
-      "id": "location:多京",
-      "type": "location",
-      "name": "多京",
-      "properties": {
-        "mention_count": 1
       }
     },
     {
@@ -598,79 +480,47 @@
       "type": "location",
       "name": "北京",
       "properties": {
-        "mention_count": 16
+        "mention_count": 6
       }
     },
     {
-      "id": "location:重庆",
+      "id": "location:罗马尼亚",
       "type": "location",
-      "name": "重庆",
+      "name": "罗马尼亚",
       "properties": {
-        "mention_count": 14
+        "mention_count": 1
       }
     },
     {
-      "id": "location:重庆市",
+      "id": "location:俄罗斯",
       "type": "location",
-      "name": "重庆市",
+      "name": "俄罗斯",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:越南",
+      "type": "location",
+      "name": "越南",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:武汉",
+      "type": "location",
+      "name": "武汉",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:河北",
+      "type": "location",
+      "name": "河北",
       "properties": {
         "mention_count": 3
-      }
-    },
-    {
-      "id": "location:苏州",
-      "type": "location",
-      "name": "苏州",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:nda",
-      "type": "location",
-      "name": "nda",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:河南",
-      "type": "location",
-      "name": "河南",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:京",
-      "type": "location",
-      "name": "京",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:宝安",
-      "type": "location",
-      "name": "宝安",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:珠海率",
-      "type": "location",
-      "name": "珠海率",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:哈萨克斯坦",
-      "type": "location",
-      "name": "哈萨克斯坦",
-      "properties": {
-        "mention_count": 2
       }
     },
     {
@@ -678,15 +528,175 @@
       "type": "location",
       "name": "美国",
       "properties": {
-        "mention_count": 29
+        "mention_count": 17
       }
     },
     {
-      "id": "location:四川",
+      "id": "location:珠海",
       "type": "location",
-      "name": "四川",
+      "name": "珠海",
       "properties": {
         "mention_count": 3
+      }
+    },
+    {
+      "id": "location:西藏",
+      "type": "location",
+      "name": "西藏",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:亚洲",
+      "type": "location",
+      "name": "亚洲",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:北大荒",
+      "type": "location",
+      "name": "北大荒",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:华羽",
+      "type": "location",
+      "name": "华羽",
+      "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:德国",
+      "type": "location",
+      "name": "德国",
+      "properties": {
+        "mention_count": 7
+      }
+    },
+    {
+      "id": "location:飞长",
+      "type": "location",
+      "name": "飞长",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:空AE",
+      "type": "location",
+      "name": "空AE",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:华东",
+      "type": "location",
+      "name": "华东",
+      "properties": {
+        "mention_count": 6
+      }
+    },
+    {
+      "id": "location:长沙",
+      "type": "location",
+      "name": "长沙",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:西科斯基",
+      "type": "location",
+      "name": "西科斯基",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:华北",
+      "type": "location",
+      "name": "华北",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "location:北美",
+      "type": "location",
+      "name": "北美",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:亚太",
+      "type": "location",
+      "name": "亚太",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:东北",
+      "type": "location",
+      "name": "东北",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:VIP",
+      "type": "location",
+      "name": "VIP",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:印尼",
+      "type": "location",
+      "name": "印尼",
+      "properties": {
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "location:波士顿",
+      "type": "location",
+      "name": "波士顿",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:上海市",
+      "type": "location",
+      "name": "上海市",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:东南亚",
+      "type": "location",
+      "name": "东南亚",
+      "properties": {
+        "mention_count": 9
+      }
+    },
+    {
+      "id": "location:中东",
+      "type": "location",
+      "name": "中东",
+      "properties": {
+        "mention_count": 31
       }
     },
     {
@@ -694,29 +704,29 @@
       "type": "location",
       "name": "中亚",
       "properties": {
-        "mention_count": 5
+        "mention_count": 1
       }
     },
     {
-      "id": "location:湖北",
+      "id": "location:非洲",
       "type": "location",
-      "name": "湖北",
+      "name": "非洲",
       "properties": {
-        "mention_count": 4
+        "mention_count": 1
       }
     },
     {
-      "id": "location:韩国",
+      "id": "location:印度",
       "type": "location",
-      "name": "韩国",
+      "name": "印度",
       "properties": {
-        "mention_count": 2
+        "mention_count": 1
       }
     },
     {
-      "id": "location:华羽",
+      "id": "location:土耳其",
       "type": "location",
-      "name": "华羽",
+      "name": "土耳其",
       "properties": {
         "mention_count": 1
       }
@@ -726,23 +736,55 @@
       "type": "location",
       "name": "阿联酋",
       "properties": {
-        "mention_count": 5
+        "mention_count": 14
       }
     },
     {
-      "id": "location:中东",
+      "id": "location:合肥",
       "type": "location",
-      "name": "中东",
-      "properties": {
-        "mention_count": 5
-      }
-    },
-    {
-      "id": "location:贵州省",
-      "type": "location",
-      "name": "贵州省",
+      "name": "合肥",
       "properties": {
         "mention_count": 2
+      }
+    },
+    {
+      "id": "location:菲律宾",
+      "type": "location",
+      "name": "菲律宾",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:马尼拉",
+      "type": "location",
+      "name": "马尼拉",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:康涅狄格州",
+      "type": "location",
+      "name": "康涅狄格州",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:中长",
+      "type": "location",
+      "name": "中长",
+      "properties": {
+        "mention_count": 1
+      }
+    },
+    {
+      "id": "location:欧洲",
+      "type": "location",
+      "name": "欧洲",
+      "properties": {
+        "mention_count": 6
       }
     },
     {
@@ -750,7 +792,7 @@
       "type": "location",
       "name": "日本",
       "properties": {
-        "mention_count": 6
+        "mention_count": 3
       }
     },
     {
@@ -766,270 +808,6 @@
       "type": "location",
       "name": "美",
       "properties": {
-        "mention_count": 6
-      }
-    },
-    {
-      "id": "location:网易网",
-      "type": "location",
-      "name": "网易网",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:巴西",
-      "type": "location",
-      "name": "巴西",
-      "properties": {
-        "mention_count": 5
-      }
-    },
-    {
-      "id": "location:台湾",
-      "type": "location",
-      "name": "台湾",
-      "properties": {
-        "mention_count": 8
-      }
-    },
-    {
-      "id": "location:乌克兰",
-      "type": "location",
-      "name": "乌克兰",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:宁波",
-      "type": "location",
-      "name": "宁波",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:无人机",
-      "type": "location",
-      "name": "无人机",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:北京史",
-      "type": "location",
-      "name": "北京史",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:海峡",
-      "type": "location",
-      "name": "海峡",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:欧洲",
-      "type": "location",
-      "name": "欧洲",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:西安",
-      "type": "location",
-      "name": "西安",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:印度",
-      "type": "location",
-      "name": "印度",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:珠海",
-      "type": "location",
-      "name": "珠海",
-      "properties": {
-        "mention_count": 12
-      }
-    },
-    {
-      "id": "location:深圳市",
-      "type": "location",
-      "name": "深圳市",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:香港特别",
-      "type": "location",
-      "name": "香港特别",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:东欧",
-      "type": "location",
-      "name": "东欧",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:珠海市",
-      "type": "location",
-      "name": "珠海市",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:澳大利亚",
-      "type": "location",
-      "name": "澳大利亚",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:拟禁",
-      "type": "location",
-      "name": "拟禁",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:越南",
-      "type": "location",
-      "name": "越南",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:缅甸",
-      "type": "location",
-      "name": "缅甸",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:武汉",
-      "type": "location",
-      "name": "武汉",
-      "properties": {
-        "mention_count": 8
-      }
-    },
-    {
-      "id": "location:南航",
-      "type": "location",
-      "name": "南航",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:南海",
-      "type": "location",
-      "name": "南海",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:亚洲",
-      "type": "location",
-      "name": "亚洲",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:东北",
-      "type": "location",
-      "name": "东北",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:沈阳",
-      "type": "location",
-      "name": "沈阳",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:安徽省",
-      "type": "location",
-      "name": "安徽省",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:安徽",
-      "type": "location",
-      "name": "安徽",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:华声",
-      "type": "location",
-      "name": "华声",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:印发",
-      "type": "location",
-      "name": "印发",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:山东省",
-      "type": "location",
-      "name": "山东省",
-      "properties": {
-        "mention_count": 4
-      }
-    },
-    {
-      "id": "location:温州",
-      "type": "location",
-      "name": "温州",
-      "properties": {
-        "mention_count": 2
-      }
-    },
-    {
-      "id": "location:北京市",
-      "type": "location",
-      "name": "北京市",
-      "properties": {
         "mention_count": 2
       }
     },
@@ -1038,37 +816,29 @@
       "type": "location",
       "name": "欧美",
       "properties": {
-        "mention_count": 1
+        "mention_count": 3
       }
     },
     {
-      "id": "location:浙江",
+      "id": "location:深圳",
       "type": "location",
-      "name": "浙江",
+      "name": "深圳",
       "properties": {
         "mention_count": 2
       }
     },
     {
-      "id": "location:凤凰网",
+      "id": "location:中航",
       "type": "location",
-      "name": "凤凰网",
+      "name": "中航",
       "properties": {
         "mention_count": 1
       }
     },
     {
-      "id": "location:西科斯基",
+      "id": "location:广州",
       "type": "location",
-      "name": "西科斯基",
-      "properties": {
-        "mention_count": 1
-      }
-    },
-    {
-      "id": "location:东南亚",
-      "type": "location",
-      "name": "东南亚",
+      "name": "广州",
       "properties": {
         "mention_count": 1
       }
@@ -1078,7 +848,7 @@
       "type": "location",
       "name": "泰国",
       "properties": {
-        "mention_count": 2
+        "mention_count": 10
       }
     },
     {
@@ -1086,7 +856,103 @@
       "type": "location",
       "name": "迪拜",
       "properties": {
+        "mention_count": 8
+      }
+    },
+    {
+      "id": "location:沙特",
+      "type": "location",
+      "name": "沙特",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:北非地区",
+      "type": "location",
+      "name": "北非地区",
+      "properties": {
+        "mention_count": 4
+      }
+    },
+    {
+      "id": "location:沙特阿拉伯",
+      "type": "location",
+      "name": "沙特阿拉伯",
+      "properties": {
         "mention_count": 2
+      }
+    },
+    {
+      "id": "location:卡塔尔",
+      "type": "location",
+      "name": "卡塔尔",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:瑞鸥",
+      "type": "location",
+      "name": "瑞鸥",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:Autocraft",
+      "type": "location",
+      "name": "Autocraft",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:曼谷",
+      "type": "location",
+      "name": "曼谷",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:印度尼西亚",
+      "type": "location",
+      "name": "印度尼西亚",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:西班牙",
+      "type": "location",
+      "name": "西班牙",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:阿根廷",
+      "type": "location",
+      "name": "阿根廷",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "location:蓝海",
+      "type": "location",
+      "name": "蓝海",
+      "properties": {
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "policy:低空经济发展司",
+      "type": "policy",
+      "name": "低空经济发展司",
+      "properties": {
+        "mention_count": 1
       }
     },
     {
@@ -1094,7 +960,23 @@
       "type": "tech",
       "name": "eVTOL",
       "properties": {
-        "mention_count": 99
+        "mention_count": 32
+      }
+    },
+    {
+      "id": "tech:通用航空",
+      "type": "tech",
+      "name": "通用航空",
+      "properties": {
+        "mention_count": 7
+      }
+    },
+    {
+      "id": "tech:应急救援",
+      "type": "tech",
+      "name": "应急救援",
+      "properties": {
+        "mention_count": 5
       }
     },
     {
@@ -1106,11 +988,19 @@
       }
     },
     {
-      "id": "tech:通用航空",
+      "id": "tech:电池技术",
       "type": "tech",
-      "name": "通用航空",
+      "name": "电池技术",
       "properties": {
-        "mention_count": 29
+        "mention_count": 3
+      }
+    },
+    {
+      "id": "tech:复合材料",
+      "type": "tech",
+      "name": "复合材料",
+      "properties": {
+        "mention_count": 4
       }
     },
     {
@@ -1118,15 +1008,23 @@
       "type": "tech",
       "name": "城市空中交通",
       "properties": {
-        "mention_count": 1
+        "mention_count": 6
       }
     },
     {
-      "id": "tech:应急救援",
+      "id": "tech:UAM",
       "type": "tech",
-      "name": "应急救援",
+      "name": "UAM",
       "properties": {
-        "mention_count": 3
+        "mention_count": 2
+      }
+    },
+    {
+      "id": "tech:适航认证",
+      "type": "tech",
+      "name": "适航认证",
+      "properties": {
+        "mention_count": 6
       }
     },
     {
@@ -1134,13 +1032,13 @@
       "type": "tech",
       "name": "无人驾驶航空器",
       "properties": {
-        "mention_count": 2
+        "mention_count": 1
       }
     },
     {
-      "id": "tech:电池技术",
+      "id": "tech:低空空域",
       "type": "tech",
-      "name": "电池技术",
+      "name": "低空空域",
       "properties": {
         "mention_count": 2
       }
@@ -1149,28 +1047,252 @@
   "edges": [
     {
       "id": "e1",
-      "source": "company:中航成飞",
-      "target": "person:Eve全尺",
+      "source": "company:峰飞航空",
+      "target": "person:金钥匙",
       "type": "mentions_person",
       "weight": 1,
       "records": [
-        "Eve全尺寸eVTOL原型机完成飞行演示 - 中国民航网"
+        "峰飞航空科技高级副总裁谢嘉：大型eVTOL是低空经济产业跃升的“金钥匙” - cb.com.cn"
       ],
-      "date": "2026-03-30"
+      "date": "2026-05-29"
     },
     {
       "id": "e2",
-      "source": "company:沃兰特",
-      "target": "person:黄小飞",
+      "source": "company:亿航智能",
+      "target": "person:Lilium",
       "type": "mentions_person",
-      "weight": 1,
+      "weight": 2,
       "records": [
-        "专访沃兰特总裁黄小飞：eVTOL适航取证和研制效率“两手抓” 今年要完成小批量交付 - 证券时报"
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
       ],
-      "date": "2026-05-07"
+      "date": "2026-08-15"
     },
     {
       "id": "e3",
+      "source": "company:亿航智能",
+      "target": "person:张潇聪",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e4",
+      "source": "company:亿航智能",
+      "target": "person:张潇",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e5",
+      "source": "company:沃兰特",
+      "target": "person:Lilium",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e6",
+      "source": "company:沃兰特",
+      "target": "person:张潇聪",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e7",
+      "source": "company:沃兰特",
+      "target": "person:张潇",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e8",
+      "source": "company:峰飞航空",
+      "target": "person:Lilium",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e9",
+      "source": "company:峰飞航空",
+      "target": "person:张潇聪",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e10",
+      "source": "company:峰飞航空",
+      "target": "person:张潇",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e11",
+      "source": "company:沃飞长空",
+      "target": "person:Lilium",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e12",
+      "source": "company:沃飞长空",
+      "target": "person:张潇聪",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e13",
+      "source": "company:沃飞长空",
+      "target": "person:张潇",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e14",
+      "source": "company:小鹏汇天",
+      "target": "person:Lilium",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e15",
+      "source": "company:小鹏汇天",
+      "target": "person:张潇聪",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e16",
+      "source": "company:小鹏汇天",
+      "target": "person:张潇",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e17",
+      "source": "company:亿航智能",
+      "target": "person:UAM",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析"
+      ],
+      "date": "2025-07-12"
+    },
+    {
+      "id": "e18",
+      "source": "company:沃兰特",
+      "target": "person:UAM",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析"
+      ],
+      "date": "2025-07-12"
+    },
+    {
+      "id": "e19",
+      "source": "company:沃飞长空",
+      "target": "person:UAM",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析"
+      ],
+      "date": "2025-07-12"
+    },
+    {
+      "id": "e20",
+      "source": "company:沃兰特",
+      "target": "person:张国刚",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ..."
+      ],
+      "date": "2026-08-12"
+    },
+    {
+      "id": "e21",
+      "source": "company:沃兰特",
+      "target": "person:Sky Group",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ..."
+      ],
+      "date": "2026-08-12"
+    },
+    {
+      "id": "e22",
+      "source": "company:沃兰特",
+      "target": "person:张靖超",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ..."
+      ],
+      "date": "2026-08-12"
+    },
+    {
+      "id": "e23",
       "source": "company:沃兰特",
       "target": "person:杨让晨",
       "type": "mentions_person",
@@ -1181,308 +1303,3546 @@
       "date": "2026-08-12"
     },
     {
-      "id": "e4",
-      "source": "company:峰飞航空",
-      "target": "person:戴姆勒",
+      "id": "e24",
+      "source": "company:沃兰特",
+      "target": "person:何为e",
       "type": "mentions_person",
       "weight": 1,
       "records": [
-        "“准生证”落地，eVTOL“高飞”"
+        "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ..."
       ],
-      "date": "2023-10-29"
+      "date": "2026-08-12"
     },
     {
-      "id": "e5",
-      "source": "company:亿航智能",
-      "target": "person:戴姆勒",
+      "id": "e25",
+      "source": "company:沃兰特",
+      "target": "person:李正豪",
       "type": "mentions_person",
       "weight": 1,
       "records": [
-        "“准生证”落地，eVTOL“高飞”"
+        "从“设计安全”到“验证经济” 沃兰特CEO董明：未来5—10年才是eVTOL ..."
       ],
-      "date": "2023-10-29"
+      "date": "2026-08-12"
     },
     {
-      "id": "e6",
+      "id": "e26",
       "source": "company:亿航智能",
-      "target": "location:中国",
-      "type": "located_in",
-      "weight": 5
+      "target": "person:高密度",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e7",
+      "id": "e27",
       "source": "company:亿航智能",
-      "target": "location:美国",
-      "type": "located_in",
-      "weight": 1
+      "target": "person:[5",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e8",
-      "source": "company:峰飞航空",
-      "target": "location:阿联酋",
-      "type": "located_in",
-      "weight": 1
+      "id": "e28",
+      "source": "company:亿航智能",
+      "target": "person:吴秋菊",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e9",
-      "source": "company:峰飞航空",
-      "target": "location:中国",
-      "type": "located_in",
-      "weight": 2
+      "id": "e29",
+      "source": "company:亿航智能",
+      "target": "person:[3",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e10",
+      "id": "e30",
       "source": "company:沃兰特",
-      "target": "location:中国",
-      "type": "located_in",
-      "weight": 3
+      "target": "person:高密度",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e11",
+      "id": "e31",
       "source": "company:沃兰特",
-      "target": "location:中东",
-      "type": "located_in",
-      "weight": 1
+      "target": "person:[5",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e12",
+      "id": "e32",
+      "source": "company:沃兰特",
+      "target": "person:吴秋菊",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e33",
+      "source": "company:沃兰特",
+      "target": "person:[3",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e34",
       "source": "company:峰飞航空",
-      "target": "location:印尼",
-      "type": "located_in",
-      "weight": 1
+      "target": "person:高密度",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
     },
     {
-      "id": "e13",
+      "id": "e35",
       "source": "company:峰飞航空",
-      "target": "location:网易网",
+      "target": "person:[5",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e36",
+      "source": "company:峰飞航空",
+      "target": "person:吴秋菊",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e37",
+      "source": "company:峰飞航空",
+      "target": "person:[3",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e38",
+      "source": "company:沃飞长空",
+      "target": "person:高密度",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e39",
+      "source": "company:沃飞长空",
+      "target": "person:[5",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e40",
+      "source": "company:沃飞长空",
+      "target": "person:吴秋菊",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e41",
+      "source": "company:沃飞长空",
+      "target": "person:[3",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e42",
+      "source": "company:小鹏汇天",
+      "target": "person:高密度",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e43",
+      "source": "company:小鹏汇天",
+      "target": "person:[5",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e44",
+      "source": "company:小鹏汇天",
+      "target": "person:吴秋菊",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e45",
+      "source": "company:小鹏汇天",
+      "target": "person:[3",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "id": "e46",
+      "source": "company:亿航智能",
+      "target": "person:曾毓群",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e47",
+      "source": "company:亿航智能",
+      "target": "person:洪泰智造",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e48",
+      "source": "company:亿航智能",
+      "target": "person:Tiltrotor",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e49",
+      "source": "company:亿航智能",
+      "target": "person:兽门槛",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e50",
+      "source": "company:亿航智能",
+      "target": "person:⚠️",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e51",
+      "source": "company:亿航智能",
+      "target": "person:张型号",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e52",
+      "source": "company:亿航智能",
+      "target": "person:沃飞长空",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e53",
+      "source": "company:亿航智能",
+      "target": "person:Airbus",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e54",
+      "source": "company:亿航智能",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 3,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e55",
+      "source": "company:亿航智能",
+      "target": "person:Tech",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e56",
+      "source": "company:亿航智能",
+      "target": "person:倾转旋翼",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e57",
+      "source": "company:亿航智能",
+      "target": "person:摩根士丹利",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e58",
+      "source": "company:沃兰特",
+      "target": "person:曾毓群",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e59",
+      "source": "company:沃兰特",
+      "target": "person:洪泰智造",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e60",
+      "source": "company:沃兰特",
+      "target": "person:Tiltrotor",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e61",
+      "source": "company:沃兰特",
+      "target": "person:兽门槛",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e62",
+      "source": "company:沃兰特",
+      "target": "person:⚠️",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e63",
+      "source": "company:沃兰特",
+      "target": "person:张型号",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e64",
+      "source": "company:沃兰特",
+      "target": "person:沃飞长空",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e65",
+      "source": "company:沃兰特",
+      "target": "person:Airbus",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e66",
+      "source": "company:沃兰特",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 3,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e67",
+      "source": "company:沃兰特",
+      "target": "person:Tech",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e68",
+      "source": "company:沃兰特",
+      "target": "person:倾转旋翼",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e69",
+      "source": "company:沃兰特",
+      "target": "person:摩根士丹利",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e70",
+      "source": "company:中国商飞",
+      "target": "person:曾毓群",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e71",
+      "source": "company:中国商飞",
+      "target": "person:洪泰智造",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e72",
+      "source": "company:中国商飞",
+      "target": "person:Tiltrotor",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e73",
+      "source": "company:中国商飞",
+      "target": "person:兽门槛",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e74",
+      "source": "company:中国商飞",
+      "target": "person:⚠️",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e75",
+      "source": "company:中国商飞",
+      "target": "person:张型号",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e76",
+      "source": "company:中国商飞",
+      "target": "person:Lilium",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e77",
+      "source": "company:中国商飞",
+      "target": "person:沃飞长空",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e78",
+      "source": "company:中国商飞",
+      "target": "person:Airbus",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e79",
+      "source": "company:中国商飞",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e80",
+      "source": "company:中国商飞",
+      "target": "person:Tech",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e81",
+      "source": "company:中国商飞",
+      "target": "person:倾转旋翼",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e82",
+      "source": "company:中国商飞",
+      "target": "person:摩根士丹利",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e83",
+      "source": "company:峰飞航空",
+      "target": "person:曾毓群",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e84",
+      "source": "company:峰飞航空",
+      "target": "person:洪泰智造",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e85",
+      "source": "company:峰飞航空",
+      "target": "person:Tiltrotor",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e86",
+      "source": "company:峰飞航空",
+      "target": "person:兽门槛",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e87",
+      "source": "company:峰飞航空",
+      "target": "person:⚠️",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e88",
+      "source": "company:峰飞航空",
+      "target": "person:张型号",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e89",
+      "source": "company:峰飞航空",
+      "target": "person:沃飞长空",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e90",
+      "source": "company:峰飞航空",
+      "target": "person:Airbus",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e91",
+      "source": "company:峰飞航空",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 3,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e92",
+      "source": "company:峰飞航空",
+      "target": "person:Tech",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e93",
+      "source": "company:峰飞航空",
+      "target": "person:倾转旋翼",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e94",
+      "source": "company:峰飞航空",
+      "target": "person:摩根士丹利",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e95",
+      "source": "company:沃飞长空",
+      "target": "person:曾毓群",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e96",
+      "source": "company:沃飞长空",
+      "target": "person:洪泰智造",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e97",
+      "source": "company:沃飞长空",
+      "target": "person:Tiltrotor",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e98",
+      "source": "company:沃飞长空",
+      "target": "person:兽门槛",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e99",
+      "source": "company:沃飞长空",
+      "target": "person:⚠️",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e100",
+      "source": "company:沃飞长空",
+      "target": "person:张型号",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e101",
+      "source": "company:沃飞长空",
+      "target": "person:沃飞长空",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e102",
+      "source": "company:沃飞长空",
+      "target": "person:Airbus",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e103",
+      "source": "company:沃飞长空",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e104",
+      "source": "company:沃飞长空",
+      "target": "person:Tech",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e105",
+      "source": "company:沃飞长空",
+      "target": "person:倾转旋翼",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e106",
+      "source": "company:沃飞长空",
+      "target": "person:摩根士丹利",
+      "type": "mentions_person",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e107",
+      "source": "company:亿航智能",
+      "target": "person:黄雍威",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e108",
+      "source": "company:亿航智能",
+      "target": "person:谢嘉",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e109",
+      "source": "company:亿航智能",
+      "target": "person:杜超",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e110",
+      "source": "company:亿航智能",
+      "target": "person:黄小飞",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e111",
+      "source": "company:亿航智能",
+      "target": "person:阿布扎比",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e112",
+      "source": "company:沃兰特",
+      "target": "person:黄雍威",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e113",
+      "source": "company:沃兰特",
+      "target": "person:谢嘉",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e114",
+      "source": "company:沃兰特",
+      "target": "person:杜超",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e115",
+      "source": "company:沃兰特",
+      "target": "person:黄小飞",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e116",
+      "source": "company:沃兰特",
+      "target": "person:阿布扎比",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e117",
+      "source": "company:峰飞航空",
+      "target": "person:黄雍威",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e118",
+      "source": "company:峰飞航空",
+      "target": "person:谢嘉",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e119",
+      "source": "company:峰飞航空",
+      "target": "person:杜超",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e120",
+      "source": "company:峰飞航空",
+      "target": "person:黄小飞",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e121",
+      "source": "company:峰飞航空",
+      "target": "person:阿布扎比",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e122",
+      "source": "company:中信海直",
+      "target": "person:黄雍威",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e123",
+      "source": "company:中信海直",
+      "target": "person:谢嘉",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e124",
+      "source": "company:中信海直",
+      "target": "person:杜超",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e125",
+      "source": "company:中信海直",
+      "target": "person:黄小飞",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e126",
+      "source": "company:中信海直",
+      "target": "person:阿布扎比",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e127",
+      "source": "company:中信海直",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e128",
+      "source": "company:小鹏汇天",
+      "target": "person:黄雍威",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e129",
+      "source": "company:小鹏汇天",
+      "target": "person:谢嘉",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e130",
+      "source": "company:小鹏汇天",
+      "target": "person:杜超",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e131",
+      "source": "company:小鹏汇天",
+      "target": "person:黄小飞",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e132",
+      "source": "company:小鹏汇天",
+      "target": "person:阿布扎比",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e133",
+      "source": "company:小鹏汇天",
+      "target": "person:凯瑞鸥",
+      "type": "mentions_person",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e134",
+      "source": "company:亿航智能",
+      "target": "location:香港",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e14",
-      "source": "company:亿航智能",
-      "target": "location:巴西",
-      "type": "located_in",
-      "weight": 2
-    },
-    {
-      "id": "e15",
-      "source": "company:亿航智能",
-      "target": "location:上海",
-      "type": "located_in",
-      "weight": 1
-    },
-    {
-      "id": "e16",
-      "source": "company:亿航智能",
-      "target": "location:日本",
-      "type": "located_in",
-      "weight": 1
-    },
-    {
-      "id": "e17",
-      "source": "company:亿航智能",
-      "target": "location:中东",
-      "type": "located_in",
-      "weight": 1
-    },
-    {
-      "id": "e18",
+      "id": "e135",
       "source": "company:大疆创新",
       "target": "location:北京",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e19",
-      "source": "company:大疆创新",
-      "target": "location:中国",
+      "id": "e136",
+      "source": "company:亿航智能",
+      "target": "location:成都",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e137",
+      "source": "company:亿航智能",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e138",
+      "source": "company:亿航智能",
+      "target": "location:华东",
+      "type": "located_in",
+      "weight": 4
+    },
+    {
+      "id": "e139",
+      "source": "company:亿航智能",
+      "target": "location:长沙",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e20",
-      "source": "company:大疆创新",
+      "id": "e140",
+      "source": "company:亿航智能",
+      "target": "location:华羽",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e141",
+      "source": "company:亿航智能",
+      "target": "location:飞长",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e142",
+      "source": "company:亿航智能",
+      "target": "location:空AE",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e143",
+      "source": "company:亿航智能",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 4
+    },
+    {
+      "id": "e144",
+      "source": "company:亿航智能",
+      "target": "location:德国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e145",
+      "source": "company:沃兰特",
+      "target": "location:成都",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e146",
+      "source": "company:沃兰特",
       "target": "location:美国",
       "type": "located_in",
       "weight": 4
     },
     {
-      "id": "e21",
-      "source": "company:大疆创新",
-      "target": "location:美",
+      "id": "e147",
+      "source": "company:沃兰特",
+      "target": "location:华东",
+      "type": "located_in",
+      "weight": 4
+    },
+    {
+      "id": "e148",
+      "source": "company:沃兰特",
+      "target": "location:长沙",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e22",
+      "id": "e149",
+      "source": "company:沃兰特",
+      "target": "location:华羽",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e150",
+      "source": "company:沃兰特",
+      "target": "location:飞长",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e151",
+      "source": "company:沃兰特",
+      "target": "location:空AE",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e152",
+      "source": "company:沃兰特",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 5
+    },
+    {
+      "id": "e153",
+      "source": "company:沃兰特",
+      "target": "location:德国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e154",
+      "source": "company:峰飞航空",
+      "target": "location:成都",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e155",
+      "source": "company:峰飞航空",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e156",
+      "source": "company:峰飞航空",
+      "target": "location:华东",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e157",
+      "source": "company:峰飞航空",
+      "target": "location:长沙",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e158",
+      "source": "company:峰飞航空",
+      "target": "location:华羽",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e159",
+      "source": "company:峰飞航空",
+      "target": "location:飞长",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e160",
+      "source": "company:峰飞航空",
+      "target": "location:空AE",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e161",
+      "source": "company:峰飞航空",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 4
+    },
+    {
+      "id": "e162",
+      "source": "company:峰飞航空",
+      "target": "location:德国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e163",
+      "source": "company:沃飞长空",
+      "target": "location:成都",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e164",
+      "source": "company:沃飞长空",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e165",
+      "source": "company:沃飞长空",
+      "target": "location:华东",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e166",
+      "source": "company:沃飞长空",
+      "target": "location:长沙",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e167",
+      "source": "company:沃飞长空",
+      "target": "location:华羽",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e168",
+      "source": "company:沃飞长空",
+      "target": "location:飞长",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e169",
+      "source": "company:沃飞长空",
+      "target": "location:空AE",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e170",
+      "source": "company:沃飞长空",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e171",
+      "source": "company:沃飞长空",
+      "target": "location:德国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e172",
+      "source": "company:小鹏汇天",
+      "target": "location:成都",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e173",
+      "source": "company:小鹏汇天",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e174",
+      "source": "company:小鹏汇天",
+      "target": "location:华东",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e175",
+      "source": "company:小鹏汇天",
+      "target": "location:长沙",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e176",
+      "source": "company:小鹏汇天",
+      "target": "location:华羽",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e177",
+      "source": "company:小鹏汇天",
+      "target": "location:飞长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e178",
+      "source": "company:小鹏汇天",
+      "target": "location:空AE",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e179",
+      "source": "company:小鹏汇天",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e180",
+      "source": "company:小鹏汇天",
+      "target": "location:德国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e181",
       "source": "company:亿航智能",
-      "target": "location:南航",
+      "target": "location:中国",
       "type": "located_in",
-      "weight": 1
+      "weight": 5
     },
     {
-      "id": "e23",
+      "id": "e182",
       "source": "company:亿航智能",
-      "target": "location:北京市",
+      "target": "location:华北",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e24",
+      "id": "e183",
+      "source": "company:亿航智能",
+      "target": "location:西科斯基",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e184",
+      "source": "company:亿航智能",
+      "target": "location:北美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e185",
+      "source": "company:亿航智能",
+      "target": "location:亚太",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e186",
+      "source": "company:亿航智能",
+      "target": "location:东北",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e187",
+      "source": "company:亿航智能",
+      "target": "location:VIP",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e188",
+      "source": "company:沃兰特",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 6
+    },
+    {
+      "id": "e189",
+      "source": "company:沃兰特",
+      "target": "location:华北",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e190",
+      "source": "company:沃兰特",
+      "target": "location:西科斯基",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e191",
+      "source": "company:沃兰特",
+      "target": "location:北美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e192",
+      "source": "company:沃兰特",
+      "target": "location:亚太",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e193",
+      "source": "company:沃兰特",
+      "target": "location:东北",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e194",
+      "source": "company:沃兰特",
+      "target": "location:VIP",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e195",
+      "source": "company:沃飞长空",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e196",
+      "source": "company:沃飞长空",
+      "target": "location:华北",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e197",
+      "source": "company:沃飞长空",
+      "target": "location:西科斯基",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e198",
+      "source": "company:沃飞长空",
+      "target": "location:北美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e199",
+      "source": "company:沃飞长空",
+      "target": "location:亚太",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e200",
+      "source": "company:沃飞长空",
+      "target": "location:东北",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e201",
+      "source": "company:沃飞长空",
+      "target": "location:VIP",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e202",
+      "source": "company:沃兰特",
+      "target": "location:上海市",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e203",
       "source": "company:沃兰特",
       "target": "location:印尼",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e25",
+      "id": "e204",
       "source": "company:沃兰特",
-      "target": "location:上海",
+      "target": "location:波士顿",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e26",
+      "id": "e205",
+      "source": "company:亿航智能",
+      "target": "location:康涅狄格州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e206",
+      "source": "company:亿航智能",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e207",
+      "source": "company:亿航智能",
+      "target": "location:欧美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e208",
+      "source": "company:亿航智能",
+      "target": "location:中",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e209",
+      "source": "company:亿航智能",
+      "target": "location:美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e210",
+      "source": "company:亿航智能",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e211",
+      "source": "company:亿航智能",
+      "target": "location:中长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e212",
+      "source": "company:亿航智能",
+      "target": "location:欧洲",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e213",
+      "source": "company:沃兰特",
+      "target": "location:康涅狄格州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e214",
+      "source": "company:沃兰特",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e215",
+      "source": "company:沃兰特",
+      "target": "location:欧美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e216",
+      "source": "company:沃兰特",
+      "target": "location:中",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e217",
+      "source": "company:沃兰特",
+      "target": "location:美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e218",
+      "source": "company:沃兰特",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e219",
+      "source": "company:沃兰特",
+      "target": "location:中长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e220",
+      "source": "company:沃兰特",
+      "target": "location:欧洲",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e221",
+      "source": "company:峰飞航空",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 5
+    },
+    {
+      "id": "e222",
+      "source": "company:峰飞航空",
+      "target": "location:康涅狄格州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e223",
+      "source": "company:峰飞航空",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e224",
+      "source": "company:峰飞航空",
+      "target": "location:欧美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e225",
+      "source": "company:峰飞航空",
+      "target": "location:中",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e226",
+      "source": "company:峰飞航空",
+      "target": "location:美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e227",
+      "source": "company:峰飞航空",
+      "target": "location:亚太",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e228",
+      "source": "company:峰飞航空",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e229",
+      "source": "company:峰飞航空",
+      "target": "location:中长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e230",
+      "source": "company:峰飞航空",
+      "target": "location:欧洲",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e231",
       "source": "company:沃飞长空",
+      "target": "location:康涅狄格州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e232",
+      "source": "company:沃飞长空",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e233",
+      "source": "company:沃飞长空",
+      "target": "location:欧美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e234",
+      "source": "company:沃飞长空",
+      "target": "location:中",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e235",
+      "source": "company:沃飞长空",
+      "target": "location:美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e236",
+      "source": "company:沃飞长空",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e237",
+      "source": "company:沃飞长空",
+      "target": "location:中长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e238",
+      "source": "company:沃飞长空",
+      "target": "location:欧洲",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e239",
+      "source": "company:小鹏汇天",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e240",
+      "source": "company:小鹏汇天",
+      "target": "location:康涅狄格州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e241",
+      "source": "company:小鹏汇天",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e242",
+      "source": "company:小鹏汇天",
+      "target": "location:欧美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e243",
+      "source": "company:小鹏汇天",
+      "target": "location:中",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e244",
+      "source": "company:小鹏汇天",
+      "target": "location:美",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e245",
+      "source": "company:小鹏汇天",
+      "target": "location:亚太",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e246",
+      "source": "company:小鹏汇天",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e247",
+      "source": "company:小鹏汇天",
+      "target": "location:中长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e248",
+      "source": "company:小鹏汇天",
+      "target": "location:欧洲",
+      "type": "located_in",
+      "weight": 3
+    },
+    {
+      "id": "e249",
+      "source": "company:亿航智能",
+      "target": "location:珠海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e250",
+      "source": "company:亿航智能",
+      "target": "location:中航",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e251",
+      "source": "company:亿航智能",
+      "target": "location:合肥",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e252",
+      "source": "company:亿航智能",
+      "target": "location:广州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e253",
+      "source": "company:亿航智能",
+      "target": "location:深圳",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e254",
+      "source": "company:沃兰特",
+      "target": "location:珠海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e255",
+      "source": "company:沃兰特",
+      "target": "location:中航",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e256",
+      "source": "company:沃兰特",
+      "target": "location:合肥",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e257",
+      "source": "company:沃兰特",
+      "target": "location:广州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e258",
+      "source": "company:沃兰特",
+      "target": "location:深圳",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e259",
+      "source": "company:中国商飞",
+      "target": "location:中国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e260",
+      "source": "company:中国商飞",
       "target": "location:成都",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e27",
-      "source": "company:沃飞长空",
-      "target": "location:中国",
+      "id": "e261",
+      "source": "company:中国商飞",
+      "target": "location:珠海",
       "type": "located_in",
       "weight": 1
     },
     {
-      "id": "e28",
-      "source": "company:小鹏汇天",
+      "id": "e262",
+      "source": "company:中国商飞",
+      "target": "location:美国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e263",
+      "source": "company:中国商飞",
+      "target": "location:中航",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e264",
+      "source": "company:中国商飞",
+      "target": "location:合肥",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e265",
+      "source": "company:中国商飞",
+      "target": "location:广州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e266",
+      "source": "company:中国商飞",
+      "target": "location:飞长",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e267",
+      "source": "company:中国商飞",
+      "target": "location:深圳",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e268",
+      "source": "company:中国商飞",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e269",
+      "source": "company:中国商飞",
+      "target": "location:德国",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e270",
+      "source": "company:峰飞航空",
+      "target": "location:珠海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e271",
+      "source": "company:峰飞航空",
+      "target": "location:中航",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e272",
+      "source": "company:峰飞航空",
+      "target": "location:合肥",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e273",
+      "source": "company:峰飞航空",
+      "target": "location:广州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e274",
+      "source": "company:峰飞航空",
+      "target": "location:深圳",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e275",
+      "source": "company:沃飞长空",
+      "target": "location:珠海",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e276",
+      "source": "company:沃飞长空",
+      "target": "location:中航",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e277",
+      "source": "company:沃飞长空",
+      "target": "location:合肥",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e278",
+      "source": "company:沃飞长空",
+      "target": "location:广州",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e279",
+      "source": "company:沃飞长空",
+      "target": "location:深圳",
+      "type": "located_in",
+      "weight": 1
+    },
+    {
+      "id": "e280",
+      "source": "company:亿航智能",
+      "target": "location:瑞鸥",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e281",
+      "source": "company:亿航智能",
+      "target": "location:沙特",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e282",
+      "source": "company:亿航智能",
       "target": "location:迪拜",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e29",
-      "source": "company:小鹏汇天",
+      "id": "e283",
+      "source": "company:亿航智能",
+      "target": "location:卡塔尔",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e284",
+      "source": "company:亿航智能",
+      "target": "location:泰国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e285",
+      "source": "company:亿航智能",
+      "target": "location:Autocraft",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e286",
+      "source": "company:亿航智能",
+      "target": "location:阿根廷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e287",
+      "source": "company:亿航智能",
+      "target": "location:沙特阿拉伯",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e288",
+      "source": "company:亿航智能",
+      "target": "location:西班牙",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e289",
+      "source": "company:亿航智能",
+      "target": "location:曼谷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e290",
+      "source": "company:亿航智能",
+      "target": "location:蓝海",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e291",
+      "source": "company:亿航智能",
+      "target": "location:北非地区",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e292",
+      "source": "company:亿航智能",
+      "target": "location:印度尼西亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e293",
+      "source": "company:亿航智能",
+      "target": "location:东南亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e294",
+      "source": "company:亿航智能",
+      "target": "location:阿联酋",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e295",
+      "source": "company:沃兰特",
+      "target": "location:瑞鸥",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e296",
+      "source": "company:沃兰特",
+      "target": "location:沙特",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e297",
+      "source": "company:沃兰特",
+      "target": "location:迪拜",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e298",
+      "source": "company:沃兰特",
+      "target": "location:卡塔尔",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e299",
+      "source": "company:沃兰特",
+      "target": "location:泰国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e300",
+      "source": "company:沃兰特",
+      "target": "location:Autocraft",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e301",
+      "source": "company:沃兰特",
+      "target": "location:阿根廷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e302",
+      "source": "company:沃兰特",
+      "target": "location:沙特阿拉伯",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e303",
+      "source": "company:沃兰特",
+      "target": "location:西班牙",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e304",
+      "source": "company:沃兰特",
+      "target": "location:曼谷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e305",
+      "source": "company:沃兰特",
+      "target": "location:蓝海",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e306",
+      "source": "company:沃兰特",
+      "target": "location:北非地区",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e307",
+      "source": "company:沃兰特",
+      "target": "location:印度尼西亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e308",
+      "source": "company:沃兰特",
+      "target": "location:东南亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e309",
+      "source": "company:沃兰特",
+      "target": "location:阿联酋",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e310",
+      "source": "company:峰飞航空",
+      "target": "location:瑞鸥",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e311",
+      "source": "company:峰飞航空",
+      "target": "location:沙特",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e312",
+      "source": "company:峰飞航空",
+      "target": "location:迪拜",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e313",
+      "source": "company:峰飞航空",
+      "target": "location:卡塔尔",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e314",
+      "source": "company:峰飞航空",
+      "target": "location:泰国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e315",
+      "source": "company:峰飞航空",
+      "target": "location:Autocraft",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e316",
+      "source": "company:峰飞航空",
+      "target": "location:阿根廷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e317",
+      "source": "company:峰飞航空",
+      "target": "location:沙特阿拉伯",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e318",
+      "source": "company:峰飞航空",
+      "target": "location:西班牙",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e319",
+      "source": "company:峰飞航空",
+      "target": "location:曼谷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e320",
+      "source": "company:峰飞航空",
+      "target": "location:蓝海",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e321",
+      "source": "company:峰飞航空",
+      "target": "location:北非地区",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e322",
+      "source": "company:峰飞航空",
+      "target": "location:印度尼西亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e323",
+      "source": "company:峰飞航空",
+      "target": "location:东南亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e324",
+      "source": "company:峰飞航空",
+      "target": "location:阿联酋",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e325",
+      "source": "company:中信海直",
+      "target": "location:瑞鸥",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e326",
+      "source": "company:中信海直",
+      "target": "location:沙特",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e327",
+      "source": "company:中信海直",
+      "target": "location:迪拜",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e328",
+      "source": "company:中信海直",
+      "target": "location:中东",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e329",
+      "source": "company:中信海直",
+      "target": "location:卡塔尔",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e330",
+      "source": "company:中信海直",
+      "target": "location:泰国",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e331",
+      "source": "company:中信海直",
+      "target": "location:Autocraft",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e332",
+      "source": "company:中信海直",
+      "target": "location:阿根廷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e333",
+      "source": "company:中信海直",
+      "target": "location:沙特阿拉伯",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e334",
+      "source": "company:中信海直",
+      "target": "location:西班牙",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e335",
+      "source": "company:中信海直",
+      "target": "location:欧洲",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e336",
+      "source": "company:中信海直",
+      "target": "location:曼谷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e337",
+      "source": "company:中信海直",
       "target": "location:中国",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e30",
-      "source": "company:小鹏汇天",
-      "target": "location:泰国",
+      "id": "e338",
+      "source": "company:中信海直",
+      "target": "location:蓝海",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e31",
-      "source": "company:小鹏汇天",
+      "id": "e339",
+      "source": "company:中信海直",
+      "target": "location:北非地区",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e340",
+      "source": "company:中信海直",
+      "target": "location:日本",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e341",
+      "source": "company:中信海直",
+      "target": "location:华东",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e342",
+      "source": "company:中信海直",
+      "target": "location:印度尼西亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e343",
+      "source": "company:中信海直",
+      "target": "location:东南亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e344",
+      "source": "company:中信海直",
+      "target": "location:上海",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e345",
+      "source": "company:中信海直",
       "target": "location:阿联酋",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e32",
-      "source": "company:沃兰特",
+      "id": "e346",
+      "source": "company:小鹏汇天",
+      "target": "location:瑞鸥",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e347",
+      "source": "company:小鹏汇天",
+      "target": "location:沙特",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e348",
+      "source": "company:小鹏汇天",
       "target": "location:迪拜",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e33",
-      "source": "company:沃兰特",
+      "id": "e349",
+      "source": "company:小鹏汇天",
+      "target": "location:卡塔尔",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e350",
+      "source": "company:小鹏汇天",
       "target": "location:泰国",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e34",
-      "source": "company:沃兰特",
+      "id": "e351",
+      "source": "company:小鹏汇天",
+      "target": "location:Autocraft",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e352",
+      "source": "company:小鹏汇天",
+      "target": "location:阿根廷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e353",
+      "source": "company:小鹏汇天",
+      "target": "location:沙特阿拉伯",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e354",
+      "source": "company:小鹏汇天",
+      "target": "location:西班牙",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e355",
+      "source": "company:小鹏汇天",
+      "target": "location:曼谷",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e356",
+      "source": "company:小鹏汇天",
+      "target": "location:蓝海",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e357",
+      "source": "company:小鹏汇天",
+      "target": "location:北非地区",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e358",
+      "source": "company:小鹏汇天",
+      "target": "location:印度尼西亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e359",
+      "source": "company:小鹏汇天",
+      "target": "location:东南亚",
+      "type": "located_in",
+      "weight": 2
+    },
+    {
+      "id": "e360",
+      "source": "company:小鹏汇天",
       "target": "location:阿联酋",
       "type": "located_in",
       "weight": 2
     },
     {
-      "id": "e35",
+      "id": "e361",
+      "source": "company:亿航智能",
+      "target": "company:小鹏汇天",
+      "type": "cooperates_with",
+      "weight": 4,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e362",
+      "source": "company:亿航智能",
+      "target": "company:峰飞航空",
+      "type": "cooperates_with",
+      "weight": 5,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e363",
+      "source": "company:亿航智能",
+      "target": "company:沃兰特",
+      "type": "cooperates_with",
+      "weight": 6,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e364",
+      "source": "company:亿航智能",
+      "target": "company:沃飞长空",
+      "type": "cooperates_with",
+      "weight": 4,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e365",
       "source": "company:小鹏汇天",
+      "target": "company:峰飞航空",
+      "type": "cooperates_with",
+      "weight": 4,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e366",
+      "source": "company:小鹏汇天",
+      "target": "company:沃兰特",
+      "type": "cooperates_with",
+      "weight": 4,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e367",
+      "source": "company:小鹏汇天",
+      "target": "company:沃飞长空",
+      "type": "cooperates_with",
+      "weight": 2,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e368",
+      "source": "company:峰飞航空",
+      "target": "company:沃兰特",
+      "type": "cooperates_with",
+      "weight": 5,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e369",
+      "source": "company:峰飞航空",
+      "target": "company:沃飞长空",
+      "type": "cooperates_with",
+      "weight": 3,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e370",
+      "source": "company:沃兰特",
+      "target": "company:沃飞长空",
+      "type": "cooperates_with",
+      "weight": 4,
+      "records": [
+        "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
+        "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
+        "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "id": "e371",
+      "source": "company:中国商飞",
+      "target": "company:亿航智能",
+      "type": "cooperates_with",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e372",
+      "source": "company:中国商飞",
+      "target": "company:峰飞航空",
+      "type": "cooperates_with",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e373",
+      "source": "company:中国商飞",
       "target": "company:沃兰特",
       "type": "cooperates_with",
       "weight": 1,
       "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e374",
+      "source": "company:中国商飞",
+      "target": "company:沃飞长空",
+      "type": "cooperates_with",
+      "weight": 1,
+      "records": [
+        "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比"
+      ],
+      "date": "2026-05-03"
+    },
+    {
+      "id": "e375",
+      "source": "company:中信海直",
+      "target": "company:亿航智能",
+      "type": "cooperates_with",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
         "中国eVTOL正迎来史无前例的“出海”订单爆发"
       ],
-      "date": "2025-12-17"
+      "date": "2025-12-18"
     },
     {
-      "id": "e36",
-      "source": "company:大疆创新",
-      "target": "tech:eVTOL",
-      "type": "operates_in",
-      "weight": 1
+      "id": "e376",
+      "source": "company:中信海直",
+      "target": "company:小鹏汇天",
+      "type": "cooperates_with",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
     },
     {
-      "id": "e37",
+      "id": "e377",
+      "source": "company:中信海直",
+      "target": "company:峰飞航空",
+      "type": "cooperates_with",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e378",
+      "source": "company:中信海直",
+      "target": "company:沃兰特",
+      "type": "cooperates_with",
+      "weight": 2,
+      "records": [
+        "中国eVTOL正迎来史无前例的“出海”订单爆发",
+        "中国eVTOL正迎来史无前例的“出海”订单爆发"
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "id": "e379",
+      "source": "company:亿航智能",
+      "target": "policy:低空经济发展司",
+      "type": "affected_by",
+      "weight": 1,
+      "date": "2025-07-12"
+    },
+    {
+      "id": "e380",
       "source": "company:沃兰特",
-      "target": "tech:eVTOL",
-      "type": "operates_in",
-      "weight": 9
+      "target": "policy:低空经济发展司",
+      "type": "affected_by",
+      "weight": 1,
+      "date": "2025-07-12"
     },
     {
-      "id": "e38",
+      "id": "e381",
+      "source": "company:沃飞长空",
+      "target": "policy:低空经济发展司",
+      "type": "affected_by",
+      "weight": 1,
+      "date": "2025-07-12"
+    },
+    {
+      "id": "e382",
       "source": "company:峰飞航空",
       "target": "tech:eVTOL",
       "type": "operates_in",
-      "weight": 14
+      "weight": 8
     },
     {
-      "id": "e39",
-      "source": "company:中航成飞",
+      "id": "e383",
+      "source": "company:沃兰特",
       "target": "tech:eVTOL",
       "type": "operates_in",
-      "weight": 1
+      "weight": 8
     },
     {
-      "id": "e40",
+      "id": "e384",
       "source": "company:亿航智能",
       "target": "tech:eVTOL",
       "type": "operates_in",
-      "weight": 10
+      "weight": 6
     },
     {
-      "id": "e41",
+      "id": "e385",
       "source": "company:亿航智能",
       "target": "tech:应急救援",
       "type": "operates_in",
-      "weight": 1
+      "weight": 4
     },
     {
-      "id": "e42",
+      "id": "e386",
       "source": "company:沃兰特",
-      "target": "tech:电动垂直起降",
+      "target": "tech:应急救援",
       "type": "operates_in",
-      "weight": 1
+      "weight": 4
     },
     {
-      "id": "e43",
+      "id": "e387",
+      "source": "company:峰飞航空",
+      "target": "tech:应急救援",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e388",
       "source": "company:沃飞长空",
       "target": "tech:eVTOL",
       "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e389",
+      "source": "company:沃飞长空",
+      "target": "tech:应急救援",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e390",
+      "source": "company:小鹏汇天",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e391",
+      "source": "company:小鹏汇天",
+      "target": "tech:应急救援",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e392",
+      "source": "company:亿航智能",
+      "target": "tech:电池技术",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e393",
+      "source": "company:亿航智能",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 5
+    },
+    {
+      "id": "e394",
+      "source": "company:亿航智能",
+      "target": "tech:复合材料",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e395",
+      "source": "company:亿航智能",
+      "target": "tech:UAM",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e396",
+      "source": "company:亿航智能",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e397",
+      "source": "company:沃兰特",
+      "target": "tech:电池技术",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e398",
+      "source": "company:沃兰特",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 5
+    },
+    {
+      "id": "e399",
+      "source": "company:沃兰特",
+      "target": "tech:复合材料",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e400",
+      "source": "company:沃兰特",
+      "target": "tech:UAM",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e401",
+      "source": "company:沃兰特",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e402",
+      "source": "company:沃飞长空",
+      "target": "tech:电池技术",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e403",
+      "source": "company:沃飞长空",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e404",
+      "source": "company:沃飞长空",
+      "target": "tech:复合材料",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e405",
+      "source": "company:沃飞长空",
+      "target": "tech:UAM",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e406",
+      "source": "company:沃飞长空",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e407",
+      "source": "company:沃兰特",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 5
+    },
+    {
+      "id": "e408",
+      "source": "company:亿航智能",
+      "target": "tech:无人驾驶航空器",
+      "type": "operates_in",
       "weight": 1
     },
     {
-      "id": "e44",
+      "id": "e409",
+      "source": "company:亿航智能",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e410",
+      "source": "company:亿航智能",
+      "target": "tech:通用航空",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e411",
+      "source": "company:沃兰特",
+      "target": "tech:无人驾驶航空器",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e412",
+      "source": "company:沃兰特",
+      "target": "tech:通用航空",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e413",
       "source": "company:峰飞航空",
+      "target": "tech:电池技术",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e414",
+      "source": "company:峰飞航空",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e415",
+      "source": "company:峰飞航空",
+      "target": "tech:复合材料",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e416",
+      "source": "company:峰飞航空",
+      "target": "tech:无人驾驶航空器",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e417",
+      "source": "company:峰飞航空",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 4
+    },
+    {
+      "id": "e418",
+      "source": "company:峰飞航空",
+      "target": "tech:通用航空",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e419",
+      "source": "company:峰飞航空",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e420",
+      "source": "company:沃飞长空",
+      "target": "tech:无人驾驶航空器",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e421",
+      "source": "company:沃飞长空",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e422",
+      "source": "company:沃飞长空",
+      "target": "tech:通用航空",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e423",
+      "source": "company:小鹏汇天",
+      "target": "tech:电池技术",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e424",
+      "source": "company:小鹏汇天",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e425",
+      "source": "company:小鹏汇天",
+      "target": "tech:复合材料",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e426",
+      "source": "company:小鹏汇天",
+      "target": "tech:无人驾驶航空器",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e427",
+      "source": "company:小鹏汇天",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 3
+    },
+    {
+      "id": "e428",
+      "source": "company:小鹏汇天",
+      "target": "tech:通用航空",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e429",
+      "source": "company:小鹏汇天",
       "target": "tech:电动垂直起降",
       "type": "operates_in",
       "weight": 1
     },
     {
-      "id": "e45",
-      "source": "company:小鹏汇天",
+      "id": "e430",
+      "source": "company:中国商飞",
+      "target": "tech:电池技术",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e431",
+      "source": "company:中国商飞",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e432",
+      "source": "company:中国商飞",
+      "target": "tech:UAM",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e433",
+      "source": "company:中国商飞",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e434",
+      "source": "company:中国商飞",
       "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e435",
+      "source": "company:中国商飞",
+      "target": "tech:电动垂直起降",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e436",
+      "source": "company:峰飞航空",
+      "target": "tech:UAM",
+      "type": "operates_in",
+      "weight": 1
+    },
+    {
+      "id": "e437",
+      "source": "company:亿航智能",
+      "target": "tech:低空空域",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e438",
+      "source": "company:沃兰特",
+      "target": "tech:低空空域",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e439",
+      "source": "company:峰飞航空",
+      "target": "tech:低空空域",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e440",
+      "source": "company:中信海直",
+      "target": "tech:城市空中交通",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e441",
+      "source": "company:中信海直",
+      "target": "tech:复合材料",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e442",
+      "source": "company:中信海直",
+      "target": "tech:应急救援",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e443",
+      "source": "company:中信海直",
+      "target": "tech:低空空域",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e444",
+      "source": "company:中信海直",
+      "target": "tech:适航认证",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e445",
+      "source": "company:中信海直",
+      "target": "tech:eVTOL",
+      "type": "operates_in",
+      "weight": 2
+    },
+    {
+      "id": "e446",
+      "source": "company:小鹏汇天",
+      "target": "tech:低空空域",
       "type": "operates_in",
       "weight": 2
     }
