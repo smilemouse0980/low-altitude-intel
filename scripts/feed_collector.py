@@ -281,7 +281,11 @@ class FeedCollector:
             decode_success = 0
             decode_fail = 0
 
+            max_entries = source.get('max_articles', 15)
+            processed = 0
             for entry in feed.entries:
+                if processed >= max_entries:
+                    break
                 title = entry.get('title', '').strip()
                 link = entry.get('link', '').strip()
                 summary = entry.get('summary', entry.get('description', '')).strip()
@@ -335,6 +339,7 @@ class FeedCollector:
                     extra={'url_resolved': url_resolved}
                 )
                 results.append(record)
+                processed += 1
 
             logger.info(f"    获取 {len(results)} 条 | URL解码: 成功={decode_success} 失败={decode_fail}")
 
@@ -365,7 +370,7 @@ class FeedCollector:
             else:
                 articles = self._parse_generic_html(resp.text, url)
 
-            for article in articles[:source.get('max_articles', 30)]:
+            for article in articles[:source.get('max_articles', 15)]:
                 title = article.get('title', '').strip()
                 link = article.get('url', '').strip()
                 date = article.get('date', '')
