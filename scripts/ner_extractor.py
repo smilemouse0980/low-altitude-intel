@@ -67,7 +67,9 @@ class NERExtractor:
                     self.industry_dict = yaml.safe_load(f)
                 companies = self.industry_dict.get('companies', [])
                 titles = self.industry_dict.get('titles', [])
-                logger.info(f"行业词典加载: {len(companies)} 企业, {len(titles)} 职务")
+                blocklist = self.industry_dict.get('ner_blocklist_persons', [])
+                policy_entities = self.industry_dict.get('policy_entities', [])
+                logger.info(f"行业词典加载: {len(companies)} 企业, {len(titles)} 职务, {len(blocklist)} 消歧黑名单, {len(policy_entities)} 政策实体")
         except Exception as e:
             logger.warning(f"行业词典加载失败: {e}")
 
@@ -111,7 +113,7 @@ class NERExtractor:
             }
         """
         if not text or len(text.strip()) < 10:
-            return {'persons': [], 'orgs': [], 'locations': [], 'dates': [], 'relations': []}
+            return {'persons': [], 'orgs': [], 'locations': [], 'dates': [], 'policies': [], 'relations': []}
 
         hanlp_results = self._extract_with_hanlp(text) if self.hanlp else {}
         spacy_results = self._extract_with_spacy(text) if self.spacy_nlp else {}
@@ -119,8 +121,14 @@ class NERExtractor:
         # 双引擎交叉验证
         merged = self._merge_results(hanlp_results, spacy_results, text)
 
+        # NER 消歧：过滤误识别的人物实体
+        merged = self._filter_false_persons(merged)
+
         # 基于行业词典增强
         enhanced = self._enhance_with_dict(merged, text)
+
+        # 提取政策实体
+        enhanced = self._extract_policy_entities(enhanced, text)
 
         # 提取人名-企业-职务关系
         relations = self._extract_relations(text, enhanced)
@@ -265,6 +273,72 @@ class NERExtractor:
                 })
                 existing_orgs.add(company)
 
+        return results
+
+    def _filter_false_persons(self, results):
+        """NER 消歧：过滤误识别为人物的实体"""
+        blocklist = set(self.industry_dict.get('ner_blocklist_persons', []))
+        companies = set(self.industry_dict.get('companies', []))
+        locations = {e['text'] for e in results.get('locations', [])}
+
+        filtered_persons = []
+        for person in results.get('persons', []):
+            name = person['text']
+
+            # 规则1: 在黑名单中 → 过滤
+            if name in blocklist:
+                continue
+
+            # 规则2: 在企业词典中 → 过滤
+            if name in companies:
+                continue
+
+            # 规则3: 在地名中 → 过滤
+            if name in locations:
+                continue
+
+            # 规则4: 中文姓名长度检查（2-4个汉字）
+            chinese_chars = [c for c in name if '\u4e00' <= c <= '\u9fff']
+            if len(chinese_chars) > 0:
+                if len(chinese_chars) < 2 or len(chinese_chars) > 4:
+                    continue
+                # 如果包含非汉字字符且长度>6，可能不是人名
+                if len(name) > 6 and not name.isascii():
+                    continue
+
+            # 规则5: 纯英文姓名长度检查（至少2个字符）
+            if name.isascii() and len(name) < 3:
+                continue
+
+            # 规则6: 包含数字 → 过滤
+            if any(c.isdigit() for c in name):
+                continue
+
+            filtered_persons.append(person)
+
+        results['persons'] = filtered_persons
+        return results
+
+    def _extract_policy_entities(self, results, text):
+        """提取政策法规实体"""
+        policy_keywords = self.industry_dict.get('policy_entities', [])
+        existing = {e['text'] for e in results.get('policies', [])}
+
+        policies = []
+        for kw in policy_keywords:
+            if kw in text and kw not in existing:
+                start = text.find(kw)
+                policies.append({
+                    'text': kw,
+                    'label': 'policy',
+                    'start': start,
+                    'end': start + len(kw),
+                    'confidence': 'dict',
+                    'engine': 'industry_dict'
+                })
+                existing.add(kw)
+
+        results['policies'] = policies
         return results
 
     def _extract_relations(self, text, entities):

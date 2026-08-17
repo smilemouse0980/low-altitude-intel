@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
-低空经济情报服务 — 多源采集引擎 v2
-使用 Google News RSS + Bing News RSS + HTML 搜索页面解析
-确保在 GitHub Actions Ubuntu runner 上可靠运行
+低空经济情报服务 — 多源采集引擎 v3
+核心改进：
+1. 使用 googlenewsdecoder 实时解码 Google News URL → 获取真实文章 URL
+2. 添加直接新闻源 HTML 抓取（圆象低空经济观察、AOPA 等）
+3. 采集阶段即获取全文内容，不再依赖 step 2 延迟解析
 """
 
 import os
@@ -26,10 +28,10 @@ logger = logging.getLogger(__name__)
 BJT = timezone(timedelta(hours=8))
 
 # ============================================================================
-# 数据源配置 — 全部使用经过验证的可靠源
+# 数据源配置
 # ============================================================================
 SOURCES = [
-    # === P0: Google News RSS（用于发现，URL 可能无法解析） ===
+    # === P0: Google News RSS（使用 googlenewsdecoder 解码真实 URL） ===
     {
         "name": "Google新闻-低空经济",
         "type": "rss",
@@ -38,7 +40,7 @@ SOURCES = [
         "priority": "P0",
     },
     {
-        "name": "Google新闻-eVTOL",
+        "name": "Google新闻-eVTOL中国",
         "type": "rss",
         "url": "https://news.google.com/rss/search?q=eVTOL+%E4%B8%AD%E5%9B%BD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
         "keywords": [],
@@ -52,26 +54,50 @@ SOURCES = [
         "priority": "P0",
     },
     {
-        "name": "Google新闻-通用航空",
+        "name": "Google新闻-通用航空低空",
         "type": "rss",
         "url": "https://news.google.com/rss/search?q=%E9%80%9A%E7%94%A8%E8%88%AA%E7%A9%BA+%E4%BD%8E%E7%A9%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
         "keywords": [],
         "priority": "P0",
     },
-    # === P1: Bing News RSS（可能包含文章摘要） ===
     {
-        "name": "Bing新闻-低空经济",
-        "type": "bing_rss",
-        "url": "https://www.bing.com/news/search?q=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E&format=rss",
+        "name": "Google新闻-复合查询",
+        "type": "rss",
+        "url": "https://news.google.com/rss/search?q=%E4%BD%8E%E7%A9%BA%E7%BB%8F%E6%B5%8E+OR+eVTOL+OR+%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6+OR+%E5%9F%8E%E5%B8%82%E7%A9%BA%E4%B8%AD%E4%BA%A4%E9%80%9A&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
         "keywords": [],
-        "priority": "P1",
+        "priority": "P0",
     },
     {
-        "name": "Bing新闻-eVTOL中国",
-        "type": "bing_rss",
-        "url": "https://www.bing.com/news/search?q=eVTOL+%E4%B8%AD%E5%9B%BD&format=rss",
+        "name": "Google新闻-适航认证",
+        "type": "rss",
+        "url": "https://news.google.com/rss/search?q=%E9%80%82%E8%88%AA+%E8%AE%A4%E8%AF%81+%E4%BD%8E%E7%A9%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "keywords": [],
+        "priority": "P0",
+    },
+    # === P1: 直接新闻源 HTML 抓取（提供真实 URL + 正文） ===
+    {
+        "name": "圆象低空经济观察",
+        "type": "direct_html",
+        "url": "https://yuanxiangsky.com/A/2.html",
         "keywords": [],
         "priority": "P1",
+        "parser": "yuanxiangsky",
+    },
+    {
+        "name": "圆象低空-企业动态",
+        "type": "direct_html",
+        "url": "https://yuanxiangsky.com/A/3.html",
+        "keywords": [],
+        "priority": "P1",
+        "parser": "yuanxiangsky",
+    },
+    {
+        "name": "圆象低空-政策法规",
+        "type": "direct_html",
+        "url": "https://yuanxiangsky.com/A/1.html",
+        "keywords": [],
+        "priority": "P1",
+        "parser": "yuanxiangsky",
     },
     # === P2: 政府网站 HTML 搜索解析 ===
     {
@@ -83,16 +109,17 @@ SOURCES = [
     },
 ]
 
-# 关键词过滤白名单（采集后二次过滤用）
+# 关键词过滤白名单
 KEYWORD_FILTER = [
     "低空经济", "低空", "eVTOL", "无人机", "通用航空",
     "飞行汽车", "空中交通", "UAM", "UAV", "适航",
-    "空域管理", "低空空域", "城市空中交通", "电动垂直起降"
+    "空域管理", "低空空域", "城市空中交通", "电动垂直起降",
+    "峰飞", "亿航", "沃兰特", "小鹏汇天", "大疆",
 ]
 
 
 class FeedCollector:
-    """多源采集器 v2"""
+    """多源采集器 v3"""
 
     def __init__(self):
         self.raw_dir = PROJECT_ROOT / 'raw' / 'feeds'
@@ -106,6 +133,17 @@ class FeedCollector:
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
         })
         self.session.verify = False
+        # googlenewsdecoder 可用性标记
+        self._gn_decoder_available = self._check_gn_decoder()
+
+    def _check_gn_decoder(self):
+        """检查 googlenewsdecoder 是否可用"""
+        try:
+            from googlenewsdecoder import gnewsdecoder
+            return True
+        except ImportError:
+            logger.warning("googlenewsdecoder 未安装，Google News URL 将无法解码")
+            return False
 
     def _load_state(self):
         if self.state_file.exists():
@@ -132,72 +170,37 @@ class FeedCollector:
 
     def _decode_google_news_url(self, gn_url):
         """
-        解码 Google News 跳转 URL，提取原始文章 URL
-        新版 Google News 使用 JS 跳转，需 HTTP 请求获取真实 URL
+        使用 googlenewsdecoder 解码 Google News URL
+        返回真实文章 URL 或 None
         """
-        import base64
+        if not self._gn_decoder_available:
+            return None
 
-        # 方法1: HTTP 请求跟随重定向获取真实 URL
         try:
-            resp = self.session.get(gn_url, timeout=10, allow_redirects=True)
-            final_url = resp.url
-            if final_url and 'news.google.com' not in final_url:
-                return final_url
-        except Exception:
-            pass
-
-        # 方法2: base64 + protobuf 解码
-        try:
-            match = re.search(r'/articles/([A-Za-z0-9_-]+)', gn_url)
-            if not match:
-                return None
-            encoded = match.group(1)
-            padding = 4 - len(encoded) % 4
-            if padding != 4:
-                encoded_padded = encoded + '=' * padding
-            else:
-                encoded_padded = encoded
-            try:
-                decoded_bytes = base64.urlsafe_b64decode(encoded_padded)
-            except Exception:
-                try:
-                    decoded_bytes = base64.b64decode(encoded_padded)
-                except Exception:
-                    return None
-            decoded_str = decoded_bytes.decode('utf-8', errors='ignore')
-            url_match = re.search(r'https?://[^\x00-\x1f\x7f-\xff\s<>"]+', decoded_str)
-            if url_match:
-                return url_match.group(0)
-            for i in range(len(decoded_bytes)):
-                if decoded_bytes[i:i+4] in (b'http', b'HTTP'):
-                    url_end = decoded_bytes.find(b'\x00', i)
-                    if url_end == -1:
-                        url_end = len(decoded_bytes)
-                    found_url = decoded_bytes[i:url_end].decode('utf-8', errors='ignore').strip()
-                    if found_url.startswith('http'):
-                        return found_url
-
-        except Exception:
-            pass
+            from googlenewsdecoder import gnewsdecoder
+            result = gnewsdecoder(gn_url, interval=1)
+            if result.get('status'):
+                decoded_url = result.get('decoded_url', '')
+                if decoded_url and 'news.google.com' not in decoded_url:
+                    return decoded_url
+        except Exception as e:
+            logger.debug(f"GN解码失败: {type(e).__name__}: {e}")
 
         return None
 
     def _is_relevant(self, text):
-        """检查内容是否与低空经济相关"""
         if not text:
             return False
         text_lower = text.lower()
         return any(kw.lower() in text_lower for kw in KEYWORD_FILTER)
 
     def _clean_html(self, text):
-        """去除 HTML 标签"""
         if not text:
             return ""
         soup = BeautifulSoup(text, 'html.parser')
         return soup.get_text(strip=True)
 
     def _parse_date(self, date_str):
-        """解析日期字符串"""
         if not date_str:
             return datetime.now(BJT).strftime('%Y-%m-%d')
         try:
@@ -211,7 +214,6 @@ class FeedCollector:
             return datetime.now(BJT).strftime('%Y-%m-%d')
 
     def _make_record(self, url, title, content, publish_date, publisher, source_type, extra=None):
-        """创建标准化记录"""
         record = {
             'doc_id': self._url_hash(url),
             'url': url,
@@ -228,11 +230,42 @@ class FeedCollector:
             record.update(extra)
         return record
 
+    def _fetch_article_content(self, url, timeout=15):
+        """获取文章全文内容"""
+        try:
+            resp = self.session.get(url, timeout=timeout, allow_redirects=True)
+            resp.encoding = resp.apparent_encoding or 'utf-8'
+            html_content = resp.text
+
+            # 尝试 trafilatura 提取
+            try:
+                import trafilatura
+                text = trafilatura.extract(
+                    html_content, include_comments=False,
+                    include_tables=True, favor_precision=True, url=resp.url
+                )
+                if text and len(text) > 100:
+                    return text[:5000], resp.url
+            except Exception:
+                pass
+
+            # BeautifulSoup 回退
+            soup = BeautifulSoup(html_content, 'html.parser')
+            for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside']):
+                tag.decompose()
+            body_text = soup.get_text(separator='\n', strip=True)
+            if len(body_text) > 200:
+                return body_text[:5000], resp.url
+
+            return None, resp.url
+        except Exception:
+            return None, url
+
     # =========================================================================
-    # 采集方法 1: 标准 RSS/Atom（Google News）
+    # 采集方法 1: Google News RSS（使用 googlenewsdecoder 解码 URL + 获取全文）
     # =========================================================================
     def collect_rss(self, source):
-        """采集标准 RSS 源"""
+        """采集 Google News RSS，使用 googlenewsdecoder 解码真实 URL"""
         name = source['name']
         url = source['url']
         keywords = source.get('keywords', [])
@@ -243,9 +276,10 @@ class FeedCollector:
         try:
             resp = self.session.get(url, timeout=30)
             resp.encoding = resp.apparent_encoding or 'utf-8'
-
-            # Google News RSS 返回的是标准 XML
             feed = feedparser.parse(resp.content)
+
+            decode_success = 0
+            decode_fail = 0
 
             for entry in feed.entries:
                 title = entry.get('title', '').strip()
@@ -253,94 +287,56 @@ class FeedCollector:
                 summary = entry.get('summary', entry.get('description', '')).strip()
                 published = entry.get('published', entry.get('updated', ''))
 
-                # Google News 的 link 是编码跳转 URL，在采集阶段不解析（太慢）
-                # URL 解析推迟到 step 2 的 fetch_and_parse 中进行
-                url_resolved = 'news.google.com' not in link
-
                 if not link:
                     continue
 
-                # 关键词过滤（如果有配置）
                 combined_text = f"{title} {summary}"
                 if keywords and not any(kw.lower() in combined_text.lower() for kw in keywords):
                     continue
-
-                # 相关性过滤
                 if not self._is_relevant(combined_text):
                     continue
-
-                # 去重
                 if self._is_collected(link):
                     continue
 
-                # 用标题+摘要作为内容（至少有标题可用于 NER）
+                # 使用 googlenewsdecoder 解码 Google News URL
+                real_url = None
                 content = summary if len(summary) > 50 else title
+                url_resolved = False
+
+                if 'news.google.com' in link:
+                    real_url = self._decode_google_news_url(link)
+                    if real_url:
+                        # 解码成功，获取文章全文
+                        article_text, final_url = self._fetch_article_content(real_url)
+                        if article_text:
+                            content = article_text
+                            real_url = final_url
+                        url_resolved = True
+                        decode_success += 1
+                        # 用真实 URL 去重和记录
+                        if self._is_collected(real_url):
+                            continue
+                        self._mark_collected(real_url)
+                    else:
+                        decode_fail += 1
+                        # 解码失败，用标题作为内容
+                        self._mark_collected(link)
+                else:
+                    # 非 Google News URL，直接获取全文
+                    article_text, final_url = self._fetch_article_content(link)
+                    if article_text:
+                        content = article_text
+                        link = final_url
+                    url_resolved = True
+                    self._mark_collected(link)
 
                 record = self._make_record(
-                    link, title, content, published, name, 'rss',
+                    real_url or link, title, content, published, name, 'rss',
                     extra={'url_resolved': url_resolved}
                 )
                 results.append(record)
-                self._mark_collected(link)
 
-            logger.info(f"    获取 {len(results)} 条新内容")
-
-        except Exception as e:
-            logger.warning(f"    采集失败: {type(e).__name__}: {e}")
-
-        return results
-
-    # =========================================================================
-    # 采集方法 2: 直接新闻源 RSS（真实 URL + 正文摘要）
-    # =========================================================================
-    def collect_direct_rss(self, source):
-        """采集直接新闻源 RSS（如36氪、新浪等，提供真实文章 URL）"""
-        name = source['name']
-        url = source['url']
-        keywords = source.get('keywords', [])
-
-        logger.info(f"  采集直接 RSS: {name}")
-        results = []
-
-        try:
-            resp = self.session.get(url, timeout=30)
-            resp.encoding = resp.apparent_encoding or 'utf-8'
-
-            feed = feedparser.parse(resp.content)
-
-            for entry in feed.entries:
-                title = entry.get('title', '').strip()
-                link = entry.get('link', '').strip()
-                summary = entry.get('summary', entry.get('description', '')).strip()
-                published = entry.get('published', entry.get('updated', ''))
-
-                if not link or not title:
-                    continue
-
-                # 关键词过滤
-                combined_text = f"{title} {summary}"
-                if keywords and not any(kw.lower() in combined_text.lower() for kw in keywords):
-                    continue
-
-                # 相关性过滤
-                if not self._is_relevant(combined_text):
-                    continue
-
-                if self._is_collected(link):
-                    continue
-
-                # 直接新闻源的 summary 通常包含 HTML，清理后作为内容
-                clean_summary = self._clean_html(summary)
-                content = clean_summary if len(clean_summary) > 50 else title
-
-                record = self._make_record(
-                    link, title, content, published, name, 'direct_rss',
-                    extra={'url_resolved': True}
-                )
-                results.append(record)
-                self._mark_collected(link)
-
-            logger.info(f"    获取 {len(results)} 条新内容")
+            logger.info(f"    获取 {len(results)} 条 | URL解码: 成功={decode_success} 失败={decode_fail}")
 
         except Exception as e:
             logger.warning(f"    采集失败: {type(e).__name__}: {e}")
@@ -348,52 +344,157 @@ class FeedCollector:
         return results
 
     # =========================================================================
-    # 采集方法 3: Bing News RSS
+    # 采集方法 2: 直接新闻源 HTML 抓取
     # =========================================================================
-    def collect_bing_rss(self, source):
-        """采集 Bing News RSS"""
+    def collect_direct_html(self, source):
+        """直接抓取新闻网站 HTML 页面，提取文章列表"""
         name = source['name']
         url = source['url']
+        parser_type = source.get('parser', 'generic')
 
-        logger.info(f"  采集 Bing RSS: {name}")
+        logger.info(f"  采集直接 HTML: {name}")
         results = []
 
         try:
             resp = self.session.get(url, timeout=30)
             resp.encoding = resp.apparent_encoding or 'utf-8'
 
-            # Bing RSS 也是标准 XML
-            feed = feedparser.parse(resp.content)
+            articles = []
+            if parser_type == 'yuanxiangsky':
+                articles = self._parse_yuanxiangsky(resp.text, url)
+            else:
+                articles = self._parse_generic_html(resp.text, url)
 
-            for entry in feed.entries:
-                title = entry.get('title', '').strip()
-                link = entry.get('link', '').strip()
-                summary = entry.get('summary', entry.get('description', '')).strip()
-                published = entry.get('published', entry.get('updated', ''))
+            for article in articles[:source.get('max_articles', 30)]:
+                title = article.get('title', '').strip()
+                link = article.get('url', '').strip()
+                date = article.get('date', '')
 
                 if not link:
                     continue
-
-                # 相关性过滤
-                combined_text = f"{title} {summary}"
-                if not self._is_relevant(combined_text):
+                # 标题为空时跳过相关性检查（标题将从文章页提取）
+                if title and not self._is_relevant(title):
                     continue
-
                 if self._is_collected(link):
                     continue
 
+                # 获取文章全文（同时获取标题）
+                article_text, final_url = self._fetch_article_content(link)
+                content = article_text or title
+
+                # 如果原标题为空，尝试从内容中提取标题
+                if not title and article_text:
+                    # 使用 trafilatura 提取的标题
+                    try:
+                        import trafilatura
+                        resp = self.session.get(link, timeout=15)
+                        meta = trafilatura.extract(resp.text, output_format='json', with_metadata=True, url=link)
+                        if meta:
+                            import json as _json
+                            if isinstance(meta, str):
+                                meta = _json.loads(meta)
+                            if meta.get('title'):
+                                title = meta['title']
+                            if meta.get('date'):
+                                date = meta['date']
+                    except Exception:
+                        pass
+                    # 如果仍然没有标题，用内容前50字
+                    if not title:
+                        title = content[:50].replace('\n', ' ').strip()
+
+                if not title:
+                    continue
+
+                self._mark_collected(link)
                 record = self._make_record(
-                    link, title, summary, published, name, 'bing_rss'
+                    final_url or link, title, content, date, name, 'direct_html',
+                    extra={'url_resolved': True}
                 )
                 results.append(record)
-                self._mark_collected(link)
 
-            logger.info(f"    获取 {len(results)} 条新内容")
+            logger.info(f"    获取 {len(results)} 条")
 
         except Exception as e:
             logger.warning(f"    采集失败: {type(e).__name__}: {e}")
 
         return results
+
+    def _parse_yuanxiangsky(self, html, base_url):
+        """解析圆象低空经济观察网站 — 使用 sitemap 发现文章"""
+        articles = []
+
+        # 圆象使用 Nuxt.js SSR，HTML 中可能不包含文章链接
+        # 先尝试从 HTML 中提取
+        soup = BeautifulSoup(html, 'html.parser')
+        for a_tag in soup.find_all('a', href=True):
+            href = a_tag.get('href', '')
+            text = a_tag.get_text(strip=True)
+            if len(text) < 8 or len(text) > 200:
+                continue
+            if any(skip in text for skip in ['首页', '下一页', '上一页', '更多', '登录', '搜索', '关于我们', '联系']):
+                continue
+            if href.startswith('/'):
+                href = urljoin(base_url, href)
+            elif not href.startswith('http'):
+                continue
+            if '/N/' in href and href.endswith('.html'):
+                articles.append({'url': href, 'title': text, 'date': ''})
+
+        # 如果 HTML 中没有找到文章，使用 sitemap
+        if not articles:
+            try:
+                sitemap_url = 'https://yuanxiangsky.com/sitemap.xml'
+                resp = self.session.get(sitemap_url, timeout=15)
+                if resp.status_code == 200:
+                    all_urls = re.findall(r'<loc>([^<]+)</loc>', resp.text)
+                    # 过滤新闻文章 URL (/N/{id}.html)
+                    news_urls = [u for u in all_urls if re.search(r'/N/\d+\.html', u)]
+                    # 按文章 ID 降序排列（最新的在前）
+                    news_urls.sort(key=lambda u: int(re.search(r'/N/(\d+)\.html', u).group(1)), reverse=True)
+                    # 取最近 20 篇
+                    for u in news_urls[:20]:
+                        articles.append({'url': u, 'title': '', 'date': ''})
+                    logger.info(f"    Sitemap: 发现 {len(news_urls)} 篇文章，取最近 {len(articles)} 篇")
+            except Exception as e:
+                logger.warning(f"    Sitemap 获取失败: {e}")
+
+        return articles
+
+    def _parse_generic_html(self, html, base_url):
+        """通用 HTML 解析"""
+        articles = []
+        soup = BeautifulSoup(html, 'html.parser')
+
+        for a_tag in soup.find_all('a', href=True):
+            href = a_tag.get('href', '')
+            text = a_tag.get_text(strip=True)
+
+            if len(text) < 8 or len(text) > 200:
+                continue
+            if any(skip in text for skip in ['首页', '下一页', '上一页', '更多', '登录', '搜索']):
+                continue
+
+            if href.startswith('/'):
+                href = urljoin(base_url, href)
+            elif not href.startswith('http'):
+                continue
+
+            # 尝试查找日期
+            parent = a_tag.parent
+            date_text = ''
+            if parent:
+                date_match = re.search(r'(\d{4})[-/年](\d{1,2})[-/月](\d{1,2})', parent.get_text())
+                if date_match:
+                    date_text = f"{date_match.group(1)}-{int(date_match.group(2)):02d}-{int(date_match.group(3)):02d}"
+
+            articles.append({
+                'url': href,
+                'title': text,
+                'date': date_text,
+            })
+
+        return articles
 
     # =========================================================================
     # 采集方法 3: 政府网站 HTML 搜索页面解析
@@ -412,28 +513,22 @@ class FeedCollector:
 
             soup = BeautifulSoup(resp.content, 'html.parser')
 
-            # 通用策略：查找所有包含链接的列表项
-            # 政府网站通常用 <li>, <div>, <a> 等元素展示搜索结果
             found_items = []
 
-            # 策略 1: 查找带有标题和日期的链接
             for a_tag in soup.find_all('a', href=True):
                 href = a_tag.get('href', '')
                 text = a_tag.get_text(strip=True)
 
-                # 跳过导航链接等
                 if len(text) < 8 or len(text) > 200:
                     continue
                 if any(skip in text for skip in ['首页', '下一页', '上一页', '更多', '登录', '搜索']):
                     continue
 
-                # 补全相对 URL
                 if href.startswith('/'):
                     href = urljoin(url, href)
                 elif not href.startswith('http'):
                     continue
 
-                # 尝试查找同级或父级的日期
                 parent = a_tag.parent
                 date_text = ''
                 if parent:
@@ -448,28 +543,26 @@ class FeedCollector:
                     'summary': ''
                 })
 
-            # 去重（同一 URL 只保留第一条）
             seen_urls = set()
             for item in found_items:
                 if item['url'] in seen_urls:
                     continue
                 seen_urls.add(item['url'])
 
-                # 相关性过滤
                 if not self._is_relevant(item['title']):
                     continue
-
                 if self._is_collected(item['url']):
                     continue
 
+                self._mark_collected(item['url'])
                 record = self._make_record(
                     item['url'], item['title'], item['summary'],
-                    item['date'], name, 'gov_html'
+                    item['date'], name, 'gov_html',
+                    extra={'url_resolved': True}
                 )
                 results.append(record)
-                self._mark_collected(item['url'])
 
-            logger.info(f"    获取 {len(results)} 条新内容")
+            logger.info(f"    获取 {len(results)} 条")
 
         except Exception as e:
             logger.warning(f"    采集失败: {type(e).__name__}: {e}")
@@ -482,9 +575,10 @@ class FeedCollector:
     def run(self):
         """运行所有源的采集"""
         logger.info("=" * 60)
-        logger.info("多源采集器 v2 启动")
+        logger.info("多源采集器 v3 启动")
         logger.info(f"上次运行: {self.state.get('last_run', '首次')}")
         logger.info(f"数据源数量: {len(SOURCES)}")
+        logger.info(f"Google News 解码器: {'可用' if self._gn_decoder_available else '不可用'}")
         logger.info("=" * 60)
 
         all_results = []
@@ -495,10 +589,8 @@ class FeedCollector:
             try:
                 if source_type == 'rss':
                     results = self.collect_rss(source)
-                elif source_type == 'direct_rss':
-                    results = self.collect_direct_rss(source)
-                elif source_type == 'bing_rss':
-                    results = self.collect_bing_rss(source)
+                elif source_type == 'direct_html':
+                    results = self.collect_direct_html(source)
                 elif source_type == 'gov_html':
                     results = self.collect_gov_html(source)
                 else:
@@ -511,9 +603,8 @@ class FeedCollector:
             except Exception as e:
                 logger.error(f"  [{source['name']}] 采集异常: {e}")
 
-            time.sleep(2)  # 源间礼貌延迟
+            time.sleep(2)
 
-        # 保存结果
         if all_results:
             output_file = self.raw_dir / f"feed_{datetime.now(BJT).strftime('%Y%m%d_%H%M%S')}.json"
             with open(output_file, 'w', encoding='utf-8') as f:
@@ -523,7 +614,10 @@ class FeedCollector:
             logger.warning("\n未采集到任何内容")
 
         self._save_state()
-        logger.info(f"采集完成，共 {len(all_results)} 条新内容")
+
+        # 统计 URL 解析情况
+        resolved = sum(1 for r in all_results if r.get('url_resolved'))
+        logger.info(f"采集完成: {len(all_results)} 条 | URL已解析: {resolved} | 未解析: {len(all_results) - resolved}")
         return all_results
 
 
@@ -534,21 +628,21 @@ RSS_SOURCES = SOURCES
 def main():
     import argparse
     import warnings
-    warnings.filterwarnings('ignore')  # 抑制 SSL 警告
+    warnings.filterwarnings('ignore')
 
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s [%(levelname)s] %(message)s'
     )
 
-    parser = argparse.ArgumentParser(description='低空经济情报采集器 v2')
-    parser.add_argument('--test', action='store_true', help='测试模式（仅采集第一个源）')
+    parser = argparse.ArgumentParser(description='低空经济情报采集器 v3')
+    parser.add_argument('--test', action='store_true', help='测试模式')
     args = parser.parse_args()
 
     collector = FeedCollector()
 
     if args.test:
-        # 测试模式：只采集第一个 Google News 源
+        # 测试模式：采集第一个源
         source = SOURCES[0]
         logger.info(f"测试采集: {source['name']}")
         results = collector.collect_rss(source)
@@ -556,6 +650,7 @@ def main():
         for r in results[:5]:
             print(f"  [{r['publish_date']}] {r['title'][:60]}")
             print(f"    URL: {r['url'][:80]}")
+            print(f"    内容长度: {len(r.get('content', ''))}")
     else:
         collector.run()
 

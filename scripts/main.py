@@ -70,17 +70,45 @@ class IntelPipeline:
             return []
 
     def step_2_parse_content(self, raw_records):
-        """步骤2：网页正文解析（对 RSS 摘要补充全文）
+        """步骤2：网页正文解析（补充全文）
         
-        优化：
-        - 使用 requests + BeautifulSoup 先解析出真实 URL（跳过 Google News 重定向）
-        - 使用 Trafilatura 提取正文
-        - 并发抓取加速（ThreadPoolExecutor）
-        - 限制最多处理 80 篇，避免超时
+        v3 优化：
+        - 采集阶段已使用 googlenewsdecoder 解码 URL 并获取全文
+        - 本步骤仅处理 content < 200 字的记录（补充全文）
+        - 对未解析的 Google News URL 尝试 googlenewsdecoder 二次解码
+        - 使用 ThreadPoolExecutor 并发抓取
         """
         logger.info("=" * 60)
-        logger.info("步骤 2/4：网页正文解析")
+        logger.info("步骤 2/5：网页正文解析")
         logger.info("=" * 60)
+
+        # 统计采集阶段的内容质量
+        already_good = sum(1 for r in raw_records if len(r.get('content', '')) >= 200)
+        already_resolved = sum(1 for r in raw_records if r.get('url_resolved'))
+        logger.info(f"采集阶段已获取全文: {already_good}/{len(raw_records)} 条")
+        logger.info(f"采集阶段 URL 已解析: {already_resolved}/{len(raw_records)} 条")
+
+        # 筛选需要补充全文的记录
+        to_parse = []
+        for record in raw_records:
+            if len(record.get('content', '')) >= 200:
+                continue  # 已有足够内容
+            url = record.get('url', '')
+            if not url:
+                continue
+            to_parse.append(record)
+
+        if not to_parse:
+            logger.info("所有记录已有足够内容，跳过全文解析")
+            self.stats['parsed'] = already_good
+            return raw_records
+
+        logger.info(f"需要补充全文: {len(to_parse)} 条（已跳过 {len(raw_records) - len(to_parse)} 条内容充足）")
+
+        MAX_PARSE = 100
+        if len(to_parse) > MAX_PARSE:
+            logger.info(f"数量超过 {MAX_PARSE}，仅处理前 {MAX_PARSE} 条")
+            to_parse = to_parse[:MAX_PARSE]
 
         try:
             import trafilatura
@@ -93,25 +121,6 @@ class IntelPipeline:
         import requests as req
         from concurrent.futures import ThreadPoolExecutor, as_completed
 
-        # 筛选需要全文提取的记录
-        to_parse = []
-        for record in raw_records:
-            # 已有足够内容，跳过
-            if len(record.get('content', '')) > 500:
-                continue
-            url = record.get('url', '')
-            if not url:
-                continue
-            to_parse.append(record)
-
-        logger.info(f"需要全文提取: {len(to_parse)} 条（已跳过 {len(raw_records) - len(to_parse)} 条内容充足）")
-
-        # 限制并发数量，避免超时（GitHub Actions 30分钟限制）
-        MAX_PARSE = 80
-        if len(to_parse) > MAX_PARSE:
-            logger.info(f"数量超过 {MAX_PARSE}，仅处理前 {MAX_PARSE} 条（按采集顺序）")
-            to_parse = to_parse[:MAX_PARSE]
-
         session = req.Session()
         session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -120,36 +129,36 @@ class IntelPipeline:
         })
         session.verify = False
 
+        # 检查 googlenewsdecoder
+        try:
+            from googlenewsdecoder import gnewsdecoder
+            gn_decoder_available = True
+        except ImportError:
+            gn_decoder_available = False
+
         def fetch_and_parse(record):
             """单条记录的全文提取"""
             url = record.get('url', '')
             try:
-                # 如果 URL 仍然是 Google News 跳转链接，先解析真实 URL
+                # 如果 URL 仍然是 Google News 跳转链接，尝试 googlenewsdecoder
                 if 'news.google.com' in url:
-                    try:
-                        resp = session.get(url, timeout=15, allow_redirects=True)
-                        final_url = resp.url
-                        if 'news.google.com' in final_url:
-                            import re as _re
-                            # 尝试多种方式从 HTML 中提取真实 URL
-                            url_match = _re.search(r'data-n-au="([^"]+)"', resp.text)
-                            if not url_match:
-                                url_match = _re.search(r'window\.location\.replace\(["\']([^"\']+)', resp.text)
-                            if not url_match:
-                                url_match = _re.search(r'<meta[^>]+http-equiv=["\']refresh["\'][^>]+url=([^"\'>\s]+)', resp.text, _re.IGNORECASE)
-                            if not url_match:
-                                url_match = _re.search(r'og:url["\']\s+content=["\'](https?://[^"\']+)', resp.text)
-                            if url_match:
-                                final_url = url_match.group(1)
-                                # 如果提取的 URL 仍然是 Google News，放弃
-                                if 'news.google.com' in final_url:
+                    if gn_decoder_available:
+                        try:
+                            result = gnewsdecoder(url, interval=1)
+                            if result.get('status'):
+                                decoded = result.get('decoded_url', '')
+                                if decoded and 'news.google.com' not in decoded:
+                                    url = decoded
+                                    record['url'] = decoded
+                                    record['url_resolved'] = True
+                                else:
                                     return ('gn_unresolved', record)
                             else:
                                 return ('gn_unresolved', record)
-                        url = final_url
-                        record['url'] = final_url
-                    except Exception:
-                        return ('gn_error', record)
+                        except Exception:
+                            return ('gn_error', record)
+                    else:
+                        return ('gn_unresolved', record)
 
                 resp = session.get(url, timeout=15, allow_redirects=True)
                 final_url = resp.url
@@ -164,6 +173,7 @@ class IntelPipeline:
                 if text and len(text) > 100:
                     record['content'] = text[:8000]
                     record['url'] = final_url
+                    record['url_resolved'] = True
                     metadata = trafilatura.extract(
                         html_content, output_format='json',
                         with_metadata=True, url=final_url
@@ -178,7 +188,6 @@ class IntelPipeline:
                             record['publisher'] = self.parser._normalize_org_name(metadata.get('sitename', ''))
                     return ('ok', record)
                 else:
-                    # Trafilatura 失败，用 BeautifulSoup 回退
                     from bs4 import BeautifulSoup as _bs
                     soup = _bs(html_content, 'html.parser')
                     for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside']):
@@ -186,6 +195,7 @@ class IntelPipeline:
                     body_text = soup.get_text(separator='\n', strip=True)
                     if len(body_text) > 200:
                         record['content'] = body_text[:8000]
+                        record['url_resolved'] = True
                         return ('bs4_ok', record)
                     return ('empty', record)
             except req.exceptions.Timeout:
@@ -195,7 +205,6 @@ class IntelPipeline:
             except Exception:
                 return ('error', record)
 
-        # 并发抓取（5 线程）
         MAX_WORKERS = 5
         success_count = 0
         fail_count = 0
@@ -217,10 +226,10 @@ class IntelPipeline:
                 except Exception as e:
                     fail_count += 1
                     status_counts['exception'] = status_counts.get('exception', 0) + 1
-                    logger.warning(f"  并发异常: {type(e).__name__}: {e}")
 
         logger.info(f"  状态分布: {status_counts}")
-        logger.info(f"解析完成：{success_count} 成功 / {fail_count} 失败 / {len(to_parse)} 总计")
+        total_good = already_good + success_count
+        logger.info(f"解析完成：补充 {success_count} 成功 / {fail_count} 失败 | 总计有全文: {total_good}/{len(raw_records)}")
         return raw_records
 
     def step_3_extract_entities(self, records):
