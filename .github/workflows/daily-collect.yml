@@ -65,6 +65,77 @@ jobs:
             echo "无摘要数据" >> $GITHUB_STEP_SUMMARY
           fi
 
+      - name: 生成 Markdown 日报
+        if: success()
+        run: |
+          python -c "
+          import sys, json
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+          from collections import defaultdict
+          sys.path.insert(0, 'scripts')
+          BJT = timezone(timedelta(hours=8))
+          today = datetime.now(BJT).strftime('%Y-%m-%d')
+
+          intel_file = Path('processed/intel_records.jsonl')
+          if not intel_file.exists():
+              print('无情报数据，跳过日报生成')
+              exit(0)
+
+          records = []
+          with open(intel_file, 'r') as f:
+              for line in f:
+                  if line.strip():
+                      records.append(json.loads(line))
+
+          today_records = [r for r in records if r.get('publish_date', '') == today]
+          if not today_records:
+              today_records = records[-30:]
+
+          md = f'# 低空经济情报日报 — {today}\n\n'
+          md += f'> 自动生成 | 共 {len(today_records)} 条情报\n\n---\n\n'
+
+          by_source = defaultdict(list)
+          for r in today_records:
+              src = r.get('source_site', r.get('publisher', '未知'))
+              by_source[src].append(r)
+
+          md += '## 来源分布\n\n| 来源 | 条数 |\n|------|------|\n'
+          for src, items in sorted(by_source.items(), key=lambda x: -len(x[1])):
+              md += f'| {src} | {len(items)} |\n'
+
+          md += '\n---\n\n## 情报列表\n\n'
+          for i, r in enumerate(today_records, 1):
+              title = r.get('title', '无标题')
+              url = r.get('url', '')
+              date = r.get('publish_date', '')
+              content_preview = r.get('content', '')[:200].replace('\n', ' ')
+              entities = r.get('entities', {})
+              orgs = ', '.join(e['text'] for e in entities.get('orgs', [])[:3])
+              persons = ', '.join(e['text'] for e in entities.get('persons', [])[:3])
+
+              md += f'### {i}. {title}\n\n'
+              md += f'- 日期: {date}\n'
+              md += f'- 来源: {r.get(\"source_site\", \"\")}\n'
+              if orgs:
+                  md += f'- 机构: {orgs}\n'
+              if persons:
+                  md += f'- 人物: {persons}\n'
+              md += f'- 链接: {url}\n'
+              if content_preview:
+                  md += f'\n> {content_preview}...\n'
+              md += '\n'
+
+          md += '---\n\n*本报告由低空经济情报系统自动生成*\n'
+
+          report_dir = Path(f'reports/{datetime.now(BJT).strftime(\"%Y-%m\")}')
+          report_dir.mkdir(parents=True, exist_ok=True)
+          report_file = report_dir / f'daily-{today}.md'
+          with open(report_file, 'w', encoding='utf-8') as f:
+              f.write(md)
+          print(f'日报已生成: {report_file}')
+          "
+
       - name: 提交采集结果
         if: success()
         run: |

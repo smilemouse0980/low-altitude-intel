@@ -30,19 +30,63 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 生成周报
+      - name: 生成周报数据 + Phase 2 深度分析 + Markdown 报告
         run: |
           mkdir -p reports processed
           python -c "
-          import sys
-          sys.path.insert(0, 'scripts')
-          from report_generator import ReportGenerator
+          import sys, json
+          from pathlib import Path
           from datetime import datetime, timezone, timedelta
+          sys.path.insert(0, 'scripts')
           BJT = timezone(timedelta(hours=8))
           today = datetime.now(BJT).strftime('%Y-%m-%d')
+
+          # 1. 生成周报 JSON 数据
+          from report_generator import ReportGenerator
           gen = ReportGenerator()
           gen.generate_weekly(today)
-          print(f'周报已生成: {today}')
+          print(f'周报数据已生成: {today}')
+
+          # 2. Phase 2 深度分析
+          try:
+              from company_profiler import CompanyProfiler
+              profiler = CompanyProfiler()
+              profiles = profiler.build_all_profiles()
+              print(f'企业画像: {len(profiles)} 家')
+          except Exception as e:
+              print(f'企业画像失败: {e}')
+
+          try:
+              from knowledge_graph import KnowledgeGraphBuilder
+              kg = KnowledgeGraphBuilder()
+              summary = kg.build()
+              print(f'知识图谱: {summary[\"total_nodes\"]} 节点, {summary[\"total_edges\"]} 边')
+          except Exception as e:
+              print(f'知识图谱失败: {e}')
+
+          try:
+              from competitive_analysis import CompetitiveAnalyzer
+              analyzer = CompetitiveAnalyzer()
+              analyzer.analyze()
+              print('竞争格局分析完成')
+          except Exception as e:
+              print(f'竞争分析失败: {e}')
+
+          try:
+              from enhanced_reporter import EnhancedReporter
+              reporter = EnhancedReporter()
+              reporter.generate_all()
+              print('增强报告生成完成')
+          except Exception as e:
+              print(f'增强报告失败: {e}')
+
+          try:
+              from ima_exporter import IMAExporter
+              exporter = IMAExporter()
+              exporter.export_all()
+              print('IMA 导出完成')
+          except Exception as e:
+              print(f'IMA 导出失败: {e}')
           "
 
       - name: 提交周报
