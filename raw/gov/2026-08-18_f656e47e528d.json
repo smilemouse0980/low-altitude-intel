@@ -1,0 +1,72 @@
+{
+  "doc_id": "f656e47e528d",
+  "url": "http://sd.news.cn/20260818/ddc9e6281d3f45b69ed2d42d2ff7b15a/c.html",
+  "title": "低空经济催生\"飞手热\" 青年主动储备新技能 - 新华网",
+  "content": "8月14日，位于山东省东营市东营区的山东广域科技无人机实训基地内，大学生学员在教员指导下学习无人机系统原理与作业规范。\n  暑假期间，东营区一些年轻人特别是在校大学生，积极参加无人机飞手执照、AI技能等职业培训。在低空经济蓬勃发展的带动下，相关岗位招聘热度持续走高，年轻人的就业观，也从“被动求职”向“主动储备”转变。",
+  "publish_date": "2026-08-18",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "sd.news.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:33:56.872276+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 52,
+        "end": 55,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "山东省",
+        "label": "location",
+        "start": 36,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东营区",
+        "label": "location",
+        "start": 42,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "山东",
+        "label": "location",
+        "start": 46,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东营区",
+        "label": "location",
+        "start": 95,
+        "end": 98,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "8月14日",
+        "label": "date",
+        "start": 28,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

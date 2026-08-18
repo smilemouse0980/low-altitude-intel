@@ -1,0 +1,112 @@
+{
+  "doc_id": "c57435afc964",
+  "url": "https://www.bjnews.com.cn/detail/1785476833129281.html",
+  "title": "万丰eVTOL完成韩国海上公开飞行 - 新京报",
+  "content": "新京报贝壳财经讯 7月29日，万丰集团旗下的Volocopter公司携手战略合作伙伴韩国Chodang大学，在韩国济州岛完成电动垂直起降飞行器（eVTOL）公开飞行活动。本次飞行特别包含海上飞行演示科目，展现了该机型在海岛复杂空域环境下的飞行性能与安全稳定性。这是万丰自去年3月重组Volocopter公司之后的首场国际公开飞行演示。\n本次飞行活动是Volocopter再度应邀参与韩国科学技术院（KAIST）主导的UAM eVTOL飞行表演与产业推广活动。KAIST长期致力于推广韩国新能源交通产业，持续推动电动汽车、电动飞行器技术研发与市场普及。Volocopter与KAIST的合作渊源始于2021年，实现了韩国首次载人eVTOL飞行活动。\n编辑 王进雨",
+  "publish_date": "2026-07-31",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "www.bjnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:01.768727+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新京报 新京报",
+        "label": "org",
+        "start": 20,
+        "end": 27,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "韩国Chodang大学",
+        "label": "org",
+        "start": 66,
+        "end": 77,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Volocopter公司",
+        "label": "org",
+        "start": 165,
+        "end": 177,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 9,
+        "end": 11,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 79,
+        "end": 81,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 215,
+        "end": 217,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 265,
+        "end": 267,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 331,
+        "end": 333,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "7月29日",
+        "label": "date",
+        "start": 33,
+        "end": 38,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "去年3月",
+        "label": "date",
+        "start": 159,
+        "end": 163,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 322,
+        "end": 327,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

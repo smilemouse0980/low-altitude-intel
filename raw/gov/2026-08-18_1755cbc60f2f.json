@@ -1,0 +1,152 @@
+{
+  "doc_id": "1755cbc60f2f",
+  "url": "https://yuanxiangsky.com/N/625.html",
+  "title": "投融资9100万美元注入！这家公司用无人机建设全球电网该轮融资由新加坡主权财富基金GIC领投,Activate Capital,Hitachi Ventures及现有投资方Energy Impact Partners共同参与。无人机基础设施美国投资资金四海11/5/2025, 7:06:32 PM",
+  "content": "9100万美元注入！这家公司用无人机建设全球电网\n题图 | Infravision\n近日，总部位于美国奥斯汀的Infravision公司宣布完成9100万美元B轮融资，这笔资金将用于推进其空中机器人系统在全球电力线路建设与维护领域的部署进程。该轮融资由新加坡主权财富基金GIC领投,Activate Capital,Hitachi Ventures及现有投资方Energy Impact Partners共同参与。\nInfravision成立于2018年，由机器人工程师卡梅伦・范德伯格（Cameron Van Der Berg）与退役军人克里斯・考克斯（Chris Cox）联合创立。作为专注于电网建设与维护模式创新的企业，公司依托自主研发的空中机器人系统，为电力公司、承包商及开发商提供服务，助力其扩大输配电基础设施规模。\n图源：Infravision\n在项目实践层面，Infravision已在四个国家落地超过40个重大项目，其中包括澳大利亚的Powerlink Genex项目，以及与美国加州太平洋燃气电力公司（PG&E）合作的应急响应行动。其研发的TX系统具备与直升机相当的作业能力，且可依托车载舰队开展工作。从相关应用数据来看，该系统在项目成本控制、电力中断情况减少，以及复杂环境下应急响应效率提升等方面均有实际成效。\n当前，受人工智能基础设施建设、工业回流及电气化趋势的综合影响，全球电力需求持续攀升，电力公司正面临扩大输电容量的压力。国际能源署（IEA）预测，为实现气候目标，到2040年全球电网基础设施规模需实现翻倍。对此，Infravision方面表示，其技术可消除传统电力线路建设中固有的意外风险与安全隐患，进而用于解决电网扩建过程中的关键瓶颈问题。\n图源：Infravision\n“Infravision的空中机器人系统已在全球多个规模较大、难度较高的电力线路项目中投入应用，”范德伯格指出，“随着全球各国推进2040年电网基础设施翻倍的目标，这笔投资将支持我们进一步扩大规模，以应对日益增长的电力需求。”\n据介绍，此次新筹集的资金将主要用于三项工作：一是扩大美国本土的制造业务，二是招募工程领域人才，三是与北美地区的电力公司及承包商建立合作关系。目前，澳大利亚已成为Infravision的成熟市场，接下来公司计划将重点放在推进北美市场布局上。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-企业动态",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:53.603971+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "美国加州太平洋燃气电力公司",
+        "label": "org",
+        "start": 596,
+        "end": 609,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国际能源署",
+        "label": "org",
+        "start": 775,
+        "end": 780,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 18,
+        "end": 21,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 32,
+        "end": 35,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 120,
+        "end": 122,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 199,
+        "end": 201,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "奥斯汀",
+        "label": "location",
+        "start": 201,
+        "end": 204,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 276,
+        "end": 279,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "澳大利亚",
+        "label": "location",
+        "start": 570,
+        "end": 574,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 1042,
+        "end": 1044,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北美",
+        "label": "location",
+        "start": 1066,
+        "end": 1068,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "澳大利亚",
+        "label": "location",
+        "start": 1089,
+        "end": 1093,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北美",
+        "label": "location",
+        "start": 1127,
+        "end": 1129,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2018年",
+        "label": "date",
+        "start": 372,
+        "end": 377,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2040年",
+        "label": "date",
+        "start": 797,
+        "end": 802,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2040年",
+        "label": "date",
+        "start": 967,
+        "end": 972,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

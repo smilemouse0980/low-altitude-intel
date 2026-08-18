@@ -1,0 +1,39 @@
+{
+  "doc_id": "7a7389359238",
+  "url": "https://www.bcg.com/publications/2025/china-manned-evtol-market-whitepaper",
+  "title": "中国载人eVTOL行业白皮书 - Boston Consulting Group",
+  "content": "Access Denied\n \nYou don't have permission to access \"http://www.bcg.com/publications/2025/china-manned-evtol-market-whitepaper\" on this server.\nReference #18.8f6d3e17.1787042079.4239b7f9\nhttps://errors.edgesuite.net/18.8f6d3e17.1787042079.4239b7f9",
+  "publish_date": "2025-09-09",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "www.bcg.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:39.247242+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Reference",
+        "label": "person",
+        "start": 185,
+        "end": 194,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "doc_id": "5501d8b7aad6",
+  "url": "https://www.rfi.fr/cn/%E7%A7%91%E6%8A%80%E4%B8%8E%E6%96%87%E5%8C%96/20260617-%E7%BE%8E%E8%81%94%E9%82%A6%E9%80%9A%E4%BF%A1%E5%A7%94%E5%91%98%E4%BC%9A%E6%94%B9%E5%8F%98%E6%94%BF%E7%AD%96-%E5%85%81%E8%AE%B8%E8%BF%9B%E5%8F%A3%E4%B8%AD%E5%9B%BD%E6%96%B0%E6%AC%BE%E7%8E%A9%E5%85%B7%E6%97%A0%E4%BA%BA%E6%9C%BA",
+  "title": "美联邦通信委员会改变政策 允许进口中国新款玩具无人机 - RFI",
+  "content": "Access denied\nYou don't have permission to access the page you requested.\nWhat is this page?\nThe website you are visiting is protected.\nFor security reasons this page cannot be displayed.\nFrance\n▪\nMedias\n▪\nMonde",
+  "publish_date": "2026-06-17",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "www.rfi.fr",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:26.089185+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "联邦通信委员会",
+        "label": "org",
+        "start": 1,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 23,
+        "end": 26,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "美",
+        "label": "location",
+        "start": 0,
+        "end": 1,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 17,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

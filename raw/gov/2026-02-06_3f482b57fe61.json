@@ -1,0 +1,87 @@
+{
+  "doc_id": "3f482b57fe61",
+  "url": "https://companies.caixin.com/2026-02-06/102412349.html",
+  "title": "追求更大载重更远航程 峰飞航空发布新型低空飞行器 - 财新",
+  "content": "【财新网】国内电动垂直起降飞行器（eVTOL）头部企业上海峰飞航空科技有限公司（下称“峰飞航空”）于2月5日发布大载重eVTOL机型“V5000天际龙”。该机型最大起飞重量达5.7吨，可搭载1名飞行员和9名乘客，其混动版本的航程最高可达1500公里。在最大起飞重量和续航能力两项关键指标上，这款机型均创全球eVTOL行业之最。\nV5000天际龙的性能指标逼近国内监管规则极限。中国民航局在2025年12月发布了适用于eVTOL适航认证的《动力提升航空器适航标准（征求意见稿）》（下称《适航标准》）。适航认证是民航监管部门对航空器安全性的技术审查，也是航空器投入商业化运行的前提。",
+  "publish_date": "2026-02-06",
+  "publisher": "Google新闻-适航认证",
+  "source_site": "companies.caixin.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:39:24.493236+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "上海峰飞航空科技有限公司",
+        "label": "org",
+        "start": 57,
+        "end": 69,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 73,
+        "end": 77,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 218,
+        "end": 223,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海峰飞",
+        "label": "org",
+        "start": 57,
+        "end": 61,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 220,
+        "end": 223,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 11,
+        "end": 13,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2月5日",
+        "label": "date",
+        "start": 80,
+        "end": 84,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年12月",
+        "label": "date",
+        "start": 224,
+        "end": 232,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

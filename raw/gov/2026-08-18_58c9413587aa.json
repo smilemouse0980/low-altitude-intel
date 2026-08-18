@@ -1,0 +1,528 @@
+{
+  "doc_id": "58c9413587aa",
+  "url": "https://yuanxiangsky.com/N/737.html",
+  "title": "行研报告2026全球低空竞赛：中、美、欧各凭什么“领跑”半场？中国基建狂飙、美国商业领跑、欧洲严控标准，全球低空经济已形成“三足鼎立”的竞争格局。全球低空美国基础设施无人机eVTOL晓飞1/31/2026, 10:00:46 AM",
+  "content": "2026全球低空竞赛：中、美、欧各凭什么“领跑”半场？\n一、美国：商业化运营的“急先锋”\n如果说中国的优势在于“造车”和“修路”，那么美国的优势在于“运营”和“软件”。\n1、空中Uber已上线：\n- 2026年，美国纽约和新泽西地区率先实现了eVTOL（空中出租车）的常态化商业载客。Joby Aviation和Archer Aviation的机队已经在繁忙的曼哈顿天际线下来回穿梭。\n- 逻辑： 美国利用其强大的通航文化基础和成熟的空管体系（FAA），率先打通了商业闭环，证明了“打飞的”是可以赚钱的。\n2、科技巨头的入局：\n- 谷歌Wing和亚马逊Prime Air的无人机配送，在硅谷和部分郊区已经像送快递员一样普遍。\n- 差异： 与中国注重“物流硬网络”不同，美国更注重AI调度算法和自动化避障系统的软件护城河。\n二、欧洲：高标准的“守门员”\n欧洲没有中美那么“急”，他们在做一件事：定规则。\nEASA1、标准的全球输出：\n- 欧洲航空安全局（EASA）制定的SC-VTOL（特技类垂直起降）适航标准，被认为是目前全球最严苛、最完善的规则。\n- 影响： 很多想在亚洲或中东卖飞机的企业，都要先去拿EASA的认证，因为那是通往国际市场的“硬通货”。\n2、城市空中交通（UAM）的谨慎落地：\n- 巴黎（奥运后）和罗马是欧洲的低空先行者。但在空域管理上，欧洲采取了极其审慎的“隔离运行”策略，确保绝对安全优先于效率。\n- 特色： 欧洲的Volocopter等企业更主打“静音”、“零排放”的奢华与环保标签，走高端精品路线。\n三、中东：土豪的“超级试验场”\n中东（沙特阿联酋、迪拜）不是技术发源地，却是最好的应用场。\n1、不计成本的基建：\n- 在“新未来城”（NEOM），为了低空旅游和物流，直接建设了最顶级的垂直起降场（Vertiport），并且配套了专属的空中高速公路。\n2、奢华体验的极致：\n- 迪拜的空中观光不仅仅是看风景，而是提供“空中下午茶”、“F1赛道空中视角”等超高客单价服务。中东用钱加速了技术的商业化验证。\n四、中国：基础设施的“巨无霸”\n回到中国，我们的角色非常清晰：“供应链中心+基建狂魔”。\n1、无可替代的供应链：\n- 全球70%以上的无人机和eVTOL零部件，都在中国生产。从电机、电池到机身碳纤维，中国供应链的效率和成本控制能力，让欧美企业难以脱离。\n2、规模最大的空域网：\n- 正如我们周一所讲，中国正在构建全球最大的低空空域数字化网络。虽然商业化运营起步稍晚于美国，但一旦网建好，爆发力将是指数级的。\n五、周末思考：谁将定义未来天空？\n周末看全球，我们可以得出一个有趣的结论：\n- 美国在定义“怎么赚钱”（商业模式）；\n- 欧洲在定义“怎么安全”（适航标准）；\n- 中国在定义“怎么通达”（基础设施与制造）；\n- 中东在定义“怎么奢侈”（高端体验）。\n2026年的竞争，不再是单一维度的较量，而是这些能力的组合拳。\n对于中国企业和从业者来说，盯着国内的内卷市场固然重要，但抬起头看看：你的技术，能不能过得了欧洲的标？你的模式，能不能在美国赚钱？你的基建，能不能复制到中东？\n这或许才是低空经济真正的星辰大海。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-政策法规",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:59.371924+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Aviation",
+        "label": "person",
+        "start": 263,
+        "end": 271,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "谷歌Wing",
+        "label": "org",
+        "start": 382,
+        "end": 388,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲航空安全局",
+        "label": "org",
+        "start": 534,
+        "end": 541,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Joby",
+        "label": "org",
+        "start": 258,
+        "end": 262,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 83,
+        "end": 86,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "Archer",
+        "label": "org",
+        "start": 272,
+        "end": 278,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中",
+        "label": "location",
+        "start": 15,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 17,
+        "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 31,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 38,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 45,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 77,
+        "end": 79,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中",
+        "label": "location",
+        "start": 127,
+        "end": 128,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 129,
+        "end": 130,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 146,
+        "end": 148,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 164,
+        "end": 166,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 183,
+        "end": 185,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 222,
+        "end": 224,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "纽约",
+        "label": "location",
+        "start": 224,
+        "end": 226,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新泽西",
+        "label": "location",
+        "start": 227,
+        "end": 230,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 315,
+        "end": 317,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 436,
+        "end": 438,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 450,
+        "end": 452,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 479,
+        "end": 481,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 492,
+        "end": 494,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中",
+        "label": "location",
+        "start": 496,
+        "end": 497,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 497,
+        "end": 498,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亚洲",
+        "label": "location",
+        "start": 601,
+        "end": 603,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 604,
+        "end": 606,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴黎",
+        "label": "location",
+        "start": 666,
+        "end": 668,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "罗马",
+        "label": "location",
+        "start": 674,
+        "end": 676,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 677,
+        "end": 679,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 694,
+        "end": 696,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 732,
+        "end": 734,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 781,
+        "end": 783,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 795,
+        "end": 797,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沙特阿联酋",
+        "label": "location",
+        "start": 798,
+        "end": 803,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "迪拜",
+        "label": "location",
+        "start": 804,
+        "end": 806,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "奢华",
+        "label": "location",
+        "start": 906,
+        "end": 908,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "迪拜",
+        "label": "location",
+        "start": 917,
+        "end": 919,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 963,
+        "end": 965,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 982,
+        "end": 984,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 998,
+        "end": 1000,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1062,
+        "end": 1064,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1080,
+        "end": 1082,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧美",
+        "label": "location",
+        "start": 1097,
+        "end": 1099,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1130,
+        "end": 1132,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 1163,
+        "end": 1165,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 1224,
+        "end": 1226,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 1245,
+        "end": 1247,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1266,
+        "end": 1268,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 1290,
+        "end": 1292,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1343,
+        "end": 1345,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 1386,
+        "end": 1388,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 1400,
+        "end": 1402,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 1416,
+        "end": 1418,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 4,
+        "end": 8,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 216,
+        "end": 221,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "周一",
+        "label": "date",
+        "start": 1125,
+        "end": 1127,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "五、周末",
+        "label": "date",
+        "start": 1184,
+        "end": 1188,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "周末",
+        "label": "date",
+        "start": 1201,
+        "end": 1203,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 1309,
+        "end": 1314,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": [
+      {
+        "person": "Aviation",
+        "title": "",
+        "org": "Archer",
+        "context": "先实现了eVTOL（空中出租车）的常态化商业载客。Joby Aviation和Archer Aviation的机队已经在繁忙的曼哈顿天际"
+      }
+    ]
+  }
+}

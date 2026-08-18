@@ -1,0 +1,112 @@
+{
+  "doc_id": "0f5a6387cbff",
+  "url": "https://m.caixin.com/m/2025-11-06/102379679.html",
+  "title": "混动低空飞行器阵营扩张 头部企业冲击适航认证 - 财新",
+  "content": "【财新网】电动垂直飞行器（Electric Vertical Take-off and Landing，eVTOL）是航空电动化的产物，正如新能源汽车一样，当前也面临着动力路线的分化。\n11月5日，在第八届上海进博会期间，初创企业天翎科航空科技（上海）有限公司（下称“天翎科”）首次展出其全尺寸混动eVTOL原型机L600，该机型最大航速（360公里/时）和最大续航里程（600公里）都显著高于同级别的纯电eVTOL。\n在同日举行的小鹏汽车科技日活动上，广东汇天航空航天科技有限公司（下称“汇天飞行汽车”）也首次展出了正在研发的混动eVTOL原型机A868。汇天飞行汽车是小鹏汽车（NYSE：XPEV/ 09868.HK ）的飞行汽车研发主体。",
+  "publish_date": "2025-11-06",
+  "publisher": "Google新闻-适航认证",
+  "source_site": "m.caixin.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:39:34.898167+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Electric Vertical",
+        "label": "person",
+        "start": 41,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "天翎科航空科技",
+        "label": "org",
+        "start": 143,
+        "end": 150,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "汇天航空航天科技有限公司",
+        "label": "org",
+        "start": 257,
+        "end": 269,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Vertical",
+        "label": "org",
+        "start": 50,
+        "end": 58,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 131,
+        "end": 133,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 151,
+        "end": 153,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "天翎科",
+        "label": "location",
+        "start": 162,
+        "end": 165,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "广东",
+        "label": "location",
+        "start": 255,
+        "end": 257,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "11月5日",
+        "label": "date",
+        "start": 121,
+        "end": 126,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "同日",
+        "label": "date",
+        "start": 239,
+        "end": 241,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": [
+      {
+        "person": "Electric Vertical",
+        "title": "",
+        "org": "Vertical",
+        "context": "头部企业冲击适航认证 - 财新 【财新网】电动垂直飞行器（Electric Vertical Take-off and Landing，eVTOL）是航"
+      }
+    ]
+  }
+}

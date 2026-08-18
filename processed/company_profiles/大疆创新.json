@@ -1,130 +1,585 @@
 {
   "company_name": "大疆创新",
   "category": "无人机整机",
-  "mention_count": 11,
-  "first_seen": "2023-07-31",
-  "last_seen": "2026-07-10",
-  "key_persons": [],
-  "locations": [
+  "mention_count": 18,
+  "first_seen": "2025-11-27",
+  "last_seen": "2026-08-18",
+  "key_persons": [
     {
-      "name": "北京",
+      "name": "Safety",
+      "mentions": 4
+    },
+    {
+      "name": "Mon",
       "mentions": 2
     },
     {
-      "name": "美",
+      "name": "Jason",
       "mentions": 2
     }
   ],
-  "partners": [],
+  "locations": [
+    {
+      "name": "北京",
+      "mentions": 58
+    },
+    {
+      "name": "珠海",
+      "mentions": 57
+    },
+    {
+      "name": "深圳",
+      "mentions": 28
+    },
+    {
+      "name": "示范区",
+      "mentions": 18
+    },
+    {
+      "name": "北京市",
+      "mentions": 15
+    },
+    {
+      "name": "广东省",
+      "mentions": 15
+    },
+    {
+      "name": "广东",
+      "mentions": 12
+    },
+    {
+      "name": "广州",
+      "mentions": 12
+    },
+    {
+      "name": "石家庄",
+      "mentions": 11
+    },
+    {
+      "name": "上海",
+      "mentions": 10
+    }
+  ],
+  "partners": [
+    {
+      "name": "亿航智能",
+      "co_occurrences": 5
+    },
+    {
+      "name": "沃兰特",
+      "co_occurrences": 3
+    },
+    {
+      "name": "峰飞航空",
+      "co_occurrences": 2
+    },
+    {
+      "name": "腾盾科技",
+      "co_occurrences": 2
+    },
+    {
+      "name": "顺丰丰翼",
+      "co_occurrences": 1
+    },
+    {
+      "name": "道通智能",
+      "co_occurrences": 1
+    },
+    {
+      "name": "沃飞长空",
+      "co_occurrences": 1
+    },
+    {
+      "name": "极飞科技",
+      "co_occurrences": 1
+    }
+  ],
   "events": {
     "product_launch": [
       {
-        "date": "2023-07-31",
-        "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
-        "source": "news.google.com"
-      }
-    ],
-    "financing": [],
-    "cooperation": [],
-    "policy_related": [
-      {
-        "date": "2026-05-23",
-        "title": "大疆谈低空经济：短期内无人机物流和eVTOL载人无法规模化运营 - 财新",
-        "source": "news.google.com"
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
       },
       {
-        "date": "2023-07-31",
-        "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
-        "source": "news.google.com"
+        "date": "2026-04-07",
+        "title": "中国缔造了全球无人机产业，却“封锁”了天空 - 纽约时报中文网",
+        "source": "cn.nytimes.com"
+      },
+      {
+        "date": "2026-04-24",
+        "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-24",
+        "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "货运无人机市场规模及份额| 2032 年行业报告 - Fortune Business Insights",
+        "source": "www.fortunebusinessinsights.com"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "低空经济展翅高飞（深度观察） --经济·科技 - 人民网",
+        "source": "finance.people.com.cn"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "北京无人机“禁售”生效前：门店转型、用户囤货或转售 - 证券时报",
+        "source": "stcn.com"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "北京无人机“禁售”生效前：门店转型、用户囤货或转售 - 证券时报",
+        "source": "stcn.com"
+      },
+      {
+        "date": "2026-04-01",
+        "title": "大湾区低空经济成势 粤产无人机领跑全球产业赛道 - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "郑州护航低空经济蓄势高飞 - 中国经济网",
+        "source": "district.ce.cn"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究美国将外国制造无人机及组件纳入管控清单FCC将外国制造无人机及相关组件列入管控清单，禁止新型设备型号获取FCC设备授权，而未经授权的新型设备将无法进入美国市场。无人机美国大疆政策审查弘微12/26/2025, 6:00:31 PM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究非洲加速布局低空经济，中非合作注入新动能 | 圆象观察2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。低空经济无人机基础设施农业公共服务弘微11/24/2025, 10:23:40 AM",
+        "source": "yuanxiangsky.com"
       }
     ],
-    "certification": [],
+    "financing": [
+      {
+        "date": "2026-07-20",
+        "title": "货运无人机市场规模及份额| 2032 年行业报告 - Fortune Business Insights",
+        "source": "www.fortunebusinessinsights.com"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究美国将外国制造无人机及组件纳入管控清单FCC将外国制造无人机及相关组件列入管控清单，禁止新型设备型号获取FCC设备授权，而未经授权的新型设备将无法进入美国市场。无人机美国大疆政策审查弘微12/26/2025, 6:00:31 PM",
+        "source": "yuanxiangsky.com"
+      }
+    ],
+    "cooperation": [
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "货运无人机市场规模及份额| 2032 年行业报告 - Fortune Business Insights",
+        "source": "www.fortunebusinessinsights.com"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "低空经济展翅高飞（深度观察） --经济·科技 - 人民网",
+        "source": "finance.people.com.cn"
+      },
+      {
+        "date": "2026-04-01",
+        "title": "大湾区低空经济成势 粤产无人机领跑全球产业赛道 - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "郑州护航低空经济蓄势高飞 - 中国经济网",
+        "source": "district.ce.cn"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究非洲加速布局低空经济，中非合作注入新动能 | 圆象观察2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。低空经济无人机基础设施农业公共服务弘微11/24/2025, 10:23:40 AM",
+        "source": "yuanxiangsky.com"
+      }
+    ],
+    "policy_related": [
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-04-07",
+        "title": "中国缔造了全球无人机产业，却“封锁”了天空 - 纽约时报中文网",
+        "source": "cn.nytimes.com"
+      },
+      {
+        "date": "2026-04-24",
+        "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-24",
+        "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "货运无人机市场规模及份额| 2032 年行业报告 - Fortune Business Insights",
+        "source": "www.fortunebusinessinsights.com"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "低空经济展翅高飞（深度观察） --经济·科技 - 人民网",
+        "source": "finance.people.com.cn"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "北京无人机“禁售”生效前：门店转型、用户囤货或转售 - 证券时报",
+        "source": "stcn.com"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "北京无人机“禁售”生效前：门店转型、用户囤货或转售 - 证券时报",
+        "source": "stcn.com"
+      },
+      {
+        "date": "2026-04-01",
+        "title": "大湾区低空经济成势 粤产无人机领跑全球产业赛道 - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "郑州护航低空经济蓄势高飞 - 中国经济网",
+        "source": "district.ce.cn"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究美国将外国制造无人机及组件纳入管控清单FCC将外国制造无人机及相关组件列入管控清单，禁止新型设备型号获取FCC设备授权，而未经授权的新型设备将无法进入美国市场。无人机美国大疆政策审查弘微12/26/2025, 6:00:31 PM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究非洲加速布局低空经济，中非合作注入新动能 | 圆象观察2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。低空经济无人机基础设施农业公共服务弘微11/24/2025, 10:23:40 AM",
+        "source": "yuanxiangsky.com"
+      }
+    ],
+    "certification": [
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "低空经济展翅高飞（深度观察） --经济·科技 - 人民网",
+        "source": "finance.people.com.cn"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "郑州护航低空经济蓄势高飞 - 中国经济网",
+        "source": "district.ce.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      }
+    ],
     "market_expansion": [
       {
-        "date": "2023-07-31",
-        "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
-        "source": "news.google.com"
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-04-07",
+        "title": "中国缔造了全球无人机产业，却“封锁”了天空 - 纽约时报中文网",
+        "source": "cn.nytimes.com"
+      },
+      {
+        "date": "2026-07-20",
+        "title": "货运无人机市场规模及份额| 2032 年行业报告 - Fortune Business Insights",
+        "source": "www.fortunebusinessinsights.com"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "低空经济展翅高飞（深度观察） --经济·科技 - 人民网",
+        "source": "finance.people.com.cn"
+      },
+      {
+        "date": "2026-04-01",
+        "title": "大湾区低空经济成势 粤产无人机领跑全球产业赛道 - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2025-11-27",
+        "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+        "source": "pub-zhtb.hizh.cn"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究美国将外国制造无人机及组件纳入管控清单FCC将外国制造无人机及相关组件列入管控清单，禁止新型设备型号获取FCC设备授权，而未经授权的新型设备将无法进入美国市场。无人机美国大疆政策审查弘微12/26/2025, 6:00:31 PM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "政策研究非洲加速布局低空经济，中非合作注入新动能 | 圆象观察2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。低空经济无人机基础设施农业公共服务弘微11/24/2025, 10:23:40 AM",
+        "source": "yuanxiangsky.com"
       }
     ]
   },
   "timeline": [
     {
-      "date": "2026-07-10",
-      "title": "横州大疆门店24小时抢修救援无人机 免费维修保障服务 - 中华网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vdGRNMEpJMXlIZ1ZYZWh4eVF4aGViNW1MNFUwbUw4N1o4VGJCc0NRMk1lR240VkhmLVFQRW10bWRqdnBCNGpfWGstSXhZZ0pnM3o0MHI2aExxQmlpNHZQQ0dqRXJMeTFkWWJUWWdkcjA?oc=5",
-      "content_snippet": "横州大疆门店24小时抢修救援无人机 免费维修保障服务中华网"
+      "date": "2026-08-18",
+      "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/1641.html",
+      "content_snippet": "1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道\n图片来源：通义万相 AI生成\n7月18日，石家庄装备制造产业园云翼芯港项目施工现场塔吊林立、机器轰鸣。总投资1.8亿元、总建筑面积2.9万平方米的项目正加速推进，一号楼计划7月底主体封顶。当一座"
     },
     {
-      "date": "2026-07-09",
-      "title": "大疆首款全电垂直起降运载无人机DJI EV50亮相 - 搜狐网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16MTd2dmtkdTNmR0hGS2hsMWxqcDJ3M0pfeURYV3VTUEZySXdNUlRPSnNDWFFtYTVNcHFCWl9qZHp5bGlCVE5idlNHOFBHRV9zM1VzblZ3?oc=5",
-      "content_snippet": "大疆首款全电垂直起降运载无人机DJI EV50亮相搜狐网"
+      "date": "2026-08-18",
+      "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/1443.html",
+      "content_snippet": "工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？\n图片来源：通义万相 AI生成\n2026 年 6 月 14 日，郑州国家通用航空产业综合示范区的起降坪上，一架搭载氢燃料电池动力系统的 DJI M400 无人机平稳升空，完成了悬停、航线巡航、模拟电力巡检等任务，全程零"
     },
     {
-      "date": "2026-07-09",
-      "title": "大疆首款全电垂直起降运载无人机DJI EV50亮相 - 搜狐网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16MTd2dmtkdTNmR0hGS2hsMWxqcDJ3M0pfeURYV3VTUEZySXdNUlRPSnNDWFFtYTVNcHFCWl9qZHp5bGlCVE5idlNHOFBHRV9zM1VzblZ3?oc=5",
-      "content_snippet": "大疆首款全电垂直起降运载无人机DJI EV50亮相搜狐网"
+      "date": "2026-08-18",
+      "title": "产业数据工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？当“空中快递”正从区域试点向跨城物流延伸、当电网巡检从“分段作业”走向“连续化覆盖”，一场由氢能驱动的长航时工业无人机“弯道超车”，正在悄然提速。无人机工业工业无人机电池氢能晓飞6/15/2026, 9:27:49 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/1443.html",
+      "content_snippet": "工业无人机“电量焦虑”有解了： 90 分钟氢动力续航首飞，能否撑起一个千亿新赛道？\n图片来源：通义万相 AI生成\n2026 年 6 月 14 日，郑州国家通用航空产业综合示范区的起降坪上，一架搭载氢燃料电池动力系统的 DJI M400 无人机平稳升空，完成了悬停、航线巡航、模拟电力巡检等任务，全程零"
     },
     {
-      "date": "2026-05-23",
-      "title": "大疆谈低空经济：短期内无人机物流和eVTOL载人无法规模化运营 - 财新",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NRmp3MXltdFpQdnRQWWRJZm1FaUk0ajgxdDNJNWZEMVhDdXBaQmFONmpveHV2RENaV3Y4TURtZXNreWEwMkhaY0ZLQVpkZzhrdGs5dGRxdHBzaWI3?oc=5",
-      "content_snippet": "大疆谈低空经济：短期内无人机物流和eVTOL载人无法规模化运营财新"
+      "date": "2026-08-18",
+      "title": "政策研究美国将外国制造无人机及组件纳入管控清单FCC将外国制造无人机及相关组件列入管控清单，禁止新型设备型号获取FCC设备授权，而未经授权的新型设备将无法进入美国市场。无人机美国大疆政策审查弘微12/26/2025, 6:00:31 PM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/670.html",
+      "content_snippet": "美国将外国制造无人机及组件纳入管控清单\n题图 | 大疆\n近日，美国联邦通信委员会（FCC）进一步收紧外国无人机准入限制。依据美国行政部门作出的国家安全评估结论，外国制造的无人机系统及关键组件将列入FCC更新管控清单，外界普遍解认为这一举措与“大疆禁令”相关。\n在12月22日发布的情况说明中，白宫召集"
     },
     {
-      "date": "2026-04-27",
-      "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 搜狐网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NWmFYSFQ3SEthQWhJaHVnNlliLWZBbW9wVm1sNTY5ZmowS09ZcEdmZHJTVm4zRW0tMFpzMGZlYllDa3ZkUTRzanVuZ3BtTnJYQ01sYU5B?oc=5",
-      "content_snippet": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品搜狐网"
+      "date": "2026-08-18",
+      "title": "政策研究非洲加速布局低空经济，中非合作注入新动能 | 圆象观察2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。低空经济无人机基础设施农业公共服务弘微11/24/2025, 10:23:40 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/637.html",
+      "content_snippet": "非洲加速布局低空经济，中非合作注入新动能 | 圆象观察\n近日，卢旺达与塞内加尔正式签署航空运输协定，明确将拓展跨境航线并深化低空经济合作，这一举措成为非洲国家推进区域航空一体化的重要里程碑。与此同时，2025年非洲航空峰会上实现非洲首飞的中国自主研发无人驾驶载人电动垂直起降飞行器，正紧锣密鼓地推进在"
     },
     {
-      "date": "2026-03-19",
-      "title": "无人机行业迎最严新政，大疆“此消彼长”正迎来破局重生 - 新浪财经",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iOVhLNzFCVEpSREdXUkk2QThHcXQ4SlViMVBWZUdBR0JfdXd0RlZvN2pMby1lSENmbEtyVDY2dmU3MkFTQU80YVNqUnFZSG84WTZJRy1vQnJ0c3huRHhLV3hHNm5CWUZOdm9wcEQ0WUFkR0pn?oc=5",
-      "content_snippet": "无人机行业迎最严新政，大疆“此消彼长”正迎来破局重生新浪财经"
+      "date": "2026-08-17",
+      "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+      "source": "mtz.china.com",
+      "url": "https://mtz.china.com/touzi/2026/0817/258765.html",
+      "content_snippet": "2026 年，国内低空经济已进入实质性爆发阶段。无人机灯光秀表演作为低空经济赛道中，少数实现成熟商业化、落地带动性强的核心场景，正从过去的 “节庆专属科技秀”，加速转变为城市文旅常规流量抓手、头部品牌营销创意载体、大型活动标准配套环节。行业格局存在明确业务逻辑分层：一类是无人机设备厂商，以大疆智控、"
     },
     {
-      "date": "2025-12-23",
-      "title": "大疆新型号无人机将无法在美国销售 - 纽约时报中文网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CZ3c4NC1LZ2RXUmZhcUdVYTAxcGVacno4akQ2aTk1NzJ5VU9VVTZDbFBSMTRsSk9FSUJQZ0VYVXZSQmc0N281SmctN3VHRXRObkpOOGoySkxjQmxqNlJ3MHV0ZWRPWTBORlRWTi0zNFE?oc=5",
-      "content_snippet": "大疆新型号无人机将无法在美国销售纽约时报中文网"
+      "date": "2026-07-27",
+      "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+      "source": "www.cnr.cn",
+      "url": "https://www.cnr.cn/shanghai/kcxtd/20260727/t20260727_527732977.shtml",
+      "content_snippet": "央广网上海7月27日消息（记者何智康 实习生曹倍瑜 吴嘉源）7月25日，为期四天的2026国际低空经济博览会于国家会展中心（上海）顺利落下帷幕。本届博览会以“驭低空新势，启经济新篇”为主题，由国家会展中心（上海）、东浩兰生集团和上海市国际展览集团共同主办，中国民用机场协会、中国航空学会、中国安全防范"
     },
     {
-      "date": "2025-09-10",
-      "title": "大疆无人机在美国面临禁令 - 纽约时报中文网",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DNkw1SmVRd1hkXzJ2M0dxeXh6SDYxeVl6bG1WTHFmUUtRVlVxSlh6eWlyR2ZONFFsbmhEQ2RPckVtSmNHMk9WNERCbXR1TUllNDZMRDJxdTVfZUF3M2xpcWNSQThsYW5SS3M1UlZBbktmUQ?oc=5",
-      "content_snippet": "大疆无人机在美国面临禁令纽约时报中文网"
+      "date": "2026-07-20",
+      "title": "货运无人机市场规模及份额| 2032 年行业报告 - Fortune Business Insights",
+      "source": "www.fortunebusinessinsights.com",
+      "url": "https://www.fortunebusinessinsights.com/zh/cargo-drones-market-108151",
+      "content_snippet": "2024年全球货运无人机市场规模为11.5亿美元，预计将从2025年的18.2亿美元增长到2032年的337.9亿美元，预测期内复合年增长率为51.8%。北美在货运无人机市场占据主导地位，2024 年市场份额为 42.61%。\n在电子商务扩张、技术进步和有利的监管政策的推动下，全球货运无人机市场正在"
     },
     {
-      "date": "2025-07-14",
-      "title": "关税阻碍进口，大疆无人机在美国售罄-观察者网 - 观察者",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nN25uS3NqVmtvU1BtM1NsT1B2WUdSNDBRUUxScmVlWW92ZF9yb3VQbVgzSzVyMHZMRFR1alhfbzgxUm9xaHVpbjI3akowcVpneUZERThfQ3VGc3JWMFRPZDdzLXk?oc=5",
-      "content_snippet": "关税阻碍进口，大疆无人机在美国售罄-观察者网观察者"
+      "date": "2026-07-20",
+      "title": "郑州护航低空经济蓄势高飞 - 中国经济网",
+      "source": "district.ce.cn",
+      "url": "http://district.ce.cn/zg/202607/t20260720_3096292.shtml",
+      "content_snippet": "无人机送外卖、乘坐直升机览黄河、几百亩地植保作业一台无人机轻松搞定……近年来，作为国家首批通用航空产业综合示范区，河南郑州先行先试，加速将政策红利转化为产业发展的实景。\n聚力跻身第一方阵\n在郑州国家通用航空产业综合示范区（以下简称郑州国家通航示范区），河南三和航空工业有限公司厂区内，大大小小的各式无"
     },
     {
-      "date": "2024-06-25",
-      "title": "大疆无人机或在全美禁用，美国制造商将迎来黄金时代？ - 美国之音",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkJVZTFZMUl4YS1ibjI3aWdwMFpfVy16bGlMZWFna0R2ZVJ6YkJzeVk0U0FWR2t4YXJRLTZZb2cyUjl4amJRckVXZjNGOGFfTWFzeHNwc2psTTVLZ3VYYk1LT3poY2Y4aE1OcWIzSHI1eE9uLVpZUEhHWjdSai1Ocm9BZThlVm1HQ0hPaE5nRDdDMEJ2Y0w5Q1hyMDZ0NVNZU25WTXN2eVA3cUnSAa4BQVVfeXFMUERGMTRoTk5yVWJFSXN4TEtiMUVWYlRFa25kWVBEODJWNXljdG1QNkQzQWlWS0pWOEVLaEtBaXVvVlI2b0pmS21PajBnR0pNSzFDc2I0STFMcmNyNTdQc1RXbFdkYjg1QXpCX01lR0l6SnBGTE0wQ0hydUpwenQyV2NzU2IyTjRTRjJLMXN0OVhMRVZmMk5EbUhvaWN3QUUwLW5MWVJmMktwWjY2V0xB?oc=5",
-      "content_snippet": "大疆无人机或在全美禁用，美国制造商将迎来黄金时代？美国之音"
+      "date": "2026-04-30",
+      "title": "北京无人机“禁售”生效前：门店转型、用户囤货或转售 - 证券时报",
+      "source": "stcn.com",
+      "url": "https://stcn.com/article/detail/3891850.html",
+      "content_snippet": "4月29日上午，北京多家大疆门店悄然将无人机产品撤下展示柜。赶在门店正式营业之前，工作人员迅速将无人机拆下、折叠、装盒。\n望京某大疆门店的销售人员刘琪琪告诉「电厂」：“29日下午两点前下单，还能从门店发货邮寄，这之后就不能卖了。”\n不过，在主动“下架”之前，若干门店的无人机产品就已断货。以大疆旗舰产"
     },
     {
-      "date": "2023-07-31",
-      "title": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策 - 观察者",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjN1h2RHRrNVpOMTFyczVVaXpYenVfdzlMTm1mUEhDa0lNbDUxZ2llR25nbnI3X3BnZkFsVjBBVEhmTk9YUDVIQlhUR2diRnpEYzlUZ2twVXpLWkNLeUtkcl8waWY?oc=5",
-      "content_snippet": "大疆：将严格遵守中国政府发布的无人机临时出口管制政策观察者"
+      "date": "2026-04-30",
+      "title": "北京无人机“禁售”生效前：门店转型、用户囤货或转售 - 证券时报",
+      "source": "stcn.com",
+      "url": "https://stcn.com/article/detail/3891850.html",
+      "content_snippet": "4月29日上午，北京多家大疆门店悄然将无人机产品撤下展示柜。赶在门店正式营业之前，工作人员迅速将无人机拆下、折叠、装盒。\n望京某大疆门店的销售人员刘琪琪告诉「电厂」：“29日下午两点前下单，还能从门店发货邮寄，这之后就不能卖了。”\n不过，在主动“下架”之前，若干门店的无人机产品就已断货。以大疆旗舰产"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+      "source": "finance.sina.com.cn",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvramw7891800.shtml",
+      "content_snippet": "快科技4月24日消息，《北京市无人驾驶航空器管理规定》将于2026年5月1日起实施，其中明确北京市行政区域全域为无人驾驶航空器管制空域，所有室外飞行活动均需提出申请。\n此外还强调，不得向在北京市行政区域内的单位和个人销售、出租无人驾驶航空器及其核心部件。\n甚至还禁止运输、携带无人驾驶航空器及其核心部"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+      "source": "finance.sina.com.cn",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvramw7891800.shtml",
+      "content_snippet": "快科技4月24日消息，《北京市无人驾驶航空器管理规定》将于2026年5月1日起实施，其中明确北京市行政区域全域为无人驾驶航空器管制空域，所有室外飞行活动均需提出申请。\n此外还强调，不得向在北京市行政区域内的单位和个人销售、出租无人驾驶航空器及其核心部件。\n甚至还禁止运输、携带无人驾驶航空器及其核心部"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "中国缔造了全球无人机产业，却“封锁”了天空 - 纽约时报中文网",
+      "source": "cn.nytimes.com",
+      "url": "https://cn.nytimes.com/china/20260407/china-drone-regulations/",
+      "content_snippet": "中国在全球无人机行业占据绝对主导地位，如今却正迅速成为全球无人机飞行管控最严格的地区之一。\n新出台的规定大幅收紧了针对娱乐及民用无人机操作者的规定。自今年1月起，官方加大了对违规无人机飞行为的处罚力度，处罚措施中甚至包括可能的监禁。从5月开始，所有无人机必须完成所有者实名注册，操作者需将飞行设备与本"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "大湾区低空经济成势 粤产无人机领跑全球产业赛道 - 21财经",
+      "source": "www.21jingji.com",
+      "url": "https://www.21jingji.com/article/20260401/herald/15700c4e683a67448bbddef42e07f591.html",
+      "content_snippet": "3月30日，第十一届深圳国际无人机展览会暨2026世界无人机大会发布会在深圳召开，组委会正式宣布这场以“低空经济飞向未来”为主题的全球低空经济盛会，将于5月21-23日在深圳会展中心（福田）举办。这也即将成为粤港澳大湾区无人机产业发展成果的一次全球亮相。\n作为中国无人机产业的核心腹地，广东省以深圳为"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "低空经济展翅高飞（深度观察） --经济·科技 - 人民网",
+      "source": "finance.people.com.cn",
+      "url": "http://finance.people.com.cn/n1/2026/0318/c1004-40683744.html",
+      "content_snippet": "低空经济展翅高飞（深度观察）\n点击播报本文，约\n| 数据来源：工业和信息化部等 | \n今年全国两会前夕，一款“从科幻走进现实”的电动垂直起降飞行器（eVTOL）在重庆成功首飞。看似只是给电动车装上了“翅膀”，但它却能搭载两名乘客在3000米以下的低空以150公里时速飞行。和“翅膀”分离后，电动车则能"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+      "source": "pub-zhtb.hizh.cn",
+      "url": "https://pub-zhtb.hizh.cn/a/202511/27/AP69275540e4b086489708e585.html",
+      "content_snippet": "点击观看AI视频《飞机开大会 蓝天好派对》\n首发首秀\n技术革新叩响低空之门\n五大主题展区——旋翼机、无人机及低空经济应用场景、固定翼、航空动力及配套展区，如同五个观察未来的棱镜，折射出通航产业的全新生态。\n“首发首秀”成为本届展会最具魅力的关键词：万丰飞机工业的VoloXpro在国内首次动态演示，如"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "智AI丨通航新纪元，探索低空无限可能！2025亚洲通用航空展在珠海拉开大幕 - 珠海网",
+      "source": "pub-zhtb.hizh.cn",
+      "url": "https://pub-zhtb.hizh.cn/a/202511/27/AP69275540e4b086489708e585.html",
+      "content_snippet": "点击观看AI视频《飞机开大会 蓝天好派对》\n首发首秀\n技术革新叩响低空之门\n五大主题展区——旋翼机、无人机及低空经济应用场景、固定翼、航空动力及配套展区，如同五个观察未来的棱镜，折射出通航产业的全新生态。\n“首发首秀”成为本届展会最具魅力的关键词：万丰飞机工业的VoloXpro在国内首次动态演示，如"
     }
   ],
-  "generated_at": "2026-08-16T23:52:20.037940+08:00"
+  "generated_at": "2026-08-18T16:44:14.405521+08:00"
 }

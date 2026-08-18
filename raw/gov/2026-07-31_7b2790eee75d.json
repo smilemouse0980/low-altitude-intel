@@ -1,0 +1,136 @@
+{
+  "doc_id": "7b2790eee75d",
+  "url": "http://www.caacnews.com.cn/2/6/202607/t20260731_1396479.html",
+  "title": "万丰eVTOL圆满完成韩国海上公开飞行 - 中国民航网",
+  "content": "|  | \n| 返回首页 | \n|  | \n|  | \n| 中国民航报社有限公司 版权所有 京ICP备05024158 京公网安备 11010502030065号 互联网新闻信息服务许可10120170026 网络视听许可证0113657 | \n| 本网站所刊登的《中国民航报》及“中国民航网”各种新闻、信息和各种专题专栏资料, 均为中国民航报社有限公司版权所有，未经协议授权，禁止下载使用。 | \n| 制作单位：中国民航网 办公电话：010-67355289 传真：010-67355289 通信地址:北京市朝阳区十里河2264信箱 邮政编码:100122 | \n| 违法和不良信息举报电话：010-67355289 举报邮箱：news@caacnews.com.cn 中国互联网举报中心 常年法律顾问—北京市安理律师事务所 |",
+  "publish_date": "2026-07-31",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "www.caacnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:35.217618+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 22,
+        "end": 27,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航报社有限公司",
+        "label": "org",
+        "start": 58,
+        "end": 68,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航报",
+        "label": "org",
+        "start": 161,
+        "end": 166,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 169,
+        "end": 174,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航报社有限公司",
+        "label": "org",
+        "start": 195,
+        "end": 205,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 235,
+        "end": 240,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国互联网举报中心",
+        "label": "org",
+        "start": 364,
+        "end": 373,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "安理律师事务所",
+        "label": "org",
+        "start": 384,
+        "end": 391,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "韩国",
+        "label": "location",
+        "start": 11,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京ICP备",
+        "label": "location",
+        "start": 74,
+        "end": 79,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 381,
+        "end": 384,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "十里河2264",
+        "label": "date",
+        "start": 286,
+        "end": 293,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "100122 |",
+        "label": "date",
+        "start": 301,
+        "end": 309,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "|",
+        "label": "date",
+        "start": 392,
+        "end": 393,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

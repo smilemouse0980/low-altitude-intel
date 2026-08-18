@@ -1,0 +1,666 @@
+{
+  "doc_id": "94178cf43e27",
+  "url": "https://yuanxiangsky.com/N/1435.html",
+  "title": "政策研究6G+低空经济双箭齐发：国家“战略”与地方“施工”首次同频共振，低空通信基建迎来弯道超车窗口“国家战略先行先试+地方落地精准施工”首次同频共振，低空经济通信基建正在经历一场“从0到1”的质变。通信6G低空经济河南意见晓飞6/14/2026, 9:20:22 AM",
+  "content": "6G+低空经济双箭齐发：国家“战略”与地方“施工”首次同频共振，低空通信基建迎来弯道超车窗口\n图片来源:通义万相 AI生成\n一：6G部省协同试点中，低空经济为什么是“首要”应用培育场景？\n6月初，工业和信息化部办公厅发布通知，正式启动6G创新发展部省协同试点专项行动，将低空经济列为6G六大潜在应用培育场景之一——与沉浸式通信、工业制造、具身智能、智慧海洋并列。但“六大场景并列”这一表述，低估了低空经济在6G格局中的独特定位。\n从通信技术的演进逻辑来看，6G的核心突破在于三大能力：\n一是“通信感知一体化”，让基站同时具备通信与雷达感知功能，精准探测低空飞行器的位置、速度和轨迹；\n二是“空天地一体化”，通过地面移动通信与低轨卫星互联网的深度融合，彻底消除盲区；\n三是“AI原生网络”，实现网络的自我优化与资源动态调度。\n这三项能力，每一项都直指低空经济的核心痛点——低空飞行器在起飞、巡航、降落的全过程中，长期面临“能飞但看不见、看得见但管不住、管得住但调不动”的困局。\n粤港澳大湾区数字经济研究院低空经济分院院长李世鹏曾在调研中坦言：“在这样大规模飞行活动的条件下，我们必须有一套服务系统对所有的飞行活动进行管理，里面很关键的就是通信网，把飞行器的实时位置、实时状况报给我们。”\n因此，将低空经济列为6G首要应用培育场景，并非简单的场景罗列，而是通信产业与低空产业之间的一次战略共振。\n通知明确要求“组织垂直行业企业联合通信企业共同开展6G应用场景和安全解决方案适配验证”“鼓励中小企业深度参与场景需求挖掘、商业模式探索”。\n这意味着6G的技术路线图不再是通信企业关起门来定义，而是与无人机、eVTOL、低空运营等垂直企业共同绘制——这在历次移动通信代际演进中极为罕见。\n目标锚定2029年：工信部设定的时间窗口是明确的——到2029年，通过专项行动形成一批自主创新的6G技术方案，培育一批前景可观的新型业务应用场景，涌现一批丰富多样的新型终端产品，为6G商用落地提供有力支撑。\n从现在到2029年还有整整三年时间窗口，低空经济企业必须在这个窗口期内跑通商业模式，否则在6G商用前夜将失去“先上车后补票”的资格。\n二：5G-A在低空经济通信基建中扮演什么角色？为什么在6G新闻里频繁提及？\n5G-A（5G-Advanced）是5G向6G演进中的一次“中期能力跃迁”，也是低空通信基建的当前主力。在低空经济通信基建中，5G-A主要完成三件事：\n第一，通感一体——将传统基站从“只发信号”升级为“既能通信又能感知”，单个5G-A通感一体基站可为近百台低空设备提供服务，通过自发自收的电磁波实现无人机的实时定位、测距和轨迹跟踪；\n第二，连续覆盖——在300米以下的低空应用热点区域实现5G-A网络连续覆盖，解决了低空飞行器起飞和降落阶段最脆弱的通信瓶颈；\n第三，技术储备与过渡——6G标准尚未冻结、商用尚需三年，5G-A承担着“先行验证”的任务：它的部署实践将为6G的通感算智融合、空天地一体化等核心特性积累宝贵的现网数据和运营经验。\n从这一意义来看，低空经济的通信基建战略可以概括为 “5G-A铺路，6G升维” ：5G-A解决当前的规模化飞行通信需求，6G则瞄准2030年后的全域、全场景、全智能低空运营。\n河南省此次出台的实施意见中明确提到的“通感融合、北斗精准导航、低空智能网联等领域形成一批具有自主知识产权的核心技术成果”，正是5G-A阶段需要完成的“作业”，也是6G时代“空天地海全域覆盖”的必经前置。\n三：河南的四部门实施意见，给出了什么样的量化目标？\n6月初，河南省通信管理局、省委网信办、省发改委、民航河南监管局四部门联合印发《关于加强河南信息通信业能力建设支撑低空基础设施高质量发展的具体实施意见》，给出了全国首个省级低空通信基建量化路线图。\n核心量化指标：\n一是低空公共航路地面移动通信网络覆盖率不低于90%。\n这里的“公共航路”不是整块空域的全部面积，而是经过空域规划、用于无人机常态化运行的航线走廊。90%的覆盖率意味着只要飞行器在规划的航线空域内运行，90%以上的区域都能保证通信信号无缝覆盖，从根本上解决“飞着飞着掉线了”的行业痛点。\n二是300米以下低空应用热点区域实现5G-A网络连续覆盖。\n这是对城市低空日常运营场景（物流配送、城市治理巡检、医疗急救运输等）的精准覆盖要求，确保飞行器在最常用的低空作业高度始终保持连接。\n河南省通信管理局明确四项落地工作：\n- 建立常态化跨部门协同工作机制；\n- 整合现有5G/5G-A基站、北斗地基增强系统资源，通过天线波束优化、设备升级、按需补点等方式推进精准覆盖；\n- 支持蓝天实验室等创新平台开展低空通信关键技术攻关，以安阳无人机产业园、郑州智能传感谷为载体引导产业集聚；\n- 建立健全低空基础设施网络与数据安全防护体系。\n更深层的意义在于模式复制：河南这份意见并非孤例，而是“国家部署—省级落地”高效传导链条的关键一环。\n2026年2月，工信部等五部门就已印发《关于加强信息通信业能力建设支撑低空基础设施发展的实施意见》，提出了到2027年低空公共航路覆盖率不低于90%的国家目标。\n河南在短短4个月内将此目标转化为省级细则，并配套了跨部门协同机制与地方产业载体，这标志着低空经济通信基建正在从“顶层设计”进入“批量施工”阶段。\n四：“通信先行、网络筑基”的低空经济新阶段，意味着什么？\n“通信先行、网络筑基”，这八个字不是行业宣传语，而是对低空经济产业发展底层逻辑的重新定义。\n在通信网铺好之前，低空经济的三大核心矛盾无法解决。\n矛盾一：安全监管的空心化——没有通感一体化的通信能力，空域管理者就像在黑暗中指挥一场无人机表演；\n矛盾二：商业闭环的断裂——通信断连意味着数据断层，物流配送、城市巡检、应急监测等高频作业场景，一旦通信信号不稳定，整个运营链条就无法保证；\n矛盾三：规模化飞行的不可控——当几十架甚至上百架飞行器同时运行时，没有一张可靠的低空智联网实时调度和管控，撞机、坠机等事故几乎不可避免。通信基础设施的缺失，本质上是低空经济“能飞但飞不好”的根源所在。\n6G部省协同试点与河南省级实施意见的双箭齐发，精准回应了上述三大矛盾：\n- 国家层面解决“管得住”——通过6G通感一体化和AI原生网络，将低空空域管理从“看不见”提升到“看得清、算得准、控得住”；\n- 地方层面解决“铺得开”——通过省级量化目标与跨部门协同机制，将通信基建落地为可考核、可追踪的施工任务。\n对于产业参与者而言，“通信先行”意味着竞争的底层逻辑正在发生变化。\n2026年6月10日深圳宣布120米以下低空空域常态化全域开放，新修订《民用航空法》将于7月1日正式施行，明确0-120米开放、120-300米管制的分级结构——空域开放的步伐正在加速。\n然而，空域开放不等于通信覆盖。如果一个城市空域开放了，但低空飞行器起飞后频频“断联”，规模化运营依然寸步难行。\n通信网络的密度、强度和智能化程度，将成为继空域审批之后，决定低空经济“能否真正飞起来”的第二道门槛。\n对于行业参与者而言，下一个两年的竞争焦点，不在于“我的飞行器能飞多远”，而在于“我的飞行器在哪张通信网上飞得更稳、更久、更安全”。\n2029年6G商用落地的脚步声已经响起，抢先跑通“5G-A低空通信+场景运营”闭环的企业，将在6G时代掌握“从有网到智网”的先发优势。\n事件核心速览\n- 国家层面政策一：工信部启动6G创新发展部省协同试点专项行动，明确到2029年形成一批自主创新的6G技术方案\n- 低空经济的6G定位：面向沉浸式通信、工业制造、低空经济、具身智能、智慧海洋等6G潜在场景，低空经济被列为六大应用培育场景之首\n- 国家层面政策二：2026年2月工信部等五部门已印发《关于加强信息通信业能力建设支撑低空基础设施发展的实施意见》，规划到2027年全国低空公共航路地面移动通信网络覆盖率不低于90%\n- 省级落地：河南省通信管理局、省委网信办、省发改委、民航河南监管局四部门联合印发省级“具体实施意见”，依托国家通用航空产业综合示范区、国家民用无人驾驶航空试验区建设基础\n- 河南省量化目标：到2027年底，低空公共航路地面移动通信网络覆盖率不低于90%，300米以下低空应用热点区域实现5G-A网络连续覆盖\n- 河南核心技术方向：在通感融合、北斗精准导航、低空智能网联等领域形成一批具有自主知识产权的核心技术成果\n- 河南应用方向：在政务管理、警务安防、交通监管、应急救援、物流配送等领域打造成熟典型应用场景，培育壮大具有核心竞争力的低空经济企业\n- 河南四项落地工作：统筹协调（跨部门协同机制）、网络布局（整合现有5G/5G-A基站资源，通过天线波束优化、按需补点推进精准覆盖）、创新引领（依托蓝天实验室及安阳无人机产业园、郑州智能传感谷）、网络安全（建立健全低空基础设施网络与数据安全防护体系）\n- 产业信号：低空经济进入“通信先行、网络筑基”新阶段，5G-A铺路低空通信基本盘，6G瞄准2030年后空天地海全域覆盖\n- 时间窗口：2029年6G商用目标已锚定，低空经济企业需在三年窗口期内完成商业验证\n一句话理解“双箭齐发”的坐标意义：6G部省协同试点为低空经济划定了“2029年通信能级跃迁”的倒计时，河南的省级细则则以2027年为目标节点将低空通信网络建设从“规划”变为“施工”。国家战略向下穿透、地方施工向上承接——当“顶层设计”与“基层施工”在低空通信基建这个节点上实现同频共振，低空经济的“路”才算真正从纸上落到了地上。\n本文基于以下信息来源综合整理：工信部6G创新发展部省协同试点专项行动通知（2026年6月4日）、河南省四部门《关于加强河南信息通信业能力建设支撑低空基础设施高质量发展的具体实施意见》（2026年6月初印发）、河南日报（2026年6月12日）、光明日报/央视网（2026年6月6日）、中国青年网（2026年6月4日）、科技日报（2026年6月5日）、大河网（2026年6月5日）、网易财经深度文章（2026年6月13日）等，核心事实均已交叉验证。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空经济观察",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:44.244960+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Advanced",
+        "label": "person",
+        "start": 1092,
+        "end": 1100,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "沉浸式通信",
+        "label": "org",
+        "start": 294,
+        "end": 299,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南省通信管理局",
+        "label": "org",
+        "start": 1623,
+        "end": 1631,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "省委网信办",
+        "label": "org",
+        "start": 1632,
+        "end": 1637,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南省通信管理局",
+        "label": "org",
+        "start": 1964,
+        "end": 1972,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "郑州智能",
+        "label": "org",
+        "start": 2093,
+        "end": 2097,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国家部署",
+        "label": "org",
+        "start": 2163,
+        "end": 2167,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沉浸式通信",
+        "label": "org",
+        "start": 3260,
+        "end": 3265,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南省通信管理局",
+        "label": "org",
+        "start": 3410,
+        "end": 3418,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "省委网信办",
+        "label": "org",
+        "start": 3419,
+        "end": 3424,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "郑州智能",
+        "label": "org",
+        "start": 3767,
+        "end": 3771,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南日报",
+        "label": "org",
+        "start": 4177,
+        "end": 4181,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "光明日报/央视网",
+        "label": "org",
+        "start": 4194,
+        "end": 4202,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国青年网",
+        "label": "org",
+        "start": 4214,
+        "end": 4219,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "科技日报",
+        "label": "org",
+        "start": 4231,
+        "end": 4235,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "网易",
+        "label": "org",
+        "start": 4262,
+        "end": 4264,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "发改委",
+        "label": "org",
+        "start": 1639,
+        "end": 1642,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 831,
+        "end": 834,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "工信部",
+        "label": "org",
+        "start": 885,
+        "end": 888,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 108,
+        "end": 110,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "粤",
+        "label": "location",
+        "start": 574,
+        "end": 575,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南省",
+        "label": "location",
+        "start": 1491,
+        "end": 1494,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 1595,
+        "end": 1597,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 1645,
+        "end": 1647,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 1662,
+        "end": 1664,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 2149,
+        "end": 2151,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印发",
+        "label": "location",
+        "start": 2203,
+        "end": 2205,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 2267,
+        "end": 2269,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 2670,
+        "end": 2672,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳",
+        "label": "location",
+        "start": 2858,
+        "end": 2860,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哪张",
+        "label": "location",
+        "start": 3095,
+        "end": 3097,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印发",
+        "label": "location",
+        "start": 3336,
+        "end": 3338,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 3432,
+        "end": 3434,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "试验区",
+        "label": "location",
+        "start": 3481,
+        "end": 3484,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南省",
+        "label": "location",
+        "start": 3491,
+        "end": 3494,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 3560,
+        "end": 3562,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 3613,
+        "end": 3615,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 3680,
+        "end": 3682,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 3959,
+        "end": 3961,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南省",
+        "label": "location",
+        "start": 4121,
+        "end": 4124,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河南",
+        "label": "location",
+        "start": 4132,
+        "end": 4134,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印发",
+        "label": "location",
+        "start": 4173,
+        "end": 4175,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "6月初",
+        "label": "date",
+        "start": 230,
+        "end": 233,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029年",
+        "label": "date",
+        "start": 879,
+        "end": 884,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029年",
+        "label": "date",
+        "start": 902,
+        "end": 907,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029年",
+        "label": "date",
+        "start": 983,
+        "end": 988,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "整整三年",
+        "label": "date",
+        "start": 990,
+        "end": 994,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "三年",
+        "label": "date",
+        "start": 1339,
+        "end": 1341,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 1468,
+        "end": 1473,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "6G时代",
+        "label": "date",
+        "start": 1572,
+        "end": 1576,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "6月初",
+        "label": "date",
+        "start": 1619,
+        "end": 1622,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "90%",
+        "label": "date",
+        "start": 1747,
+        "end": 1750,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "90%",
+        "label": "date",
+        "start": 1798,
+        "end": 1801,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "90%以上",
+        "label": "date",
+        "start": 1825,
+        "end": 1830,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年2月",
+        "label": "date",
+        "start": 2186,
+        "end": 2193,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 2240,
+        "end": 2245,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "4个月",
+        "label": "date",
+        "start": 2272,
+        "end": 2275,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月10日",
+        "label": "date",
+        "start": 2848,
+        "end": 2858,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "7月1日",
+        "label": "date",
+        "start": 2892,
+        "end": 2896,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "两年",
+        "label": "date",
+        "start": 3062,
+        "end": 3064,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "6G时代",
+        "label": "date",
+        "start": 3162,
+        "end": 3166,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029年",
+        "label": "date",
+        "start": 3225,
+        "end": 3230,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "二：2026年2月",
+        "label": "date",
+        "start": 3319,
+        "end": 3328,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 3372,
+        "end": 3377,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "90%",
+        "label": "date",
+        "start": 3399,
+        "end": 3402,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年底",
+        "label": "date",
+        "start": 3500,
+        "end": 3506,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "90%",
+        "label": "date",
+        "start": 3527,
+        "end": 3530,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 3850,
+        "end": 3855,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "三年",
+        "label": "date",
+        "start": 3895,
+        "end": 3897,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2029年",
+        "label": "date",
+        "start": 3942,
+        "end": 3947,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2027年",
+        "label": "date",
+        "start": 3968,
+        "end": 3973,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月4日",
+        "label": "date",
+        "start": 4110,
+        "end": 4119,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月初",
+        "label": "date",
+        "start": 4165,
+        "end": 4173,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月12日",
+        "label": "date",
+        "start": 4182,
+        "end": 4192,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月6日",
+        "label": "date",
+        "start": 4203,
+        "end": 4212,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月4日",
+        "label": "date",
+        "start": 4220,
+        "end": 4229,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月5日",
+        "label": "date",
+        "start": 4236,
+        "end": 4245,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月5日",
+        "label": "date",
+        "start": 4251,
+        "end": 4260,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年6月13日",
+        "label": "date",
+        "start": 4271,
+        "end": 4281,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "民用航空法",
+        "label": "policy",
+        "start": 2884,
+        "end": 2889,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

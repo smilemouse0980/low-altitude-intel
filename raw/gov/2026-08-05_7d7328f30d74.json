@@ -1,0 +1,127 @@
+{
+  "doc_id": "7d7328f30d74",
+  "url": "https://wap.eastmoney.com/a/202608043830728618.html",
+  "title": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数(931855.CSI) 昨日涨2.02% - 东方财富",
+  "content": "截至2026年8月3日收盘，通用航空ETF南方(159283)换手1.67%，成交0.04亿元，跟踪标的指数中证通用航空主题指数(931855.CSI) 涨2.02%。 从市场风格来看，近期资金关注方向逐步由前期拥挤的核心科技龙头向先进制造和新质生产力扩散，通用航空作为低空经济的重要载体，兼具政策支持、产业升级和成长弹性，有望持续获得市场关注。政策端，近期低空经济与通用航空产业持续迎来政策催化。国家持续推进低空空域改革和低空经济发展，“十五五”期间低空基础设施建设、通用机场布局、低空飞行服务保障体系及低空应用场景有望进一步完善，政策支持方向逐步由顶层规划向落地实施过渡。产业层面，eVTOL、无人机、航空发动机、航空材料及飞控系统等关键环节持续取得突破，物流运输、应急救援、城市巡检、文旅消费等商业化应用场景不断拓展，行业正由主题投资逐步向订单兑现和业绩验证阶段迈进。当前板块经历前期调整后，整体估值和交易拥挤度已有所消化，随着政策催化不断落地、产业链景气度提升以及市场风险偏好改善，通用航空ETF南方（159283）仍具备中长期配置价值，建议积极关注。\n（文章来源：财联社）",
+  "publish_date": "2026-08-05",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "wap.eastmoney.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:36:09.773263+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 13,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题",
+        "label": "org",
+        "start": 44,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东方",
+        "label": "org",
+        "start": 76,
+        "end": 78,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 95,
+        "end": 97,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题",
+        "label": "org",
+        "start": 137,
+        "end": 143,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 210,
+        "end": 214,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空产业",
+        "label": "org",
+        "start": 265,
+        "end": 271,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 526,
+        "end": 528,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 380,
+        "end": 383,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "昨日",
+        "label": "date",
+        "start": 65,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年8月3日",
+        "label": "date",
+        "start": 83,
+        "end": 92,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "1.67",
+        "label": "date",
+        "start": 114,
+        "end": 118,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "十五五",
+        "label": "date",
+        "start": 301,
+        "end": 304,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

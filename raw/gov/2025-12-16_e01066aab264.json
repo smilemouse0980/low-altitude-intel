@@ -1,0 +1,152 @@
+{
+  "doc_id": "e01066aab264",
+  "url": "https://m.caixin.com/m/2025-12-16/102393976.html",
+  "title": "提高低空飞行器适航认证效率 民航局发布通用标准 - 财新",
+  "content": "【财新网】中国民航局日前发布了《动力提升航空器适航标准（征求意见稿）》（下称《通用化适航标准》），为电动垂直起降飞行器（Electric Vertical Take-off and Landing，eVTOL）适航认证提供了更加通用化的标准，有望提升国内eVTOL取证效率。\n适航认证是民航监管当局对航空器安全性的技术审查，也是航空器商业化运营的前提。eVTOL是航空领域新生事物，其驱动方式和构型设计完全不同于传统燃油航空器，现有航空器适航标准难以适用于eVTOL。\n责任编辑：贺信 | 版面编辑：肖子何\n财新周刊｜飞行汽车适航认证破冰 空中出租车还有多远\n2022年01月29日\n国内低空飞行器适航提速 11月多家制造商密集融资\n2025年11月17日\n混动低空飞行器阵营扩张 头部企业冲击适航认证\n2025年11月06日\n低空飞行器行业加速整合 美国头部公司收购德国破产企业专利\n2025年10月16日\n亿航发布新款长航程低空飞行器 聚焦城际出行场景\n2025年10月13日\n免费订阅财新网主编精选版电邮",
+  "publish_date": "2025-12-16",
+  "publisher": "Google新闻-适航认证",
+  "source_site": "m.caixin.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:50.865096+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Electric Vertical",
+        "label": "person",
+        "start": 89,
+        "end": 106,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 14,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 19,
+        "end": 21,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 34,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国头部公司",
+        "label": "org",
+        "start": 405,
+        "end": 411,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "航发",
+        "label": "org",
+        "start": 435,
+        "end": 437,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 434,
+        "end": 436,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "Vertical",
+        "label": "org",
+        "start": 98,
+        "end": 106,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "德国",
+        "label": "location",
+        "start": 413,
+        "end": 415,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "日前",
+        "label": "date",
+        "start": 39,
+        "end": 41,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年01月29日",
+        "label": "date",
+        "start": 309,
+        "end": 320,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "11月多家",
+        "label": "date",
+        "start": 333,
+        "end": 338,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年11月17日",
+        "label": "date",
+        "start": 346,
+        "end": 357,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年11月06日",
+        "label": "date",
+        "start": 381,
+        "end": 392,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年10月13日",
+        "label": "date",
+        "start": 458,
+        "end": 469,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": [
+      {
+        "person": "Electric Vertical",
+        "title": "",
+        "org": "通用",
+        "context": "意见稿）》（下称《通用化适航标准》），为电动垂直起降飞行器（Electric Vertical Take-off and Landing，eVTOL）适航"
+      }
+    ]
+  }
+}

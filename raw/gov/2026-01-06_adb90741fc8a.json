@@ -1,0 +1,112 @@
+{
+  "doc_id": "adb90741fc8a",
+  "url": "http://www.caacnews.com.cn/special/2026zhuanti/8501/2019gzhltwd/202601/t20260106_1392421.html",
+  "title": "工作会快递 | 2026年民航将促进通用航空和低空经济高质量发展 - 中国民航网",
+  "content": "工作会快递 | 2026年民航将促进通用航空和低空经济高质量发展\n{\n\t\t\t\t\t\t\tid:27141,\n\t\t\t\t\t\t\turl:'http://www.caacnews.com.cn/special/images/W020260105527943957649.png',\n\t\t\t\t\t\t\twidth:946,\n\t\t\t\t\t\t\theight:120\n\t\t\t\t\t\t}\n首页 >>\n会议速递\n工作会快递 | 2026年民航将促进通用航空和低空经济高质量发展\n时间：2026-01-06| 编辑：zhangwei|【\n大\n中\n小\n】\n中国民航网讯：今年，民航将健全完善低空民用航空政策体系，加快低空飞行服务站体系建设，推进建设低空飞行服务调度平台；优化调整无人驾驶航空试验区（试验基地），因地制宜拓展低空应用场景。\n中国民航报社 版权所有\n京ICP备05024158\n如有意见和建议，请惠赐E-mail至 news@caacnews.com.cn",
+  "publish_date": "2026-01-06",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.caacnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:36:11.836198+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 18,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网 工作会",
+        "label": "org",
+        "start": 35,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 59,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 249,
+        "end": 253,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 301,
+        "end": 303,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 392,
+        "end": 394,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京ICP备05024158",
+        "label": "location",
+        "start": 404,
+        "end": 417,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 8,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 49,
+        "end": 54,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 239,
+        "end": 244,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年",
+        "label": "date",
+        "start": 308,
+        "end": 310,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "company_name": "中航成飞",
+  "category": "军工航空",
+  "mention_count": 5,
+  "first_seen": "2025-11-18",
+  "last_seen": "2026-08-13",
+  "key_persons": [],
+  "locations": [
+    {
+      "name": "成都",
+      "mentions": 62
+    },
+    {
+      "name": "四川",
+      "mentions": 3
+    },
+    {
+      "name": "成都人",
+      "mentions": 3
+    },
+    {
+      "name": "四川省",
+      "mentions": 2
+    },
+    {
+      "name": "成都市",
+      "mentions": 2
+    },
+    {
+      "name": "上海",
+      "mentions": 2
+    },
+    {
+      "name": "雅安",
+      "mentions": 2
+    },
+    {
+      "name": "V30",
+      "mentions": 2
+    },
+    {
+      "name": "美",
+      "mentions": 1
+    },
+    {
+      "name": "都江堰",
+      "mentions": 1
+    }
+  ],
+  "partners": [
+    {
+      "name": "沃飞长空",
+      "co_occurrences": 2
+    },
+    {
+      "name": "纵横股份",
+      "co_occurrences": 1
+    },
+    {
+      "name": "腾盾科技",
+      "co_occurrences": 1
+    },
+    {
+      "name": "航发动力",
+      "co_occurrences": 1
+    }
+  ],
+  "events": {
+    "product_launch": [
+      {
+        "date": "2026-08-13",
+        "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+        "source": "news.chengdu.cn"
+      },
+      {
+        "date": "2026-07-21",
+        "title": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动 - 四川新闻",
+        "source": "sichuan.scol.com.cn"
+      },
+      {
+        "date": "2026-02-11",
+        "title": "全国首款航天造eVTOL低空飞行器首飞成功 - spacechina.com",
+        "source": "www.spacechina.com"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+        "source": "www.caacnews.com.cn"
+      },
+      {
+        "date": "2025-11-18",
+        "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+        "source": "www.xinhuanet.com"
+      }
+    ],
+    "financing": [
+      {
+        "date": "2026-08-13",
+        "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+        "source": "news.chengdu.cn"
+      },
+      {
+        "date": "2026-07-21",
+        "title": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动 - 四川新闻",
+        "source": "sichuan.scol.com.cn"
+      },
+      {
+        "date": "2025-11-18",
+        "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+        "source": "www.xinhuanet.com"
+      }
+    ],
+    "cooperation": [
+      {
+        "date": "2026-08-13",
+        "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+        "source": "news.chengdu.cn"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+        "source": "www.caacnews.com.cn"
+      },
+      {
+        "date": "2025-11-18",
+        "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+        "source": "www.xinhuanet.com"
+      }
+    ],
+    "policy_related": [
+      {
+        "date": "2026-08-13",
+        "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+        "source": "news.chengdu.cn"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+        "source": "www.caacnews.com.cn"
+      },
+      {
+        "date": "2025-11-18",
+        "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+        "source": "www.xinhuanet.com"
+      }
+    ],
+    "certification": [
+      {
+        "date": "2026-08-13",
+        "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+        "source": "news.chengdu.cn"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+        "source": "www.caacnews.com.cn"
+      },
+      {
+        "date": "2025-11-18",
+        "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+        "source": "www.xinhuanet.com"
+      }
+    ],
+    "market_expansion": [
+      {
+        "date": "2026-08-13",
+        "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+        "source": "news.chengdu.cn"
+      },
+      {
+        "date": "2026-07-21",
+        "title": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动 - 四川新闻",
+        "source": "sichuan.scol.com.cn"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+        "source": "www.caacnews.com.cn"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2026-08-13",
+      "title": "成都人丨他为成都的天空织梦：低空经济，未来已来 - 红星新闻",
+      "source": "news.chengdu.cn",
+      "url": "https://news.chengdu.cn/2026/0813/6a7d2e204465eb1b354b5cc5.shtml",
+      "content_snippet": "成都人丨他为成都的天空织梦：低空经济，未来已来\n郭亮丨四川沃飞长空科技股份有限公司CEO兼首席科学家\n成都低空经济产业领军科创人才。深耕无人航空器与低空出行领域多年，带队攻克倾转旋翼核心技术，推动AE200系列载人eVTOL完成关键试飞与适航申报。获评四川青年五四奖章、第十六届航空航天月桂奖风云人物"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+      "source": "www.caacnews.com.cn",
+      "url": "http://www.caacnews.com.cn/1/6/202607/t20260723_1396338.html",
+      "content_snippet": "《中国民航报》、中国民航网 记者张之涵、刘九阳 报道：7月22日，蓝色向量智能科技（SKYLA）正式在上海发布其首款倾转旋翼电动垂直起降航空器（eVTOL）SKYLA V30。\nSKYLA V30（SKYLA供图）\nSKYLA V30是一款6座、2吨级、倾转旋翼纯电动eVTOL飞行器，聚焦城际载客出"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动 - 四川新闻",
+      "source": "sichuan.scol.com.cn",
+      "url": "https://sichuan.scol.com.cn/ggxw/202607/83292283.html",
+      "content_snippet": "四川在线记者 熊晓雨\n7月21日，作为APEC数字周的重要城市侧配套活动，2026亚太数字伙伴对话暨“投资成都”全球招商大会在成都天府国际会议中心启幕。大会现场，《财富》中国区主编章劢闻发布《中国eVTOL产业发展研究报告》（下称《报告》），称成都在航空工业密度、低空产业链完整、链主整机、空域与感知"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "全国首款航天造eVTOL低空飞行器首飞成功 - spacechina.com",
+      "source": "www.spacechina.com",
+      "url": "https://www.spacechina.com/n25/n2014789/n2014804/c4543159/content.html",
+      "content_snippet": "图为航天造eVTOL低空飞行器。乌文治 摄\n \n2月6日，由中国航天科技集团有限公司九院牵头研制的国内首款航天造电动垂直起降飞行器（eVTOL），在重庆永川大安通用机场首飞成功，圆满完成各项性能验证。\n该产品是九院在低空经济领域的重要创新突破，是继低空交通装备领域传统机型后，面向多元出行与运输需求快"
+    },
+    {
+      "date": "2025-11-18",
+      "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+      "source": "www.xinhuanet.com",
+      "url": "http://www.xinhuanet.com/finance/20251118/a29f15cee6434b1aaf37cc7a15989f22/c.html",
+      "content_snippet": "中共中央关于制定国民经济和社会发展第十五个五年规划的建议》提出培育壮大新兴产业和未来产业。着力打造新兴支柱产业。加快新能源、新材料、航空航天、低空经济等战略性新兴产业集群发展。\n提到航空，你是不是先想到机场里的民航客机？在低空经济加速崛起的今天，还有一个“航空多面手”正从专业场景走进我们的生活——它"
+    }
+  ],
+  "generated_at": "2026-08-18T16:44:14.397975+08:00"
+}

@@ -1,0 +1,47 @@
+{
+  "doc_id": "c64d1ea1bcb3",
+  "url": "https://m.sohu.com/a/1063533664_121119270?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+  "title": "南邮黄海平教授团队：低空经济与无人机计算 - 搜狐网",
+  "content": "南邮黄海平教授团队：低空经济与无人机计算\n在当今世界，随着科技的迅猛发展和全球化的不断深入，新的经济形态和生产力模式正在逐渐形成，并重塑着我们的社会结构和生活方式。人工智能、互联网、大数据等颠覆性技术，正在与制造业、新材料、新能源等传统领域技术加速融合，这一过程不断推动着生产力的跃升。在这一宏大背景下，低空经济的崛起尤为引人注目。\n结合我国政策背景和低空经济发展的实际情况，本书（文）认为， 低空经济是指以低空空域为主要活动空间，以无人机、电动垂直起降飞行器（electric vertical take-off and landing，eVTOL）等新兴航空器为主要工具，以移动通信、卫星定位、物联网、人工智能等新一代信息技术为支撑，融合航空制造、运输、服务、旅游等相关产业，形成的具有广泛应用场景和巨大市场潜力的新兴经济形态。\n在国家经济建设的宏观蓝图中，低空经济被赋予重要的战略使命。特别是在“十四五”规划中，低空经济被视为推动高质量发展的关键领域之一。其发展不仅关乎国家经济的持续增长，还涉及国家战略布局的深化和国际竞争力的提升。",
+  "publish_date": "2026-08-16",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "m.sohu.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:27.124331+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "南邮",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "十四五",
+        "label": "date",
+        "start": 428,
+        "end": 431,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

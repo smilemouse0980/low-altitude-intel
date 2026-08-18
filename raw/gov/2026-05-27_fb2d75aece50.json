@@ -1,0 +1,119 @@
+{
+  "doc_id": "fb2d75aece50",
+  "url": "https://www.cls.cn/detail/2383115",
+  "title": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数回调2.13% - 财联社",
+  "content": "低空经济政策红利逐步释放，南方基金旗下通用航空ETF南方(159283)跟踪标的指数中证通用航空主题指数回调2.13%\n \n截至2026年5月27日收盘，通用航空ETF南方(159283)换手4.29%，成交0.13亿元，跟踪标的指数中证通用航空主题指数(931855.CSI) 跌2.13%。\n \n伴随低空经济系列扶持政策持续落地见效，作为低空经济核心核心载体的通用航空产业，应用场景持续拓宽。目前行业已深度覆盖立体交通组网、应急救援、城市低空服务等多元领域，市场需求持续释放，产业成长空间持续打开。同时，资本市场资金加速涌入赛道，有效赋能核心技术迭代升级与低空基础设施配套建设，为行业规模化、高质量发展筑牢支撑，通用航空整体景气度有望延续上行态势。当前通用航空产业迎来政策、需求双向驱动的关键发展窗口期。赛道业态也持续迭代升级，行业应用摆脱传统农林作业、航空培训的局限，逐步向城际短途通勤、低空文旅、航空物流、城市低空运维等新兴场景延伸，产业结构持续优化，行业整体盈利水平稳步修复。在产业升级与消费升级的双重加持下，通用航空市场扩容趋势明确，产业链上下游企业持续享受行业发展红利。",
+  "publish_date": "2026-05-27",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.cls.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:36:36.355078+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 13,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题指数",
+        "label": "org",
+        "start": 44,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "财联社",
+        "label": "org",
+        "start": 62,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南方基金",
+        "label": "org",
+        "start": 79,
+        "end": 83,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题指数",
+        "label": "org",
+        "start": 110,
+        "end": 118,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 143,
+        "end": 145,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空主题",
+        "label": "org",
+        "start": 185,
+        "end": 191,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 248,
+        "end": 252,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 374,
+        "end": 376,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 394,
+        "end": 398,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空市场",
+        "label": "org",
+        "start": 526,
+        "end": 532,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2026年5月27日",
+        "label": "date",
+        "start": 130,
+        "end": 140,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

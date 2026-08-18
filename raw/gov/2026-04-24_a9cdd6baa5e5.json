@@ -1,0 +1,208 @@
+{
+  "doc_id": "a9cdd6baa5e5",
+  "url": "https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvramw7891800.shtml",
+  "title": "北京5月1日起禁售/飞无人机！大疆近期将全面下架无人机产品 - 新浪财经",
+  "content": "快科技4月24日消息，《北京市无人驾驶航空器管理规定》将于2026年5月1日起实施，其中明确北京市行政区域全域为无人驾驶航空器管制空域，所有室外飞行活动均需提出申请。\n此外还强调，不得向在北京市行政区域内的单位和个人销售、出租无人驾驶航空器及其核心部件。\n甚至还禁止运输、携带无人驾驶航空器及其核心部件进入北京市行政区域，现有无人驾驶航空器完成实名登记和信息核实的，由所有者携带的除外。\n据媒体报道，受政策冲击，大疆无人机产品将全面撤出北京市场，线下门店与电商渠道均在5月1日前完成下架，5月后北京地区无法购买、邮寄无人机。\n用户最关心DJI care保障服务面临实质性失效风险，DJI care是大疆官方置换保险，损坏或飞丢可低价换新机，但换新后设备SN码会变更，与此前在UOM民用无人机平台及公安绑定信息不一致，导致新机无法进入北京。\n大疆方面暂未发布官方解决方案，客服仅建议：北京用户设备损坏后走寄修流程，维修完成后寄往北京以外地址，再由用户自行带回，无法直接寄回北京。\n经销商提示，5月1日前完成实名登记并绑定SN码的现有无人机，可携带进出北京，但彻底损坏后无法再购买新机替换，存量机将成为“不可更新资产”。\n【本文结束】如需转载请务必注明出处：快科技\n责任编辑：建嘉\n“掌”握科技鲜闻 （微信搜索techsina或扫描左侧二维码关注）",
+  "publish_date": "2026-04-24",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "finance.sina.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:24.606763+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 32,
+        "end": 34,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "UOM",
+        "label": "org",
+        "start": 374,
+        "end": 377,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "DJI",
+        "label": "org",
+        "start": 305,
+        "end": 308,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "大疆",
+        "label": "org",
+        "start": 15,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 49,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 83,
+        "end": 86,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 131,
+        "end": 134,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 190,
+        "end": 193,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 255,
+        "end": 257,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 284,
+        "end": 286,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 403,
+        "end": 405,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 428,
+        "end": 430,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 450,
+        "end": 452,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 472,
+        "end": 474,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 511,
+        "end": 513,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 2,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "4月24日",
+        "label": "date",
+        "start": 40,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026年5月1日",
+        "label": "date",
+        "start": 66,
+        "end": 75,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月1日前",
+        "label": "date",
+        "start": 271,
+        "end": 276,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月",
+        "label": "date",
+        "start": 281,
+        "end": 283,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月1日前",
+        "label": "date",
+        "start": 482,
+        "end": 487,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

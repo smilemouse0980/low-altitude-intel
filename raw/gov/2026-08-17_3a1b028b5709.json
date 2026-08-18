@@ -1,0 +1,160 @@
+{
+  "doc_id": "3a1b028b5709",
+  "url": "http://he.people.com.cn/n2/2026/0817/c192235-41670158.html",
+  "title": "中国—中东欧（沧州）中小企业合作区：以鲨鱼飞机为翼 赋能低空经济发展 - 人民网－河北频道",
+  "content": "中国—中东欧（沧州）中小企业合作区：以鲨鱼飞机为翼 赋能低空经济发展\n近日，在位于中国—中东欧（沧州）中小企业合作区产业合作基地的捷中鲨鱼（沧州）飞机制造有限公司生产车间内，一派繁忙景象。复合材料安装、喷漆、总装等工序有序推进，一架架鲨鱼飞机完成装配调试，即将交付。\n鲨鱼飞机机身采用碳纤维、芳纶纤维等复合材料制造，具备强度高、重量轻、航程远、油耗低等突出优势，单次加油飞行距离可达1660公里，百公里油耗仅6.9升，可广泛应用于航空运动、应急救援、巡检测绘等多元低空场景。目前，企业正全力推进核心零部件国产化，完善总装、检测、试飞全链条生产能力。\n近年来，中国-中东欧（沧州）中小企业合作区依托捷中鲨鱼（沧州）飞机制造有限公司、中捷通用机场、沧州航空职业学院发展低空经济，形成了通航制造与产业孵化、飞机维修与服务保障、航空培训与研学教育为主的通航产业。（鲁萍、时华清）\n(责编：方童、付兆飒)\n分享让更多人看到",
+  "publish_date": "2026-08-17",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "he.people.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:28.119742+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "人民网",
+        "label": "org",
+        "start": 37,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "河北频道",
+        "label": "org",
+        "start": 41,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中捷通用机场",
+        "label": "org",
+        "start": 361,
+        "end": 367,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沧州航空职业学院",
+        "label": "org",
+        "start": 368,
+        "end": 376,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东欧",
+        "label": "location",
+        "start": 3,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合作区",
+        "label": "location",
+        "start": 14,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 46,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东欧",
+        "label": "location",
+        "start": 49,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合作区",
+        "label": "location",
+        "start": 60,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 87,
+        "end": 89,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东欧",
+        "label": "location",
+        "start": 90,
+        "end": 93,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合作区",
+        "label": "location",
+        "start": 101,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 325,
+        "end": 327,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东欧（沧州",
+        "label": "location",
+        "start": 328,
+        "end": 334,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合作区",
+        "label": "location",
+        "start": 339,
+        "end": 342,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 321,
+        "end": 324,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "doc_id": "aa961724e78f",
+  "url": "https://world.people.com.cn/n1/2026/0723/c1002-40766491.html",
+  "title": "上海：2026国际低空经济博览会开幕--国际 - 人民网",
+  "content": "2026国际低空经济博览会于7月22日至25日在国家会展中心（上海）举行。本届博览会以“驭低空新势，启经济新篇”为主题，总面积6万平方米，汇聚400余家国内外参展企业，同期举办80余场高端论坛与多元大众互动活动。\n\t\t\t\t\n(责编：崔译戈、崔越)分享让更多人看到",
+  "publish_date": "2026-07-23",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "world.people.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:22.631770+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "人民网",
+        "label": "org",
+        "start": 25,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 60,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 29,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "7月22日至25日",
+        "label": "date",
+        "start": 43,
+        "end": 52,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

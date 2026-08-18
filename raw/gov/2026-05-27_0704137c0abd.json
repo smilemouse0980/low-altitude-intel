@@ -1,0 +1,177 @@
+{
+  "doc_id": "0704137c0abd",
+  "url": "https://m.bjnews.com.cn/detail/1779851036129967.html",
+  "title": "这些事项要注意！北京警方公布3类违反“无人机新规”典型案例 - 新京报",
+  "content": "新京报讯 据平安北京官微消息，《北京市无人驾驶航空器管理规定》已于5月1日正式施行。\n北京警方严厉打击各类违法违规行为，全力消除安全隐患，坚决守住低空安全底线。\n为充分发挥警示教育作用，现公布以下3类典型案例，希望大家引以为戒。\n01\n非法飞行案\n经查，周某某为某旅行社导游，当日为拍摄照片，在明知北京无人机管制政策的情况下，仍心存侥幸，未经空管部门审批擅自施放无人机，其“黑飞”地点附近，就有无人机管制政策提示牌。公安机关依据《中华人民共和国治安管理处罚法》《无人驾驶航空器飞行管理暂行条例》，对周某某予以行政拘留、没收器具并处罚款的行政处罚。\n普法课堂\n对于违反《无人驾驶航空器飞行管理暂行条例》规定，未经批准操控微型、轻型、小型民用无人驾驶航空器在管制空域内飞行，或者操控模型航空器在空中交通管理机构划定的空域外飞行的，由公安机关责令停止飞行，可以处500元以下的罚款；情节严重的，没收实施违规飞行的无人驾驶航空器，并处1000元以上1万元以下的罚款。\n《北京市无人驾驶航空器管理规定》第十二条第二款：违反本规定第四条第一款规定的，由公安机关责令停止飞行，可以处五百元以下罚款；情节严重的，没收实施违规飞行的无人驾驶航空器，并处一千元以上一万元以下罚款。\n其中，第四条第一款：本市行政区域全域为无人驾驶航空器管制空域。无人驾驶航空器所有室外飞行活动均需提出申请，未经批准不得实施飞行活动。\n02\n非法销售案\n5月7日，西城警方在工作中发现一条涉嫌非法销售无人机的线索，民警迅速处置，将涉嫌非法销售人员付某查获。\n经查，付某通过某二手交易平台，将本人名下无人机向在京人员出售，并与买家约定在西城区某书店附近交易，验机时被民警查获。公安机关依据《北京市无人驾驶航空器管理规定》，对付某予以没收器具的行政处罚。\n03\n非法出租案\n5月13日，公交警方在某地铁站开展工作时，发现一乘客携带的无人机存在非法出租情况。公交警方会同朝阳警方开展侦办工作，将涉嫌非法出租人员莫某某查获。\n经查，莫某某在朝阳区某传媒公司，按日收费向在京人员出租无人机，并委托他人转交，途中被民警查获。公安机关依据《北京市无人驾驶航空器管理规定》，对莫某某予以没收器具并处罚款的行政处罚。\n普法课堂\n《北京市无人驾驶航空器管理规定》第十二条第一款：违反本规定第三条第二款、第五条第一款、第六条规定的，由公安机关责令改正；情节严重的，没收无人驾驶航空器及其核心部件，对个人可以处五百元以上五千元以下罚款，对单位可以处一千元以上一万元以下罚款。\n其中，第五条第一款：禁止向在本市行政区域内的单位和个人销售、出租无人驾驶航空器及其核心部件。\n编辑 毛天宇",
+  "publish_date": "2026-05-27",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "m.bjnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:50.675149+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 19,
+        "end": 22,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 8,
+        "end": 10,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 44,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 52,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 79,
+        "end": 81,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 185,
+        "end": 187,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 467,
+        "end": 470,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京",
+        "label": "location",
+        "start": 720,
+        "end": 721,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西城区",
+        "label": "location",
+        "start": 733,
+        "end": 736,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 760,
+        "end": 763,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日",
+        "label": "location",
+        "start": 892,
+        "end": 893,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京",
+        "label": "location",
+        "start": 897,
+        "end": 898,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 929,
+        "end": 932,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 972,
+        "end": 975,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 69,
+        "end": 73,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月7日",
+        "label": "date",
+        "start": 643,
+        "end": 647,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月13日",
+        "label": "date",
+        "start": 801,
+        "end": 806,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "莫某某",
+        "label": "date",
+        "start": 878,
+        "end": 881,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "无人驾驶航空器飞行管理暂行条例",
+        "label": "policy",
+        "start": 267,
+        "end": 282,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

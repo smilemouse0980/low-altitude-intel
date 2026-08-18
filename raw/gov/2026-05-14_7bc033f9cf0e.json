@@ -1,0 +1,30 @@
+{
+  "doc_id": "7bc033f9cf0e",
+  "url": "https://www.lexology.com/library/detail.aspx?g=814079e3-0315-42c8-93c6-709dd185a382",
+  "title": "从《民用航空法》修订看低空经济的现有监管体系梳理及监管前瞻 - Lexology",
+  "content": "从《民用航空法》修订看低空经济的现有监管体系梳理及监管前瞻Lexology",
+  "publish_date": "2026-05-14",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.lexology.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:36:13.289536+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [],
+    "dates": [],
+    "policies": [
+      {
+        "text": "民用航空法",
+        "label": "policy",
+        "start": 2,
+        "end": 7,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

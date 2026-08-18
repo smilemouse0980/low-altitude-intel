@@ -1,0 +1,160 @@
+{
+  "doc_id": "81e600039092",
+  "url": "https://yuanxiangsky.com/N/820.html",
+  "title": "投融资傲势科技完成超3亿元融资，聚焦工业无人机技术本轮融资由宜宾新能源领投，中金资本旗下基金跟投；成都交子公园（金融城资本）、雷利投资、东吴资本新加入股东行列，成都科创投、元禾原点、嘉信智等原有股东继续追加投资。无人机工业工业无人机能源低空经济照野2/24/2026, 6:38:14 PM",
+  "content": "傲势科技完成超3亿元融资，聚焦工业无人机技术\n题图 | 傲势科技\n2月9日，国家级专精特新“小巨人”企业、工业级无人机链主企业傲势科技宣布，已完成超3亿元融资。本轮融资由宜宾新能源领投，中金资本旗下基金跟投；成都交子公园（金融城资本）、雷利投资、东吴资本新加入股东行列，成都科创投、元禾原点、嘉信智等原有股东继续追加投资。\n傲势科技方面披露，本次融资资金将用于三大方向：核心架构技术深化、绿色能源融合创新、全域应用场景拓展。据了解，该布局旨在巩固其工业无人机领域链主地位，同时为国家低空经济战略落地提供产业支撑，推进其“全球顶尖无人机装备企业”的发展目标。\n公开信息显示，傲势科技以“统一技术架构”为发展核心，响应新质生产力发展相关要求。通过架构标准化，该公司实现技术复用、快速迭代及跨场景适配，目前已形成覆盖垂直起降、短距起降固定翼及多旋翼的无人机产品体系，具备飞行平台、任务载荷、指挥控制及综合保障的全流程自主研发与交付能力，累计专利约200项。\n图源：傲势科技\n本次融资后，傲势科技将加大技术研发投入，重点优化产品性能及场景适配能力，提升在能源、林草、应急、水利等领域的场景化解决方案供给能力。其自主研发的XC-150油电混合动力复合式固定翼无人机系统，飞行时间可达9-12小时，有效挂载能力50Kg，采用模块化设计，可适配多种任务场景。\n绿色发展领域，傲势科技目前重点推进新能源产业生态融合与零碳技术创新，主要攻坚方向包括无人机新能源动力系统升级、绿电应用场景落地及低碳技术研发。该公司表示，将通过新能源与低空装备的融合，提升产品续航及环境友好性，同时依托链主企业身份，带动上下游产业链协同，推动零碳低空经济产业集群构建。\n应用场景方面，傲势科技的产品已覆盖应急救援、公共安全、林业巡护、智慧交通、能源巡检等领域，且已交付至北美、南美、非洲、中东、东南亚、中亚等地区。该公司采用“产品+服务”一体化模式，提供相关系统解决方案，推动工业无人机从技术落地向商业成熟过渡。公开数据显示，傲势科技去年业绩同比增长超3倍。\n图源：傲势科技\n业内人士指出，此次超3亿元融资的落地，意味着资本市场对傲势科技技术实力及发展前景的认可，也标志着该公司进入规模化、高端化、全球化发展阶段。作为成都本土工业级无人机企业，傲势科技的发展将对我国工业无人机产业优势巩固、国家低空经济战略实施起到支撑作用。据相关预测，我国低空经济市场规模2025年将达1.5万亿元，2030年有望突破2万亿元。\n未来，傲势科技将持续推进自主创新，深化绿色能源融合，拓展场景生态，依托现有产品及服务能力，推进国家低空经济战略落地，向全球顶尖无人机装备企业推进，助力中国低空经济产业发展。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-企业动态",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:50.489717+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "成都交子公园",
+        "label": "org",
+        "start": 49,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都交子公园",
+        "label": "org",
+        "start": 250,
+        "end": 256,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 20,
+        "end": 23,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 80,
+        "end": 82,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 281,
+        "end": 283,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北美",
+        "label": "location",
+        "start": 912,
+        "end": 914,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南美",
+        "label": "location",
+        "start": 915,
+        "end": 917,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 918,
+        "end": 920,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中东",
+        "label": "location",
+        "start": 921,
+        "end": 923,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 924,
+        "end": 927,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 928,
+        "end": 930,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 1086,
+        "end": 1088,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1259,
+        "end": 1261,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2月9日",
+        "label": "date",
+        "start": 179,
+        "end": 183,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "去年",
+        "label": "date",
+        "start": 994,
+        "end": 996,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 1155,
+        "end": 1160,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 1169,
+        "end": 1174,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

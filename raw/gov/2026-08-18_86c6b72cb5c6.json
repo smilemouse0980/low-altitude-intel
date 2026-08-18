@@ -1,0 +1,212 @@
+{
+  "doc_id": "86c6b72cb5c6",
+  "url": "https://yuanxiangsky.com/N/756.html",
+  "title": "新加坡首架本土 eVTOL 原型机亮相 2026 年度航展，由南洋理工大学研发IT 之家 2 月 5 日消息，新加坡在 2026 航展首秀本土 eVTOL 原型机，翼展 8 米、八旋翼全电动，兼顾固定翼效率与直升机悬停能力。eVTOL大学飞机固定翼机翼晓飞2/5/2026, 8:14:00 AM",
+  "content": "新加坡首架本土 eVTOL 原型机亮相 2026 年度航展，由南洋理工大学研发\n图片来源：IT之家\nIT 之家 2 月 5 日消息 在 2026 年度新加坡航展中，新加坡首次公开展示了本土设计和制造的电动垂直起降（eVTOL）飞机原型机，标志着该国在航空航天领域取得重要突破微博。\n一、研发背景与核心参数\n1、研发团队：由南洋理工大学教授 James Wang 博士领导研究团队设计开发\n2、研发周期：历时超过三年打造完成\n3、关键设计：\n- 机翼采用复合材料技术打造\n- 翼展约 8 米，配备八个机翼升力旋翼\n- 采用全电动推进系统，绿色环保\n二、飞行特性与创新优势\n该原型机实现了独特的飞行模式创新：\n- 垂直起降能力：可在狭小空间内灵活实现垂直起降，无需大型机场跑道\n- 复合飞行模式：起飞后，飞机尾部的螺旋桨推动飞机前行，转为类似固定翼飞机的飞行方式\n- 性能平衡：完美兼顾固定翼飞机的空气动力学效率与直升机的悬停能力，解决了传统飞行器的性能短板\n三、未来展望与战略意义\n南洋理工大学副校长 Louis Phee 博士表示，此项目具有重要战略价值：\n- 商业化前景：有望成为新加坡首架可商业运营的 eVTOL 的技术基础\n- 交通解决方案：为未来城市间及城内的乘客与货物运输提供先进技术储备\n- 区域适配性：对于亚洲人口密集的城市而言，是解决交通拥堵、提升运输效率的潜在理想方案，具有广阔应用前景",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-政策法规",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:59.044048+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "James",
+        "label": "person",
+        "start": 319,
+        "end": 324,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Wang",
+        "label": "person",
+        "start": 325,
+        "end": 329,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Louis",
+        "label": "person",
+        "start": 599,
+        "end": 604,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "南洋理工大学",
+        "label": "org",
+        "start": 31,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "eVTOL大学",
+        "label": "org",
+        "start": 112,
+        "end": 119,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南洋理工大学",
+        "label": "org",
+        "start": 180,
+        "end": 186,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南洋理工大学",
+        "label": "org",
+        "start": 310,
+        "end": 316,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南洋理工大学",
+        "label": "org",
+        "start": 589,
+        "end": 595,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 0,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 55,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 149,
+        "end": 152,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 231,
+        "end": 234,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新加坡",
+        "label": "location",
+        "start": 640,
+        "end": 643,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亚洲",
+        "label": "location",
+        "start": 709,
+        "end": 711,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026 年度航展",
+        "label": "date",
+        "start": 20,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2 月",
+        "label": "date",
+        "start": 45,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "八旋翼",
+        "label": "date",
+        "start": 89,
+        "end": 92,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026 年度航展",
+        "label": "date",
+        "start": 169,
+        "end": 178,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2 月",
+        "label": "date",
+        "start": 205,
+        "end": 208,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026 年度",
+        "label": "date",
+        "start": 217,
+        "end": 224,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "三年",
+        "label": "date",
+        "start": 354,
+        "end": 356,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": [
+      {
+        "person": "James",
+        "title": "教授",
+        "org": "南洋理工大学",
+        "context": "一、研发背景与核心参数\n1、研发团队：由南洋理工大学教授 James Wang 博士领导研究团队设计开发\n2、研发周期：历时超过"
+      },
+      {
+        "person": "Wang",
+        "title": "教授",
+        "org": "南洋理工大学",
+        "context": "景与核心参数\n1、研发团队：由南洋理工大学教授 James Wang 博士领导研究团队设计开发\n2、研发周期：历时超过三年打造完"
+      },
+      {
+        "person": "Louis",
+        "title": "博士",
+        "org": "南洋理工大学",
+        "context": "行器的性能短板\n三、未来展望与战略意义\n南洋理工大学副校长 Louis Phee 博士表示，此项目具有重要战略价值：\n- 商业化前"
+      }
+    ]
+  }
+}

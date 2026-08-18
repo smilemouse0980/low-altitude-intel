@@ -1,543 +1,1155 @@
 {
   "company_name": "亿航智能",
   "category": "eVTOL整机",
-  "mention_count": 15,
-  "first_seen": "2025-07-12",
-  "last_seen": "2026-08-15",
+  "mention_count": 37,
+  "first_seen": "2025-12-01",
+  "last_seen": "2026-08-18",
   "key_persons": [
     {
-      "name": "Tiltrotor",
+      "name": "Nurlan",
+      "mentions": 6
+    },
+    {
+      "name": "News",
       "mentions": 2
+    },
+    {
+      "name": "Regulations",
+      "mentions": 2
+    },
+    {
+      "name": "Electric Vertical",
+      "mentions": 1
+    },
+    {
+      "name": "Mark Esper",
+      "mentions": 1
+    },
+    {
+      "name": "Kratos",
+      "mentions": 1
+    },
+    {
+      "name": "Edgen.tech",
+      "mentions": 1
     }
   ],
   "locations": [
     {
-      "name": "中东",
-      "mentions": 54
+      "name": "广州",
+      "mentions": 137
     },
     {
-      "name": "阿联酋",
-      "mentions": 24
+      "name": "合肥",
+      "mentions": 41
     },
     {
-      "name": "泰国",
-      "mentions": 20
+      "name": "四川",
+      "mentions": 36
+    },
+    {
+      "name": "哈萨克斯坦",
+      "mentions": 35
+    },
+    {
+      "name": "香港",
+      "mentions": 34
     },
     {
       "name": "上海",
-      "mentions": 16
+      "mentions": 24
     },
     {
-      "name": "华羽",
-      "mentions": 16
+      "name": "成都",
+      "mentions": 22
     },
     {
-      "name": "迪拜",
-      "mentions": 16
+      "name": "深圳",
+      "mentions": 18
     },
     {
-      "name": "德国",
-      "mentions": 14
+      "name": "广州市",
+      "mentions": 18
     },
     {
-      "name": "华东",
-      "mentions": 12
-    },
-    {
-      "name": "欧洲",
-      "mentions": 12
-    },
-    {
-      "name": "东南亚",
-      "mentions": 12
+      "name": "泰国",
+      "mentions": 18
     }
   ],
   "partners": [
     {
-      "name": "沃兰特",
-      "co_occurrences": 14
+      "name": "峰飞航空",
+      "co_occurrences": 11
     },
     {
-      "name": "峰飞航空",
-      "co_occurrences": 12
+      "name": "小鹏汇天",
+      "co_occurrences": 10
     },
     {
       "name": "沃飞长空",
       "co_occurrences": 8
     },
     {
-      "name": "小鹏汇天",
-      "co_occurrences": 8
+      "name": "沃兰特",
+      "co_occurrences": 5
     },
     {
-      "name": "中信海直",
+      "name": "大疆创新",
+      "co_occurrences": 5
+    },
+    {
+      "name": "极飞科技",
       "co_occurrences": 4
     },
     {
       "name": "中国商飞",
       "co_occurrences": 2
+    },
+    {
+      "name": "航发动力",
+      "co_occurrences": 1
     }
   ],
   "events": {
     "product_launch": [
       {
-        "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
       },
       {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-04",
+        "title": "中华保险赋能低空经济安全发展主题活动在蓉举行 多方共筑低空经济安全生态 - 新华网客户端",
+        "source": "app.xinhuanet.com"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2025-12-16",
+        "title": "提高低空飞行器适航认证效率 民航局发布通用标准 - 财新",
+        "source": "m.caixin.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "financing": [
       {
-        "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "万丰奥威：有序推进eVTOL适航取证相关工作 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2025-12-16",
+        "title": "提高低空飞行器适航认证效率 民航局发布通用标准 - 财新",
+        "source": "m.caixin.com"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "cooperation": [
       {
-        "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-04",
+        "title": "活力中国调研行丨合肥：低空经济不是“单点突破”，而是“系统集成” - 中国科技网",
+        "source": "www.stdaily.com"
+      },
+      {
+        "date": "2026-08-04",
+        "title": "活力中国调研行丨合肥：低空经济不是“单点突破”，而是“系统集成” - 中国科技网",
+        "source": "www.stdaily.com"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
       },
       {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-04",
+        "title": "中华保险赋能低空经济安全发展主题活动在蓉举行 多方共筑低空经济安全生态 - 新华网客户端",
+        "source": "app.xinhuanet.com"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "policy_related": [
       {
-        "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "万丰奥威：有序推进eVTOL适航取证相关工作 - 新浪财经",
+        "source": "finance.sina.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
       },
       {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2025-12-16",
+        "title": "提高低空飞行器适航认证效率 民航局发布通用标准 - 财新",
+        "source": "m.caixin.com"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "certification": [
       {
-        "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "万丰奥威：有序推进eVTOL适航取证相关工作 - 新浪财经",
+        "source": "finance.sina.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-10",
+        "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+        "source": "www.ehang.com"
       },
       {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2025-12-16",
+        "title": "提高低空飞行器适航认证效率 民航局发布通用标准 - 财新",
+        "source": "m.caixin.com"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-06",
+        "title": "5月4日：环球低空融媒中心|总第34期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+        "source": "yuanxiangsky.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "market_expansion": [
       {
-        "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+        "source": "www.ehang.com"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+        "source": "paper.people.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-17",
+        "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+        "source": "mtz.china.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "万丰奥威：有序推进eVTOL适航取证相关工作 - 新浪财经",
+        "source": "finance.sina.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+        "source": "news.pconline.com.cn"
       },
       {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-07-12",
-        "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-        "source": "www.bing.com"
+        "date": "2026-08-04",
+        "title": "中华保险赋能低空经济安全发展主题活动在蓉举行 多方共筑低空经济安全生态 - 新华网客户端",
+        "source": "app.xinhuanet.com"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-27",
+        "title": "驭低空新势，启经济新篇丨2026国际低空经济博览会在沪闭幕 - 央广网",
+        "source": "www.cnr.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2026-05-03",
-        "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "21专访｜亿航智能胡华智：低空经济是“稳下来”而非“慢下来” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+        "source": "yuanxiangsky.com"
       }
     ]
   },
   "timeline": [
     {
+      "date": "2026-08-18",
+      "title": "万丰奥威：有序推进eVTOL适航取证相关工作 - 新浪财经",
+      "source": "finance.sina.cn",
+      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-08-18/detail-ininswne0236397.d.html?vt=4",
+      "content_snippet": "万丰奥威：有序推进eVTOL适航取证相关工作\n投资者提问：\n1. 亿航、峰飞、小鹏、沃兰特已进入首批民用载人eVTOL适航审定合规名录，公司VoloCity、VoloXpro均未入选，差距在哪里？  2. VoloCity在欧洲取证，为何不同步向中国CAAC提交TC申请？欧洲拿证后，中国是否仍需全套"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+      "source": "news.pconline.com.cn",
+      "url": "http://news.pconline.com.cn/2180/21805283.html",
+      "content_snippet": "【太平洋科技快讯】据亿航智能官方消息，8 月 14 日，马来西亚成功集团代表团到访亿航智能总部开展参观交流。双方围绕无人驾驶航空器应用场景、马来西亚低空产业发展及东南亚市场机遇等展开深入交流，探讨未来潜在合作方向。\n图源：亿航智能\n交流期间，成功集团代表团详细了解亿航智能无人航空器产品矩阵，以及企业"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+      "source": "news.pconline.com.cn",
+      "url": "http://news.pconline.com.cn/2180/21805283.html",
+      "content_snippet": "【太平洋科技快讯】据亿航智能官方消息，8 月 14 日，马来西亚成功集团代表团到访亿航智能总部开展参观交流。双方围绕无人驾驶航空器应用场景、马来西亚低空产业发展及东南亚市场机遇等展开深入交流，探讨未来潜在合作方向。\n图源：亿航智能\n交流期间，成功集团代表团详细了解亿航智能无人航空器产品矩阵，以及企业"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "投融资1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道以共享试飞空域与检测设备为杠杆，撬动中小企业“轻装上阵”，让“龙头强链、小微补链、创新延链”从愿景走向施工图。低空经济共享产业园投资孵化器晓飞7/20/2026, 9:19:28 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/1641.html",
+      "content_snippet": "1.8亿落子“共享试验场”：石家庄栾城用一座“云翼芯港”，为低空经济中小企业铺了一条“低成本起飞”的跑道\n图片来源：通义万相 AI生成\n7月18日，石家庄装备制造产业园云翼芯港项目施工现场塔吊林立、机器轰鸣。总投资1.8亿元、总建筑面积2.9万平方米的项目正加速推进，一号楼计划7月底主体封顶。当一座"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/769.html",
+      "content_snippet": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息\n图片来源：GLM-Image AI生成\n一、 产业集聚：占据全国“半壁江山”\n广东省在低空经济领域保持绝对领先地位，产业链高度集聚：\n- 企业规模：集聚了全国约 30% 的低空产业链企业，总数约 1.5万家。\n- 产能优势：2024年全"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息广东集聚全国30%低空企业，发布16项支持措施；广州规划2030年建千级起降点，设200亿引导基金。低空经济政策应用场景无人机工业晓飞2/8/2026, 8:31:24 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/769.html",
+      "content_snippet": "粤港澳大湾区低空经济提速，政策与应用场景集中落地 | 圆象消息\n图片来源：GLM-Image AI生成\n一、 产业集聚：占据全国“半壁江山”\n广东省在低空经济领域保持绝对领先地位，产业链高度集聚：\n- 企业规模：集聚了全国约 30% 的低空产业链企业，总数约 1.5万家。\n- 产能优势：2024年全"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "投融资一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事当中国eVTOL企业还在为适航取证冲刺时，美国同行已经用“混动重载+军方订单+SPAC上市”的组合拳，在资本市场讲出了一个完全不同的故事。美国eVTOLAI无人机上市晓飞6/27/2026, 9:16:43 AM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/1514.html",
+      "content_snippet": "一家成立9年的美国货运eVTOL公司即将登陆纳斯达克，拿着10亿美金订单讲述“重载混动”的另类叙事\n图片来源：通义万相 AI生成\n四个关键问题，拆解Elroy Air SPAC交易的产业信号\n问题一：8亿美元估值、10亿订单——Elroy Air的“账”怎么算？\n根据交易条款，Elroy Air投前"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+      "source": "www.ehang.com",
+      "url": "https://www.ehang.com/news/1370.html",
+      "content_snippet": "中国广州，2026年6月23日——随着香港积极推进多轮监管沙盒试点，低空经济正成为当地创新发展的重要方向。全球领先的先进空中交通（AAM）科技企业亿航智能控股有限公司（Nasdaq: EH）（下文简称“亿航智能”或“公司”）宣布已与香港合作伙伴形成稳定扎实的合作基础，持续推动无人驾驶电动垂直起降航空"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+      "source": "www.ehang.com",
+      "url": "https://www.ehang.com/news/1370.html",
+      "content_snippet": "中国广州，2026年6月23日——随着香港积极推进多轮监管沙盒试点，低空经济正成为当地创新发展的重要方向。全球领先的先进空中交通（AAM）科技企业亿航智能控股有限公司（Nasdaq: EH）（下文简称“亿航智能”或“公司”）宣布已与香港合作伙伴形成稳定扎实的合作基础，持续推动无人驾驶电动垂直起降航空"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
+      "source": "www.ehang.com",
+      "url": "https://www.ehang.com/news/1370.html",
+      "content_snippet": "中国广州，2026年6月23日——随着香港积极推进多轮监管沙盒试点，低空经济正成为当地创新发展的重要方向。全球领先的先进空中交通（AAM）科技企业亿航智能控股有限公司（Nasdaq: EH）（下文简称“亿航智能”或“公司”）宣布已与香港合作伙伴形成稳定扎实的合作基础，持续推动无人驾驶电动垂直起降航空"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+      "source": "mtz.china.com",
+      "url": "https://mtz.china.com/touzi/2026/0817/258765.html",
+      "content_snippet": "2026 年，国内低空经济已进入实质性爆发阶段。无人机灯光秀表演作为低空经济赛道中，少数实现成熟商业化、落地带动性强的核心场景，正从过去的 “节庆专属科技秀”，加速转变为城市文旅常规流量抓手、头部品牌营销创意载体、大型活动标准配套环节。行业格局存在明确业务逻辑分层：一类是无人机设备厂商，以大疆智控、"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "2026 年中国无人机灯光秀表演服务行业深度研究报告暨头部服务商行业分析 - 中华网",
+      "source": "mtz.china.com",
+      "url": "https://mtz.china.com/touzi/2026/0817/258765.html",
+      "content_snippet": "2026 年，国内低空经济已进入实质性爆发阶段。无人机灯光秀表演作为低空经济赛道中，少数实现成熟商业化、落地带动性强的核心场景，正从过去的 “节庆专属科技秀”，加速转变为城市文旅常规流量抓手、头部品牌营销创意载体、大型活动标准配套环节。行业格局存在明确业务逻辑分层：一类是无人机设备厂商，以大疆智控、"
+    },
+    {
       "date": "2026-08-15",
-      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-      "source": "www.bing.com",
-      "url": "https://www.sohu.com/a/1063011230_217394",
-      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
+      "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+      "source": "finance.sina.cn",
+      "url": "https://finance.sina.cn/tech/2026-08-15/detail-ininikay3905278.d.html?oid=WA%200812%202782%205310%20Jasa%20Bikin%20Pagar%20Besi%20Setengah%20Ampel%20Boyolali&vt=4",
+      "content_snippet": "广州低空经济，起飞！\n约4300家相关企业集聚，逾800个起降设施星罗棋布，33条常态化航线交织成网……\n一架飞机离地之前，须经过蓄力与滑跑。广州的低空经济，已然抬轮离地、乘风而起。2026年8月，海格通信旗下天腾产业以约8亿元引入战略投资，注册资本一举跃升至约16亿元——广州低空产业的资本热度，被"
     },
     {
       "date": "2026-08-15",
-      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-      "source": "www.bing.com",
-      "url": "https://www.sohu.com/a/1063011230_217394",
-      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
+      "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+      "source": "finance.sina.cn",
+      "url": "https://finance.sina.cn/tech/2026-08-15/detail-ininikay3905278.d.html?oid=WA%200812%202782%205310%20Jasa%20Bikin%20Pagar%20Besi%20Setengah%20Ampel%20Boyolali&vt=4",
+      "content_snippet": "广州低空经济，起飞！\n约4300家相关企业集聚，逾800个起降设施星罗棋布，33条常态化航线交织成网……\n一架飞机离地之前，须经过蓄力与滑跑。广州的低空经济，已然抬轮离地、乘风而起。2026年8月，海格通信旗下天腾产业以约8亿元引入战略投资，注册资本一举跃升至约16亿元——广州低空产业的资本热度，被"
     },
     {
-      "date": "2026-06-23",
-      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
-      "content_snippet": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
+      "date": "2026-08-10",
+      "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+      "source": "www.ehang.com",
+      "url": "https://www.ehang.com/cn/news/1377.html",
+      "content_snippet": "哈萨克斯坦阿斯塔纳，2026年8月10日——全球领先的先进空中交通（AAM）科技企业亿航智能控股有限公司（Nasdaq: EH）（下文简称“亿航智能”或“公司”）宣布，其旗舰机型EH216-S在哈萨克斯坦阿斯塔纳完成中亚地区首个无人驾驶eVTOL（电动垂直起降）航空器载人飞行。\nEH216-S在哈萨"
     },
     {
-      "date": "2026-06-23",
-      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
-      "content_snippet": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
+      "date": "2026-08-10",
+      "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+      "source": "www.ehang.com",
+      "url": "https://www.ehang.com/cn/news/1377.html",
+      "content_snippet": "哈萨克斯坦阿斯塔纳，2026年8月10日——全球领先的先进空中交通（AAM）科技企业亿航智能控股有限公司（Nasdaq: EH）（下文简称“亿航智能”或“公司”）宣布，其旗舰机型EH216-S在哈萨克斯坦阿斯塔纳完成中亚地区首个无人驾驶eVTOL（电动垂直起降）航空器载人飞行。\nEH216-S在哈萨"
     },
     {
-      "date": "2026-06-23",
-      "title": "亿航智能入选香港低空经济“监管沙盒X”试点项目 - EHang",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWdnJJV0xueDFIa29qSVNlWTB2a19LbXMzZHJNT2tKVVI5U3A2Y2tiN3dXUVBPUkNzNm4wSzFCSEp0RlNwNUF6MU1fQ1J4Mkp4?oc=5",
-      "content_snippet": "亿航智能入选香港低空经济“监管沙盒X”试点项目EHang"
+      "date": "2026-08-10",
+      "title": "中亚首次eVTOL载人飞行！亿航EH216-S在哈萨克斯坦首都中心完成载人首飞 - EHang",
+      "source": "www.ehang.com",
+      "url": "https://www.ehang.com/cn/news/1377.html",
+      "content_snippet": "哈萨克斯坦阿斯塔纳，2026年8月10日——全球领先的先进空中交通（AAM）科技企业亿航智能控股有限公司（Nasdaq: EH）（下文简称“亿航智能”或“公司”）宣布，其旗舰机型EH216-S在哈萨克斯坦阿斯塔纳完成中亚地区首个无人驾驶eVTOL（电动垂直起降）航空器载人飞行。\nEH216-S在哈萨"
     },
     {
-      "date": "2026-05-03",
-      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-      "source": "www.bing.com",
-      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
-      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
+      "date": "2026-08-04",
+      "title": "活力中国调研行丨合肥：低空经济不是“单点突破”，而是“系统集成” - 中国科技网",
+      "source": "www.stdaily.com",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/04/content_558715.html",
+      "content_snippet": "科技日报实习记者 孙金 记者 王姗姗\n2025年，合肥低空经济营收突破300亿元，这并不是一个企业的“单点突破”，而是依托于合肥低空经济产业链条的“系统集成”。8月3日，记者随2026年“活力中国调研行”安徽集中采访活动来到合肥市合翼航空。\n合翼航空是亿航智能与合肥市国资平台合资成立的公司，专注于城"
     },
     {
-      "date": "2026-05-03",
-      "title": "低空经济：中国eVTOL独角兽五强 | 估值、技术路线与市场前景深度对比",
-      "source": "www.bing.com",
-      "url": "https://finance.sina.com.cn/wm/2026-05-03/doc-inhwrxav4388344.shtml",
-      "content_snippet": "（来源：洪泰智造）\n作者丨玻色子 |\n导读:\neVTOL（电动垂直起降飞行器）作为低空经济的核心赛道，正在经历爆发式增长。中国已有5家头部企业估值突破40亿人民币，其中3家达到10亿美元独角兽门槛。技术路线分化明显——复合翼、倾转旋翼、多旋翼、eCTOL各显神通。本文聚焦成立10年内、获市场化VC投"
+      "date": "2026-08-04",
+      "title": "活力中国调研行丨合肥：低空经济不是“单点突破”，而是“系统集成” - 中国科技网",
+      "source": "www.stdaily.com",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/04/content_558715.html",
+      "content_snippet": "科技日报实习记者 孙金 记者 王姗姗\n2025年，合肥低空经济营收突破300亿元，这并不是一个企业的“单点突破”，而是依托于合肥低空经济产业链条的“系统集成”。8月3日，记者随2026年“活力中国调研行”安徽集中采访活动来到合肥市合翼航空。\n合翼航空是亿航智能与合肥市国资平台合资成立的公司，专注于城"
     },
     {
-      "date": "2025-12-18",
-      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-      "source": "www.bing.com",
-      "url": "https://www.stcn.com/article/detail/3546179.html",
-      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
-    },
-    {
-      "date": "2025-12-18",
-      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-      "source": "www.bing.com",
-      "url": "https://www.stcn.com/article/detail/3546179.html",
-      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
-    },
-    {
-      "date": "2025-12-18",
-      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-      "source": "www.bing.com",
-      "url": "https://www.stcn.com/article/detail/3545760.html",
-      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
-    },
-    {
-      "date": "2025-12-18",
-      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-      "source": "www.bing.com",
-      "url": "https://www.stcn.com/article/detail/3545760.html",
-      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
-    },
-    {
-      "date": "2025-10-23",
-      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-      "source": "www.bing.com",
-      "url": "https://news.qq.com/rain/a/20251023A018N400",
-      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
-    },
-    {
-      "date": "2025-10-23",
-      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-      "source": "www.bing.com",
-      "url": "https://news.qq.com/rain/a/20251023A018N400",
-      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
-    },
-    {
-      "date": "2025-07-12",
-      "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-      "source": "www.bing.com",
-      "url": "https://finance.sina.com.cn/roll/2025-07-12/doc-inffezhk9720934.shtml",
-      "content_snippet": "（转自：华经产业研究院）\neVTOL技术的基础可以追溯到20世纪早期。最早的垂直起降飞行器（VTOL）技术出现在直升机中，例如西科斯基的VS-300，这是早期垂直起降技术的先驱。自2010年以来，随着电池技术的飞速进步，以及对无人机和自动驾驶技术的探索，eVTOL逐渐进入实质性发展阶段。随着技术的不"
-    },
-    {
-      "date": "2025-07-12",
-      "title": "2025年中国eVTOL行业发展历程、产业链、市场规模及发展趋势分析",
-      "source": "www.bing.com",
-      "url": "https://finance.sina.com.cn/roll/2025-07-12/doc-inffezhk9720934.shtml",
-      "content_snippet": "（转自：华经产业研究院）\neVTOL技术的基础可以追溯到20世纪早期。最早的垂直起降飞行器（VTOL）技术出现在直升机中，例如西科斯基的VS-300，这是早期垂直起降技术的先驱。自2010年以来，随着电池技术的飞速进步，以及对无人机和自动驾驶技术的探索，eVTOL逐渐进入实质性发展阶段。随着技术的不"
+      "date": "2026-08-04",
+      "title": "中华保险赋能低空经济安全发展主题活动在蓉举行 多方共筑低空经济安全生态 - 新华网客户端",
+      "source": "app.xinhuanet.com",
+      "url": "https://app.xinhuanet.com/news/article.html?articleId=20260804db27896959bf417289f074c87841ad9b",
+      "content_snippet": "7月30日，“筑梦长空、中华护航”——中华保险赋能低空经济发展主题活动在成都举行。本次活动由中华财险四川分公司与四川省经济发展促进会、四川省低空经济协会筹备委员会联合举办，来自低空经济领域行协、高校、企业等27家单位代表齐聚一堂，共话保险赋能低空经济新路径。四川省政协常委、省政协提案委员会副主任、省"
     }
   ],
-  "generated_at": "2026-08-17T23:36:12.479983+08:00"
+  "generated_at": "2026-08-18T16:44:14.394591+08:00"
 }

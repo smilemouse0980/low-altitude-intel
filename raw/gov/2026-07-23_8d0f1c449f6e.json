@@ -1,0 +1,176 @@
+{
+  "doc_id": "8d0f1c449f6e",
+  "url": "http://www.caacnews.com.cn/1/6/202607/t20260723_1396338.html",
+  "title": "蓝色向量发布倾转旋翼eVTOL SKYLA V30 - 中国民航网",
+  "content": "《中国民航报》、中国民航网 记者张之涵、刘九阳 报道：7月22日，蓝色向量智能科技（SKYLA）正式在上海发布其首款倾转旋翼电动垂直起降航空器（eVTOL）SKYLA V30。\nSKYLA V30（SKYLA供图）\nSKYLA V30是一款6座、2吨级、倾转旋翼纯电动eVTOL飞行器，聚焦城际载客出行场景。该产品采用部分倾转旋翼构型，兼具垂直起降与固定翼巡航特性，规划应用于城际交通、公共服务、应急救援等场景。额定功率分配至8个旋翼，兼顾气动性能与安全余度。\nSKYLA创始人兼CEO吴穹表示，SKYLA V30围绕软件定义飞机、开放式电子电气架构、飞行控制系统等方向开展技术研发，以安全性作为产品研发的重要目标。未来eVTOL的发展需要在飞行安全、适航认证、产业协同和运营体系等方面持续完善，随着技术进步和基础设施逐步健全，低空交通有望在城际出行、公共服务、应急救援等领域发挥更大作用。\n近年来，作为融合航空制造、新能源、智能控制等多领域技术的新型航空器，eVTOL正成为全球航空产业关注的重要方向。2026国际低空经济博览会期间，SKYLA分别与多家企业签署战略合作协议，并与多家通航企业达成飞机预售合作。根据合作内容，各方将在研发制造、关键系统、供应链协同、运营服务等方面开展合作，共同探索产业未来应用和商业化发展路径。（编辑：李佳洹 校对：许浩存 审核：韩磊）",
+  "publish_date": "2026-07-23",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "www.caacnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:05.155718+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 16,
+        "end": 21,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 28,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航报",
+        "label": "org",
+        "start": 35,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 42,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 76,
+        "end": 81,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 112,
+        "end": 117,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 123,
+        "end": 128,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 133,
+        "end": 138,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 142,
+        "end": 147,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 265,
+        "end": 270,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 282,
+        "end": 287,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026国际低空经济博览会",
+        "label": "org",
+        "start": 486,
+        "end": 499,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "SKYLA",
+        "label": "org",
+        "start": 502,
+        "end": 507,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成飞",
+        "label": "org",
+        "start": 532,
+        "end": 534,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 85,
+        "end": 87,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "V30",
+        "label": "location",
+        "start": 129,
+        "end": 132,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "V30",
+        "label": "location",
+        "start": 148,
+        "end": 151,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "7月22日",
+        "label": "date",
+        "start": 61,
+        "end": 66,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 430,
+        "end": 433,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

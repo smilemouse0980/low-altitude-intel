@@ -1,0 +1,56 @@
+{
+  "doc_id": "ae21f284bee6",
+  "url": "https://www.spacechina.com/n25/n2014789/n2014804/c4543159/content.html",
+  "title": "全国首款航天造eVTOL低空飞行器首飞成功 - spacechina.com",
+  "content": "图为航天造eVTOL低空飞行器。乌文治 摄\n \n2月6日，由中国航天科技集团有限公司九院牵头研制的国内首款航天造电动垂直起降飞行器（eVTOL），在重庆永川大安通用机场首飞成功，圆满完成各项性能验证。\n该产品是九院在低空经济领域的重要创新突破，是继低空交通装备领域传统机型后，面向多元出行与运输需求快速迭代的创新构型产品，未来将在交通出行、物流运输、应急保障等领域发挥重要作用。\n该产品采用分体式核心设计，由机翼、座舱、底盘组成飞行体与陆行体两大形态，飞行体可承载两名乘客在3000米以下低空以150千米每小时的速度飞行，陆行体基于全电智能线控底盘，可实现超300千米续航。依托自主研发的自动对准、分离耦合机构，各部分连接与分离可由程序自主控制。定制化座舱及多类型底盘、机翼模块，大幅提升了场景适配性与使用灵活性。",
+  "publish_date": "2026-02-11",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "www.spacechina.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:50.274644+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国航天科技集团有限公司",
+        "label": "org",
+        "start": 69,
+        "end": 81,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成飞",
+        "label": "org",
+        "start": 252,
+        "end": 254,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 113,
+        "end": 115,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2月6日",
+        "label": "date",
+        "start": 63,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "doc_id": "81f763343933",
+  "url": "https://yuanxiangsky.com/N/774.html",
+  "title": "产业数据重庆发布20亿元空天信息与低空经济产业基金，“重庆造”eVTOL完成首飞 | 圆象消息重庆设立20亿元低空经济产业基金，揭牌产业发展公司；“重庆造”eVTOL完成首飞，实现陆空模式切换。重庆低空经济产业基金eVTOL投资晓飞2/10/2026, 8:05:43 AM",
+  "content": "重庆发布20亿元空天信息与低空经济产业基金，“重庆造”eVTOL完成首飞 | 圆象消息\n图片来源：GLM-Image AI生成\n一、 资本赋能：20亿元产业基金正式设立\n在“生态赋能 智绘低空”活动上，重庆宣布成立航天工融（重庆）空天信息低空经济产业基金，总规模达 20亿元。\n- 出资方：由工银金融资产投资、航天投资控股、重庆市产业母基金及两江基金共同出资。\n- 运作模式：采用 “政府引导+市场化运作” 模式。\n- 投资方向：重点投向空天信息和低空经济领域，为产业链上下游企业提供资本动能。\n二、 平台搭建：产业发展公司与产品名录\n活动期间，重庆低空经济产业生态建设进一步完善：\n- 公司揭牌：同步揭牌 “重庆低空经济产业发展有限公司”，强化产业统筹运营能力。\n- 名录发布：发布 《重庆市低空产业链产品名录（2025）》，共收录 93款 产品，为供需对接提供指南。\n三、 产业落地：重大项目签约与产品突破\n多项产业合作成果落地，且本地研发制造取得实质性进展：\n重大签约：\n- 航天科技集团 与 赛航智行：合作研发低空航空器。\n- 峰飞航空 与 两江新区：签约打造西南总部基地。\n产品首飞：\n- 首款 “重庆造” eVTOL 完成首次公开飞行演示。\n- 性能参数：成功实现陆空模式无缝切换，设计载荷 150kg，最大时速 150km/h。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-企业动态",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:50.815906+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "陆空模式",
+        "label": "org",
+        "start": 90,
+        "end": 94,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "航天科技集团",
+        "label": "org",
+        "start": 579,
+        "end": 585,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "陆空模式",
+        "label": "org",
+        "start": 676,
+        "end": 680,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 606,
+        "end": 610,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 606,
+        "end": 608,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 4,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆造",
+        "label": "location",
+        "start": 27,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 47,
+        "end": 49,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆造",
+        "label": "location",
+        "start": 74,
+        "end": 77,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 97,
+        "end": 99,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 138,
+        "end": 140,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆造",
+        "label": "location",
+        "start": 161,
+        "end": 164,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 239,
+        "end": 241,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 250,
+        "end": 252,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆市",
+        "label": "location",
+        "start": 300,
+        "end": 303,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 411,
+        "end": 413,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆",
+        "label": "location",
+        "start": 443,
+        "end": 445,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆市",
+        "label": "location",
+        "start": 482,
+        "end": 485,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "重庆造",
+        "label": "location",
+        "start": 642,
+        "end": 645,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

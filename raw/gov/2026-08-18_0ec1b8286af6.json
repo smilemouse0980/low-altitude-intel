@@ -1,0 +1,160 @@
+{
+  "doc_id": "0ec1b8286af6",
+  "url": "https://yuanxiangsky.com/N/676.html",
+  "title": "产业数据日本测试3D运输网络，无人机联动交通灯助力自动配送此次实验的核心装备是Prodrone公司研发的PD6B-Type3型物流无人机，主要负责往返一色渔港与佐久岛之间的海上货物运输任务。无人机日本无人机物流货物运输弘微1/2/2026, 6:22:17 PM",
+  "content": "日本测试3D运输网络，无人机联动交通灯助力自动配送\n题图 | Prodrone\n2025年11月5日，日本Prodrone公司联合爱知县及日本国土交通省，在佐久岛启动了一项示范实验，旨在推动无人机物流走向商业化应用。该项目作为“爱知模式2030”倡议的重要组成部分，将空中货物运输与地面自动驾驶系统相结合，打造出日本首个基于3D运输网络的智能物流模式。\n此次实验的核心装备是Prodrone公司研发的PD6B-Type3型物流无人机，主要负责往返一色渔港与佐久岛之间的海上货物运输任务。项目的关键创新点在于一款新研发的绞车式货物装卸机构，该装置可实现无人机在空中完成包裹投递，无需降落，大幅简化了配送流程，同时降低了无人机与地面接触时的安全风险。\n图源：Prodrone\n为构建多模式综合运输生态，空中运输环节由无人机承担，而岛屿内的“最后一公里”配送则交由自动配送机器人及自动驾驶车辆完成。本次实验由Prodrone公司、日本航空公司与名古屋铁道公司三方牵头推进，形成了优势互补的协作格局。\n新部署的无人机联动交通灯系统，成为协调空域与地面交通的突破性解决方案。当无人机进入50米范围时，该系统会将交通灯转为黄色预警；若无人机进一步靠近，交通灯则切换为红色，实现了空中飞行与地面车辆行驶的实时联动管控。Prodrone公司社长丰谷俊介强调：“本次项目引入了新研发的‘绞车式货物装卸系统’与‘无人机联动交通灯’，致力于构建一套安全高效的运营模式。”\n图源：Prodrone\n在未来一个月内，该示范实验将在不同天气及环境条件下开展多轮配送作业，从运营成本、安全规程及社区接受度等维度，全面评估项目的商业化可行性。此前一年的试验已验证了无人机常态化配送偏远岛屿的有效性，同时也暴露了最后一公里配送及装载限制等现存问题。本次实验重点聚焦于建立可持续商业模式，为欠发达地区无人机物流的长期商业化落地奠定基础。\n作为“爱知模式2030”倡议的重要实践，该3D运输网络项目有望为日本物流行业带来变革，尤其为偏远地区的物资配送提供高效解决方案，推动无人机物流从技术验证迈向规模化商业应用。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-政策法规",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:59.714210+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "Prodrone公司",
+        "label": "org",
+        "start": 39,
+        "end": 49,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本Prodrone公司",
+        "label": "org",
+        "start": 183,
+        "end": 195,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本国土交通省",
+        "label": "org",
+        "start": 201,
+        "end": 208,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Prodrone公司",
+        "label": "org",
+        "start": 319,
+        "end": 329,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Prodrone公司",
+        "label": "org",
+        "start": 533,
+        "end": 543,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本航空公司",
+        "label": "org",
+        "start": 544,
+        "end": 550,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "名古屋铁道公司",
+        "label": "org",
+        "start": 551,
+        "end": 558,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Prodrone公司",
+        "label": "org",
+        "start": 684,
+        "end": 694,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 15,
+        "end": 18,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 4,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 98,
+        "end": 100,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 132,
+        "end": 134,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 288,
+        "end": 290,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日本",
+        "label": "location",
+        "start": 965,
+        "end": 967,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2025年11月5日",
+        "label": "date",
+        "start": 172,
+        "end": 182,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "未来一个月",
+        "label": "date",
+        "start": 770,
+        "end": 775,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "一年",
+        "label": "date",
+        "start": 839,
+        "end": 841,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

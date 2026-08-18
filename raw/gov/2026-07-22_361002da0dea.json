@@ -1,0 +1,224 @@
+{
+  "doc_id": "361002da0dea",
+  "url": "http://www.jingjiribao.cn/static/detail.jsp?id=671282",
+  "title": "2026国际通用航空博览会将于9月29日至10月3日在武汉举行 - jingjiribao.cn",
+  "content": "2026-07-22 19:18:00\n7月21日，记者从2026国际通用航空博览会（简称武汉航展）新闻发布会获悉，本届航展定于9月29日—10月3日在武汉汉南机场举行。\n发布会现场，电鹰科技集团有限公司、明信能源信天翁航空科技有限公司、海南中鹏航空科技有限公司、中国中元国际工程有限公司、中化保险经纪（北京）有限责任公司、中铁建资本控股集团有限公司、中国质量认证中心有限公司七家代表企业与展会组委会签署战略合作协议。武汉航展主要参展企业覆盖低空制造、零部件、园区运营、安防、金融资本等产业链各领域，由中国文化产业发展集团主办。\n据介绍，2026武汉航展以“翼联天地 智启新程”为主题，聚焦通用航空、无人机、低空经济全产业链，打造集大型展览、动态展演、高端论坛、商贸对接、航空文旅消费于一体的综合性行业交流平台。\n展会静态展区分为室内展览、室外航空器静态展示两大板块，总面积约8万平方米；动态飞行表演已邀约中、美、欧、俄多国专业飞行机队，20余架航空器将进行特技飞行展演，并同步开展多类型低空航空器实景场景演示飞行。展期还将举办丰富的热气球表演、落日烟花秀、大学生航空音乐节、地面航空体验等活动，打造全民参与的航空主题文旅盛会。\n室内展厅设置五大主题展区：低空制造展区集中展出通航整机、无人机、eVTOL、航空核心零部件及轻量化新材料；低空运营展区聚焦物流配送、农林植保、应急救援、城市空中交通、安防巡检等多元场景应用；低空基建与信息服务展区展示通用机场、垂直起降场站、充换电设施、北斗导航、低空智联网、空域调度平台等软硬件配套；低空配套展区涵盖飞行培训、检测认证、融资租赁、低空保险、产业基金等第三方专业服务；综合展示区集中陈列低空经济创新终端产品及各地产业园区招商项目。\n室外飞行场地将设置全天候动态展演环节，包含特技飞行秀、大型无人机集群编队演示、eVTOL载人飞行器实操飞行、重载无人机作业实景演示等内容。现场有机会看到物流配送、应急救灾、电力巡检、地形测绘等真实行业应用场景，展示各类飞行器综合性能与商业化落地能力。\n9月29日，展会同期将举办核心行业峰会——2026低空经济与无人机产业链大会，主题为“强链·韧链——构建领先的自主可控全产业链”，采用“主旨峰会+四大专题论坛”模式，分设动力与能源、通导感与智联网、低空技术前沿与创新、金融赋能低空经济四大分论坛，邀请行业院士、政策研究专家、头部企业高管，深度解读“十五五”低空产业发展规划、航空关键零部件技术攻坚、空域精细化治理、产业投融资等核心议题。\n50余场专题论坛同期举办，议题覆盖低空政策规划、先进制造、运营场景创新、基础建设、配套服务等，为企业与政府提供前瞻性决策支持。\n同期，中国无人机应用创新大赛将于展期全程开展，激发社会公众、青少年对航空科技的探索热情，培养创新思维与实践能力，为低空经济领域储备后备人才。行业“蓝翼奖”颁奖仪式将于产业链大会现场举办，表彰过去一年为产业链自主创新、规模化发展作出突出贡献的标杆企业，目前奖项申报通道已全面开放。\n展会期间还将持续推出新技术新产品发布会、产业链项目路演、低空产业园区招商推介会、政企供需精准对接会等配套活动，搭建整机厂商、零部件供应商、终端应用企业、投融资机构对接平台，加速先进技术成果转化与产业项目落地。",
+  "publish_date": "2026-07-22",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.jingjiribao.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:37:03.051031+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "国际通用航空博览会",
+        "label": "org",
+        "start": 4,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "科技集团有限公司",
+        "label": "org",
+        "start": 143,
+        "end": 151,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "明信能源信天翁航空科技有限公司",
+        "label": "org",
+        "start": 152,
+        "end": 167,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "海南中鹏航空科技有限公司",
+        "label": "org",
+        "start": 168,
+        "end": 180,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国中元国际工程有限公司",
+        "label": "org",
+        "start": 181,
+        "end": 193,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中化",
+        "label": "org",
+        "start": 194,
+        "end": 196,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中铁",
+        "label": "org",
+        "start": 211,
+        "end": 213,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国质量认证中心有限公司",
+        "label": "org",
+        "start": 225,
+        "end": 237,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 344,
+        "end": 348,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 349,
+        "end": 352,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "武汉",
+        "label": "location",
+        "start": 27,
+        "end": 29,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 201,
+        "end": 203,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中",
+        "label": "location",
+        "start": 452,
+        "end": 453,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美",
+        "label": "location",
+        "start": 454,
+        "end": 455,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧",
+        "label": "location",
+        "start": 456,
+        "end": 457,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "俄",
+        "label": "location",
+        "start": 458,
+        "end": 459,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1174,
+        "end": 1176,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 0,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "9月29日至10月3日",
+        "label": "date",
+        "start": 15,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "7月21日",
+        "label": "date",
+        "start": 69,
+        "end": 74,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "9月29日—10月3日",
+        "label": "date",
+        "start": 113,
+        "end": 124,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 318,
+        "end": 322,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "全天候",
+        "label": "date",
+        "start": 796,
+        "end": 799,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "9月29日",
+        "label": "date",
+        "start": 913,
+        "end": 918,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "过去一年",
+        "label": "date",
+        "start": 1266,
+        "end": 1270,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

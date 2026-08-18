@@ -1,0 +1,161 @@
+{
+  "doc_id": "e8efd0dadc78",
+  "url": "https://m.gmw.cn/2026-05/27/content_1304472794.htm",
+  "title": "北京警方公布3类违反“无人机新规”典型案例！这些事项要注意—— - 光明网",
+  "content": "《北京市无人驾驶航空器管理规定》已于5月1日正式施行，北京警方严厉打击各类违法违规行为，全力消除安全隐患，坚决守住低空安全底线。为充分发挥警示教育作用，现公布以下3类典型案例希望大家引以为戒：\n1、非法飞行案： 5月18日，海淀警方在工作中发现，辖区一景区内有一架无人机疑似“黑飞”。民警迅速处置，将涉嫌“黑飞”人员周某某查获。\n经查，周某某为某旅行社导游，当日为拍摄照片，在明知北京无人机管制政策的情况下，仍心存侥幸，未经空管部门审批擅自施放无人机，其“黑飞”地点附近，就有无人机管制政策提示牌。公安机关依据《中华人民共和国治安管理处罚法》《无人驾驶航空器飞行管理暂行条例》，对周某某予以行政拘留、没收器具并处罚款的行政处罚。\n2、非法销售案： 5月7日，西城警方在工作中发现一条涉嫌非法销售无人机的线索，民警迅速处置，将涉嫌非法销售人员付某查获。 经查，付某通过某二手交易平台，将本人名下无人机向在京人员出售，并与买家约定在西城区某书店附近交易，验机时被民警查获。公安机关依据《北京市无人驾驶航空器管理规定》，对付某予以没收器具的行政处罚。\n3、非法出租案： 5月13日，公交警方在某地铁站开展工作时，发现一乘客携带的无人机存在非法出租情况。公交警方会同朝阳警方开展侦办工作，将涉嫌非法出租人员莫某某查获。 经查，莫某某在朝阳区某传媒公司，按日收费向在京人员出租无人机，并委托他人转交，途中被民警查获。公安机关依据《北京市无人驾驶航空器管理规定》，对莫某某予以没收器具并处罚款的行政处罚。\n点击右上角微信好友\n朋友圈\n点击浏览器下方“”分享微信好友Safari浏览器请点击“”按钮\n点击右上角QQ\n点击浏览器下方“”分享QQ好友Safari浏览器请点击“”按钮",
+  "publish_date": "2026-05-27",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "m.gmw.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:53.819973+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 39,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 65,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 228,
+        "end": 230,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京",
+        "label": "location",
+        "start": 439,
+        "end": 440,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西城区",
+        "label": "location",
+        "start": 452,
+        "end": 455,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 479,
+        "end": 482,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日",
+        "label": "location",
+        "start": 611,
+        "end": 612,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京",
+        "label": "location",
+        "start": 616,
+        "end": 617,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京市",
+        "label": "location",
+        "start": 648,
+        "end": 651,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "5月1日",
+        "label": "date",
+        "start": 56,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月18日",
+        "label": "date",
+        "start": 144,
+        "end": 149,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月7日",
+        "label": "date",
+        "start": 362,
+        "end": 366,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月13日",
+        "label": "date",
+        "start": 520,
+        "end": 525,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "莫某某",
+        "label": "date",
+        "start": 597,
+        "end": 600,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "无人驾驶航空器飞行管理暂行条例",
+        "label": "policy",
+        "start": 310,
+        "end": 325,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

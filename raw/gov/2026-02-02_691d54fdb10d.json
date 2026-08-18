@@ -1,0 +1,192 @@
+{
+  "doc_id": "691d54fdb10d",
+  "url": "http://www.caacnews.com.cn/special/2025zhuanti/2025xxgcmyhkf/2025xxgcmyhkflm4/202602/t20260202_1393024.html",
+  "title": "民用航空法系列解读之通用航空和低空经济篇 - 中国民航网",
+  "content": "民用航空法系列解读之通用航空和低空经济篇\n{\n\t\t\t\t\t\t\tid:27075,\n\t\t\t\t\t\t\turl:'http://www.caacnews.com.cn/special/images/W020251228331837472427.png',\n\t\t\t\t\t\t\twidth:946,\n\t\t\t\t\t\t\theight:120\n\t\t\t\t\t\t}\n首页 >>\n解读\n民用航空法系列解读之通用航空和低空经济篇\n时间：2026-07-27| 编辑：lihaiyan|【\n大\n中\n小\n】\n新修订的民用航空法全面贯彻落实党中央、国务院关于通用航空和\n低空经济\n高质量发展的战略部署，从空域资源、通航市场改革等方面，进一步为通航和低空经济发展提供法律保障。\n一、明确空域管理主体和划分要求\n在明确国家对空域实行统一管理的基础上，进一步规定空域资源由国家空中交通管理机构依照法律、行政法规和国家有关规定实施管理。管理主体的明确有利于合理、充分、有效利用空域和保障飞行安全。进一步明确空域划分除了要考虑民用航空、国防安全和公众利益，还要充分考虑低空经济发展需求，做到统筹兼顾。这是首次以法律形式明确保障低空经济发展的空域需求，有利于为低空经济发展提供低空空域资源。\n二、深化通用航空市场改革\n一是明确提出国家鼓励发展通用航空，加快构建通用航空基础设施网络，培育通用航空市场，县级以上地方人民政府根据本地区发展实际，采取措施支持通用航空产业发展。二是统筹发展和安全，通用航空经营许可与运行许可“\n两证合一\n”，要求组织实施通用航空飞行的主体确保作业安全，对从事通用航空定期运输的明确制定民用航空器事故家属援助计划规定。三是根据业务类型实施分类管理，分类细化从事不同种类经营活动企业的准入标准、经营规范要求和法律责任，对非经营性通用航空实施备案管理，降低制度性成本。同时，规范行政检查，督促引导通用航空活动主体依法合规经营和飞行。\n此外，在通用机场方面，明确地方政府权责，对通用机场实施分类分级管理，也有利于推动通用航空和低空经济发展。\n（来源：民航局）\n中国民航报社 版权所有 京\nICP\n备\n05024158\n如有意见和建议，请惠赐\nE-mail\n至\nnews@caacnews.com.cn",
+  "publish_date": "2026-02-02",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.caacnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:37:05.111245+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 10,
+        "end": 14,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航网",
+        "label": "org",
+        "start": 23,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 39,
+        "end": 43,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 215,
+        "end": 219,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国务院",
+        "label": "org",
+        "start": 282,
+        "end": 285,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 287,
+        "end": 291,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空市场改革",
+        "label": "org",
+        "start": 552,
+        "end": 560,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 573,
+        "end": 577,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 582,
+        "end": 586,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 595,
+        "end": 599,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 628,
+        "end": 632,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 647,
+        "end": 651,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 675,
+        "end": 679,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 694,
+        "end": 698,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 777,
+        "end": 781,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 810,
+        "end": 814,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 869,
+        "end": 873,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 886,
+        "end": 889,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 891,
+        "end": 893,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "京",
+        "label": "location",
+        "start": 903,
+        "end": 904,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [
+      {
+        "text": "民用航空法",
+        "label": "policy",
+        "start": 0,
+        "end": 5,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

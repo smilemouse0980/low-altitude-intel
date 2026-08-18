@@ -1,0 +1,70 @@
+{
+  "doc_id": "6c1c33b2884f",
+  "url": "http://www.news.cn/20260207/152d454f15594a95bfd98f5b89dbbe59/c.html",
+  "title": "国产eVTOL新突破：5吨级产品完成转换飞行 - 新华网",
+  "content": "中国制造商在国产电动垂直起降飞行器（eVTOL）领域再次迎来新的技术突破。5日下午，由峰飞航空科技自主研发的全球首款5吨级eVTOL正式亮相，这款名为“V5000天际龙”的eVTOL产品当日还在其白莲湖低空基地完成转换飞行，成为全球首款成功完成转换飞行的5吨级eVTOL。\n记者：丁汀、龚雯\n新华社音视频部制作",
+  "publish_date": "2026-02-07",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "www.news.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:47.567352+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新华网",
+        "label": "org",
+        "start": 25,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国制造商",
+        "label": "org",
+        "start": 29,
+        "end": 34,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空科技自主研发",
+        "label": "org",
+        "start": 72,
+        "end": 82,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新华社",
+        "label": "org",
+        "start": 175,
+        "end": 178,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 72,
+        "end": 76,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 72,
+        "end": 74,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,237 +1,367 @@
 {
   "company_name": "小鹏汇天",
   "category": "eVTOL整机",
-  "mention_count": 4,
-  "first_seen": "2025-10-23",
-  "last_seen": "2026-08-15",
-  "key_persons": [],
-  "locations": [
+  "mention_count": 8,
+  "first_seen": "2026-04-01",
+  "last_seen": "2026-08-18",
+  "key_persons": [
     {
-      "name": "中东",
-      "mentions": 27
+      "name": "Roadster",
+      "mentions": 1
     },
     {
-      "name": "阿联酋",
+      "name": "News",
+      "mentions": 1
+    },
+    {
+      "name": "Regulations",
+      "mentions": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "广州",
+      "mentions": 62
+    },
+    {
+      "name": "广州市",
       "mentions": 12
     },
     {
-      "name": "泰国",
-      "mentions": 10
+      "name": "四川",
+      "mentions": 9
     },
     {
-      "name": "华羽",
+      "name": "深圳",
       "mentions": 8
     },
     {
-      "name": "迪拜",
-      "mentions": 8
-    },
-    {
-      "name": "上海",
+      "name": "广东",
       "mentions": 7
     },
     {
-      "name": "欧洲",
+      "name": "成都",
+      "mentions": 7
+    },
+    {
+      "name": "印发",
       "mentions": 6
     },
     {
-      "name": "东南亚",
-      "mentions": 6
+      "name": "刺期",
+      "mentions": 5
     },
     {
-      "name": "沙特",
-      "mentions": 4
+      "name": "上海",
+      "mentions": 5
     },
     {
-      "name": "北非地区",
-      "mentions": 4
+      "name": "福州",
+      "mentions": 5
     }
   ],
   "partners": [
     {
       "name": "亿航智能",
-      "co_occurrences": 8
-    },
-    {
-      "name": "峰飞航空",
-      "co_occurrences": 4
-    },
-    {
-      "name": "沃兰特",
-      "co_occurrences": 4
+      "co_occurrences": 10
     },
     {
       "name": "沃飞长空",
+      "co_occurrences": 3
+    },
+    {
+      "name": "峰飞航空",
       "co_occurrences": 2
     },
     {
-      "name": "中信海直",
+      "name": "沃兰特",
       "co_occurrences": 2
+    },
+    {
+      "name": "极飞科技",
+      "co_occurrences": 2
+    },
+    {
+      "name": "中国商飞",
+      "co_occurrences": 1
     }
   ],
   "events": {
     "product_launch": [
       {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "马斯克：你们会看到飞行汽车的 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-08-15",
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-07-16",
+        "title": "等不及低空经济，航空电池“杀”向千亿车规赛道 - 21财经",
+        "source": "m.21jingji.com"
+      },
+      {
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "financing": [
       {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-07-16",
+        "title": "等不及低空经济，航空电池“杀”向千亿车规赛道 - 21财经",
+        "source": "m.21jingji.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "cooperation": [
       {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-07-16",
+        "title": "等不及低空经济，航空电池“杀”向千亿车规赛道 - 21财经",
+        "source": "m.21jingji.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "policy_related": [
       {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-07-16",
+        "title": "等不及低空经济，航空电池“杀”向千亿车规赛道 - 21财经",
+        "source": "m.21jingji.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "certification": [
       {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-07-16",
+        "title": "等不及低空经济，航空电池“杀”向千亿车规赛道 - 21财经",
+        "source": "m.21jingji.com"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+        "source": "yuanxiangsky.com"
       }
     ],
     "market_expansion": [
       {
+        "date": "2026-04-20",
+        "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+        "source": "finance.sina.com.cn"
+      },
+      {
         "date": "2026-08-15",
-        "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-        "source": "www.bing.com"
+        "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+        "source": "finance.sina.cn"
       },
       {
-        "date": "2025-10-23",
-        "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-        "source": "www.bing.com"
+        "date": "2026-04-01",
+        "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+        "source": "www.gz.gov.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-05-07",
+        "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+        "source": "tidenews.com.cn"
       },
       {
-        "date": "2025-12-18",
-        "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-        "source": "www.bing.com"
+        "date": "2026-04-14",
+        "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+        "source": "www.21jingji.com"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+        "source": "yuanxiangsky.com"
       }
     ]
   },
   "timeline": [
     {
+      "date": "2026-08-18",
+      "title": "投融资产业数据两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递国家市场监督管理总局批准发布48项强制性国家标准，其中包括《民用无人驾驶航空器系统运行识别规范》《民用无人驾驶航空器实名登记和激活要求》。无人机低空经济意见民用美国四海11/11/2025, 6:28:04 PM",
+      "source": "yuanxiangsky.com",
+      "url": "https://yuanxiangsky.com/N/628.html",
+      "content_snippet": "两项无人机国家标准将施行；济南设立50亿元低空经济基金 | 本周速递\n本周，我国低空经济领域持续保持高质量发展活力，政策、产业、技术、投融资等关键环节协同推进，行业发展态势稳健向好。以下是本周低空经济领域的详细速递内容：\n政策推进\n国家层面\n据商务部网站10月29日消息，商务部等5部门办公厅印发《城"
+    },
+    {
       "date": "2026-08-15",
-      "title": "eVTOL融资172亿却高度集中，资本只认全倾转旋翼和工程能力",
-      "source": "www.bing.com",
-      "url": "https://www.sohu.com/a/1063011230_217394",
-      "content_snippet": "文/纸不语\n2026年上半年，eVTOL赛道融资不断刷新纪录，从地方政府争相布局，到产业资本密集入场，再到一级市场持续关注，行业似乎进入了一个快速发展的窗口期。\n据IT桔子、长城战略咨询联合统计，2026年1至6月国内低空经济共发生166起投融资事件，总融资规模达292.89亿元，已超过2025年全"
+      "title": "马斯克：你们会看到飞行汽车的 - 新浪财经",
+      "source": "finance.sina.cn",
+      "url": "https://finance.sina.cn/2026-08-15/detail-ininmhuf2026935.d.html?vt=4",
+      "content_snippet": "马斯克：你们会看到飞行汽车的\n21世纪经济报道记者 何煦阳\n8月12日，社交平台X上一条帖子写道：“人们曾期待飞行汽车，结果迎来的只是全民普及的超强人工智能。”马斯克对此回复：“你们会见到飞行汽车的。”\n这番表态让人联想到马斯克早年为特斯拉Roadster跑车放出的飞行、悬浮功能预告。2021年，马"
     },
     {
-      "date": "2025-12-18",
-      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-      "source": "www.bing.com",
-      "url": "https://www.stcn.com/article/detail/3546179.html",
-      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVTOL的认"
+      "date": "2026-08-15",
+      "title": "广州低空经济，起飞！_手机新浪网 - 新浪财经",
+      "source": "finance.sina.cn",
+      "url": "https://finance.sina.cn/tech/2026-08-15/detail-ininikay3905278.d.html?oid=WA%200812%202782%205310%20Jasa%20Bikin%20Pagar%20Besi%20Setengah%20Ampel%20Boyolali&vt=4",
+      "content_snippet": "广州低空经济，起飞！\n约4300家相关企业集聚，逾800个起降设施星罗棋布，33条常态化航线交织成网……\n一架飞机离地之前，须经过蓄力与滑跑。广州的低空经济，已然抬轮离地、乘风而起。2026年8月，海格通信旗下天腾产业以约8亿元引入战略投资，注册资本一举跃升至约16亿元——广州低空产业的资本热度，被"
     },
     {
-      "date": "2025-12-18",
-      "title": "中国eVTOL正迎来史无前例的“出海”订单爆发",
-      "source": "www.bing.com",
-      "url": "https://www.stcn.com/article/detail/3545760.html",
-      "content_snippet": "岁至年末，全球低空经济的出海版图仍在演化。\n阿联酋豪掷10亿美元向时的科技采购350架E20 eVTOL；泰国以17.5亿美元的巨额合同向沃兰特订购500架VE25-100天行eVTOL；小鹏汇天在迪拜斩获600台飞行汽车订单，创下行业纪录。这一系列亿级的合作协议密集落地，不仅刷新了市场对国产eVT"
+      "date": "2026-07-16",
+      "title": "等不及低空经济，航空电池“杀”向千亿车规赛道 - 21财经",
+      "source": "m.21jingji.com",
+      "url": "https://m.21jingji.com/article/20260716/herald/a7bc9f2fd4a5e32e27e69dc14a3fbb89.html",
+      "content_snippet": "等不及低空经济，航空电池“杀”向千亿车规赛道\n低空经济eVTOL订单放量不及预期，企业前期投建的高精度产线产能利用率不足，切入车规赛道是消化闲置产能、补充现金流的选择。\n作者：王雅洁\n封图：图虫创意\n7月上旬，正力新能（03677.HK）位于江苏常熟的国家级绿色工厂内，一条具备航空适航电池生产资质的"
     },
     {
-      "date": "2025-10-23",
-      "title": "[产研笔记03] 吴秋菊丨eVTOL是中国的战略机遇吗？",
-      "source": "www.bing.com",
-      "url": "https://news.qq.com/rain/a/20251023A018N400",
-      "content_snippet": "目前在低空经济领域，在发展进程上相对来说走在前面的是无人机产业，但行业界也普遍认为最值得期待的是eVTOL产业。事实上，当我们抬头就能看到eVTOL在城市空中飞行，当普通人也能够选择eVTOL作为自己的出行方式，当这种科幻场景真的照进现实的时候，我们所获得的改变绝不仅仅只是出行效率的改变，由于新的空"
+      "date": "2026-05-07",
+      "title": "5月6日：环球低空融媒中心|总第36期发布 - 潮新闻客户端",
+      "source": "tidenews.com.cn",
+      "url": "https://tidenews.com.cn/tmh_news.html?id=69fb4e5ad6318c00018b7b4c",
+      "content_snippet": "2026年5月6日（星期三）丙午年三月廿十\n【前言】\n五月的天空，正书写中国产业变革的壮丽诗篇。“天空无界，产业有光。”历经36期锤炼，这句开篇寄语愈发彰显分量。当2026年《政府工作报告》将低空经济定位为“新兴支柱产业”，当新修订的《民用航空法》为低空飞行筑牢法治根基，当一架架eVTOL腾空而起—"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "2026年中国eVTOL行业市场前景预测研究报告 - 新浪财经",
+      "source": "finance.sina.com.cn",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-04-20/doc-inhvcmeh6865358.shtml",
+      "content_snippet": "中国eVTOL已完成从“技术验证”到“商业化运营”的跃迁，政策、适航、场景、供应链形成闭环优势，在全球赛道中领跑。中国eVTOL行业正处于爆发式增长阶段，未来市场前景广阔。\neVTOL的定义\neVTOL是Electric Vertical Take-off and Landing的缩写中文直译为“电"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "沃飞长空冲刺A股“低空经济第一股” - 21财经",
+      "source": "www.21jingji.com",
+      "url": "https://www.21jingji.com/article/20260414/herald/43173e2ff9e4ef43833455e7258df2e9.html",
+      "content_snippet": "21世纪经济报道记者 林典驰\n近日，四川沃飞长空科技股份有限公司（简称“沃飞长空”）已在四川证监局办理了辅导备案登记，冲刺科创板。若进展顺利，这家背靠吉利控股集团的公司有望摘得A股“eVTOL第一股”。\n在此之前，全球eVTOL龙头亿航智能（EH.O）已率先在美股纳斯达克敲钟，而沃飞长空的入局，标志"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "广州低空经济产业链企业数量居全国第二 打造“中国场景创新第一城” - 广州市人民政府",
+      "source": "www.gz.gov.cn",
+      "url": "https://www.gz.gov.cn/qmqygjchzhhcwl/rmbd/content/post_10750454.html",
+      "content_snippet": "产业链起势 “三剑客”争锋\n当亿航智能拥有全球首款“四证合一”的eVTOL，当小鹏汇天“陆地航母”进入量产倒计时，当广汽推出国内首款高性能复合翼飞行汽车，一座城市何以同时拥有三家低空载人飞行头部企业？问题的背后，其实都指向一个答案——广州是低空经济商业化落地的最优“试炼场”。\n作为“12218”现代"
     }
   ],
-  "generated_at": "2026-08-17T23:36:12.484442+08:00"
+  "generated_at": "2026-08-18T16:44:14.402066+08:00"
 }

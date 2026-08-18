@@ -1,0 +1,112 @@
+{
+  "doc_id": "f6a49df2e970",
+  "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-08-18/detail-ininswne0236397.d.html?vt=4",
+  "title": "万丰奥威：有序推进eVTOL适航取证相关工作 - 新浪财经",
+  "content": "万丰奥威：有序推进eVTOL适航取证相关工作\n投资者提问：\n1. 亿航、峰飞、小鹏、沃兰特已进入首批民用载人eVTOL适航审定合规名录，公司VoloCity、VoloXpro均未入选，差距在哪里？  2. VoloCity在欧洲取证，为何不同步向中国CAAC提交TC申请？欧洲拿证后，中国是否仍需全套重新审定？  3. VoloXpro已有特许飞行证，为何迟迟不提交TC申请？阻碍申报的核心因素是什么？有无明确时间表？\n董秘回答(万丰奥威SZ002085)：\n公司结合国内国外低空产业发展和应用场景，针对自身新机型技术路线和商业计划有序安排适航取证工作，并不断进行技术迭代优化、实验审定、供应链配套等工作。受市场环境变化、行业政策调整等不可预测因素影响，相关取证进度和商业化进程存在一定不确定性，敬请投资者注意投资风险，谢谢！谢谢！\n免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。",
+  "publish_date": "2026-08-18",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "finance.sina.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:37:41.327244+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 25,
+        "end": 27,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 406,
+        "end": 408,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 429,
+        "end": 431,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 63,
+        "end": 65,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃兰特",
+        "label": "org",
+        "start": 72,
+        "end": 75,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 66,
+        "end": 68,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 142,
+        "end": 144,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 153,
+        "end": 155,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "欧洲",
+        "label": "location",
+        "start": 166,
+        "end": 168,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 172,
+        "end": 174,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [
+      {
+        "text": "适航审定",
+        "label": "policy",
+        "start": 89,
+        "end": 93,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

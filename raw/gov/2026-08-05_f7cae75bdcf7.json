@@ -1,0 +1,169 @@
+{
+  "doc_id": "f7cae75bdcf7",
+  "url": "http://paper.ce.cn/pc/content/202608/05/content_336807.html",
+  "title": "产业链韧性决定低空经济“续航力” - 中国经济网",
+  "content": "产业链韧性决定低空经济“续航力”\n2026年中央企业低空经济产业发展专题推进会上，国务院国资委将低空经济纳入中央企业产业焕新行动，会议要求国资央企加强关键核心技术攻关，进一步开放应用场景，联合产业链上下游共同培育低空消费新业态。根据中国民航局数据，截至2025年底，中国低空经济全产业链市场规模达1.5万亿元，全行业注册无人机共328.7万架。我国低空经济正处于政策加力、场景拓展和产业规模快速提升的关键阶段，呈现出蓬勃发展的态势。\n这一发展态势，既体现在产业链条的加快完善，也体现在各地应用场景的持续落地。目前，低空经济已形成涵盖核心零部件与支撑系统、装备制造与配套服务、物流配送、文旅消费、农林植保、应急救援和城市治理等应用场景的完整产业链条。从各地推进情况看，深圳加快布局低空物流、城市巡检、医疗运输等场景；安徽合肥、芜湖推动整机制造、试飞验证和应用示范协同；四川围绕应急救援、农林植保、高原配送等开展探索。低空经济正在从单点试验走向区域联动，从设备制造走向“制造+运营+服务”一体化发展。\n势头良好，产业链的韧性问题更值得关注。一方面，我国低空飞行器核心部件整体国产化率不足30%，高性能航空电机与电控系统等关键环节对外依存度在70%以上。另一方面，低空经济涉及制造、适航、空域、数据、运营、保险等多环节协同，当前跨部门统筹、关键部件验证、场景需求转化和服务保障能力尚未完全跟上产业扩张速度，局部短板容易沿供应链放大为系统性风险。因此，我国低空经济发展绝不能走过去“先发展、后治理”的老路，必须坚持发展产业与强化供应链韧性齐头并进。\n加强统筹协调，坚决落实要求。有关部门应依托低空经济协调机制，设立产业供应链韧性专题事项，形成常态会商、清单推进、风险提示机制。必须同步梳理产业链、供应链风险，空域资源和场景需求，动态掌握关键企业、核心部件、重点航线和潜在堵点问题。对低空产业园等重大项目，探索开展立项前韧性审查、运行中跟踪评估、运行后复盘，把关键部件来源、适航验证、数据安全等纳入项目论证和场景开放条件。\n强化补链强链，夯实航空产品能力。相关部门应以整机企业订单、适航审定要求和真实运行数据为牵引，重点梳理飞控系统、航空动力系统、动力电池及管理系统、主控芯片、高精度传感器等环节短板。依托新能源汽车、电子信息、新材料等产业基础，加快把成熟制造能力转化为航空级产品能力，重点补齐电磁兼容、复杂气象、长时运行、热失控防护、软件升级等验证环节，完善适航审定、试验验证、维修保障和质量追溯等能力。\n做实应用场景，完善服务保障。从重数量转向重质量，优先选择医疗物资配送、应急救援、农林植保等需求稳定、风险可控、付费边界清晰的场景。对公共服务属性较强的场景，采取政府购买服务等方式形成稳定需求；对市场化场景，应明确收费规则、安全责任和退出机制。\n提升全链条抗风险能力。要推动国家综合监管服务平台和地方低空服务平台有序衔接。逐步实现飞行计划一窗受理、动态信息一网共享、异常事件闭环处置。围绕低空物流、医疗转运等跨区域场景，先行打通相邻城市、医疗机构之间的航线协同机制。把保险金融嵌入规划建设、试验验证、场景运营和安全监管全过程。",
+  "publish_date": "2026-08-05",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "paper.ce.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:23.383267+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "续航力",
+        "label": "org",
+        "start": 12,
+        "end": 15,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "续航力",
+        "label": "org",
+        "start": 37,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国务院国资委",
+        "label": "org",
+        "start": 66,
+        "end": 72,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 141,
+        "end": 146,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "高性能航空电机与电控系统",
+        "label": "org",
+        "start": 520,
+        "end": 532,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国务院",
+        "label": "org",
+        "start": 66,
+        "end": 69,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 143,
+        "end": 146,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 185,
+        "end": 188,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 19,
+        "end": 21,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 158,
+        "end": 160,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "深圳",
+        "label": "location",
+        "start": 358,
+        "end": 360,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "安徽",
+        "label": "location",
+        "start": 382,
+        "end": 384,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 384,
+        "end": 386,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "芜湖",
+        "label": "location",
+        "start": 387,
+        "end": 389,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 408,
+        "end": 410,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 42,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年底",
+        "label": "date",
+        "start": 151,
+        "end": 157,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "适航审定",
+        "label": "policy",
+        "start": 911,
+        "end": 915,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

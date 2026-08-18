@@ -1,0 +1,216 @@
+{
+  "doc_id": "aa164b488dc6",
+  "url": "https://m.sohu.com/a/1064110584_161795?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+  "title": "香港立法会议员葛珮帆谈低空经济代表团出访，助内地企业出海 - 搜狐网",
+  "content": "香港立法会议员葛珮帆谈低空经济代表团出访，助内地企业出海\n为深化低空经济领域的国际交流与务实合作，大湾区低空经济联盟组织代表团（下称代表团）于8月2日至8月6日出访并考察马来西亚及印尼。代表团由联盟创会会长、香港特区立法会议员葛珮帆担任团长，香港特区政府运输及物流局副秘书长洪思敏出任顾问，香港民航处处长黄嘉华亦随团参与。\n大湾区低空经济联盟拜访马来西亚MRANTI Park。MRANTI Park是马来西亚国家级核心科技创新园区，前身为1996年由马来西亚财政部设立的科技园区，2023年与马来西亚科技园区、马来西亚全球创新与创意中心合并，正式组建为马来西亚技术研究加速器（MRANTI）。\n香港发展低空经济的进展与优势\n香港于2024年10月16日在行政长官《2024年施政报告》中首次正式提出发展低空经济，并宣布成立“发展低空经济工作组”。依托“一国两制”制度优势与国际金融/法律/保险专业服务，打造“内地制造+香港标准/资本/出海通道”模式，通过跨境规则衔接、适航认证互认、全球融资及高端服务输出，成为大湾区低空产业对接国际市场的枢纽。",
+  "publish_date": "2026-08-17",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "m.sohu.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:18.433871+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "搜狐网 香港立法会",
+        "label": "org",
+        "start": 31,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "经济联盟组织",
+        "label": "org",
+        "start": 89,
+        "end": 95,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港特区立法会",
+        "label": "org",
+        "start": 139,
+        "end": 146,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港特区政府运输及物流局",
+        "label": "org",
+        "start": 156,
+        "end": 168,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "MRANTI Park",
+        "label": "org",
+        "start": 224,
+        "end": 235,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "财政部",
+        "label": "org",
+        "start": 265,
+        "end": 268,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 120,
+        "end": 124,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印尼",
+        "label": "location",
+        "start": 125,
+        "end": 127,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 180,
+        "end": 182,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 208,
+        "end": 212,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 236,
+        "end": 240,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 261,
+        "end": 265,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 282,
+        "end": 286,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 291,
+        "end": 295,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 312,
+        "end": 316,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 333,
+        "end": 335,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 348,
+        "end": 350,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "香港",
+        "label": "location",
+        "start": 445,
+        "end": 447,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "8月2日至8月",
+        "label": "date",
+        "start": 106,
+        "end": 113,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "1996年",
+        "label": "date",
+        "start": 255,
+        "end": 260,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年",
+        "label": "date",
+        "start": 276,
+        "end": 281,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年10月16日",
+        "label": "date",
+        "start": 351,
+        "end": 362,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 368,
+        "end": 373,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

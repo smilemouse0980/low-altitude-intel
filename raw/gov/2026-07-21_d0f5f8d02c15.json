@@ -1,0 +1,336 @@
+{
+  "doc_id": "d0f5f8d02c15",
+  "url": "https://sichuan.scol.com.cn/ggxw/202607/83292283.html",
+  "title": "成都发展eVTOL产业有5大优势，《中国eVTOL产业发展研究报告》发布丨关注2026年APEC数字周系列活动 - 四川新闻",
+  "content": "四川在线记者 熊晓雨\n7月21日，作为APEC数字周的重要城市侧配套活动，2026亚太数字伙伴对话暨“投资成都”全球招商大会在成都天府国际会议中心启幕。大会现场，《财富》中国区主编章劢闻发布《中国eVTOL产业发展研究报告》（下称《报告》），称成都在航空工业密度、低空产业链完整、链主整机、空域与感知、场景累积等方面有明显优势，成都有望成为“全球eVTOL第一城”。\n图据《中国eVTOL产业发展研究报告》\n报告认为，深厚的航空工业生态是成都低空经济发展的鲜明底色。成飞、航发成发、中电科航空电子等航空工业“国家队”聚集于此，赋予了成都飞机整机、航空发动机及高端无人机全流程研制的综合能力。截至目前，成都已聚集航空制造上下游企业超1000家，产业规模近1400亿元，综合实力位居全国第一梯队。完备的产业生态，让低空企业在本地即可高效匹配碳纤维复合材料、飞控芯片、精密加工及风洞试验等关键配套支持。\n在产业链方面，成都已构建起“研发+制造+运营+服务”的完整闭环。数据显示，目前成都低空经济企业总数超500家，2025年产业链规模突破400亿元，低空装备制造企业营收超70亿元。在沃飞长空、中航无人机、腾盾科创、纵横股份等领军“链主”企业的牵引下，核心配套企业已达120家，覆盖从装备材料、关键部件到整机制造的全链条，产业集群效应持续凸显。\n基础设施与空域资源同样是成都的显著优势。当前，成都已建成5个A类通航机场、185个中小型起降设施及超9万个5G基站，配套183套气象设备和全国首家低空气象台。依托3个协同管理空域与5条低空目视飞行通道，已形成3556平方公里的低空飞行网络。此外，成都正依托成德眉资同城化发展机制，统筹谋划低空城市治理、城际闪送、医疗急救及低空交旅融合等跨市域应用场景。\n科研创新端也形成了强大支撑。成都聚集了电子科技大学、民航二所、中国民航飞行学院等低空经济相关高校院所60余家，建成国家首个民航科技创新示范区、西部首个航空动力领域国家级实验室等高能级平台155个。目前，成都高能级研发平台和顶尖科技创新人才数量占全国比重均超过14%。",
+  "publish_date": "2026-07-21",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "sichuan.scol.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:45.153042+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "APEC",
+        "label": "org",
+        "start": 44,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "APEC",
+        "label": "org",
+        "start": 82,
+        "end": 86,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中电科航空电子",
+        "label": "org",
+        "start": 304,
+        "end": 311,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国家队",
+        "label": "org",
+        "start": 317,
+        "end": 320,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中航无人机",
+        "label": "org",
+        "start": 557,
+        "end": 562,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "纵横股份",
+        "label": "org",
+        "start": 568,
+        "end": 572,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "电子科技大学",
+        "label": "org",
+        "start": 829,
+        "end": 835,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航飞行学院",
+        "label": "org",
+        "start": 841,
+        "end": 849,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "航发",
+        "label": "org",
+        "start": 299,
+        "end": 301,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞长空",
+        "label": "org",
+        "start": 552,
+        "end": 556,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "腾盾",
+        "label": "org",
+        "start": 563,
+        "end": 565,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞",
+        "label": "org",
+        "start": 552,
+        "end": 554,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "纵横",
+        "label": "org",
+        "start": 568,
+        "end": 570,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 344,
+        "end": 347,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "航空工业",
+        "label": "org",
+        "start": 188,
+        "end": 192,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "成飞",
+        "label": "org",
+        "start": 296,
+        "end": 298,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 58,
+        "end": 60,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 63,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亚太",
+        "label": "location",
+        "start": 104,
+        "end": 106,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 116,
+        "end": 118,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 126,
+        "end": 128,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 185,
+        "end": 187,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 227,
+        "end": 229,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 282,
+        "end": 284,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 329,
+        "end": 331,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 363,
+        "end": 365,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 469,
+        "end": 471,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 501,
+        "end": 503,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 645,
+        "end": 647,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 656,
+        "end": 658,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 756,
+        "end": 758,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 824,
+        "end": 826,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "示范区",
+        "label": "location",
+        "start": 877,
+        "end": 880,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 911,
+        "end": 913,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026年",
+        "label": "date",
+        "start": 39,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "7月21日",
+        "label": "date",
+        "start": 74,
+        "end": 79,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 100,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 517,
+        "end": 522,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

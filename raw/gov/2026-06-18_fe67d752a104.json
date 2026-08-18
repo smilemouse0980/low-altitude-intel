@@ -1,0 +1,63 @@
+{
+  "doc_id": "fe67d752a104",
+  "url": "https://www.eet-china.com/news/202606189087.html",
+  "title": "美国FCC放宽中国玩具无人机进口禁令，设12条严苛技术红线与实体排除条款 - eet-china.com",
+  "content": "美国FCC放宽中国玩具无人机进口禁令，设12条严苛技术红线与实体排除条款eet-china.com",
+  "publish_date": "2026-06-18",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "www.eet-china.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:47.388185+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 11,
+        "end": 14,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 7,
+        "end": 9,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 53,
+        "end": 55,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 60,
+        "end": 62,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

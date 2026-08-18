@@ -1,0 +1,96 @@
+{
+  "doc_id": "40b23c24775d",
+  "url": "https://m.bjnews.com.cn/detail/1784986703129489.html",
+  "title": "中国eVTOL在哈萨克斯坦完成公开飞行 - 新京报",
+  "content": "中国eVTOL在哈萨克斯坦完成公开飞行\n            \n            \n            \n                2026-07-25 21:43            \n            \n                        \n            新京报贝壳财经讯 峰飞航空科技7月25日宣布，携手阿拉套先锋航空集团（AAAG），在哈萨克斯坦首都阿斯塔纳完成“先进空中交通”2吨级eVTOL公开飞行。\n编辑 陶野\n新京报客户端\n好新闻 无止境\n新京报报料邮箱：82708677@bjnews.com.cn",
+  "publish_date": "2026-07-25",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "m.bjnews.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:37.791076+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 189,
+        "end": 193,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 189,
+        "end": 191,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 8,
+        "end": 13,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 26,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 34,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 222,
+        "end": 227,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "阿斯塔纳",
+        "label": "location",
+        "start": 229,
+        "end": 233,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "7月25日",
+        "label": "date",
+        "start": 195,
+        "end": 200,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

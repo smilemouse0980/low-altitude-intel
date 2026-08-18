@@ -1,0 +1,208 @@
+{
+  "doc_id": "503e8057f4e5",
+  "url": "https://news.hubeidaily.net/pc/c_5533156.html",
+  "title": "“中国造”2吨级eVTOL在中亚首飞- 湖北日报新闻客户端 - 湖北日报传媒集团",
+  "content": "- \n                                            \n- 查看全部{{ item.replyCount }}条回复> 查看更多回复>\n- 查看更多回复>\n湖北日报讯（记者朱惠、通讯员陈蓉宝）5月19日，中国峰飞航空科技自主研发的2吨级eVTOL（电动垂直起降航空器）在哈萨克斯坦阿拉木图演示飞行，在中亚地区首次实现大型eVTOL空中飞行，这是中国高端eVTOL技术与中亚地区低空产业首次深度对接。\n本次飞行由峰飞航空与阿拉套先锋航空集团（Alatau Advance Air Group Ltd.简称AAAG）合作推进，作为峰飞航空在中亚地区的重要战略合作伙伴，AAAG是哈萨克斯坦致力于推动低空技术产业化的重要力量。\n飞行活动现场，峰飞航空的eVTOL按预定航线平稳完成垂直起飞、正向转换、水平巡航、反向转换、安全着陆的全流程飞行演示，不仅展现了在整机设计、飞行控制及动力系统集成方面的成熟能力，也验证了eVTOL在哈萨克斯坦典型气候与空域环境下的适应性与安全性。\n此次飞行演示场地，是AAAG已经开启建设的阿拉套市首个垂直起降机场，未来，AAAG还将搭建起更多垂直起降机场网络，通过低空航线连接起该区域内主要交通枢纽。例如，利用“空中出租车”在10-12分钟内将游客从阿拉木图机场送抵麦迪奥滑冰场，大幅提升游客出行效率与体验。\n峰飞航空科技高级副总裁谢嘉表示，此次峰飞航空在该地区成功首飞，为eVTOL规模化应用提供了应用范本，将加速推动eVTOL技术在哈萨克斯坦及中亚其他国家应用落地，覆盖包括空中交通、雪山观光、滑雪场及旅游景点接驳、低空物流、应急医疗救援及能源平台运维等多元化场景。\n2025年，峰飞航空武汉总装基地落户汉阳造低空生态中心，实现当年签约、当年开工、当年竣工。目前，基地已具备吨级eVTOL航空器量产能力。\n- \n                            回复",
+  "publish_date": "2026-05-20",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "news.hubeidaily.net",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:57.725494+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "湖北日报传媒集团",
+        "label": "org",
+        "start": 32,
+        "end": 40,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空",
+        "label": "org",
+        "start": 266,
+        "end": 270,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "阿拉套先锋航空集团",
+        "label": "org",
+        "start": 271,
+        "end": 280,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞航空科技高级副总裁",
+        "label": "org",
+        "start": 628,
+        "end": 639,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "峰飞",
+        "label": "org",
+        "start": 165,
+        "end": 167,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1,
+        "end": 3,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 14,
+        "end": 16,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "湖北",
+        "label": "location",
+        "start": 20,
+        "end": 22,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Count",
+        "label": "location",
+        "start": 108,
+        "end": 113,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 163,
+        "end": 165,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 196,
+        "end": 201,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 211,
+        "end": 213,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 233,
+        "end": 235,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 245,
+        "end": 247,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 329,
+        "end": 331,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 348,
+        "end": 353,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 471,
+        "end": 476,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "哈萨克斯坦",
+        "label": "location",
+        "start": 691,
+        "end": 696,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中亚",
+        "label": "location",
+        "start": 697,
+        "end": 699,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "武汉",
+        "label": "location",
+        "start": 769,
+        "end": 771,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "5月19日",
+        "label": "date",
+        "start": 157,
+        "end": 162,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 759,
+        "end": 764,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "当年",
+        "label": "date",
+        "start": 799,
+        "end": 801,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

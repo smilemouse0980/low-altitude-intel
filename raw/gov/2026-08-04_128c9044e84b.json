@@ -1,0 +1,345 @@
+{
+  "doc_id": "128c9044e84b",
+  "url": "https://app.xinhuanet.com/news/article.html?articleId=20260804db27896959bf417289f074c87841ad9b",
+  "title": "中华保险赋能低空经济安全发展主题活动在蓉举行 多方共筑低空经济安全生态 - 新华网客户端",
+  "content": "7月30日，“筑梦长空、中华护航”——中华保险赋能低空经济发展主题活动在成都举行。本次活动由中华财险四川分公司与四川省经济发展促进会、四川省低空经济协会筹备委员会联合举办，来自低空经济领域行协、高校、企业等27家单位代表齐聚一堂，共话保险赋能低空经济新路径。四川省政协常委、省政协提案委员会副主任、省经济发展促进会会长罗友平，四川省经济发展促进会执行秘书长、四川省低空经济协会筹备委员会秘书长李阳春，中华财险四川分公司党委书记、总经理张晓斌出席活动并致辞。\n罗友平指出，四川作为国家航空工业重镇和低空空域管理改革试点省份，推动保险赋能低空经济，筑牢安全发展底线，是必须回答好的重大命题。四川省经济发展促进会将充分发挥省政协智库机构的平台优势，持续关注低空保险制度建设的重点难点，为省委省政府科学决策提供参考，为广大低空经济经营主体健康发展建言献策。\n张晓斌表示，中华财险亮相2026国际低空经济博览会，并与中国民用机场协会签署战略合作协议。本次活动正是公司主动对接产业链伙伴、服务低空经济的务实举措。四川分公司将依托中华财险全国低空产品体系和国企金融优势，构建“产品创新+生态协同+风险减量+专业理赔”的低空保险服务体系，为广大企业提供覆盖研发、生产、运营全生命周期的风险保障方案。\n活动中，西南民族大学管理学院、国家安全学院院长康杰作主题宣讲。中华财险四川分公司发布低空经济专属产品服务方案。中电建航空港（四川）建设发展有限公司、成都青航智飞科技有限公司等企业代表分别发言。\n在签约揭牌环节，中华财险四川分公司与四川省经济发展促进会、四川省低空经济协会筹备委员会签署战略合作协议及低空保险生态共建备忘录，并与中电建航空港、四川恒美亿航、四川一诺通用航空签署低空保单服务合作协议。活动最后，三方共同为“城市会客厅”揭牌，标志着低空经济常态化对接平台正式落地。\n本次活动的成功举办，展现了中华财险深耕低空经济赛道的积极探索与前瞻布局。未来，中华财险四川分公司将紧抓四川低空经济发展重大机遇，依托创新保险产品、数字化智能风控体系、多方开放合作平台，为四川打造具有全国影响力的低空经济高地贡献力量。",
+  "publish_date": "2026-08-04",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "app.xinhuanet.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:33.388632+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中华财险四川分公司",
+        "label": "org",
+        "start": 91,
+        "end": 100,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省低空经济协会",
+        "label": "org",
+        "start": 112,
+        "end": 121,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省政协",
+        "label": "org",
+        "start": 174,
+        "end": 179,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "省政协提案委员会",
+        "label": "org",
+        "start": 182,
+        "end": 190,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "省经济发展促进会",
+        "label": "org",
+        "start": 194,
+        "end": 202,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省经济发展促进会",
+        "label": "org",
+        "start": 208,
+        "end": 218,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华财险四川分公司",
+        "label": "org",
+        "start": 245,
+        "end": 254,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国家航空",
+        "label": "org",
+        "start": 284,
+        "end": 288,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省经济发展促进会",
+        "label": "org",
+        "start": 338,
+        "end": 348,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民用机场协会",
+        "label": "org",
+        "start": 448,
+        "end": 456,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川分公司",
+        "label": "org",
+        "start": 495,
+        "end": 500,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华财险全国低空",
+        "label": "org",
+        "start": 503,
+        "end": 511,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西南民族大学管理学院",
+        "label": "org",
+        "start": 591,
+        "end": 601,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国家安全学院",
+        "label": "org",
+        "start": 602,
+        "end": 608,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华财险四川分公司",
+        "label": "org",
+        "start": 618,
+        "end": 627,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "电建航空港",
+        "label": "org",
+        "start": 643,
+        "end": 648,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "科技有限公司",
+        "label": "org",
+        "start": 667,
+        "end": 673,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华财险四川分公司",
+        "label": "org",
+        "start": 692,
+        "end": 701,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省低空经济协会",
+        "label": "org",
+        "start": 713,
+        "end": 722,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中电",
+        "label": "org",
+        "start": 750,
+        "end": 752,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 768,
+        "end": 772,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华财险",
+        "label": "org",
+        "start": 838,
+        "end": 842,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华财险四川分公司",
+        "label": "org",
+        "start": 864,
+        "end": 873,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 761,
+        "end": 763,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "航空工业",
+        "label": "org",
+        "start": 286,
+        "end": 290,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中华",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中华",
+        "label": "location",
+        "start": 64,
+        "end": 66,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 81,
+        "end": 83,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省",
+        "label": "location",
+        "start": 101,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省",
+        "label": "location",
+        "start": 224,
+        "end": 227,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 280,
+        "end": 282,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 649,
+        "end": 651,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成都",
+        "label": "location",
+        "start": 661,
+        "end": 663,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川省",
+        "label": "location",
+        "start": 702,
+        "end": 705,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 757,
+        "end": 759,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 764,
+        "end": 766,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 876,
+        "end": 878,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川",
+        "label": "location",
+        "start": 918,
+        "end": 920,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "7月30日",
+        "label": "date",
+        "start": 45,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "低空空域管理改革",
+        "label": "policy",
+        "start": 293,
+        "end": 301,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "doc_id": "9b402a6a3b3e",
+  "url": "http://www.xinhuanet.com/finance/20251118/a29f15cee6434b1aaf37cc7a15989f22/c.html",
+  "title": "低空经济风口下，通用航空正走向“大众视野” - 新华网",
+  "content": "中共中央关于制定国民经济和社会发展第十五个五年规划的建议》提出培育壮大新兴产业和未来产业。着力打造新兴支柱产业。加快新能源、新材料、航空航天、低空经济等战略性新兴产业集群发展。\n提到航空，你是不是先想到机场里的民航客机？在低空经济加速崛起的今天，还有一个“航空多面手”正从专业场景走进我们的生活——它就是通用航空。\n通用航空到低空经济：从基础到延伸\n根据民航法规定，通用航空是指使用民用航空器从事公共航空运输以外的民用航空活动。我们熟悉的民航客运、民航货运属于“公共航空运输”，是标准化的大众商业运输服务。而通用航空则覆盖更广泛的场景，两者共同构成我国民用航空生态。\n下低空空域开展：\nl 生产作业类：工业、农业、林业、渔业及建筑业等专业飞行；\nl 民生服务类：医疗卫生救援、抢险救灾等应急场景；\nl 科研文体类：气象探测、海洋监测、科学实验、航空教育训练及文化体育飞行等。\n这些通用航空场景长期积累的航空器、机场网络、法规标准与运营经验，为低空空域资源开发提供了可复用的基础设施、制度框架和专业人才，可见，通用航空为低空经济发展奠定了坚实基础；\n同时，低空经济则以新能源、智能化、无人化技术为牵引，推动通用航空由传统有人作业向无人机物流、eVTOL城市空运（电动垂直起降飞行器的城市短途运输）等新兴业态升级，打开万亿级市场空间。\n通用航空稳步增长，2030年有望达万亿规模\n2024年3月，工信部等四部门联合发布《通用航空装备创新应用实施方案(2024-2030年)》，明确提出到2030年通用航空装备全面融入人民生产生活各领域，成为低空经济增长的强大推动力，形成万亿级市场规模。\n政策支持与低空空域开放的双重利好下，中国通用航空行业发展在过去五年间基本呈稳步增长态势。截至2024年底，获得通用航空经营许可证的传统通用航空企业760家，比上年底净增70家。通用航空在册航空器总数达到3232架，全国在册管理的通用机场数量达到475个，比上年底净增26个，全国通用航空共完成飞行134.1万小时。\n数据来源：2020-2024年民航行业发展统计公报\n投资视角下的行业生态\n持续增长的市场规模与不断完善的基础设施，背后离不开通用航空的产业生态的支撑，这也可为大家提供多元的投资方向选择。\n从产业链的分布来看，上游覆盖航空材料和核心零部件，这一环节技术壁垒高，是装备性能的关键。中游包含直升机、无人机等装备制造及配套运营服务，下游则囊括了产业融合的各类应用场景等。\n随着产业链各环节持续完善、新兴业态加速落地，万亿级市场的大门已缓缓开启。作为投资者，了解通用航空和低空经济的发展逻辑，有助于洞察产业升级的时代趋势，把握新经济领域的投资机遇。",
+  "publish_date": "2025-11-18",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.xinhuanet.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:36:18.510969+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 8,
+        "end": 12,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中共",
+        "label": "org",
+        "start": 28,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 180,
+        "end": 184,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 186,
+        "end": 188,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 211,
+        "end": 215,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 282,
+        "end": 286,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 418,
+        "end": 422,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 482,
+        "end": 486,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 530,
+        "end": 534,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 594,
+        "end": 596,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 636,
+        "end": 640,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 674,
+        "end": 678,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空经营",
+        "label": "org",
+        "start": 775,
+        "end": 781,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 787,
+        "end": 791,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 808,
+        "end": 812,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 859,
+        "end": 863,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 1104,
+        "end": 1108,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 542,
+        "end": 545,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "工信部",
+        "label": "org",
+        "start": 624,
+        "end": 627,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "成飞",
+        "label": "org",
+        "start": 865,
+        "end": 867,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "万亿级",
+        "label": "location",
+        "start": 711,
+        "end": 714,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 738,
+        "end": 740,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "五年",
+        "label": "date",
+        "start": 49,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今天",
+        "label": "date",
+        "start": 148,
+        "end": 150,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 603,
+        "end": 608,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年3月",
+        "label": "date",
+        "start": 616,
+        "end": 623,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 656,
+        "end": 661,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2030年",
+        "label": "date",
+        "start": 669,
+        "end": 674,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "过去五年间",
+        "label": "date",
+        "start": 749,
+        "end": 754,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年底",
+        "label": "date",
+        "start": 766,
+        "end": 772,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 888,
+        "end": 893,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

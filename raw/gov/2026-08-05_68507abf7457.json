@@ -1,0 +1,208 @@
+{
+  "doc_id": "68507abf7457",
+  "url": "https://www.wedoany.com/shortnews/441808.html",
+  "title": "巴西联邦政府将推出无人机与eVTOL国家政策 - 维度网",
+  "content": "巴西联邦政府将推出无人机与eVTOL国家政策\n维度网讯，巴西联邦政府准备在下一届国际民航组织（Icao）活动上推出国家先进空中交通（AAM，Advanced Air Mobility）政策，为无人机和电动垂直起降飞行器（eVTOL）的使用提供指导方针。港口和机场部长Tomé Franca于本周二（4日）在拉丁美洲公务航空会议与展览会（Labace）开幕式上透露了这一消息。\nFranca表示，该部委正积极参与这一议程，为国家政策的制定提供建议与结构支撑，目标是让相关政策转化为巴西航空业的具体增长。他同时主张，巴西航空业的未来需要兼顾监管安全性和投资机会，并将民航视为扩大连通性、推动地区发展及创造就业的载体。\n今年6月，巴西国家民航局（ANAC）已批准无人机（无人驾驶飞行器）使用的新规则。新规将设备分类依据从原先的重量标准，调整为基于操作或任务的危险性和复杂程度，并将该领域的术语统一至国际标准。\n在同一活动中，ANAC局长Tiago Faierstein宣布，IFR（仪表飞行规则）技术将于9月15日在圣保罗的Campo de Marte机场投入运行。该技术允许飞机在低能见度条件下实施进近。今年3月，Agência iNFRA曾报道，政府正在研究一项两阶段计划，以解决圣保罗空域不足引发的运行冲突——Campo de Marte和Congonhas两座机场虽使用不同航站楼，但飞机需共用同一已趋拥挤的空域。\nFranca强调，安装IFR技术是该部委的优先事项。他表示，该终端特许经营权合同中已对安装作出规定，“在巴西，合同不会被撕毁”，同时指出有必要“寻求一揽子解决方案，以满足圣保罗需求的增长”。",
+  "publish_date": "2026-08-05",
+  "publisher": "Google新闻-无人机政策",
+  "source_site": "www.wedoany.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:35:19.797009+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Tiago Faierstein",
+        "label": "person",
+        "start": 444,
+        "end": 460,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "巴西联邦政府",
+        "label": "org",
+        "start": 0,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西联邦政府",
+        "label": "org",
+        "start": 57,
+        "end": 63,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国际民航组织",
+        "label": "org",
+        "start": 69,
+        "end": 75,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西国家民航局",
+        "label": "org",
+        "start": 341,
+        "end": 348,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "ANAC",
+        "label": "org",
+        "start": 349,
+        "end": 353,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "ANAC",
+        "label": "org",
+        "start": 438,
+        "end": 442,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "IFR",
+        "label": "org",
+        "start": 463,
+        "end": 466,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "Agência iNFRA",
+        "label": "org",
+        "start": 534,
+        "end": 547,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 345,
+        "end": 348,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 9,
+        "end": 12,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "巴西",
+        "label": "location",
+        "start": 29,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "拉丁美洲",
+        "label": "location",
+        "start": 182,
+        "end": 186,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西航",
+        "label": "location",
+        "start": 268,
+        "end": 271,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西航",
+        "label": "location",
+        "start": 285,
+        "end": 288,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "圣保罗",
+        "label": "location",
+        "start": 484,
+        "end": 487,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "圣保罗",
+        "label": "location",
+        "start": 568,
+        "end": 571,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "巴西",
+        "label": "location",
+        "start": 690,
+        "end": 692,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "周二",
+        "label": "date",
+        "start": 175,
+        "end": 177,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年6月",
+        "label": "date",
+        "start": 336,
+        "end": 340,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "9月15日",
+        "label": "date",
+        "start": 478,
+        "end": 483,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年3月",
+        "label": "date",
+        "start": 529,
+        "end": 533,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": [
+      {
+        "person": "Tiago Faierstein",
+        "title": "局长",
+        "org": "IFR",
+        "context": "并将该领域的术语统一至国际标准。\n在同一活动中，ANAC局长Tiago Faierstein宣布，IFR（仪表飞行规则）技术将于9月15日在圣保罗的Ca"
+      }
+    ]
+  }
+}

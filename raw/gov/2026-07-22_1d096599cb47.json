@@ -1,0 +1,30 @@
+{
+  "doc_id": "1d096599cb47",
+  "url": "https://www.jfdaily.com/staticsg/res/html/web/newsDetail.html?id=1149095",
+  "title": "上海低空适航技术平台正式启动，破解低空经济企业适航痛点 - jfdaily.com",
+  "content": "{{title}}\n{{subsectionname}}\n来源：上观新闻\n作者：{{author}}\n{{summary}}\n{{brTitle}}\n以上内容由AI生成，仅供参考\n{{editorLabel}}：\n{{maineditor}}\n文字编辑：\n{{writerName}}\n题图来源：\n{{picSource}}\n图片来源：\n{{imgSource}}\n图片编辑：\n{{picEditor}}\n编辑邮箱：\n{{writerEmail}}\n{{publicityType}}\n{{customattr}}\n未经正式授权严禁转载本文，侵权必究\n{{praiseText}}\n收藏\n微信\n微博\nQQ空间\n作者\n{{name}}\n{{organizename}}\n{{departname}}\n{{detail}}\n更多内容\n{{title}}\n{{summary}}\n{{subsectionname}}\n{{publishHours}}\n{{replay}}\n此文章不存在或已下线",
+  "publish_date": "2026-07-22",
+  "publisher": "Google新闻-适航认证",
+  "source_site": "www.jfdaily.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:55.444667+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

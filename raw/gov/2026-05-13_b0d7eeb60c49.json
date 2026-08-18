@@ -1,0 +1,216 @@
+{
+  "doc_id": "b0d7eeb60c49",
+  "url": "https://www.guancha.cn/politics/2026_05_13_816886.shtml",
+  "title": "中国民航局低空安全司正式亮相 - 观察者",
+  "content": "- \n\t\t\t\t中国民航局低空安全司正式亮相13日，观察者网从中国民航局官网获悉，中国民航局低空安全司已正式亮相，其机构职责包括：起草低空民航发展规划、统筹低空安全与发展、建设低空飞行服务调度平台和低空飞行服务站体系等工作。 据中国航空报此前报道，5月9日，中国民用航空局相关负责人表示，中央机构编制委员会办公室已正式批复民航局，同意设立低空经济司，核定编制30名，这一编制规模在民航局内设司局中处于较高水平。 2025年7月，民航局官网发布消息介绍，为贯彻落实党中央、国务院决策部署，加强对通用航空、无人驾驶航空、低空经济等相关工作的组织领导和协调统筹，民航局于近日优化调整了民航局通用航空工作领导小组、民用无人驾驶航空器管理领导小组和民航局促进低空经济发展工作领导小组，成立了通用航空和低空经济工作领导小组。 消息称，领导小组组长由民航局主要领导担任，副组长由民航局副局长担任，成员包括了相关主要业务部门。领导小组主要承担贯彻落实党中央、国务院决策部署，研究确定推进通用航空和低空经济发展重点工作安排，协调解决跨部门、跨央地问题等任务。同时成立领导小组办公室，领导小组设立6个专项工作组，建立了相关工作机制。 本文系观察者网独家稿件，未经授权，不得转载。 \n  - 责任编辑: 陆远声\n-",
+  "publish_date": "2026-05-13",
+  "publisher": "Google新闻-通用航空低空",
+  "source_site": "www.guancha.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:36:28.222096+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 0,
+        "end": 5,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 28,
+        "end": 33,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 51,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 61,
+        "end": 66,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国航空报",
+        "label": "org",
+        "start": 134,
+        "end": 139,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中央机构编制委员会",
+        "label": "org",
+        "start": 164,
+        "end": 173,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 210,
+        "end": 213,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 234,
+        "end": 237,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国务院",
+        "label": "org",
+        "start": 255,
+        "end": 258,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 266,
+        "end": 270,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 298,
+        "end": 301,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局通用航空工作",
+        "label": "org",
+        "start": 309,
+        "end": 318,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 339,
+        "end": 342,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 360,
+        "end": 364,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 388,
+        "end": 391,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 402,
+        "end": 405,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国务院",
+        "label": "org",
+        "start": 441,
+        "end": 444,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用航空",
+        "label": "org",
+        "start": 455,
+        "end": 459,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "航发",
+        "label": "org",
+        "start": 90,
+        "end": 92,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "中国民用航空局",
+        "label": "org",
+        "start": 149,
+        "end": 156,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 149,
+        "end": 151,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "13日",
+        "label": "date",
+        "start": 42,
+        "end": 45,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "5月9日",
+        "label": "date",
+        "start": 144,
+        "end": 148,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年7月",
+        "label": "date",
+        "start": 226,
+        "end": 233,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

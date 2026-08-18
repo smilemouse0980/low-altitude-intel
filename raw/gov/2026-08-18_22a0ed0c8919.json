@@ -1,0 +1,120 @@
+{
+  "doc_id": "22a0ed0c8919",
+  "url": "https://www.seetao.com/details/275234.html",
+  "title": "福建低空经济借山海禀赋跳出同质化竞争 - 见道网",
+  "content": "福建省政府正式印发十五五新兴产业和未来产业发展规划，低空经济被明确纳入九大重点发展方向。依托省内独特的山海兼容地理禀赋，福建正在走出一条差异化的低空经济发展路径，打造国内独有的山海复合型低空产业生态。\n三大核心领域搭建产业骨架\n规划明确聚焦基础设施与飞行保障、低空装备与关键部件、低空经济服务与应用三大赛道。搭建省级低空智能网联系统，推进5G-A与卫星互联网全域覆盖，完善适航审定、检验检测等公共服务支撑体系，打造航空部件适航测试场景，完成复杂环境下低空飞行管理相关产品的测试验证。\n依托省内现有制造业基础，重点攻坚航空级动力电池、轻量化材料、智能传感器等优势环节，同步培育中大型重载无人机产能，布局巡检无人机、低空安全反制装备等细分品类，补齐低空装备产业链关键短板。\n山海特色激活差异化应用场景\n不同于国内多数平原省份的低空经济布局，福建紧扣自身山海兼容的地理特点，建立常态化空域协同机制，建设全国独有的山海复合型低空飞行测试走廊。同步发展飞行员培训、无人机研学等专业服务，推动低空经济与海洋经济、文旅康养、应急安防、农林生产等领域深度融合，落地一批“低空+”特色应用解决方案。\n这种完全贴合本地资源禀赋的发展思路，避开了同质化的通用赛道竞争，让低空产业从起步阶段就拥有了不可复制的场景优势。关键词：低空经济、高新技术\n从通用赛道的同质化内卷里跳出来，福建用山海特色锚定了低空经济的差异化定位。随着后续空域协同机制逐步落地，这条兼具山地与海洋场景的低空产业新赛道，有望成长为国内低空经济发展的特色标杆。（此文出自见道官网www.seetao.com未经允许不得转载否则必究，转载请注明见道网+原文链接）见道网高新栏目编辑/程丽婷\n评论",
+  "publish_date": "2026-08-18",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "www.seetao.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:33:59.247068+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "政府",
+        "label": "org",
+        "start": 28,
+        "end": 30,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 541,
+        "end": 543,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "通用",
+        "label": "org",
+        "start": 587,
+        "end": 589,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "海特",
+        "label": "org",
+        "start": 361,
+        "end": 363,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 317,
+        "end": 320,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "福建",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "福建省",
+        "label": "location",
+        "start": 25,
+        "end": 28,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "印发十五五新兴",
+        "label": "location",
+        "start": 32,
+        "end": 39,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "福建",
+        "label": "location",
+        "start": 85,
+        "end": 87,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "福建",
+        "label": "location",
+        "start": 393,
+        "end": 395,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "福建",
+        "label": "location",
+        "start": 602,
+        "end": 604,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [
+      {
+        "text": "适航审定",
+        "label": "policy",
+        "start": 211,
+        "end": 215,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

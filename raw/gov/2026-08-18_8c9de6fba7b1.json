@@ -1,0 +1,160 @@
+{
+  "doc_id": "8c9de6fba7b1",
+  "url": "http://news.pconline.com.cn/2180/21805283.html",
+  "title": "亿航智能eVTOL加速出海，探索马来西亚及东南亚低空市场机遇 - news.pconline.com.cn",
+  "content": "【太平洋科技快讯】据亿航智能官方消息，8 月 14 日，马来西亚成功集团代表团到访亿航智能总部开展参观交流。双方围绕无人驾驶航空器应用场景、马来西亚低空产业发展及东南亚市场机遇等展开深入交流，探讨未来潜在合作方向。\n图源：亿航智能\n交流期间，成功集团代表团详细了解亿航智能无人航空器产品矩阵，以及企业在全球适航认证、技术研发、海外市场布局方面的推进情况。成功集团创办人兼顾问丹斯里拿督斯里陈志远还亲身搭乘 EH216-S 无人驾驶载人航空器，体验智能化低空飞行。\n会谈聚焦马来西亚与东南亚低空产业发展前景。东南亚市场存在大量城市通勤、旅游观光的出行需求，无人驾驶航空器在城市空中交通、文旅体验等领域拥有较大发展潜力。马来西亚本地也一直在推进新型交通模式与低空经济的探索工作。\n亿航智能表示，希望进一步探索适合当地市场的低空应用场景及合作机会，共同拓展马来西亚及东南亚低空市场。",
+  "publish_date": "2026-08-18",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "news.pconline.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:37:54.263522+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "马来西亚成功集团代表团",
+        "label": "org",
+        "start": 82,
+        "end": 93,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成功集团代表团",
+        "label": "org",
+        "start": 175,
+        "end": 182,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "成功集团",
+        "label": "org",
+        "start": 231,
+        "end": 235,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 0,
+        "end": 2,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 0,
+        "end": 4,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 16,
+        "end": 20,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 21,
+        "end": 24,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "太平洋",
+        "label": "location",
+        "start": 55,
+        "end": 58,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 124,
+        "end": 128,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 135,
+        "end": 138,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 290,
+        "end": 294,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 295,
+        "end": 298,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 307,
+        "end": 310,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 362,
+        "end": 366,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马来西亚",
+        "label": "location",
+        "start": 429,
+        "end": 433,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "东南亚",
+        "label": "location",
+        "start": 434,
+        "end": 437,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "8 月",
+        "label": "date",
+        "start": 73,
+        "end": 76,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

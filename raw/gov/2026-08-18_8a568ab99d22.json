@@ -1,0 +1,304 @@
+{
+  "doc_id": "8a568ab99d22",
+  "url": "https://yuanxiangsky.com/N/580.html",
+  "title": "投融资天晴空天科技完成超亿元A轮融资，聚焦无人飞行平台研发此次融资由南京市创新投资集团有限责任公司、四川发展（控股）有限责任公司、中信建投资本管理有限公司旗下基金共同投资，老股东鲁信创投追加投资。无人机投资大学珠海南京弘微9/29/2025, 6:16:33 PM",
+  "content": "天晴空天科技完成超亿元A轮融资，聚焦无人飞行平台研发\n题图 | 天晴空天科技\n近日，珠海天晴航空航天科技有限公司（以下简称“天晴空天科技”）完成超亿元A轮融资。此次融资由南京市创新投资集团有限责任公司、四川发展（控股）有限责任公司、中信建投资本管理有限公司旗下基金共同投资，老股东鲁信创投追加投资。此前，天晴空天科技已获得博源资本和鲁信创投投资，此次融资是其再度获得资本市场投资。\n天晴空天科技成立于2016年，主营业务为先进无人飞行平台的研发与批量制造。公司产品包括技术验证机、察打一体固定翼无人机、大型无人物流运输机、攻击蜂群无人机、复合翼无人机、航天飞行器、重型多旋翼无人机、高端靶机、无人战斗机和飞行汽车等，可覆盖多场景应用需求。\n图源：天晴空天科技\n在硬件设施与生产能力方面，天晴空天科技总部位于珠海市金湾区，在沈阳、扬州、南京设有子公司，员工总数近300人。目前，公司厂房、办公室、实验室总面积15000平方米，14000平方米新厂房处于建设阶段。同时，公司配备复合材料成型热压罐、数控加工机床、振动试验台、起落架落震试验台、整机静力试验台、整机转动惯量测试台、动力系统试车台、超声波探伤仪、三座标测量仪等生产测试设备50余台套。截至目前，该公司已具备七吨起飞重量以下全类型无人机的研发、批产和飞行服务全产业链能力。\n技术创新方面，天晴空天科技成立至今已研制各类无人机型号100余个，拥有各型专利100余项，总产值超5亿元，2023年营收1亿元。2021年，公司获批广东省“专精特新”中小企业，并入选珠海市高新技术企业成长100强（排名第9）；2022年，获评广东省第一批入库科技型中小企业。此外，公司也通过了AS9100D航空航天质量体系和ISO9001国际质量体系认证。\n图源：天晴空天科技\n业务合作与科研项目领域，天晴空天科技已承担航空工业、航天科工、航天科技、电科集团、兵器集团、兵装集团、中国商飞等国内大型国有企业旗下多个科研院所，以及清华大学、北京航空航天大学、南京航空航天大学、西北工业大学、厦门大学等高校的100余项先进复合材料飞行器的设计、制造、试验和试飞工作。其中，公司参与研制的验证机最大起飞重量超过3500kg，最大马赫数达到8Ma，最大高度达65000m。\n针对此次A轮融资，天晴空天科技相关负责人表示，这是市场与投资界对公司技术实力、产品竞争力及发展潜力的认可，也体现了对国内高端无人机产业未来前景的信心。据介绍，本轮融资资金将用于三方面：一是加大研发投入，推动核心技术、关键技术迭代升级，加快新型号项目研发；二是引进高端产业人才，优化人才结构；三是推进载重2吨级和6吨级大型无人物流运输机产品研制，优化产品性能，巩固现有产品线市场地位。\n业内专家分析指出，当前航空航天产业呈快速发展态势，低空经济政策逐步落地，国内高端无人机市场需求预计将持续增长。天晴空天科技此次超亿元A轮融资的完成，或将助力其加快在航空航天领域和低空经济领域的核心技术布局与市场拓展，提升核心竞争力，巩固在国内高端无人机市场的地位，同时为我国无人机产业发展提供支持。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-企业动态",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:53.953877+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "四川发展（控股",
+        "label": "org",
+        "start": 50,
+        "end": 57,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投资本管理有限公司",
+        "label": "org",
+        "start": 65,
+        "end": 77,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机投资大学",
+        "label": "org",
+        "start": 98,
+        "end": 105,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "四川发展（控股",
+        "label": "org",
+        "start": 234,
+        "end": 241,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投资本管理有限公司",
+        "label": "org",
+        "start": 249,
+        "end": 261,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "复合翼无人机",
+        "label": "org",
+        "start": 402,
+        "end": 408,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "ISO",
+        "label": "org",
+        "start": 860,
+        "end": 863,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "兵器集团",
+        "label": "org",
+        "start": 928,
+        "end": 932,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "兵装集团",
+        "label": "org",
+        "start": 933,
+        "end": 937,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "清华大学",
+        "label": "org",
+        "start": 962,
+        "end": 966,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京航空航天大学",
+        "label": "org",
+        "start": 967,
+        "end": 975,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南京航空航天大学",
+        "label": "org",
+        "start": 976,
+        "end": 984,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "西北工业大学",
+        "label": "org",
+        "start": 985,
+        "end": 991,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "厦门大学",
+        "label": "org",
+        "start": 992,
+        "end": 996,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国商飞",
+        "label": "org",
+        "start": 938,
+        "end": 942,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 98,
+        "end": 101,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "航空工业",
+        "label": "org",
+        "start": 908,
+        "end": 912,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "商飞",
+        "label": "org",
+        "start": 940,
+        "end": 942,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "南京市",
+        "label": "location",
+        "start": 34,
+        "end": 37,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海",
+        "label": "location",
+        "start": 105,
+        "end": 107,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海天",
+        "label": "location",
+        "start": 175,
+        "end": 178,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南京市",
+        "label": "location",
+        "start": 218,
+        "end": 221,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海市",
+        "label": "location",
+        "start": 486,
+        "end": 489,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沈阳",
+        "label": "location",
+        "start": 494,
+        "end": 496,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "扬州",
+        "label": "location",
+        "start": 497,
+        "end": 499,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南京",
+        "label": "location",
+        "start": 500,
+        "end": 502,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "台",
+        "label": "location",
+        "start": 618,
+        "end": 619,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "广东省",
+        "label": "location",
+        "start": 772,
+        "end": 775,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "珠海市",
+        "label": "location",
+        "start": 789,
+        "end": 792,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "广东省",
+        "label": "location",
+        "start": 819,
+        "end": 822,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 938,
+        "end": 940,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2016年",
+        "label": "date",
+        "start": 333,
+        "end": 338,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2023年",
+        "label": "date",
+        "start": 751,
+        "end": 756,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 762,
+        "end": 767,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2022年",
+        "label": "date",
+        "start": 811,
+        "end": 816,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

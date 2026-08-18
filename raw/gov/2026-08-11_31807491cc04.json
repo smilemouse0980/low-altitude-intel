@@ -1,0 +1,80 @@
+{
+  "doc_id": "31807491cc04",
+  "url": "https://www.news.cn/info/20260811/644c031f34294563b22b1d5b04195dc5/c.html",
+  "title": "《2026安阳低空经济发展观察》正式发布 - 新华网",
+  "content": "2026低空经济产业对接会日前在河南省安阳市举办，由新华网低空经济研究院主编的《2026安阳低空经济发展观察》同步发布。报告结合全国低空经济发展态势、中原区域发展机遇，立足安阳现有产业基础，明晰产业发展定位、重点发展赛道与招商主攻方向，为安阳低空经济持续推进项目招引、产业布局提供智库支撑，进一步提升安阳在全国低空经济产业布局中的影响力。",
+  "publish_date": "2026-08-11",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "www.news.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:07.972684+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "新华网",
+        "label": "org",
+        "start": 23,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "新华网",
+        "label": "org",
+        "start": 53,
+        "end": 56,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "河南省",
+        "label": "location",
+        "start": 43,
+        "end": 46,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中原",
+        "label": "location",
+        "start": 102,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "安阳",
+        "label": "location",
+        "start": 146,
+        "end": 148,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2026",
+        "label": "date",
+        "start": 27,
+        "end": 31,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "日前",
+        "label": "date",
+        "start": 40,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "doc_id": "5acacab93177",
+  "url": "http://www.cb.com.cn/index/show/sp/cv/cv13479611791",
+  "title": "视频｜中国社会科学院杨开忠学部委员工作室 赴陕西省丹凤县调研低空经济 - cb.com.cn",
+  "content": "视频｜中国社会科学院杨开忠学部委员工作室 赴陕西省丹凤县调研低空经济cb.com.cn",
+  "publish_date": "2026-08-18",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "www.cb.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:33:54.879968+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国社会科学院",
+        "label": "org",
+        "start": 3,
+        "end": 10,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国社会科学院",
+        "label": "org",
+        "start": 50,
+        "end": 57,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "陕西省",
+        "label": "location",
+        "start": 22,
+        "end": 25,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "陕西省",
+        "label": "location",
+        "start": 69,
+        "end": 72,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

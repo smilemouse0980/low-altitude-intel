@@ -1,0 +1,38 @@
+{
+  "doc_id": "f05be754e9c3",
+  "url": "https://www.sz.gov.cn/szzt2010/szdkjj/dkzx/content/post_12910211.html",
+  "title": "抢抓低空经济发展新机遇 盐田区赴上海参加低空民用航空基础设施发展大会 - sz.gov.cn",
+  "content": "抢抓低空经济发展新机遇 盐田区赴上海参加低空民用航空基础设施发展大会sz.gov.cn",
+  "publish_date": "2026-07-27",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "www.sz.gov.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:35.765413+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [],
+    "locations": [
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 16,
+        "end": 18,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "上海",
+        "label": "location",
+        "start": 63,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "doc_id": "59258e8c2080",
+  "url": "https://yuanxiangsky.com/N/658.html",
+  "title": "投融资星恒长天Pre-A轮融资落地，重载eVTOL S600发布星恒长天此次Pre-A轮融资由青云基金、天工宏途与慕华科创联合投资。融资资金将专项用于加速eVTOL核心技术研发与行业场景落地。eVTOL飞控系统江西经济带投资照野12/12/2025, 6:02:29 PM",
+  "content": "星恒长天Pre-A轮融资落地，重载eVTOL S600发布\n题图 | 星恒长天\n12月12日，江西星恒长天技术有限公司宣布完成Pre-A轮融资，并于此前12月4日举行的2025长江经济带（共青城）基金创新发展大会上，发布长航时重载eVTOL S600。\n融资落地与新品发布的双重进展，推动星恒长天在重载eVTOL赛道的研发及商业化进程持续推进。\n星恒长天此次Pre-A轮融资由青云基金、天工宏途与慕华科创联合投资。融资资金将专项用于加速eVTOL核心技术研发与行业场景落地。\n公开信息显示，星恒长天专注于电动垂直起降飞行器研制。在高性能无人航空器、核心飞行控制系统等领域，公司持续投入研发力量。目前，已形成“飞行器平台、智能飞控系统、云端调度平台”产品矩阵，累计获得相关专利140余项。\n该公司以“安全、技术、品质、责任”为发展理念。目前，其产品已广泛应用于矿山、石化、电力、物流运输、安防巡检、应急消防等多个领域。\n在2025长江经济带（共青城）基金创新发展大会现场，星恒长天发布的长航时重载eVTOL S600引发广泛关注。多地政府领导、投资机构代表、客户及媒体记者到场参与见证。\n图源：星恒长天\n星恒长天董事长徐宏哲介绍了S600研发制造项目的相关情况。他提到，S600研发制造经过前期论证、设计开发、系统集成、生产装配等多个环节，最终完成整机落地。徐宏哲还对产品性能及应用方向进行了详细说明。\nS600重载eVTOL飞行器的核心性能参数突出。该机型具备垂直起降、短距起降和滑跑起降三种作业能力，最大起飞重量达2380Kg，载荷能力为700Kg，标准任务航程1000公里，转场航程超1500公里。\n在系统配置上，S600配备冗余增程动力系统，集成多传感器导航与飞控系统。这使其可实现自主起降、巡航及任务规划功能，适用场景涵盖航空货运物流、特种应急、应急物资投递等各类运输及空投类业务。\n图源：星恒长天\n发布会同期，星恒长天与江西国控基金、安徽静安集团、青云长空签署战略合作协议。根据合作规划，各方将为S600后续研发升级与适航取证提供支持，助力该机型在城际、省际无人货运飞行网络中实现规模化应用。\n星恒长天相关负责人表示，公司将以“让飞行更安全、更高效、更智能”为发展目标。未来，将重点推动S600等产品落地及技术迭代工作。\n该负责人提到，随着低空经济相关政策体系不断完善，企业将持续在重载eVTOL领域推进技术研发与商业化探索。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-企业动态",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:52.505758+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "青云基金",
+        "label": "org",
+        "start": 47,
+        "end": 51,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "长天技术有限公司",
+        "label": "org",
+        "start": 188,
+        "end": 196,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "青云基金",
+        "label": "org",
+        "start": 325,
+        "end": 329,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "共青城",
+        "label": "org",
+        "start": 557,
+        "end": 560,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "江西国控基金",
+        "label": "org",
+        "start": 952,
+        "end": 958,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "安徽静安集团",
+        "label": "org",
+        "start": 959,
+        "end": 965,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "locations": [
+      {
+        "text": "江西",
+        "label": "location",
+        "start": 105,
+        "end": 107,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "江西",
+        "label": "location",
+        "start": 184,
+        "end": 186,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "星恒长",
+        "label": "date",
+        "start": 137,
+        "end": 140,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "12月12日",
+        "label": "date",
+        "start": 177,
+        "end": 183,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "12月4日",
+        "label": "date",
+        "start": 213,
+        "end": 218,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 281,
+        "end": 283,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 310,
+        "end": 312,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 382,
+        "end": 384,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025",
+        "label": "date",
+        "start": 547,
+        "end": 551,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 572,
+        "end": 574,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 633,
+        "end": 635,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 638,
+        "end": 640,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 936,
+        "end": 938,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "星恒",
+        "label": "date",
+        "start": 1039,
+        "end": 1041,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

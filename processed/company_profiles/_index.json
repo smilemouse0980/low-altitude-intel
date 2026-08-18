@@ -1,68 +1,157 @@
 {
-  "generated_at": "2026-08-17T23:36:12.485318+08:00",
-  "total_companies": 6,
+  "generated_at": "2026-08-18T16:44:14.407132+08:00",
+  "total_companies": 14,
   "companies": [
     {
       "name": "亿航智能",
       "category": "eVTOL整机",
-      "mention_count": 15,
-      "first_seen": "2025-07-12",
-      "last_seen": "2026-08-15",
+      "mention_count": 37,
+      "first_seen": "2025-12-01",
+      "last_seen": "2026-08-18",
       "key_persons": [
-        "Tiltrotor"
+        "Nurlan",
+        "News",
+        "Regulations"
       ],
-      "event_count": 68
+      "event_count": 177
     },
     {
       "name": "峰飞航空",
       "category": "eVTOL整机",
-      "mention_count": 9,
-      "first_seen": "2025-03-06",
-      "last_seen": "2026-08-15",
+      "mention_count": 22,
+      "first_seen": "2026-02-06",
+      "last_seen": "2026-08-18",
       "key_persons": [
-        "Tiltrotor"
+        "News",
+        "Regulations",
+        "Mark Esper"
       ],
-      "event_count": 35
+      "event_count": 92
     },
     {
-      "name": "沃兰特",
-      "category": "eVTOL整机",
-      "mention_count": 9,
-      "first_seen": "2025-07-12",
-      "last_seen": "2026-08-15",
+      "name": "大疆创新",
+      "category": "无人机整机",
+      "mention_count": 18,
+      "first_seen": "2025-11-27",
+      "last_seen": "2026-08-18",
       "key_persons": [
-        "Tiltrotor"
+        "Safety",
+        "Mon",
+        "Jason"
       ],
-      "event_count": 45
+      "event_count": 69
     },
     {
       "name": "沃飞长空",
       "category": "eVTOL整机",
-      "mention_count": 4,
-      "first_seen": "2025-07-12",
-      "last_seen": "2026-08-15",
+      "mention_count": 12,
+      "first_seen": "2026-02-02",
+      "last_seen": "2026-08-18",
       "key_persons": [
-        "Tiltrotor"
+        "News",
+        "Regulations"
       ],
-      "event_count": 22
+      "event_count": 59
+    },
+    {
+      "name": "沃兰特",
+      "category": "eVTOL整机",
+      "mention_count": 11,
+      "first_seen": "2025-11-27",
+      "last_seen": "2026-08-18",
+      "key_persons": [
+        "Safety"
+      ],
+      "event_count": 53
     },
     {
       "name": "小鹏汇天",
       "category": "eVTOL整机",
-      "mention_count": 4,
-      "first_seen": "2025-10-23",
-      "last_seen": "2026-08-15",
-      "key_persons": [],
-      "event_count": 24
+      "mention_count": 8,
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-08-18",
+      "key_persons": [
+        "Roadster",
+        "News",
+        "Regulations"
+      ],
+      "event_count": 41
     },
     {
-      "name": "中信海直",
-      "category": "通航运营",
-      "mention_count": 2,
-      "first_seen": "2025-12-18",
-      "last_seen": "2025-12-18",
+      "name": "航发动力",
+      "category": "核心零部件",
+      "mention_count": 6,
+      "first_seen": "2025-12-16",
+      "last_seen": "2026-08-18",
+      "key_persons": [
+        "Electric Vertical"
+      ],
+      "event_count": 26
+    },
+    {
+      "name": "中航成飞",
+      "category": "军工航空",
+      "mention_count": 5,
+      "first_seen": "2025-11-18",
+      "last_seen": "2026-08-13",
       "key_persons": [],
-      "event_count": 12
+      "event_count": 20
+    },
+    {
+      "name": "海特高新",
+      "category": "其他",
+      "mention_count": 4,
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-08-18",
+      "key_persons": [],
+      "event_count": 19
+    },
+    {
+      "name": "纵横股份",
+      "category": "无人机整机",
+      "mention_count": 3,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-08-18",
+      "key_persons": [],
+      "event_count": 10
+    },
+    {
+      "name": "中国商飞",
+      "category": "军工航空",
+      "mention_count": 3,
+      "first_seen": "2026-04-20",
+      "last_seen": "2026-08-18",
+      "key_persons": [],
+      "event_count": 15
+    },
+    {
+      "name": "极飞科技",
+      "category": "农业无人机",
+      "mention_count": 3,
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-08-18",
+      "key_persons": [],
+      "event_count": 15
+    },
+    {
+      "name": "腾盾科技",
+      "category": "无人机整机",
+      "mention_count": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-08-18",
+      "key_persons": [
+        "Jason"
+      ],
+      "event_count": 8
+    },
+    {
+      "name": "迅蚁网络",
+      "category": "物流无人机",
+      "mention_count": 2,
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "key_persons": [],
+      "event_count": 10
     }
   ]
 }

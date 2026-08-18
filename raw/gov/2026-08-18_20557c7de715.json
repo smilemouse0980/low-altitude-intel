@@ -1,0 +1,392 @@
+{
+  "doc_id": "20557c7de715",
+  "url": "https://yuanxiangsky.com/N/637.html",
+  "title": "政策研究非洲加速布局低空经济，中非合作注入新动能 | 圆象观察2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。低空经济无人机基础设施农业公共服务弘微11/24/2025, 10:23:40 AM",
+  "content": "非洲加速布局低空经济，中非合作注入新动能 | 圆象观察\n近日，卢旺达与塞内加尔正式签署航空运输协定，明确将拓展跨境航线并深化低空经济合作，这一举措成为非洲国家推进区域航空一体化的重要里程碑。与此同时，2025年非洲航空峰会上实现非洲首飞的中国自主研发无人驾驶载人电动垂直起降飞行器，正紧锣密鼓地推进在卢旺达的商业化运营筹备工作，为中非低空经济合作开辟新空间。\n低空经济作为全球航空产业与数字经济融合发展的新增长极，正受到非洲大陆的高度关注。国际航空运输协会数据预测，2020年至2025年非洲航空货运市场复合年均增长率将达5%，2025年货运量有望接近400万吨，市场规模将突破60亿美元。对于长期受困于基础设施薄弱、地理环境复杂、公共服务覆盖不足的非洲而言，无人飞行技术的兴起为破解发展难题提供了有效路径，也成为非洲国家加速布局低空经济的核心契机。\n图源：央视新闻\n卢旺达是非洲低空经济发展的先行者。2016年，该国成为全球首个在国家层面正式启用无人机配送系统的国家。通过国际合作，卢旺达在姆哈加设立首个无人机运营中心，利用固定翼无人机向山区、偏远地区医疗点配送血液、疫苗等关键物资，将原本数小时甚至数天的运输时间压缩至30分钟左右。如今，卢旺达已建成多个配送中心，无人机航线已覆盖全国大部分区域。\n在卢旺达的示范效应下，加纳、肯尼亚、马拉维等国纷纷跟进，将无人机应用从医疗配送拓展至更广阔领域。马拉维与联合国儿童基金会合作建设人道主义无人机走廊，为救援区域提供高效物资保障；肯尼亚民航局于7月批准在孔扎科技城设立首个超视距无人机作业管制空域，为技术研发、测试和培训搭建专业平台；加纳通信、数字技术和创新部则在5月启动专项项目，计划为1万名青年提供无人机操作、物流技术等数字技能培训，助力医疗物流和农业植保产业发展。\n图源：新浪网\n中非在低空经济领域的合作已形成多项务实成果，精准契合非洲国家改善基础设施、提升公共服务的核心需求。在赞比亚，中方团队利用无人机对北部和东北部8万平方公里区域开展勘探，为矿产行业提供3D地形测绘、体积计算等精准数据支持；在南非，大疆科技、极飞科技等中国企业的农业植保无人机广泛应用于甘蔗种植园，相比传统人工喷药，不仅效率大幅提升，农药用量也显著减少，实现了经济效益与环境效益的双赢。\n分析人士指出，当前非洲无人机产业虽处于发展初期，仍面临市场碎片化、空域监管滞后、专业人才短缺、基础设施支撑不足等共性挑战，但发展潜力巨大。中国企业相关负责人表示，愿与非洲国家在技术交流、人才培养、标准共建等领域深化合作，共同破解发展难题，为中非低空经济合作注入持续活力，助力非洲实现跨越式发展。",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-政策法规",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:40:00.760185+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "非洲航空货运",
+        "label": "org",
+        "start": 42,
+        "end": 48,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲航空峰会",
+        "label": "org",
+        "start": 241,
+        "end": 247,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国际航空运输协会",
+        "label": "org",
+        "start": 356,
+        "end": 364,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲航空货运",
+        "label": "org",
+        "start": 380,
+        "end": 386,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "央视",
+        "label": "org",
+        "start": 515,
+        "end": 517,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "联合国儿童基金会",
+        "label": "org",
+        "start": 739,
+        "end": 747,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "肯尼亚民航局",
+        "label": "org",
+        "start": 775,
+        "end": 781,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "孔扎科技城",
+        "label": "org",
+        "start": 787,
+        "end": 792,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 778,
+        "end": 781,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "极飞科技",
+        "label": "org",
+        "start": 1021,
+        "end": 1025,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 97,
+        "end": 100,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "大疆",
+        "label": "org",
+        "start": 1016,
+        "end": 1018,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "极飞",
+        "label": "org",
+        "start": 1021,
+        "end": 1023,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 4,
+        "end": 6,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "卢旺达",
+        "label": "location",
+        "start": 167,
+        "end": 170,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 211,
+        "end": 213,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 250,
+        "end": 252,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 255,
+        "end": 257,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "卢旺达",
+        "label": "location",
+        "start": 286,
+        "end": 289,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲大陆",
+        "label": "location",
+        "start": 346,
+        "end": 350,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 493,
+        "end": 495,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "卢旺达",
+        "label": "location",
+        "start": 520,
+        "end": 523,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 524,
+        "end": 526,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "卢旺达",
+        "label": "location",
+        "start": 578,
+        "end": 581,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "卢旺达",
+        "label": "location",
+        "start": 657,
+        "end": 660,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "卢旺达",
+        "label": "location",
+        "start": 688,
+        "end": 691,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "肯尼亚",
+        "label": "location",
+        "start": 701,
+        "end": 704,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "马拉维",
+        "label": "location",
+        "start": 705,
+        "end": 708,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 929,
+        "end": 931,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "赞比亚",
+        "label": "location",
+        "start": 953,
+        "end": 956,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中方",
+        "label": "location",
+        "start": 957,
+        "end": 959,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "南非",
+        "label": "location",
+        "start": 1013,
+        "end": 1015,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1026,
+        "end": 1028,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 1103,
+        "end": 1105,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 1163,
+        "end": 1165,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 1177,
+        "end": 1179,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "非洲",
+        "label": "location",
+        "start": 1231,
+        "end": 1233,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2020年至2025年",
+        "label": "date",
+        "start": 31,
+        "end": 42,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 62,
+        "end": 67,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近日",
+        "label": "date",
+        "start": 164,
+        "end": 166,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 236,
+        "end": 241,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2020年至2025年",
+        "label": "date",
+        "start": 369,
+        "end": 380,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 400,
+        "end": 405,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2016年",
+        "label": "date",
+        "start": 537,
+        "end": 542,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "数天",
+        "label": "date",
+        "start": 637,
+        "end": 639,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "7月",
+        "label": "date",
+        "start": 782,
+        "end": 784,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "doc_id": "7ba43ad78f7b",
+  "url": "https://finance.sina.cn/2026-08-15/detail-ininmhuf2026935.d.html?vt=4",
+  "title": "马斯克：你们会看到飞行汽车的 - 新浪财经",
+  "content": "马斯克：你们会看到飞行汽车的\n21世纪经济报道记者 何煦阳\n8月12日，社交平台X上一条帖子写道：“人们曾期待飞行汽车，结果迎来的只是全民普及的超强人工智能。”马斯克对此回复：“你们会见到飞行汽车的。”\n这番表态让人联想到马斯克早年为特斯拉Roadster跑车放出的飞行、悬浮功能预告。2021年，马斯克表示SpaceX推进器版本的Roadster可能实现短暂悬浮，大约离地一米。2024年，马斯克称这款车的技术水平会非常特殊，“甚至不知道还能不能称之为汽车”。\n目前，最像特斯拉的小鹏一直在飞行汽车上努力，已发布品牌小鹏汇天，如今和特斯拉的业务线似乎又多一个交集了。\n（视频编辑：肖航）",
+  "publish_date": "2026-08-15",
+  "publisher": "Google新闻-复合查询",
+  "source_site": "finance.sina.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:38:14.389380+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [
+      {
+        "text": "Roadster",
+        "label": "person",
+        "start": 188,
+        "end": 196,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "orgs": [
+      {
+        "text": "新浪",
+        "label": "org",
+        "start": 17,
+        "end": 19,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "联想",
+        "label": "org",
+        "start": 130,
+        "end": 132,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "推进器",
+        "label": "org",
+        "start": 182,
+        "end": 185,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "小鹏汇天",
+        "label": "org",
+        "start": 281,
+        "end": 285,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "21世纪",
+        "label": "date",
+        "start": 37,
+        "end": 41,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "8月12日",
+        "label": "date",
+        "start": 52,
+        "end": 57,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2021年",
+        "label": "date",
+        "start": 165,
+        "end": 170,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2024年",
+        "label": "date",
+        "start": 212,
+        "end": 217,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": [
+      {
+        "person": "Roadster",
+        "title": "",
+        "org": "推进器",
+        "context": "悬浮功能预告。2021年，马斯克表示SpaceX推进器版本的Roadster可能实现短暂悬浮，大约离地一米。2024年，马斯克称这款车的"
+      }
+    ]
+  }
+}

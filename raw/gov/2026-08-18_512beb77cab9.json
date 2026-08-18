@@ -1,0 +1,248 @@
+{
+  "doc_id": "512beb77cab9",
+  "url": "https://yuanxiangsky.com/N/632.html",
+  "title": "投融资云际航电获超千万融资，聚焦全国产化智能综合航电系统本轮融资由北京经开区种子投资基金领投，资金将主要用于提升研发能力与扩大产能，推动全国产化智能综合航电系统的市场化进程。航电系统大学低空经济北京投资潜蛟11/15/2025, 12:00:34 PM",
+  "content": "云际航电获超千万融资，聚焦全国产化智能综合航电系统\n题图 | 36氪\n伴随低空经济的加速发展及航空产业链自主可控战略的推进，国产航电系统迎来重要发展契机。近日，由中国民航大学与沈阳航空航天大学联合孵化的北京云际航电智能科技有限公司（以下简称“云际航电”）宣布完成超千万元天使轮融资。本轮融资由北京经开区种子投资基金领投，资金将主要用于提升研发能力与扩大产能，推动全国产化智能综合航电系统的市场化进程。\n云际航电成立于2022年，成立之初即确定“全国产化智能综合航电系统”为核心发展方向。依托两所高校在航空领域的科研积累及科技成果转化基础，公司将导航、飞控、飞管、气象、无线电等功能进行深度集成，形成了自有产品体系。公司核心团队由创始人李贝带领，成员包括中国民航大学的研发与适航人才，以及沈阳航空航天大学的飞控及算法专业人员，具备学术研究与工程实践背景。\n国内航电市场长期由外资品牌主导，数据显示，此前国内80%以上的航电市场份额被霍尼韦尔、柯林斯宇航、佳明等国际企业占据。近年来，随着低空经济相关政策的完善及国产替代需求的增长，云际航电推出的YJ-500E、YJ-1000E综合航电及YJ-2000自动驾驶航电三款产品，开始参与市场竞争。其中，YJ-1000E、YJ-2000分别对标佳明G1000NXi、G5000等主流型号，其产品特点包括：实现100%国产供应链，成本约为竞品的50%-70%，功耗约为竞品的30%，可适配无人机、eVTOL等对航电系统有轻量化、模块化需求的应用场景。\nYJ-500E智能航电系统（图源：云际航电）\n同时，航电系统正向集成化与智能化演进，软件定义航电和智能互联成为行业关键趋势。与国内主流的传感器及联合式航电产品不同，云际航电已完成八大子系统的深度融合，形成了综合航电解决方案。其1.0版本系统配备视觉合成技术与地形感知警告功能，可实现昼夜全天候地形环境感知与高度预警。创始人李贝介绍，后续系统将增加自动化与引导功能，提升航电系统的智能控制能力。截至目前，YJ-500E与YJ-1000E已进入测试上机阶段，YJ-2000处于研发过程中。\n在市场拓展与产能布局方面，云际航电已展现出清晰的发展路径。公司目前已与国家队型号单位、电动固定翼及直升机主机厂达成合作，预计明年启动批量供货；同时积极推进海外机型的签约配套，构建国内外双循环市场格局。产能保障上，公司首个自营工厂将于今年年底投入使用，届时将形成年产50套综合航电系统的产能规模。此外，云际航电计划在年底前推进两款产品的适航申请，为满足民航安全认证要求、扫清市场准入障碍奠定基础。\n作为本轮融资的领投方，北京经开区种子投资基金聚焦硬科技幼苗企业培育，其管理人水木创投在科技成果转化领域经验丰富，已成功孵化多家上市公司与独角兽企业。水木创投投资副总裁昌锋表示：“综合航电系统是航空装备的核心组成部分，在低空经济快速发展的背景下，国产化替代势在必行。云际航电凭借高校技术背书与快速的研发迭代能力，已在国产综合航电领域占据先发优势，未来我们将持续助力企业成长。”",
+  "publish_date": "2026-08-18",
+  "publisher": "圆象低空-企业动态",
+  "source_site": "yuanxiangsky.com",
+  "source_type": "direct_html",
+  "collected_at": "2026-08-18T16:39:52.839961+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 3,
+        "end": 7,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京经开区",
+        "label": "org",
+        "start": 33,
+        "end": 38,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电获超",
+        "label": "org",
+        "start": 127,
+        "end": 133,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航大学",
+        "label": "org",
+        "start": 208,
+        "end": 214,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沈阳航空航天大学",
+        "label": "org",
+        "start": 215,
+        "end": 223,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京云际航电智能科技有限公司",
+        "label": "org",
+        "start": 228,
+        "end": 242,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 248,
+        "end": 252,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京经开区",
+        "label": "org",
+        "start": 273,
+        "end": 278,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 328,
+        "end": 332,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航大学",
+        "label": "org",
+        "start": 453,
+        "end": 459,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沈阳航空航天大学",
+        "label": "org",
+        "start": 470,
+        "end": 478,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 591,
+        "end": 595,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "500E智能航电系统（",
+        "label": "org",
+        "start": 775,
+        "end": 786,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 789,
+        "end": 793,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "联合式",
+        "label": "org",
+        "start": 844,
+        "end": 847,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 854,
+        "end": 858,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 1028,
+        "end": 1032,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "国家队型号单位",
+        "label": "org",
+        "start": 1050,
+        "end": 1057,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "云际航电",
+        "label": "org",
+        "start": 1345,
+        "end": 1349,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 740,
+        "end": 743,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 97,
+        "end": 99,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "北京",
+        "label": "location",
+        "start": 1224,
+        "end": 1226,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2022年",
+        "label": "date",
+        "start": 335,
+        "end": 340,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "近年来",
+        "label": "date",
+        "start": 563,
+        "end": 566,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2000",
+        "label": "date",
+        "start": 1002,
+        "end": 1006,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "明年",
+        "label": "date",
+        "start": 1077,
+        "end": 1079,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年年底",
+        "label": "date",
+        "start": 1131,
+        "end": 1135,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "年底前",
+        "label": "date",
+        "start": 1172,
+        "end": 1175,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "doc_id": "dabccbeaaca0",
+  "url": "https://companies.caixin.com/2026-02-02/102410752.html",
+  "title": "适航认证进入最终冲刺阶段 沃飞长空获近10亿元融资 - 财新",
+  "content": "【财新网】国内头部低空飞行器企业四川沃飞长空科技发展有限公司（下称“沃飞长空”）2月2日宣布，公司已完成近10亿元新一轮融资。这轮融资由中信建投领投，联新资本、祥峰投资、光合创投、国策投资等机构联合投资，磐霖资本、蕴盛资本、中科创星、松禾资本等老股东持续跟投。\n沃飞长空是吉利控股旗下专注研发电动垂直起降飞行器（eVTOL）的企业。截至目前，沃飞长空已经先后完成五轮融资。除本轮融资外，各轮融资均未披露具体金额。",
+  "publish_date": "2026-02-02",
+  "publisher": "Google新闻-适航认证",
+  "source_site": "companies.caixin.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:39:29.022020+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "四川沃",
+        "label": "org",
+        "start": 47,
+        "end": 50,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "空科技发展有限公司",
+        "label": "org",
+        "start": 52,
+        "end": 61,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中信建投",
+        "label": "org",
+        "start": 99,
+        "end": 103,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "吉利控股",
+        "label": "org",
+        "start": 167,
+        "end": 171,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "沃飞长空",
+        "label": "org",
+        "start": 13,
+        "end": 17,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "沃飞",
+        "label": "org",
+        "start": 13,
+        "end": 15,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [],
+    "dates": [
+      {
+        "text": "2月2日",
+        "label": "date",
+        "start": 71,
+        "end": 75,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [],
+    "relations": []
+  }
+}

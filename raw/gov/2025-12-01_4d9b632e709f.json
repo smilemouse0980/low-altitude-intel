@@ -1,0 +1,209 @@
+{
+  "doc_id": "4d9b632e709f",
+  "url": "https://paper.people.com.cn/rmrbhwb/pc/content/202512/01/content_30117614.html",
+  "title": "中国商业载人eVTOL“圈粉”美国硅谷 - 人民日报",
+  "content": "本报电（记者陈静文）随着2025年全球eVTOL（电动垂直起降）航空器产业迈入商业化爆发期，国际市场对先进空中交通解决方案的关注度持续升温。\n近日，在美国硅谷举行的eVTOL大会上，中国先进空中交通科技企业亿航智能控股有限公司作为唯一受邀参会的中国科技企业，携其旗舰产品无人驾驶载人航空器EH216-S亮相，吸引了多家同行企业和高校机构代表驻足讨论、参观体验。\n被称为“空中的士”的EH216-S，机舱和起落架犹如直升机，16个小直径旋翼分布在机舱底部周围，为其提供动力。舱内空间可容纳2人，乘机人员无需操作驾驶，飞机由地面指挥调度系统控制。\n硅谷eVTOL大会上，亿航智能交上了一份全球瞩目的“硬核科技答卷”：今年3月，EH216-S的两家运营航司获颁中国民航局全国首批载人类民用无人驾驶航空器运营合格证（OC）。加之EH216-S此前已获得的全球首张载人eVTOL产品型号合格证（TC）、标准适航证（AC）、生产许可证（PC），亿航智能完成了产品的商业闭环，成为全球首个“四证集齐”企业。接下来市民和消费者可以在广州和合肥相关运营点购票体验低空游览、城市观光及丰富多彩的商业载人服务。\n这意味着中国低空经济商业“载人时代”正式开启，这一城市空中交通领域的新里程碑，将促进新质生产力释放出更加强大的活力。\n在硅谷路演活动中，亿航智能同步介绍了10月发布的新一代长航程无人驾驶载人航空器VT35，这款机型可精准覆盖跨城市、跨海域、跨山区等中长途出行场景，且能直接复用EH216-S的起降场，与EH216-S形成“城市—城际”产品矩阵，覆盖多元出行场景。该公司在技术研发、适航认证及场景适配方面的进展，为全球eVTOL产业发展和先进空中交通商业生态构建提供了参考样本。\n“目前，亿航智能已在全球累计安全飞行76000架次，安全纪录世界领先，并在全球多个重要市场推进场景落地与城市空中交通运营中心建设。”亿航智能首席财务官杨嘉宏表示，希望进一步开拓国际合作，为全球先进空中交通行业发展注入动能。",
+  "publish_date": "2025-12-01",
+  "publisher": "Google新闻-eVTOL中国",
+  "source_site": "paper.people.com.cn",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:41.634433+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "人民日报",
+        "label": "org",
+        "start": 22,
+        "end": 26,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 354,
+        "end": 359,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智",
+        "label": "org",
+        "start": 443,
+        "end": 446,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航智",
+        "label": "org",
+        "start": 590,
+        "end": 593,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中长途",
+        "label": "org",
+        "start": 646,
+        "end": 649,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 130,
+        "end": 132,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 130,
+        "end": 134,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 356,
+        "end": 359,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 0,
+        "end": 2,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 15,
+        "end": 17,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "美国",
+        "label": "location",
+        "start": 102,
+        "end": 104,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 118,
+        "end": 120,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 149,
+        "end": 151,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "广州",
+        "label": "location",
+        "start": 485,
+        "end": 487,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 488,
+        "end": 490,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 526,
+        "end": 528,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 39,
+        "end": 44,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "今年3月",
+        "label": "date",
+        "start": 333,
+        "end": 337,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "10月",
+        "label": "date",
+        "start": 599,
+        "end": 602,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "型号合格证",
+        "label": "policy",
+        "start": 413,
+        "end": 418,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "标准适航证",
+        "label": "policy",
+        "start": 423,
+        "end": 428,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "生产许可证",
+        "label": "policy",
+        "start": 433,
+        "end": 438,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "运营合格证",
+        "label": "policy",
+        "start": 375,
+        "end": 380,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}

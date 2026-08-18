@@ -1,0 +1,249 @@
+{
+  "doc_id": "f3d1fcea7bee",
+  "url": "https://www.stdaily.com/web/gdxw/2026-08/04/content_558715.html",
+  "title": "活力中国调研行丨合肥：低空经济不是“单点突破”，而是“系统集成” - 中国科技网",
+  "content": "科技日报实习记者 孙金 记者 王姗姗\n2025年，合肥低空经济营收突破300亿元，这并不是一个企业的“单点突破”，而是依托于合肥低空经济产业链条的“系统集成”。8月3日，记者随2026年“活力中国调研行”安徽集中采访活动来到合肥市合翼航空。\n合翼航空是亿航智能与合肥市国资平台合资成立的公司，专注于城市空中交通商业化运营。2025年3月28日，中国民航局把全球首张民用无人驾驶航空器运营合格证（OC）颁给了合肥合翼航空。\n谈及合肥在低空经济的优势？合翼航空市场部顾勇说道，在这里，造一台飞行器，很多技术和供应链都可以复用新能源汽车的。\n这正是合肥的独特之处。其完备的新能源汽车产业链，正成为低空经济最坚实的底座。汽车生产线上的工艺技术，可直接复用于eVTOL制造。亿航智能已与合肥国轩高科合作，研发航空器专用的高能量密度电芯；又与江淮汽车集团、合肥国先控股三方携手，共建低空航空器制造基地。这种跨产业的深度耦合，让合肥的低空制造从起步就站在了供应链的肩膀上。\n从关键零部件配套到新能源航空器整机（eVTOL）、大型固定翼与特种无人机整机，从低空数智底座与空管平台到商业化运营与城市低空物流，合肥集聚着低空产业链企业超400家，构建了从研发、生产到场景运营的低空经济产业生态。\n安全飞行小时数是低空经济的硬通货，在合肥，合法、高频、成规模飞行并不是一件难事。骆岗公园，12.7平方公里的老机场，自带净空条件，位于城市核心区却没有密集居住区的噪音矛盾，足够摆开各种试验场景。空域协调审批不是一件繁琐的事，合肥成立了全国首个城市级低空飞行联合服务中心，开展空域申请、航路航线、飞行计划等“一窗服务”，将飞行报审时间大幅缩短，即报即飞。\n（科技日报实习记者 孙金 摄）",
+  "publish_date": "2026-08-04",
+  "publisher": "Google新闻-低空经济",
+  "source_site": "www.stdaily.com",
+  "source_type": "rss",
+  "collected_at": "2026-08-18T16:34:20.447007+08:00",
+  "quality_flag": "pending",
+  "url_resolved": true,
+  "entities": {
+    "persons": [],
+    "orgs": [
+      {
+        "text": "中国科技网 科技日报实习",
+        "label": "org",
+        "start": 35,
+        "end": 47,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国民航局",
+        "label": "org",
+        "start": 213,
+        "end": 218,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "江淮汽车集团",
+        "label": "org",
+        "start": 406,
+        "end": 412,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥国先控股",
+        "label": "org",
+        "start": 413,
+        "end": 419,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "科技日报",
+        "label": "org",
+        "start": 757,
+        "end": 761,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "亿航",
+        "label": "org",
+        "start": 167,
+        "end": 169,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "亿航智能",
+        "label": "org",
+        "start": 167,
+        "end": 171,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "民航局",
+        "label": "org",
+        "start": 215,
+        "end": 218,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      },
+      {
+        "text": "无人机",
+        "label": "org",
+        "start": 504,
+        "end": 507,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "locations": [
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 2,
+        "end": 4,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 8,
+        "end": 10,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 66,
+        "end": 68,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 103,
+        "end": 105,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "中国",
+        "label": "location",
+        "start": 137,
+        "end": 139,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "安徽",
+        "label": "location",
+        "start": 143,
+        "end": 145,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥市",
+        "label": "location",
+        "start": 153,
+        "end": 156,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 244,
+        "end": 246,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 254,
+        "end": 256,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 312,
+        "end": 314,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 379,
+        "end": 381,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 448,
+        "end": 450,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 536,
+        "end": 538,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 597,
+        "end": 599,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "合肥",
+        "label": "location",
+        "start": 691,
+        "end": 693,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "dates": [
+      {
+        "text": "2025年",
+        "label": "date",
+        "start": 60,
+        "end": 65,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "8月3日",
+        "label": "date",
+        "start": 121,
+        "end": 125,
+        "engine": "spacy",
+        "confidence": "low"
+      },
+      {
+        "text": "2025年3月28日",
+        "label": "date",
+        "start": 202,
+        "end": 212,
+        "engine": "spacy",
+        "confidence": "low"
+      }
+    ],
+    "policies": [
+      {
+        "text": "运营合格证",
+        "label": "policy",
+        "start": 232,
+        "end": 237,
+        "confidence": "dict",
+        "engine": "industry_dict"
+      }
+    ],
+    "relations": []
+  }
+}
