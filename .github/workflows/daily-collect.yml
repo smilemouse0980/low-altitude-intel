@@ -2,7 +2,11 @@ name: 每日低空经济情报采集
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    # 避开整点高峰，使用非整点时间减少 GitHub Actions 调度延迟
+    # 08:15 UTC = 16:15 北京时间（主采集）
+    # 20:15 UTC = 04:15 北京时间（补充采集）
+    - cron: '15 8 * * *'
+    - cron: '15 20 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -14,6 +18,11 @@ on:
           - full
           - collect
           - test
+
+# 并发控制：同一时间只允许一个采集任务运行，新运行自动取消旧运行
+concurrency:
+  group: daily-collect
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -44,6 +53,11 @@ jobs:
           mkdir -p raw/feeds raw/gov raw/associations
           mkdir -p processed reports logs
 
+      - name: 数据源健康检查
+        if: success()
+        run: |
+          python scripts/health_check.py || true
+
       - name: 运行情报采集流水线
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -64,6 +78,11 @@ jobs:
           else
             echo "无摘要数据" >> $GITHUB_STEP_SUMMARY
           fi
+
+      - name: 数据质量检查
+        if: success()
+        run: |
+          python scripts/quality_checker.py || true
 
       - name: 生成 Markdown 日报
         if: success()
@@ -146,10 +165,15 @@ jobs:
             echo "无新数据需要提交"
           else
             git commit -m "chore: 每日情报采集 $(date -u '+%Y-%m-%d %H:%M') UTC"
-            git push
+            # 重试机制：先 pull rebase 再 push，最多重试3次
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "推送冲突，第 $i 次重试..."
+              sleep 5
+            done
           fi
 
-      - name: 发送通知
+      - name: 发送通知（成功）
         if: always() && env.NOTIFICATION_WEBHOOK != ''
         env:
           NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
@@ -157,4 +181,16 @@ jobs:
           STATUS="${{ job.status }}"
           curl -X POST "$NOTIFICATION_WEBHOOK" \
             -H "Content-Type: application/json" \
-            -d "{\"text\": \"低空经济情报采集任务完成\n状态: $STATUS\n时间: $(date -u '+%Y-%m-%d %H:%M') UTC\"}" || true
+            -d "{\"text\": \"低空经济情报采集任务完成\n状态: $STATUS\n时间: $(date -u '+%Y-%m-%d %H:%M') UTC\n触发: ${GITHUB_EVENT_NAME}\"}" || true
+
+      - name: 失败告警
+        if: failure()
+        run: |
+          echo "::error::每日采集任务失败！请检查 https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ -n "$NOTIFICATION_WEBHOOK" ]; then
+            curl -X POST "$NOTIFICATION_WEBHOOK" \
+              -H "Content-Type: application/json" \
+              -d "{\"text\": \"⚠️ 低空经济情报采集任务失败！\n运行: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\n时间: $(date -u '+%Y-%m-%d %H:%M') UTC\"}" || true
+          fi
+        env:
+          NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
