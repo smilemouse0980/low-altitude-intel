@@ -1,9 +1,9 @@
 {
-  "collected": 132,
-  "parsed": 4,
-  "entities_extracted": 132,
-  "cleaned": 622,
+  "collected": 0,
+  "parsed": 0,
+  "entities_extracted": 0,
+  "cleaned": 0,
   "errors": 0,
-  "start_time": "2026-08-18T16:33:46.181622+08:00",
-  "end_time": "2026-08-18T16:44:14.685522+08:00"
+  "start_time": "2026-08-19T04:40:05.594772+08:00",
+  "end_time": null
 }
